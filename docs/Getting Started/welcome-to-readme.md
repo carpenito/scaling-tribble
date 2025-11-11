@@ -133,3 +133,29 @@ metadata:
     Preview environment for content and settings
   </Card>
 </Cards>
+
+## Get Support & Stay Updated 
+
+<Cards columns={2}>
+  <Card title="ReadMe Community" href="https://readme.com/slack" icon="fa-comments">
+    Get help launching docs and connect with ReadMe users.
+  </Card>
+
+  <Card title="Office Hours" href="https://readme.com/events" icon="fa-handshake">
+    See live product demos and ask our team questions.
+  </Card>
+</Cards>
+
+<Cards columns={2}>
+  <Card title="Support" href="https://docs.readme.com/main/docs/need-more-support">
+    <img src="https://files.readme.io/70d42a5e2dd38b4384f1ba5fcb81572d534e492a70421d6d8013f7b6b0aecbc7-support_1.webp" alt="" />
+
+    Reach out to our support team or make new feature requests.
+  </Card>
+
+  <Card title="Changelog" href="https://docs.readme.com/main/changelog">
+    <img src="https://files.readme.io/2e19c90682aa5e4c722ea2b122c90b9612abf4a489d2d2028da25a18b70bc13c-Changelog_7.webp" alt="" />
+
+    Read about new features, improvements, and bug fixes.
+  </Card>
+</Cards>
