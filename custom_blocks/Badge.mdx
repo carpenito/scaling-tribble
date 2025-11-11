@@ -1,0 +1,28 @@
+---
+name: Badge
+---
+export const Badge = ({ label = 'Beta', cornerRadius = '30px', bgColor ='var(--yellow)', textColor = 'var(--yellow10)' }) => {
+  const badgeStyle = {
+    alignItems: 'center',
+		background: bgColor,
+    borderRadius: cornerRadius,
+    boxSizing: 'border-box',
+    color: textColor,
+    display: 'inline-flex',
+    fontFamily: 'var(--font-family)',
+    fontSize: '10px',
+    fontWeight: 'var(--font-weight-bold)',
+    height: '16px',
+    lineHeight: '1.3',
+    paddingLeft: '6px',
+    paddingRight: '6px',
+    userSelect: 'none',
+	}
+  return (
+    <div style={badgeStyle}>{label}</div>
+  );
+};
+
+<Badge label="Beta" bgColor="var(--yellow)" textColor="var(--yellow10)" cornerRadius='30px' />
+<Badge label="New" bgColor="var(--purple)" textColor="var(--purple100)" cornerRadius='30px'/>
+<Badge label="Preview" bgColor="var(--gray90)" textColor="var(--gray30)" cornerRadius='30px'/>
