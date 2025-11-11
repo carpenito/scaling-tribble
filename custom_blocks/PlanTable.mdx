@@ -1,0 +1,33 @@
+---
+name: PlanTable
+---
+export const PlanTable = ({ currentPlan }) => {
+  const plans = ["Free", "Startup", "Business", "Enterprise"]
+  return (
+    <table>
+      <thead>
+        <tr>
+          {plans.map(plan => <th key={`th${plan}`} style={{ textAlign: 'left' }}>{plan}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          {plans.map((plan, i) => {
+            const onCurrentPlan = plans.indexOf(currentPlan) <= i
+            return (
+              <td key={`td{plan}`}>
+                <i 
+                  aria-label={onCurrentPlan ? "Available" : "Not Avaialable"}
+                  className={`fa-duotone fa-solid ${onCurrentPlan ? 'fa-circle-check' : 'fa-square-x'}`} 
+                	style={{ color: onCurrentPlan ? 'var(--green)' : 'var(--red)' }}
+                />
+              </td>
+            )
+          })}
+        </tr>
+      </tbody>
+    </table>
+  );
+};
+
+<PlanTable currentPlan="Startup" />
