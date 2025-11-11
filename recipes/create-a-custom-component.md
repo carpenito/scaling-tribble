@@ -12,7 +12,7 @@ recipe:
   color: '#018FF4'
   icon: 🔧
 ---
-```curl JSX
+```java Java
 export const ExampleComponent = ({ children }) => {
   return (
     <div className="flex items-center h-full w-full">
@@ -34,7 +34,7 @@ export const ExampleComponent = ({ children }) => {
 
 # Create an ExampleComponent
 
-<!-- curl@1 -->
+<!-- java@1 -->
 
 We're creating a React component called ExampleComponent.
 
@@ -44,7 +44,7 @@ The export keyword makes this component available for import elsewhere
 
 # Structuring the Component
 
-<!-- curl@2-8 -->
+<!-- java@2-8 -->
 
 return (...) defines what the component will render, while the outer <div> uses Tailwind CSS classes to center its content and take up full width and height.
 
@@ -54,7 +54,7 @@ The inner <div> creates a dark gray box with rounded corners and padding
 
 # Using the Component
 
-<!-- curl@11-13 -->
+<!-- java@11-13 -->
 
 The <ExampleComponent> opens the component.
 
