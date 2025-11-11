@@ -117,3 +117,19 @@ metadata:
     Connect ReadMe to a GitHub project
   </Card>
 </Cards>
+
+## Enterprise 
+
+<Cards columns={3}>
+  <Card title="Group Overview" href="https://docs.readme.com/ent/docs/enterprise-group-overview" icon="fa-layer-group">
+    Managing your projects and global settings
+  </Card>
+
+  <Card title="User Management" href="https://docs.readme.com/ent/docs/user-management-overview" icon="fa-user-lock">
+    Set up access for teammates and end users
+  </Card>
+
+  <Card title="Staging" href="https://docs.readme.com/ent/docs/publishing-content-with-staging" icon="fa-window-restore">
+    Preview environment for content and settings
+  </Card>
+</Cards>
