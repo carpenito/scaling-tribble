@@ -9,6 +9,8 @@ The Linter automates content validation by checking documentation against your c
 
 You can configure custom rules to enforce code formatting, word choice, and adherence to internal style and best practices. Whether your documentation includes custom HTML or extensive code samples, the Linter ensures consistency across all your docs.
 
+<PlanTable currentPlan="Startup" />
+
 ## Configure
 
 You can add prompts to the Linter that are categorized as style guide, errors, or warnings.
