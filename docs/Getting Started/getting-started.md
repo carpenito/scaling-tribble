@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Kirb_TranslationsQA_Nov2025
+title: Getting Started with TranslationsQA_Nov2025
 excerpt: >-
   This page will help you get started with Kirb_TranslationsQA_Nov2025. You'll
   be up and running in a jiffy!
