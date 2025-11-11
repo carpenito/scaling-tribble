@@ -24,8 +24,6 @@ metadata:
 
 ## Recent Releases
 
-<br />
-
 <Cards columns={3}>
   <Card title="AI Branch Reviews" href="https://docs.readme.com/main/docs/branches" icon="fa-magnifying-glass">
     Review branches before merging with AI Linter
@@ -68,4 +66,54 @@ metadata:
   </Card>
 </Cards>
 
-<br />
+## ReadMe Basics
+
+<Cards columns={3}>
+  <Card title="Refactored" href="https://docs.readme.com/main/docs/migration-moving-your-docs-to-their-new-home" icon="fa-box-open">
+    Upgrade your docs to the new ReadMe
+  </Card>
+
+  <Card title="Customize" href="https://docs.readme.com/main/docs/design-themes" icon="fa-brush">
+    Checkout logo, brand, and theme options
+  </Card>
+
+  <Card title="Integrations" href="https://docs.readme.com/main/docs/integrations" icon="fa-arrow-down-left-and-arrow-up-right-to-center">
+    Integrate with third-party services
+  </Card>
+
+  <Card title="Recipes" href="https://docs.readme.com/main/docs/recipes" icon="fa-flask">
+    Step-by-step code walkthroughs
+  </Card>
+
+  <Card title="Changelog" href="https://docs.readme.com/main/docs/changelog" icon="fa-megaphone">
+    Keep users up-to-date on the latest changes
+  </Card>
+
+  <Card title="API V2" href="https://docs.readme.com/main/reference/api-migration-guide" icon="fa-brackets-curly">
+    Manage your docs using our API
+  </Card>
+
+  <Card title="CLI" href="https://docs.readme.com/main/docs/upgrading-to-rdme10" icon="fa-terminal">
+    Use rdme to update your docs
+  </Card>
+
+  <Card title="My Developers" href="https://docs.readme.com/main/docs/my-developers" icon="fa-user-group-simple">
+    Get developer usage data in ReadMe
+  </Card>
+
+  <Card title="OpenAPI" href="https://docs.readme.com/main/docs/openapi" icon="fa-file-circle-info">
+    Learn about our support for OAS
+  </Card>
+
+  <Card title="RDMD" href="https://docs.readme.com/rdmd/docs/getting-started" icon="fa-font-case">
+    Learn about ReadMe-flavored Markdown
+  </Card>
+
+  <Card title="MDX" href="https://docs.readme.com/main/docs/mdx" icon="fa-code">
+    Write interactive docs and components
+  </Card>
+
+  <Card title="Sync with GitHub" href="https://docs.readme.com/main/docs/sync-with-github" icon="fa-code-compare">
+    Connect ReadMe to a GitHub project
+  </Card>
+</Cards>
