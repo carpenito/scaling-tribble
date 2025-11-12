@@ -30,8 +30,8 @@ Puoi anche [Crea i tuoi **componenti** personalizzati**](/docs/getting-started#/
    Scopri di più su MDX per creare componenti interattivi.
   </Card>
 
-  <Card title="Custom MDX Components" href="https://docs.readme.com/main/docs/building-custom-mdx-components" icon="fa-wrench">
-    Build your own components to reuse anywhere.
+  <Card title="Componenti MDX personalizzati" href="https://docs.readme.com/main/docs/building-custom-mdx-components" icon="fa-wrench">
+    Crea i tuoi componenti personalizzati da riutilizzare ovunque.
   </Card>
 </Cards>
 
