@@ -1,6 +1,8 @@
 ---
-title: Welcome to ReadMe
-excerpt: Helping you create docs that make your APIs easy to use and maintain.
+title: Benvenuto in ReadMe
+excerpt: >-
+  Ti aiutiamo a creare documenti che rendono le tue API facili da usare e
+  mantenere.
 deprecated: false
 hidden: false
 metadata:
@@ -9,60 +11,60 @@ metadata:
 <br />
 
 <Cards columns={3}>
-  <Card title="Quick Start" href="https://docs.readme.com/main/docs/quickstart" icon="fa-rocket-launch">
-    Learn how to write and publish docs
+  <Card title="Avvio rapido" href="https://docs.readme.com/main/docs/quickstart" icon="fa-rocket-launch">
+    Scopri come scrivere e pubblicare documenti
   </Card>
 
-  <Card title="API Reference" href="https://docs.readme.com/main/docs/api-reference" icon="fa-code-simple">
-    Use an OAS file, or create one with ReadMe
+  <Card title="Riferimento API" href="https://docs.readme.com/main/docs/api-reference" icon="fa-code-simple">
+    Utilizza un file OAS o creane uno con ReadMe
   </Card>
 
-  <Card title="Build with AI" href="https://docs.readme.com/main/docs/ai-overview#/" icon="fa-sparkles">
-    Write, review, and improve docs with AI tools
+  <Card title="Costruisci con l'IA" href="https://docs.readme.com/main/docs/ai-overview#/" icon="fa-sparkles">
+    Scrivi, revisiona e migliora i documenti con gli strumenti di intelligenza artificiale
   </Card>
 </Cards>
 
-## Recent Releases
+## Ultime uscite
 
 <Cards columns={3}>
-  <Card title="AI Branch Reviews" href="https://docs.readme.com/main/docs/branches" icon="fa-magnifying-glass">
-    Review branches before merging with AI Linter
+  <Card title="Recensioni della filiale AI" href="https://docs.readme.com/main/docs/branches" icon="fa-magnifying-glass">
+    Controlla i rami prima di eseguire il merge con AI Linter
   </Card>
 
-  <Card title="Sync with GitLab" href="https://docs.readme.com/main/docs/sync-with-gitlab" icon="fa-rotate">
-    Bi-directionally sync docs between GitLab & ReadMe
+  <Card title="Sincronizzazione con GitLab" href="https://docs.readme.com/main/docs/sync-with-gitlab" icon="fa-rotate">
+    Sincronizzazione bidirezionale dei documenti tra GitLab e ReadMe
   </Card>
 
-  <Card title="Agent" href="https://docs.readme.com/main/docs/aiagent" icon="fa-message-bot">
-    Edit and review your docs with AI writing assistant
+  <Card title="Agente" href="https://docs.readme.com/main/docs/aiagent" icon="fa-message-bot">
+    Modifica e rivedi i tuoi documenti con l'assistente di scrittura AI
   </Card>
 
   <Card title="Linter" href="https://docs.readme.com/main/docs/linter" icon="fa-wand-sparkles">
-    Enforce writing style guides with AI
+    Applica le guide di stile di scrittura con l'AI
   </Card>
 
-  <Card title="Docs Audit" href="https://docs.readme.com/main/docs/docs-audit" icon="fa-brain">
-    Score your docs against a custom style guide
+  <Card title="Audit dei documenti" href="https://docs.readme.com/main/docs/docs-audit" icon="fa-brain">
+    Valuta i tuoi documenti rispetto a una guida di stile personalizzata
   </Card>
 
-  <Card title="MCP Servers" href="https://docs.readme.com/main/docs/readme-mcp-turbocharge-your-api-for-ai-assistants" icon="fa-robot">
-    Create an MCP server
+  <Card title="Servers MCP" href="https://docs.readme.com/main/docs/readme-mcp-turbocharge-your-api-for-ai-assistants" icon="fa-robot">
+    Creare un server MCP
   </Card>
 
-  <Card title="Ask AI" href="https://docs.readme.com/main/docs/ask-ai" icon="fa-user-question">
-    Let developers ask questions about your docs
+  <Card title="Chiedi all'IA" href="https://docs.readme.com/main/docs/ask-ai" icon="fa-user-question">
+    Consenti agli sviluppatori di porre domande sui tuoi documenti
   </Card>
 
-  <Card title="Component Marketplace" href="https://docs.readme.com/main/docs/building-custom-mdx-components#marketplace" icon="fa-store">
-    A new way to discover MDX components
+  <Card title="Mercato dei componenti" href="https://docs.readme.com/main/docs/building-custom-mdx-components#marketplace" icon="fa-store">
+    Un nuovo modo per scoprire i componenti MDX
   </Card>
 
-  <Card title="Suggest in GitHub" href="https://docs.readme.com/main/docs/suggest-in-github" icon="fa-file-pen">
-    Propose changes as GitHub PRs
+  <Card title="Suggerisci su GitHub" href="https://docs.readme.com/main/docs/suggest-in-github" icon="fa-file-pen">
+    Proponi modifiche come PR GitHub
   </Card>
 
-  <Card title="Editor Role" href="https://docs.readme.com/main/docs/manage-team#enterprise-roles" icon="fa-user-pen">
-    Teammates for editing content
+  <Card title="Ruolo dell'editore" href="https://docs.readme.com/main/docs/manage-team#enterprise-roles" icon="fa-user-pen">
+    Compagni di squadra per la modifica dei contenuti
   </Card>
 </Cards>
 
@@ -118,7 +120,7 @@ metadata:
   </Card>
 </Cards>
 
-## Enterprise 
+## Enterprise
 
 <Cards columns={3}>
   <Card title="Group Overview" href="https://docs.readme.com/ent/docs/enterprise-group-overview" icon="fa-layer-group">
@@ -134,7 +136,7 @@ metadata:
   </Card>
 </Cards>
 
-## Get Support & Stay Updated 
+## Get Support & Stay Updated
 
 <Cards columns={2}>
   <Card title="ReadMe Community" href="https://readme.com/slack" icon="fa-comments">
