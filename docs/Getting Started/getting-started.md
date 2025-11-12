@@ -13,11 +13,11 @@ Quella che stai guardando è una pagina iniziale che abbiamo incluso per aiutart
 
 ***
 
-## ✍️ Write Docs with Components & Guides
+## ✍️ Scrivi documenti con componenti e guide
 
-Start by creating <Anchor label="**Guides**" target="_blank" href="https://docs.readme.com/main/docs/creating-and-managing-guides">**Guides**</Anchor> - your API's instruction manual where you can walk users through key concepts, tutorials, or best practices.
+Inizia creando <Anchor label="**Guide**" target="_blank" href="https://docs.readme.com/main/docs/creating-and-managing-guides">**Guide**</Anchor> - il manuale di istruzioni della tua API, dove puoi guidare gli utenti attraverso concetti chiave, tutorial o best practice.
 
-With ReadMe's MDX editor, you can combine Markdown and custom JSX components like `<Card>`, `<Tab>`, and `<Accordion>` for richer content and better structure.
+Con l'editor MDX di ReadMe, puoi combinare Markdown e componenti JSX personalizzati come `<Carta>`, `<scheda>`, and `<Fisarmonica>` per contenuti più ricchi e una struttura migliore.
 
 You can even [build your own custom **Components**](/docs/getting-started#/settings/custom-components/start) to reuse across your docs.
 
