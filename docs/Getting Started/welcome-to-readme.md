@@ -68,55 +68,55 @@ metadata:
   </Card>
 </Cards>
 
-## ReadMe Basics
+## Nozioni di base su ReadMe
 
 <Cards columns={3}>
-  <Card title="Refactored" href="https://docs.readme.com/main/docs/migration-moving-your-docs-to-their-new-home" icon="fa-box-open">
-    Upgrade your docs to the new ReadMe
+  <Card title="Rifattorizzato" href="https://docs.readme.com/main/docs/migration-moving-your-docs-to-their-new-home" icon="fa-box-open">
+    Aggiorna i tuoi documenti al nuovo ReadMe
   </Card>
 
-  <Card title="Customize" href="https://docs.readme.com/main/docs/design-themes" icon="fa-brush">
-    Checkout logo, brand, and theme options
+  <Card title="Personalizza" href="https://docs.readme.com/main/docs/design-themes" icon="fa-brush">
+    Controlla le opzioni relative al logo, al marchio e al tema
   </Card>
 
-  <Card title="Integrations" href="https://docs.readme.com/main/docs/integrations" icon="fa-arrow-down-left-and-arrow-up-right-to-center">
-    Integrate with third-party services
+  <Card title="Integrazioni" href="https://docs.readme.com/main/docs/integrations" icon="fa-arrow-down-left-and-arrow-up-right-to-center">
+    Integrazione con servizi di terze parti
   </Card>
 
-  <Card title="Recipes" href="https://docs.readme.com/main/docs/recipes" icon="fa-flask">
-    Step-by-step code walkthroughs
+  <Card title="Ricette" href="https://docs.readme.com/main/docs/recipes" icon="fa-flask">
+    Guida dettagliata al codice passo dopo passo
   </Card>
 
-  <Card title="Changelog" href="https://docs.readme.com/main/docs/changelog" icon="fa-megaphone">
-    Keep users up-to-date on the latest changes
+  <Card title="Registro delle modifiche" href="https://docs.readme.com/main/docs/changelog" icon="fa-megaphone">
+    Tieni aggiornati gli utenti sulle ultime modifiche
   </Card>
 
   <Card title="API V2" href="https://docs.readme.com/main/reference/api-migration-guide" icon="fa-brackets-curly">
-    Manage your docs using our API
+    Gestisci i tuoi documenti utilizzando la nostra API
   </Card>
 
   <Card title="CLI" href="https://docs.readme.com/main/docs/upgrading-to-rdme10" icon="fa-terminal">
-    Use rdme to update your docs
+    Usa rdme per aggiornare i tuoi documenti
   </Card>
 
-  <Card title="My Developers" href="https://docs.readme.com/main/docs/my-developers" icon="fa-user-group-simple">
-    Get developer usage data in ReadMe
+  <Card title="I miei sviluppatori" href="https://docs.readme.com/main/docs/my-developers" icon="fa-user-group-simple">
+    Ottieni i dati di utilizzo degli sviluppatori in ReadMe
   </Card>
 
-  <Card title="OpenAPI" href="https://docs.readme.com/main/docs/openapi" icon="fa-file-circle-info">
-    Learn about our support for OAS
+  <Card title="API aperta" href="https://docs.readme.com/main/docs/openapi" icon="fa-file-circle-info">
+    Scopri il nostro supporto per l'OAS
   </Card>
 
   <Card title="RDMD" href="https://docs.readme.com/rdmd/docs/getting-started" icon="fa-font-case">
-    Learn about ReadMe-flavored Markdown
+    Scopri il Markdown in stile ReadMe
   </Card>
 
   <Card title="MDX" href="https://docs.readme.com/main/docs/mdx" icon="fa-code">
-    Write interactive docs and components
+    Scrivi documenti e componenti interattivi
   </Card>
 
-  <Card title="Sync with GitHub" href="https://docs.readme.com/main/docs/sync-with-github" icon="fa-code-compare">
-    Connect ReadMe to a GitHub project
+  <Card title="Sincronizza con GitHub" href="https://docs.readme.com/main/docs/sync-with-github" icon="fa-code-compare">
+    Collega ReadMe a un progetto GitHub
   </Card>
 </Cards>
 
