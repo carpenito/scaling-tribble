@@ -136,23 +136,23 @@ metadata:
   </Card>
 </Cards>
 
-## Get Support & Stay Updated
+## Ottieni assistenza e rimani aggiornato
 
 <Cards columns={2}>
-  <Card title="ReadMe Community" href="https://readme.com/slack" icon="fa-comments">
-    Get help launching docs and connect with ReadMe users.
+  <Card title="Comunità ReadMe" href="https://readme.com/slack" icon="fa-comments">
+    Ottieni assistenza per l'avvio dei documenti e entra in contatto con gli utenti di ReadMe.
   </Card>
 
-  <Card title="Office Hours" href="https://readme.com/events" icon="fa-handshake">
-    See live product demos and ask our team questions.
+  <Card title="Orario di apertura" href="https://readme.com/events" icon="fa-handshake">
+    Guarda le demo dei prodotti dal vivo e poni domande al nostro team.
   </Card>
 </Cards>
 
 <Cards columns={2}>
-  <Card title="Support" href="https://docs.readme.com/main/docs/need-more-support">
+  <Card title="Assistenza" href="https://docs.readme.com/main/docs/need-more-support">
     <img src="https://files.readme.io/70d42a5e2dd38b4384f1ba5fcb81572d534e492a70421d6d8013f7b6b0aecbc7-support_1.webp" alt="" />
 
-    Reach out to our support team or make new feature requests.
+    Contatta il nostro team di assistenza o richiedi nuove funzionalità.
   </Card>
 
   <Card title="Changelog" href="https://docs.readme.com/main/changelog">
