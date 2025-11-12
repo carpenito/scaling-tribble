@@ -1,37 +1,42 @@
 ---
-title: Keyboard Shortcuts
+title: Scorciatoie da Tastiera
+excerpt: >-
+  Scopri le scorciatoie da tastiera per navigare velocemente nel tuo progetto
+  ReadMe sia nel Dashboard Amministratore che in Modalità Modifica.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-You can use keyboard shortcuts in both the **Admin Dashboard** and **Edit Mode** to quickly move between panels and editors in your ReadMe project.
+Puoi utilizzare le scorciatoie da tastiera sia nel **Dashboard Amministratore** che in **Modalità Modifica** per spostarti rapidamente tra pannelli ed editor nel tuo progetto ReadMe.
 
-## Dashboard Shortcuts
+## Scorciatoie del Dashboard
 
-Use these shortcuts in the **Admin Dashboard** to open common panels and switch between modes:
+Utilizza queste scorciatoie nel **Dashboard Amministratore** per aprire pannelli comuni e passare tra le modalità:
 
-| Shortcut | Action                                                                                     |
-| :------- | :----------------------------------------------------------------------------------------- |
-| Ctrl+1   | Switch to <i aria-label="View Mode" class="fa-solid fa-eye" /> View Mode                   |
-| Ctrl+2   | Switch to <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Edit Mode                  |
-| Ctrl+3   | Open <i aria-label="My Developers" class="fa-solid fa-users" /> My Developers              |
-| Ctrl+,   | Open <i aria-label="Settings" class="fa-solid fa-cog" /> Settings panel                    |
-| Ctrl+i   | Open <i aria-label="AI" class="fa-solid fa-sparkles" /> AI panel                           |
-| Ctrl+b   | Open <i aria-label="Versions" class="fa-solid fa-code-branch" /> Versions & Branches panel |
+| Scorciatoia | Azione                                                                                           |
+| :---------- | :----------------------------------------------------------------------------------------------- |
+| Ctrl+1      | Passa alla <i aria-label="Modalità Visualizzazione" class="fa-solid fa-eye" /> Modalità Visualizzazione |
+| Ctrl+2      | Passa alla <i aria-label="Modalità Modifica" class="fa-solid fa-edit" /> Modalità Modifica     |
+| Ctrl+3      | Apri <i aria-label="I Miei Sviluppatori" class="fa-solid fa-users" /> I Miei Sviluppatori      |
+| Ctrl+,      | Apri il pannello <i aria-label="Impostazioni" class="fa-solid fa-cog" /> Impostazioni          |
+| Ctrl+i      | Apri il pannello <i aria-label="AI" class="fa-solid fa-sparkles" /> AI                          |
+| Ctrl+b      | Apri il pannello <i aria-label="Versioni" class="fa-solid fa-code-branch" /> Versioni e Rami   |
 
-## Edit Mode Shortcuts
+## Scorciatoie della Modalità Modifica
 
-From the top navigation, you can access <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Edit Mode and use these shortcuts to jump directly to specific sections to edit:
+Dalla navigazione superiore, puoi accedere alla <i aria-label="Modalità Modifica" class="fa-solid fa-edit" /> Modalità Modifica e utilizzare queste scorciatoie per andare direttamente a sezioni specifiche da modificare:
 
-| Shortcut | Action                         |
-| :------- | :----------------------------- |
-| Alt+1    | Go to the Guides editor        |
-| Alt+2    | Go to the Recipes editor       |
-| Alt+3    | Go to the API Reference editor |
-| Alt+4    | Go to the Changelog editor     |
-| Alt+5    | Go to the Custom Pages editor  |
+| Scorciatoia | Azione                              |
+| :---------- | :---------------------------------- |
+| Alt+1       | Vai all'editor delle Guide          |
+| Alt+2       | Vai all'editor delle Ricette        |
+| Alt+3       | Vai all'editor del Riferimento API  |
+| Alt+4       | Vai all'editor del Changelog        |
+| Alt+5       | Vai all'editor delle Pagine Personalizzate |
 
 <Callout icon="💡" theme="default">
-  Tip: Keyboard shortcuts may vary depending on your operating system. On macOS, use Command (⌘) instead of Ctrl for most shortcuts.
+  Suggerimento: Le scorciatoie da tastiera possono variare a seconda del sistema operativo. Su macOS, usa Command (⌘) invece di Ctrl per la maggior parte delle scorciatoie.
 </Callout>
