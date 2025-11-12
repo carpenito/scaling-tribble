@@ -84,22 +84,22 @@ Che tu scriva documenti nell'editor di ReadMe o nel tuo ambiente di sviluppo loc
 
 ***
 
-## 👀 Understand Your Developers
+## 👀 Comprendere i propri sviluppatori
 
-Want to know how developers are actually using your API and docs?
+Vuoi sapere come gli sviluppatori utilizzano effettivamente la tua API e la tua documentazione?
 
-* **<Anchor label="My Developers" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">My Developers</Anchor>** gives you real-time visibility into who is visiting your docs, what endpoints they’re using, and where they’re getting stuck.
-* Segment usage by key users or cohorts to monitor engagement and spot issues before they turn into support tickets.
-* To set up My Developers, you'll first authenticate logged-in users with the <Anchor label="Personalized Docs Webhook" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">Personalized Docs Webhook</Anchor>, then integrate the [Metrics SDK](https://docs.readme.com/main/docs/sending-api-logs) to send API logs to ReadMe.
+* **<Anchor label="I miei sviluppatori" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">I miei sviluppatori</Anchor>** ti offre visibilità in tempo reale su chi sta visitando i tuoi documenti, quali endpoint stanno utilizzando e dove si bloccano.
+* Segmenta l'utilizzo in base agli utenti chiave o ai gruppi per monitorare il coinvolgimento e individuare i problemi prima che si trasformino in richieste di assistenza.
+* Per configurare My Developers, dovrai prima autenticare gli utenti che hanno effettuato l'accesso con il <Anchor label="Webhook personalizzato per documenti" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">Webhook personalizzato per documenti</Anchor>, quindi integrare il [SDK Metrics](https://docs.readme.com/main/docs/sending-api-logs) per inviare i log API a ReadMe.
 
 ***
 
-## 🚀 Next Steps
+## 🚀 Prossimi passi
 
-* Start writing: create your first Guide or sync in your OAS file.
-* [Connect GitHub for bi-directional sync](/docs/getting-started#/settings/git-connection/github).
-* Set up your <Anchor label="MCP server" target="_blank" href="https://docs.readme.com/main/docs/mcp-servers">MCP server</Anchor>.
-* Visit **My Developers** in the top navigation bar to start understanding your audience.
+* Inizia a scrivere: crea la tua prima Guida o sincronizza il tuo file OAS.
+* [Connetti GitHub per la sincronizzazione bidirezionale](/docs/getting-started#/settings/git-connection/github).
+* Configura il tuo <Anchor label="Server MCP" target="_blank" href="https://docs.readme.com/main/docs/mcp-servers">Server MCP</Anchor>.
+* Visita **I miei sviluppatori** nella barra di navigazione in alto per iniziare a comprendere il tuo pubblico.
 
 ***
 
