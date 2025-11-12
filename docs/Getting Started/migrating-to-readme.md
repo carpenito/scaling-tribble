@@ -1,112 +1,118 @@
 ---
-title: Migrating to ReadMe
+title: Migrazione a ReadMe
+excerpt: >-
+  Guida completa per migrare la tua documentazione esistente a ReadMe da
+  Docusaurus, GitBook, Mintlify, Nextra o Zendesk utilizzando il nostro
+  strumento di migrazione.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-With our documentation migration tool, we've made it super simple to bring your existing documentation into ReadMe. Whether you're coming from Docusaurus, GitBook, Mintlify, Nextra, or Zendesk, we've got you covered. Let's walk through the process of giving your docs an awesome new home.
+Con il nostro strumento di migrazione della documentazione, abbiamo reso semplicissimo portare la tua documentazione esistente in ReadMe. Che tu provenga da Docusaurus, GitBook, Mintlify, Nextra o Zendesk, ti abbiamo coperto. Esaminiamo il processo per dare ai tuoi documenti una nuova fantastica casa.
 
-## Before You Begin
+## Prima di Iniziare
 
-Here's what you'll need to have ready:
+Ecco cosa dovrai avere pronto:
 
-* The URL of your current documentation
-* Access to your existing documentation platform
-* Your ReadMe account (if you don't have one yet, you can sign up at readme.com)
+* L'URL della tua documentazione attuale
+* Accesso alla tua piattaforma di documentazione esistente
+* Il tuo account ReadMe (se non ne hai ancora uno, puoi registrarti su readme.com)
 
-## 🔄 Migration Process
+## 🔄 Processo di Migrazione
 
-### Step 1: Access the Migration Tool
+### Passo 1: Accedi allo Strumento di Migrazione
 
-Head over to our [migration portal at MrScraper x ReadMe](https://readme.mrscraper.com/). This is your gateway to seamless documentation migration.
+Vai al nostro [portale di migrazione MrScraper x ReadMe](https://readme.mrscraper.com/). Questa è la tua porta d'accesso alla migrazione senza soluzione di continuità della documentazione.
 
-### Step 2: Fill Out Your Details
+### Passo 2: Compila i Tuoi Dettagli
 
-Let's get you set up:
+Configuriamoti:
 
-1. Enter your name and email address - we'll use these to keep you updated on your migration progress
-2. Select your current documentation platform from the options:
+1. Inserisci il tuo nome e indirizzo email - li useremo per tenerti aggiornato sui progressi della tua migrazione
+2. Seleziona la tua piattaforma di documentazione attuale dalle opzioni:
    * Docusaurus
    * GitBook
    * Mintlify
    * Nextra
    * Zendesk
 
-### Step 3: Provide Your Documentation URL
+### Passo 3: Fornisci l'URL della Tua Documentazione
 
-Enter the full URL of your current documentation (e.g., [https://docs.yourdomain.com](https://docs.yourdomain.com)). Make sure this URL points to the root of your documentation.
+Inserisci l'URL completo della tua documentazione attuale (ad es., [https://docs.yourdomain.com](https://docs.yourdomain.com)). Assicurati che questo URL punti alla radice della tua documentazione.
 
-### Step 4: Specify Version Information
+### Passo 4: Specifica le Informazioni sulla Versione
 
-If you're using version control in your current documentation:
+Se stai utilizzando il controllo versione nella tua documentazione attuale:
 
-* Enter your version number in the format v2.0 or v2.1.0-beta
-* This helps ensure your versioned content migrates correctly
+* Inserisci il numero di versione nel formato v2.0 o v2.1.0-beta
+* Questo aiuta a garantire che il tuo contenuto versionato migri correttamente
 
-### Step 5: Initiate Migration
+### Passo 5: Avvia la Migrazione
 
-Click the "Submit" button to start the migration process. Our tool will:
+Fai clic sul pulsante "Submit" per avviare il processo di migrazione. Il nostro strumento:
 
-* Analyze your existing documentation structure
-* Convert your content to ReadMe's MDX format
-* Preserve your documentation hierarchy
-* Maintain your existing content relationships
+* Analizzerà la struttura della tua documentazione esistente
+* Convertirà il tuo contenuto nel formato MDX di ReadMe
+* Preserverà la gerarchia della tua documentazione
+* Manterrà le relazioni del contenuto esistenti
 
-## 🎯 What Gets Migrated
+## 🎯 Cosa Viene Migrato
 
-Our migration tool handles:
+Il nostro strumento di migrazione gestisce:
 
-* All documentation pages and their content
-* Images and other media files
-* Code blocks and syntax highlighting
-* Headers and navigation structure
-* Links between pages
-* Custom HTML and CSS (where applicable)
+* Tutte le pagine della documentazione e il loro contenuto
+* Immagini e altri file multimediali
+* Blocchi di codice e evidenziazione della sintassi
+* Intestazioni e struttura di navigazione
+* Collegamenti tra le pagine
+* HTML e CSS personalizzati (dove applicabile)
 
-## 📝 Post-Migration Steps
+## 📝 Passaggi Post-Migrazione
 
-After the migration completes:
+Dopo il completamento della migrazione:
 
-1. Review your migrated content in ReadMe
-2. Verify all links are working correctly
-3. Check that your code samples are properly formatted
-4. Update any platform-specific features to use ReadMe equivalents
-5. Take advantage of ReadMe's MDX capabilities to enhance your docs
+1. Rivedi il tuo contenuto migrato in ReadMe
+2. Verifica che tutti i collegamenti funzionino correttamente
+3. Controlla che i tuoi esempi di codice siano formattati correttamente
+4. Aggiorna eventuali funzionalità specifiche della piattaforma per utilizzare gli equivalenti ReadMe
+5. Approfitta delle capacità MDX di ReadMe per migliorare i tuoi documenti
 
-## ⚡ Best Practices
+## ⚡ Migliori Pratiche
 
-* **Clean Up First**: Before migrating, consider cleaning up your existing documentation
-* **Test Run**: If possible, do a test migration with a small section first
-* **Backup**: Always keep a backup of your original documentation
-* **Review**: Plan time for post-migration review and adjustments
-* **Enhance**: Look for opportunities to improve your docs using ReadMe's features
+* **Pulisci Prima**: Prima di migrare, considera di pulire la tua documentazione esistente
+* **Prova di Test**: Se possibile, fai una migrazione di prova con una piccola sezione prima
+* **Backup**: Mantieni sempre un backup della tua documentazione originale
+* **Revisione**: Pianifica del tempo per la revisione e gli aggiustamenti post-migrazione
+* **Migliora**: Cerca opportunità per migliorare i tuoi documenti utilizzando le funzionalità di ReadMe
 
 ***
 
-## 🎉 What's Next?
+## 🎉 Cosa Succede Dopo?
 
-Once your content is migrated, you'll have access to all of ReadMe's powerful features:
+Una volta migrato il tuo contenuto, avrai accesso a tutte le potenti funzionalità di ReadMe:
 
-* Interactive API documentation
-* Developer metrics and insights
-* Customizable landing pages
-* Bi-directional Git sync
-* MDX support for dynamic content
-* And much more!
+* Documentazione API interattiva
+* Metriche e approfondimenti per sviluppatori
+* Pagine di destinazione personalizzabili
+* Sincronizzazione Git bidirezionale
+* Supporto MDX per contenuto dinamico
+* E molto altro!
 
-Remember, migration is just the beginning. With ReadMe, you're setting yourself up for documentation success with tools that grow with your API.
+Ricorda, la migrazione è solo l'inizio. Con ReadMe, ti stai preparando per il successo della documentazione con strumenti che crescono con la tua API.
 
 <br />
 
 <Callout icon="☝️" theme="default">
-  ### Importing via GitHub
+  ### Importazione tramite GitHub
 
-  You also start a new project and sync to an empty GitHub repository. From there, you can add Markdown content and your OAS file following our [file and naming conventions](https://docs.readme.com/main/docs/documentation-structure).
+  Puoi anche avviare un nuovo progetto e sincronizzarlo con un repository GitHub vuoto. Da lì, puoi aggiungere contenuto Markdown e il tuo file OAS seguendo le nostre [convenzioni di file e denominazione](https://docs.readme.com/main/docs/documentation-structure).
 </Callout>
 
 <Callout icon="💼" theme="default">
-  ### Professional Services
+  ### Servizi Professionali
 
-  Customers looking for a hands off approach to importing their docs should reach out to our [sales team](mailto:growth@readme.io).
+  I clienti che cercano un approccio completamente gestito per importare i loro documenti dovrebbero contattare il nostro [team di vendite](mailto:growth@readme.io).
 </Callout>
