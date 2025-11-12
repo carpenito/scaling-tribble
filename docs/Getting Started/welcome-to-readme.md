@@ -120,19 +120,19 @@ metadata:
   </Card>
 </Cards>
 
-## Enterprise
+## Impresa
 
 <Cards columns={3}>
-  <Card title="Group Overview" href="https://docs.readme.com/ent/docs/enterprise-group-overview" icon="fa-layer-group">
-    Managing your projects and global settings
+  <Card title="Panoramica del gruppo" href="https://docs.readme.com/ent/docs/enterprise-group-overview" icon="fa-layer-group">
+    Gestione dei progetti e delle impostazioni globali
   </Card>
 
-  <Card title="User Management" href="https://docs.readme.com/ent/docs/user-management-overview" icon="fa-user-lock">
-    Set up access for teammates and end users
+  <Card title="Gestione utenti" href="https://docs.readme.com/ent/docs/user-management-overview" icon="fa-user-lock">
+    Configurare l'accesso per i colleghi e gli utenti finali
   </Card>
 
-  <Card title="Staging" href="https://docs.readme.com/ent/docs/publishing-content-with-staging" icon="fa-window-restore">
-    Preview environment for content and settings
+  <Card title="Allestimento" href="https://docs.readme.com/ent/docs/publishing-content-with-staging" icon="fa-window-restore">
+    Ambiente di anteprima per contenuti e impostazioni
   </Card>
 </Cards>
 
