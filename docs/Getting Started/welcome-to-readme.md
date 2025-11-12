@@ -155,9 +155,9 @@ metadata:
     Contatta il nostro team di assistenza o richiedi nuove funzionalità.
   </Card>
 
-  <Card title="Changelog" href="https://docs.readme.com/main/changelog">
+  <Card title="Registro delle modifiche" href="https://docs.readme.com/main/changelog">
     <img src="https://files.readme.io/2e19c90682aa5e4c722ea2b122c90b9612abf4a489d2d2028da25a18b70bc13c-Changelog_7.webp" alt="" />
 
-    Read about new features, improvements, and bug fixes.
+    Leggi le informazioni sulle nuove funzionalità, i miglioramenti e le correzioni di bug.
   </Card>
 </Cards>
