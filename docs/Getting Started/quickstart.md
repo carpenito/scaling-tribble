@@ -1,77 +1,79 @@
 ---
-title: Quickstart
+title: Guida Rapida
 excerpt: >-
-  Ready to create stellar, interactive API documentation? Get your developer hub
-  up and running in minutes!
+  Pronto a creare documentazione API stellare e interattiva? Metti in funzione
+  il tuo hub per sviluppatori in pochi minuti!
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-## Step 1: Create Your Project 🎨
+## Passo 1: Crea il Tuo Progetto 🎨
 
-First things first – give your API documentation a home:
+Prima di tutto – dai una casa alla documentazione della tua API:
 
-1. Sign into your ReadMe account
-2. Click "Create New Project"
-3. Give your project a name that resonates with your API
-4. Upload your logo (we work our magic to match your brand colors!)
+1. Accedi al tuo account ReadMe
+2. Clicca su "Crea Nuovo Progetto"
+3. Dai al tuo progetto un nome che risuoni con la tua API
+4. Carica il tuo logo (facciamo la nostra magia per abbinare i colori del tuo brand!)
 
-## Step 2: Add Your OpenAPI Specification 📚
+## Passo 2: Aggiungi la Tua Specifica OpenAPI 📚
 
-Here's where the real magic happens! We transform your OpenAPI spec into engaging, interactive documentation. You have two great options:
+Ecco dove avviene la vera magia! Trasformiamo la tua specifica OpenAPI in documentazione coinvolgente e interattiva. Hai due ottime opzioni:
 
-1. **Upload Your File Directly**
-   * Hit that big blue "Upload OpenAPI file" button
-   * Select your OpenAPI/Swagger specification file
-   * Watch as we validate and process your spec
+1. **Carica Direttamente il Tuo File**
+   * Premi quel grande pulsante blu "Carica file OpenAPI"
+   * Seleziona il tuo file di specifica OpenAPI/Swagger
+   * Guarda mentre convalidiamo e processiamo la tua specifica
 
-2. **Import via URL**
-   * Pop your OpenAPI specification URL into the field
-   * Click **Import OpenAPI file**
-   * We fetch and validate your spec automatically
+2. **Importa tramite URL**
+   * Inserisci l'URL della tua specifica OpenAPI nel campo
+   * Clicca su **Importa file OpenAPI**
+   * Recuperiamo e convalidiamo automaticamente la tua specifica
 
-Once your spec is uploaded, we give you a sneak peek of your new docs! You see:
+Una volta caricata la tua specifica, ti diamo un'anteprima dei tuoi nuovi documenti! Vedi:
 
-* A preview of your API endpoints
-* Your documentation structure
-* A success message confirming everything looks great
-* The **Go to Docs** button that unveils your transformed API reference
+* Un'anteprima dei tuoi endpoint API
+* La struttura della tua documentazione
+* Un messaggio di successo che conferma che tutto sembra perfetto
+* Il pulsante **Vai ai Documenti** che svela la tua guida API trasformata
 
-Don't have an OpenAPI file handy? No worries! You can click **Skip to Docs** and explore more API documentation options in your project settings later.
+Non hai un file OpenAPI a portata di mano? Nessun problema! Puoi cliccare su **Salta ai Documenti** ed esplorare più opzioni di documentazione API nelle impostazioni del tuo progetto più tardi.
 
 <Callout icon="👀" theme="default">
-  ### Best Practice
+  ### Migliore Pratica
 
-  Keep an eye on that preview – it's your first look at how developers interact with your API docs! 🎯
+  Tieni d'occhio quell'anteprima – è il tuo primo sguardo su come gli sviluppatori interagiscono con i documenti della tua API! 🎯
 </Callout>
 
-## Step 3: Create Your First Guide 📝
+## Passo 3: Crea la Tua Prima Guida 📝
 
-Time to make your docs shine! You're greeted with a _Getting Started_ page in _View_ mode – transform it into something awesome:
+È ora di far brillare i tuoi documenti! Sei accolto con una pagina _Iniziare_ in modalità _Visualizza_ – trasformala in qualcosa di fantastico:
 
-1. Click the **Edit** button in the top navigation (look for that friendly pencil icon!)
-2. Click "+ NEW CATEGORY" to create a home for your getting started guides
-3. Name your category "Getting Started" – this is your developers' first stop
-4. See that "+" button next to your new Getting Started category? Click it to create your first guide page
-5. Time to write! Hit the '/' key while writing to summon our handy menu of content blocks and components:
-   * Craft your documentation with Markdown
-   * Drop in code blocks that developers can copy to try out
-   * Spice things up with custom components
+1. Clicca sul pulsante **Modifica** nella navigazione superiore (cerca quell'icona della matita amichevole!)
+2. Clicca su "+ NUOVA CATEGORIA" per creare una casa per le tue guide di avvio
+3. Nomina la tua categoria "Iniziare" – questa è la prima tappa dei tuoi sviluppatori
+4. Vedi quel pulsante "+" accanto alla tua nuova categoria Iniziare? Cliccalo per creare la tua prima pagina guida
+5. È ora di scrivere! Premi il tasto '/' mentre scrivi per evocare il nostro comodo menu di blocchi di contenuto e componenti:
+   * Crea la tua documentazione con Markdown
+   * Inserisci blocchi di codice che gli sviluppatori possono copiare per provarli
+   * Ravviva le cose con componenti personalizzati
 
-Remember: Great documentation tells a story. Start with the basics and guide your developers through their journey with your API. What do they need to know first? What quick wins can you help them achieve? 🎯
+Ricorda: La grande documentazione racconta una storia. Inizia con le basi e guida i tuoi sviluppatori attraverso il loro viaggio con la tua API. Cosa devono sapere per primo? Quali vittorie rapide puoi aiutarli a raggiungere? 🎯
 
-## What's Next? 🎯
+## Qual è il Prossimo Passo? 🎯
 
-You've got the foundations – now make your docs truly shine:
+Hai le fondamenta – ora fai brillare davvero i tuoi documenti:
 
-* **Customize Your Hub**: Add your brand colors and custom domain
-* **Monitor API Usage**: Keep tabs on how developers use your API
-* **Build Your Community**: Enable discussions and suggested edits
-* **Stay Current**: Keep your changelog updated with the latest API changes
+* **Personalizza il Tuo Hub**: Aggiungi i colori del tuo brand e dominio personalizzato
+* **Monitora l'Uso dell'API**: Tieni sotto controllo come gli sviluppatori usano la tua API
+* **Costruisci la Tua Comunità**: Abilita discussioni e modifiche suggerite
+* **Rimani Aggiornato**: Mantieni aggiornato il tuo changelog con gli ultimi cambiamenti API
 
-Need a hand? Our friendly support team is just a chat away – look for the owl in the corner! 🦉
+Hai bisogno di aiuto? Il nostro team di supporto amichevole è solo a una chat di distanza – cerca il gufo nell'angolo! 🦉
 
-Remember, great documentation is a journey, not a destination. We're here to help you make yours exceptional!
+Ricorda, la grande documentazione è un viaggio, non una destinazione. Siamo qui per aiutarti a rendere la tua eccezionale!
 
 <br />
