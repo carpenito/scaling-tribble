@@ -1,103 +1,108 @@
 ---
-title: Getting Started with Documentation
+title: Iniziare con la Documentazione
+excerpt: >-
+  Scopri come creare documentazione API eccellente con ReadMe. Guida completa
+  per iniziare con guide, riferimenti API, ricette e altro ancora.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-# Introduction
+# Introduzione
 
-Welcome to your documentation command center! At ReadMe, we believe great API documentation should be as dynamic as your code. Whether you're documenting your first endpoint or managing docs across multiple versions, we've got everything you need to create documentation that your developers will actually love to use.
+Benvenuto nel tuo centro di comando della documentazione! In ReadMe, crediamo che una grande documentazione API debba essere dinamica quanto il tuo codice. Che tu stia documentando il tuo primo endpoint o gestendo documentazione su più versioni, abbiamo tutto ciò di cui hai bisogno per creare documentazione che i tuoi sviluppatori ameranno davvero utilizzare.
 
-## 🌟 Why Documentation Matters
+## 🌟 Perché la Documentazione È Importante
 
-Great documentation is the difference between developers embracing your API or abandoning it. When your docs are clear, interactive, and well-organized, you're not just documenting your API—you're creating an experience that makes developers successful. And successful developers become your most loyal advocates.
+Una grande documentazione è la differenza tra sviluppatori che abbracciano la tua API o la abbandonano. Quando la tua documentazione è chiara, interattiva e ben organizzata, non stai solo documentando la tua API—stai creando un'esperienza che rende gli sviluppatori di successo. E gli sviluppatori di successo diventano i tuoi sostenitori più fedeli.
 
-## 🧭 Understanding Your Documentation Hub
+## 🧭 Comprendere il Tuo Hub della Documentazione
 
-Your ReadMe hub is where developers go to learn how to use your product. Let's break down the key components that make up your documentation ecosystem:
+Il tuo hub ReadMe è dove gli sviluppatori vanno per imparare come usare il tuo prodotto. Analizziamo i componenti chiave che costituiscono il tuo ecosistema di documentazione:
 
-### The Documentation Toolkit You Actually Want to Use
+### Il Toolkit di Documentazione Che Vuoi Davvero Usare
 
-ReadMe's core documentation types are designed to create a complete, engaging developer experience that covers all the bases, from "What does this API do?" to "Show me exactly how to implement this specific use case." Each documentation type serves a distinct purpose in your strategy, and together they create a comprehensive resource that helps developers go from curious visitors to power users.
+I tipi di documentazione principali di ReadMe sono progettati per creare un'esperienza sviluppatore completa e coinvolgente che copre tutte le basi, da "Cosa fa questa API?" a "Mostrami esattamente come implementare questo caso d'uso specifico." Ogni tipo di documentazione serve uno scopo distinto nella tua strategia, e insieme creano una risorsa completa che aiuta gli sviluppatori a passare da visitatori curiosi a utenti esperti.
 
-**📘 Guides: Your API's Instruction Manual**
+**📘 Guide: Il Manuale di Istruzioni della Tua API**
 
-Guides are the bread and butter of your documentation—the friendly, conversational pages that walk developers through concepts, provide context, and explain the "why" behind your API. They're perfect for getting started tutorials, authentication explanations, best practices, and in-depth explanations of complex workflows. Guides shine when you need to explain concepts in a logical sequence or provide the bigger picture.
+Le guide sono il pane quotidiano della tua documentazione—le pagine amichevoli e conversazionali che accompagnano gli sviluppatori attraverso i concetti, forniscono contesto e spiegano il "perché" dietro la tua API. Sono perfette per tutorial di avvio, spiegazioni di autenticazione, migliori pratiche e spiegazioni approfondite di flussi di lavoro complessi. Le guide brillano quando devi spiegare concetti in una sequenza logica o fornire il quadro generale.
 
-[Create Your First Guide →](doc:guides)
+[Crea la Tua Prima Guida →](doc:guides)
 
-**🔌 API Reference: Your API's Source of Truth**
+**🔌 Riferimento API: La Fonte di Verità della Tua API**
 
-Your API reference is the definitive, interactive catalog of all your endpoints, parameters, and response schemas. Generated from your OpenAPI specification (or created manually), it's where developers go when they need specific technical details. What makes ReadMe's API reference special is its interactivity—developers can make actual API calls right from your docs, with their own API keys automatically populated.
+Il tuo riferimento API è il catalogo definitivo e interattivo di tutti i tuoi endpoint, parametri e schemi di risposta. Generato dalla tua specifica OpenAPI (o creato manualmente), è dove gli sviluppatori vanno quando hanno bisogno di dettagli tecnici specifici. Ciò che rende speciale il riferimento API di ReadMe è la sua interattività—gli sviluppatori possono effettuare chiamate API reali direttamente dalla tua documentazione, con le loro chiavi API popolate automaticamente.
 
-[Set Up Your API Reference →](doc:api-reference)
+[Configura il Tuo Riferimento API →](doc:api-reference)
 
-**🧩 Recipes: Your API's Cookbook**
+**🧩 Ricette: Il Libro di Cucina della Tua API**
 
-While guides explain concepts and the API reference details endpoints, recipes show developers exactly how to accomplish specific tasks using your API. They're step-by-step walkthroughs of common use cases, complete with code examples in multiple programming languages. Recipes bridge the gap between understanding your API and actually using it.
+Mentre le guide spiegano i concetti e il riferimento API dettaglia gli endpoint, le ricette mostrano agli sviluppatori esattamente come accomplire compiti specifici usando la tua API. Sono guide passo-passo di casi d'uso comuni, complete di esempi di codice in più linguaggi di programmazione. Le ricette colmano il divario tra comprendere la tua API e utilizzarla effettivamente.
 
-[Create Your First Recipe →](doc:recipes)
+[Crea la Tua Prima Ricetta →](doc:recipes)
 
-**📰 Changelog: Your API's News Feed**
+**📰 Changelog: Il Feed di Notizie della Tua API**
 
-Your API is constantly evolving, and developers need to know what's changed. The changelog is your dedicated space for announcing new features, breaking changes, deprecations, and bug fixes. A well-maintained changelog keeps developers informed and shows that your API is actively maintained and improved.
+La tua API è in costante evoluzione, e gli sviluppatori hanno bisogno di sapere cosa è cambiato. Il changelog è il tuo spazio dedicato per annunciare nuove funzionalità, cambiamenti significativi, deprecazioni e correzioni di bug. Un changelog ben mantenuto mantiene gli sviluppatori informati e mostra che la tua API è attivamente mantenuta e migliorata.
 
-[Start Your Changelog →](doc:changelog)
+[Inizia il Tuo Changelog →](doc:changelog)
 
-**📄 Custom Pages: Your API's Specialty Content**
+**📄 Pagine Personalizzate: Il Contenuto Speciale della Tua API**
 
-Some content doesn't neatly fit into guides, reference, recipes, or changelogs. Custom pages are flexible spaces for content like standout landing pages, FAQ collections, status pages, or special announcements that deserve special treatment.
+Alcuni contenuti non si adattano perfettamente in guide, riferimenti, ricette o changelog. Le pagine personalizzate sono spazi flessibili per contenuti come landing page di spicco, collezioni di FAQ, pagine di stato o annunci speciali che meritano un trattamento speciale.
 
-[Create a Custom Page →](/main/docs/custom-page)
+[Crea una Pagina Personalizzata →](/main/docs/custom-page)
 
-### Hub Structure and Navigation
+### Struttura dell'Hub e Navigazione
 
-Your ReadMe hub is designed to help developers find what they need quickly. The main navigation includes:
+Il tuo hub ReadMe è progettato per aiutare gli sviluppatori a trovare rapidamente ciò di cui hanno bisogno. La navigazione principale include:
 
-* **Left sidebar**: Categories and pages organized in a logical hierarchy
-* **Top navigation**: Version switcher, search, and main section tabs
-* **Edit/View toggle**: Switch between viewing your docs and editing them directly on the hub
+* **Sidebar sinistra**: Categorie e pagine organizzate in una gerarchia logica
+* **Navigazione superiore**: Selettore di versione, ricerca e schede delle sezioni principali
+* **Toggle Modifica/Visualizza**: Passa tra la visualizzazione della tua documentazione e la modifica diretta sull'hub
 
-## ✨ Write Documentation That Developers Love
+## ✨ Scrivi Documentazione Che Gli Sviluppatori Amano
 
-Create documentation that speaks to your developers with our powerful suite of documentation tools:
+Crea documentazione che parli ai tuoi sviluppatori con la nostra potente suite di strumenti di documentazione:
 
-### 🎯 An Editor That Works Where You Do
+### 🎯 Un Editor Che Funziona Dove Lavori Tu
 
-Our editing experience brings documentation creation right to your hub. Make changes on the fly, preview in real-time, and publish with confidence – all from one seamless interface. With our MDX-powered editor, you can transform conventional documentation into an interactive experience by adding dynamic components and custom behaviors.
+La nostra esperienza di editing porta la creazione della documentazione direttamente al tuo hub. Apporta modifiche al volo, visualizza in tempo reale e pubblica con fiducia—tutto da un'interfaccia fluida. Con il nostro editor basato su MDX, puoi trasformare la documentazione convenzionale in un'esperienza interattiva aggiungendo componenti dinamici e comportamenti personalizzati.
 
 <br />
 
-### 🔌 API Reference That Shows and Tells
+### 🔌 Riferimento API Che Mostra e Racconta
 
-Turn your OpenAPI specification into beautiful, interactive API documentation. Developers can make live API calls right from your docs, see their API keys automatically populated, and explore endpoints with our built-in API playground. Whether you're working with OpenAPI 3.0, 3.1, or Swagger 2, we'll help you create reference documentation that gets your API into the hands of developers faster.
+Trasforma la tua specifica OpenAPI in una bella documentazione API interattiva. Gli sviluppatori possono effettuare chiamate API dal vivo direttamente dalla tua documentazione, vedere le loro chiavi API popolate automaticamente ed esplorare gli endpoint con il nostro playground API integrato. Che tu stia lavorando con OpenAPI 3.0, 3.1 o Swagger 2, ti aiuteremo a creare documentazione di riferimento che porta la tua API nelle mani degli sviluppatori più velocemente.
 
-### 🌱 Documentation That Grows With You
+### 🌱 Documentazione Che Cresce Con Te
 
-As your API evolves, your documentation needs to keep pace. ReadMe provides the tools you need to scale your documentation:
+Mentre la tua API si evolve, la tua documentazione deve tenere il passo. ReadMe fornisce gli strumenti di cui hai bisogno per scalare la tua documentazione:
 
-* **Versioning**: Maintain documentation for multiple API versions
-* **Bi-directional Git sync**: Write documentation in GitHub or GitLab and automatically sync it to ReadMe (and vice versa)
-* **MDX components**: Create reusable content components that can be updated once and reflected everywhere
+* **Versioning**: Mantieni documentazione per multiple versioni API
+* **Sincronizzazione Git bidirezionale**: Scrivi documentazione in GitHub o GitLab e sincronizzala automaticamente con ReadMe (e viceversa)
+* **Componenti MDX**: Crea componenti di contenuto riutilizzabili che possono essere aggiornati una volta e riflessi ovunque
 
-## 🚀 Next Steps: Your Documentation Journey
+## 🚀 Prossimi Passi: Il Tuo Percorso della Documentazione
 
-Ready to build documentation your developers will love? Here's how to get started:
+Pronto a costruire documentazione che i tuoi sviluppatori ameranno? Ecco come iniziare:
 
-1. **Plan your documentation strategy**: Decide what types of content you need and how to organize it
-2. **Set up your API reference**: Import your OpenAPI specification to create interactive API docs
-3. **Create your first guide**: Write a "Getting Started" guide that helps developers make their first API call
-4. **Explore advanced features**: Try MDX components, reusable content, and bi-directional sync
+1. **Pianifica la tua strategia di documentazione**: Decidi quali tipi di contenuto ti servono e come organizzarli
+2. **Configura il tuo riferimento API**: Importa la tua specifica OpenAPI per creare documentazione API interattiva
+3. **Crea la tua prima guida**: Scrivi una guida "Per Iniziare" che aiuti gli sviluppatori a fare la loro prima chiamata API
+4. **Esplora le funzionalità avanzate**: Prova i componenti MDX, il contenuto riutilizzabile e la sincronizzazione bidirezionale
 
-Click on any of the topics in the sidebar to dive deeper into these areas and start building documentation that helps your developers succeed.
+Clicca su qualsiasi argomento nella sidebar per approfondire queste aree e iniziare a costruire documentazione che aiuta i tuoi sviluppatori ad avere successo.
 
-## 🛠️ Documentation Quick Start Checklist
+## 🛠️ Lista di Controllo Rapida della Documentazione
 
-* [ ] Import your OpenAPI specification
-* [ ] Create a "Getting Started" guide
-* [ ] Add your API authentication details
-* [ ] Add your team members as contributors
-* [ ] Connect your GitHub repository for bi-directional sync
+* [ ] Importa la tua specifica OpenAPI
+* [ ] Crea una guida "Per Iniziare"
+* [ ] Aggiungi i dettagli di autenticazione della tua API
+* [ ] Aggiungi i membri del tuo team come contributori
+* [ ] Connetti il tuo repository GitHub per la sincronizzazione bidirezionale
 
-Ready to make your documentation shine? Let's dive in!
+Pronto a far brillare la tua documentazione? Tuffiamoci!
