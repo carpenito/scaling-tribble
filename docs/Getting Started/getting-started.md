@@ -22,12 +22,12 @@ Con l'editor MDX di ReadMe, puoi combinare Markdown e componenti JSX personalizz
 Puoi anche [Crea i tuoi **componenti** personalizzati**](/docs/getting-started#/settings/custom-components/start) da riutilizzare nei tuoi documenti.
 
 <Cards columns={3}>
-  <Card title="Explore the Component Marketplace" href="https://github.com/readmeio/marketplace/tree/main/components" icon="fa-store" target="_blank">
-    Drop in and customize components.
+  <Card title="Esplora il marketplace dei componenti" href="https://github.com/readmeio/marketplace/tree/main/components" icon="fa-store" target="_blank">
+    Inserisci e personalizza i componenti.
   </Card>
 
   <Card title="MDX (Markdown + JSX)" href="https://docs.readme.com/main/docs/mdx" icon="fa-code">
-    Learn more about MDX to build interactive components.
+   Scopri di più su MDX per creare componenti interattivi.
   </Card>
 
   <Card title="Custom MDX Components" href="https://docs.readme.com/main/docs/building-custom-mdx-components" icon="fa-wrench">
