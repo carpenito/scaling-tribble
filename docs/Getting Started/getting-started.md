@@ -57,30 +57,30 @@ L'intelligenza artificiale è integrata in ReadMe per aiutare te e i tuoi utenti
 
 ***
 
-## 🌿 Edit, Preview, and Publish in Branches
+## 🌿 Modifica, anteprima e pubblicazione nei rami
 
-<Anchor label="Branches" target="_blank" href="https://docs.readme.com/main/docs/branches">Branches</Anchor> bring Git-style workflows to your documentation process. Use them to:
+<Anchor label="Rami" target="_blank" href="https://docs.readme.com/main/docs/branches">Rami</Anchor> introduci flussi di lavoro in stile Git nel tuo processo di documentazione. Usali per:
 
-* Draft changes across multiple pages without publishing immediately
-* Review and preview updates before they go live
-* Share edits with teammates for feedback
-* Safely iterate without disrupting your production docs
+* Modifica bozze su più pagine senza pubblicarle immediatamente
+* Controlla e visualizza in anteprima gli aggiornamenti prima che vengano pubblicati
+* Condividi le modifiche con i colleghi per ricevere feedback
+* Ripeti le operazioni in modo sicuro senza interrompere la produzione dei documenti
 
-You can create a branch directly from the Versions & Branches menu, save edits into a new branch, or sync with GitHub and automatically reflect branches across both platforms.
+Puoi creare un ramo direttamente dal menu Versioni e rami, salvare le modifiche in un nuovo ramo o sincronizzare con GitHub e riflettere automaticamente i rami su entrambe le piattaforme.
 
-Once you're ready, merge the branch back into a live version. Enterprise plans can control who has merge access, and you’ll always get a conflict check before merging.
+Una volta pronto, unisci il ramo alla versione live. I piani Enterprise consentono di controllare chi ha accesso all'unione e prima dell'unione viene sempre eseguito un controllo dei conflitti.
 
 ***
 
-## 🔁 Sync with Git
+## 🔁 Sincronizza con Git
 
-Whether you write docs in ReadMe's editor or your local dev environment, ReadMe fits into your workflow:
+Che tu scriva documenti nell'editor di ReadMe o nel tuo ambiente di sviluppo locale, ReadMe si adatta al tuo flusso di lavoro:
 
-* **[Bi-Directional Sync with GitHub](https://docs.readme.com/main/docs/bi-directional-sync)**  
-  Connect a GitHub repo to your project and work in branches. Changes in Git or ReadMe will stay in sync—perfect for staging and code review workflows.
+* **[Sincronizzazione bidirezionale con GitHub](https://docs.readme.com/main/docs/bi-directional-sync)**  
+  Collega un repository GitHub al tuo progetto e lavora nei rami. Le modifiche in Git o ReadMe rimarranno sincronizzate: perfetto per i flussi di lavoro di staging e revisione del codice.
 
-* **Sync Your OpenAPI Files**  
-  Use [`rdme`](https://docs.readme.com/docs/rdme#upload) or the ReadMe API to push your OpenAPI spec and keep your API Reference up to date automatically.
+* **Sincronizza i tuoi file OpenAPI**  
+  Utilizzo [`rdme`](https://docs.readme.com/docs/rdme#upload) oppure l'API ReadMe per inviare le specifiche OpenAPI e mantenere aggiornato automaticamente il riferimento API.
 
 ***
 
