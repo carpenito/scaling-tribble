@@ -35,25 +35,25 @@ Puoi anche [Crea i tuoi **componenti** personalizzati**](/docs/getting-started#/
   </Card>
 </Cards>
 
-Looking for a branded entry point? Enable a **<Anchor label="Landing Page" target="_blank" href="https://docs.readme.com/main/docs/landing-page">Landing Page</Anchor>** to welcome your developers and direct them to key docs.
+Cerchi un punto di accesso brandizzato? Abilita un **<Anchor label="Pagina di destinazione" target="_blank" href="https://docs.readme.com/main/docs/landing-page">Pagina di destinazione</Anchor>** per dare il benvenuto ai tuoi sviluppatori e indirizzarli ai documenti chiave.
 
 ***
 
-## 🤖 Add AI to Your Dev Hub
+## 🤖 Aggiungi l'IA al tuo Dev Hub
 
-AI is built into ReadMe to help you and your users move faster. Slide the panel open by hitting **:sparkles:AI** in your top navigation bar.
+L'intelligenza artificiale è integrata in ReadMe per aiutare te e i tuoi utenti a muovervi più velocemente. Apri il pannello facendo scorrere il cursore su **:sparkles:AI** nella barra di navigazione superiore.
 
-* **AI Agent**  
-  Our built-in AI agent is your sidekick for drafting documentation, translating pages, and applying style guides.
+* **Agente AI**  
+  Il nostro agente AI integrato è il tuo assistente per redigere documenti, tradurre pagine e applicare guide di stile.
 
-* **MCP Server**  
-  Generate an **MCP** server to convert your API documentation into a structured resource that AI assistants can understand and interact with programmatically.
+* **Server MCP**  
+  Genera un server **MCP** per convertire la tua documentazione API in una risorsa strutturata che gli assistenti AI possono comprendere e con cui possono interagire a livello di programmazione.
 
-* **AI-Powered Search**  
-  Enable AI Search to help developers ask questions about your product and instantly receive an answer.
+* **Ricerca basata sull'intelligenza artificiale**  
+  Abilita la ricerca AI per aiutare gli sviluppatori a porre domande sul tuo prodotto e ricevere immediatamente una risposta.
 
-* **Open in Other AI Services**  
-  Let your developers open your docs in tools like ChatGPT, Claude, or other LLMs, using context from your API and `llms.txt` configuration.
+* **Apri in altri servizi di intelligenza artificiale**  
+  Consenti ai tuoi sviluppatori di aprire i tuoi documenti in strumenti come ChatGPT, Claude o altri LLM, utilizzando il contesto della tua API e `llms.txt` configurazione.
 
 ***
 
