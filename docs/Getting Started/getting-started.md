@@ -19,7 +19,7 @@ Inizia creando <Anchor label="**Guide**" target="_blank" href="https://docs.read
 
 Con l'editor MDX di ReadMe, puoi combinare Markdown e componenti JSX personalizzati come `<Carta>`, `<scheda>`, and `<Fisarmonica>` per contenuti più ricchi e una struttura migliore.
 
-You can even [build your own custom **Components**](/docs/getting-started#/settings/custom-components/start) to reuse across your docs.
+Puoi anche [Crea i tuoi **componenti** personalizzati**](/docs/getting-started#/settings/custom-components/start) da riutilizzare nei tuoi documenti.
 
 <Cards columns={3}>
   <Card title="Explore the Component Marketplace" href="https://github.com/readmeio/marketplace/tree/main/components" icon="fa-store" target="_blank">
