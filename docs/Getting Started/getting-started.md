@@ -104,10 +104,10 @@ Vuoi sapere come gli sviluppatori utilizzano effettivamente la tua API e la tua 
 ***
 
 <Callout icon="💼" theme="default">
-  Need support for multiple products, advanced permissions, or deeper customization?  
-  Our enterprise features are built for teams managing business-critical APIs at scale. [Let's talk.](mailto:growth@readme.io)
+  Hai bisogno di assistenza per più prodotti, autorizzazioni avanzate o personalizzazioni più approfondite?  
+  Le nostre funzionalità aziendali sono pensate per i team che gestiscono API business-critical su larga scala.. [Parliamone.](mailto:growth@readme.io)
 </Callout>
 
-## 💬 Need Help?
+## 💬 Hai bisogno di aiuto?
 
-Our team is here to support you. If you get stuck, [email us](mailto:support@readme.io) or open the Intercom widget on any page to chat with someone from our team. We've also got a <Anchor label="Slack community" target="_blank" href="https://readme.com/slack">Slack community</Anchor> if you want to say hi to the team and connect with other ReadMe users!
+Il nostro team è qui per aiutarti. Se ti trovi in difficoltà, [scrivici un'e-mail](mailto:support@readme.io) oppure apri il widget Intercom su qualsiasi pagina per chattare con un membro del nostro team. Abbiamo anche un <Anchor label="Comunità Slack" target="_blank" href="https://readme.com/slack">Comunità Slack</Anchor> se vuoi salutare il team e entrare in contatto con altri utenti di ReadMe!
