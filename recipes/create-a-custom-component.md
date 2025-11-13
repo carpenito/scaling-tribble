@@ -1,12 +1,12 @@
 ---
-title: Create a Custom Component
+title: Creare un componente personalizzato
 description: >-
-  Recipe DescriptioThis recipe walks through creating a simple reusable styled
-  container that you can use throughout your documentation.
+  Questa ricetta illustra come creare un semplice contenitore riutilizzabile che
+  potrai utilizzare in tutta la tua documentazione.
 
 
-  Just wrap any content with ExampleComponent tags, and it will appear in a nice
-  dark gray box!n
+  Basta racchiudere qualsiasi contenuto tra i tag ExampleComponent e apparirà in
+  un elegante riquadro grigio scuro!
 hidden: false
 recipe:
   color: '#018FF4'
