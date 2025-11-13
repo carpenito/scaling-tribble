@@ -1,120 +1,126 @@
 ---
-title: Creating & Managing Guides
+title: Creazione e Gestione delle Guide
+excerpt: >-
+  Impara come creare, organizzare e mantenere guide di documentazione efficaci
+  in ReadMe. Dalla creazione di categorie alla strutturazione di contenuti per
+  sviluppatori.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-# Overview
+# Panoramica
 
-Let's dive into the nuts and bolts of organizing your documentation in ReadMe. From creating new guides to managing content over time, this guide will show you how to build and maintain a well-structured knowledge base that helps developers find exactly what they need, when they need it.
+Immergiamoci negli aspetti pratici dell'organizzazione della tua documentazione in ReadMe. Dalla creazione di nuove guide alla gestione dei contenuti nel tempo, questa guida ti mostrerà come costruire e mantenere una knowledge base ben strutturata che aiuta gli sviluppatori a trovare esattamente ciò di cui hanno bisogno, quando ne hanno bisogno.
 
-### Why Guides Matter
+### Perché le Guide Sono Importanti
 
-Guides are the backbone of your developer documentation. While your API reference tells developers what's possible, guides show them how to be successful. Great guides:
+Le guide sono la spina dorsale della tua documentazione per sviluppatori. Mentre il riferimento API dice agli sviluppatori cosa è possibile fare, le guide mostrano loro come avere successo. Ottime guide:
 
-* Guide developers from novice to expert
-* Provide context that API references can't capture
-* Answer the "why" alongside the "how"
-* Solve real-world problems developers encounter
+* Guidano gli sviluppatori da principianti a esperti
+* Forniscono un contesto che i riferimenti API non possono catturare
+* Rispondono al "perché" oltre al "come"
+* Risolvono problemi del mondo reale che gli sviluppatori incontrano
 
-## Creating Your First Guide
+## Creazione della Tua Prima Guida
 
-### Creating Categories 📂
+### Creazione di Categorie 📂
 
-Categories help you organize your documentation into logical sections, working like chapters in your API's story. Each category creates a natural break in your documentation's narrative, making it easier for developers to follow along.
+Le categorie ti aiutano a organizzare la tua documentazione in sezioni logiche, funzionando come capitoli nella storia della tua API. Ogni categoria crea una pausa naturale nella narrativa della tua documentazione, rendendo più facile per gli sviluppatori seguire il percorso.
 
-1. Navigate to your documentation hub and toggle into **Edit Mode**.
-2. Click the **+ NEW CATEGORY** button in the sidebar navigation.
-3. Enter a name for your category (e.g., "Getting Started" or "Advanced Topics")
-4. Click **Enter** to save.
+1. Naviga al tuo hub di documentazione e attiva la **Modalità Modifica**.
+2. Fai clic sul pulsante **+ NUOVA CATEGORIA** nella navigazione laterale.
+3. Inserisci un nome per la tua categoria (es. "Primi Passi" o "Argomenti Avanzati")
+4. Fai clic su **Invio** per salvare.
 
-> 📘 User Experience
+> 📘 Esperienza Utente
 >
-> Think about your developer's journey when naming categories. What would make the most sense to someone exploring your API for the first time? Consider organizing categories by skill level (beginner to advanced) or by use case.
+> Pensa al percorso del tuo sviluppatore quando nomini le categorie. Cosa avrebbe più senso per qualcuno che esplora la tua API per la prima volta? Considera di organizzare le categorie per livello di competenza (principiante ad avanzato) o per caso d'uso.
 
-### Creating a Guide Page 📝
+### Creazione di una Pagina Guida 📝
 
-Now that you've got your categories set up, let's add some pages:
+Ora che hai impostato le tue categorie, aggiungiamo alcune pagine:
 
-1. In **Edit** mode, hover over a category and click the **+** button
-2. Fill in the essential details:
-   * **Title**: Make it clear and descriptive
-   * **Slug**: This will be the URL path (automatically generated, but you can customize it)
-   * **Hidden**: Toggle this on if you want to work on the guide before making it public
-3. Click **Save** to create your new guide
+1. In modalità **Modifica**, passa il mouse sopra una categoria e fai clic sul pulsante **+**
+2. Compila i dettagli essenziali:
+   * **Titolo**: Rendilo chiaro e descrittivo
+   * **Slug**: Questo sarà il percorso URL (generato automaticamente, ma puoi personalizzarlo)
+   * **Nascosto**: Attiva questo se vuoi lavorare sulla guida prima di renderla pubblica
+3. Fai clic su **Salva** per creare la tua nuova guida
 
-### Using the Editor UI ✏️
+### Utilizzo dell'Interfaccia Editor ✏️
 
 <Image align="center" border={false} src="https://files.readme.io/53c229bb50f36b2a6398894e5de72e9909397911c2deba6c77e629733e714a99-Editing_UI_-_view_to_edit_toggle.gif" />
 
-With ReadMe's editing UI, you'll create and edit content directly on your hub. This means what you see is exactly what your developers will see.
+Con l'interfaccia di editing di ReadMe, creerai e modificherai il contenuto direttamente sul tuo hub. Questo significa che quello che vedi è esattamente quello che vedranno i tuoi sviluppatori.
 
-1. After creating your page, you'll be in the editor automatically
-2. Use the formatting toolbar for basic text styling
-3. Type `/` to access the command menu for inserting:
-   * Code blocks
-   * Callouts
-   * Images
-   * And more!
-4. Toggle between **Edit** and **View** modes to see exactly how your content will appear to developers
+1. Dopo aver creato la tua pagina, sarai nell'editor automaticamente
+2. Usa la barra degli strumenti di formattazione per lo stile del testo di base
+3. Digita `/` per accedere al menu comandi per inserire:
+   * Blocchi di codice
+   * Callout
+   * Immagini
+   * E altro ancora!
+4. Alterna tra le modalità **Modifica** e **Visualizza** per vedere esattamente come apparirà il tuo contenuto agli sviluppatori
 
 <Image align="center" border={false} src="https://files.readme.io/a106664539184b9eebb366fd2c51ed5ba10ca5c1224c0ce52a209dd8c08ac143-CleanShot_2024-11-08_at_20.24.59.gif" />
 
-> 📘 Complete control of your Markdown
+> 📘 Controllo completo del tuo Markdown
 >
-> ReadMe's Raw Mode lets you add new content and edit existing content directly in Markdown. Just open the three-dot menu next to the visibility settings and choose **Raw Mode**.
+> La Modalità Raw di ReadMe ti permette di aggiungere nuovo contenuto e modificare contenuto esistente direttamente in Markdown. Apri semplicemente il menu a tre punti accanto alle impostazioni di visibilità e scegli **Modalità Raw**.
 
-## Structuring Effective Guides
+## Strutturazione di Guide Efficaci
 
-### The Anatomy of a Great Guide
+### L'Anatomia di una Grande Guida
 
-Successful guides follow a consistent structure that helps developers quickly understand and apply information:
+Le guide di successo seguono una struttura coerente che aiuta gli sviluppatori a comprendere e applicare rapidamente le informazioni:
 
-1. **Clear Introduction**: What problem does this guide solve?
-2. **Prerequisites**: What should developers know or have before starting?
-3. **Step-by-Step Instructions**: Break down complex processes into manageable steps
-4. **Code Examples**: Show, don't just tell
-5. **Troubleshooting**: Address common issues and their solutions
-6. **Next Steps**: Where should developers go after completing this guide?
+1. **Introduzione Chiara**: Quale problema risolve questa guida?
+2. **Prerequisiti**: Cosa dovrebbero sapere o avere gli sviluppatori prima di iniziare?
+3. **Istruzioni Passo-Passo**: Suddividi i processi complessi in passaggi gestibili
+4. **Esempi di Codice**: Mostra, non limitarti a dire
+5. **Risoluzione Problemi**: Affronta problemi comuni e le loro soluzioni
+6. **Prossimi Passi**: Dove dovrebbero andare gli sviluppatori dopo aver completato questa guida?
 
-### Writing for Developers
+### Scrivere per Sviluppatori
 
-When writing guides, remember that developers want to solve problems quickly:
+Quando scrivi guide, ricorda che gli sviluppatori vogliono risolvere i problemi rapidamente:
 
-* **Be concise**: Get to the point and avoid unnecessary explanations
-* **Use code examples liberally**: Developers often understand code faster than prose
-* **Highlight important information**: Use callouts for warnings, tips, and important notes
-* **Break up text**: Use headings, lists, and short paragraphs to improve readability
-* **Use real-world examples**: Show code that solves actual problems
+* **Sii conciso**: Vai al punto ed evita spiegazioni non necessarie
+* **Usa abbondantemente esempi di codice**: Gli sviluppatori spesso capiscono il codice più velocemente della prosa
+* **Evidenzia informazioni importanti**: Usa callout per avvertimenti, suggerimenti e note importanti
+* **Suddividi il testo**: Usa intestazioni, elenchi e paragrafi brevi per migliorare la leggibilità
+* **Usa esempi del mondo reale**: Mostra codice che risolve problemi effettivi
 
-> 📘 Keep it Real
+> 📘 Mantienilo Reale
 >
-> Use authentic code examples that demonstrate realistic implementations. If you're showing authentication, use a complete example with error handling. If you're demonstrating data retrieval, show how to process and use that data in a practical way. Real-world examples help developers bridge the gap between documentation and implementation.
+> Usa esempi di codice autentici che dimostrano implementazioni realistiche. Se stai mostrando l'autenticazione, usa un esempio completo con gestione degli errori. Se stai dimostrando il recupero dati, mostra come elaborare e utilizzare quei dati in modo pratico. Gli esempi del mondo reale aiutano gli sviluppatori a colmare il divario tra documentazione e implementazione.
 
 ```javascript
-// Good example - with meaningful comments and clear variable names
+// Buon esempio - con commenti significativi e nomi di variabili chiari
 const apiKey = 'your_api_key_here';
 
-// Initialize the client with your API key
+// Inizializza il client con la tua chiave API
 const client = new ReadMeAPI(apiKey);
 
-// Fetch user data and handle potential errors
+// Recupera i dati utente e gestisci potenziali errori
 try {
   const userData = await client.getUser(userId);
-  console.log(`Found user: ${userData.name}`);
+  console.log(`Utente trovato: ${userData.name}`);
 } catch (error) {
-  console.error(`Error fetching user: ${error.message}`);
+  console.error(`Errore nel recupero utente: ${error.message}`);
 }
 ```
 
-## Enhancing Guides with MDX
+## Potenziamento delle Guide con MDX
 
-ReadMe now supports MDX (Markdown + JSX), giving you the power to create interactive documentation with reusable components.
+ReadMe ora supporta MDX (Markdown + JSX), dandoti il potere di creare documentazione interattiva con componenti riutilizzabili.
 
-### Basic MDX Components
+### Componenti MDX di Base
 
-Here's an example of our built-in MDX tab components you can use to enhance your guides:
+Ecco un esempio dei nostri componenti tab MDX integrati che puoi usare per potenziare le tue guide:
 
 <Tabs>
   <Tab title="Node.js">
@@ -136,94 +142,94 @@ Here's an example of our built-in MDX tab components you can use to enhance your
   </Tab>
 </Tabs>
 
-### Creating Reusable Content
+### Creazione di Contenuti Riutilizzabili
 
-For content you'll use across multiple guides, [create reusable content blocks](doc:reusable-content)
+Per contenuti che userai in più guide, [crea blocchi di contenuti riutilizzabili](doc:reusable-content)
 
-1. Navigate to **Content Settings** in the editing UI
-2. Select **Reusable Content**
-3. Create blocks for common elements like:
-   * API authentication steps
-   * Environment setup instructions
-   * Standard code patterns
-4. Insert them into any guide with the `/` command
+1. Naviga a **Impostazioni Contenuto** nell'interfaccia di editing
+2. Seleziona **Contenuto Riutilizzabile**
+3. Crea blocchi per elementi comuni come:
+   * Passaggi di autenticazione API
+   * Istruzioni di configurazione ambiente
+   * Modelli di codice standard
+4. Inseriscili in qualsiasi guida con il comando `/`
 
-## Organizing Your Documentation
+## Organizzazione della Tua Documentazione
 
-### Creating a Documentation Strategy
+### Creazione di una Strategia di Documentazione
 
-Before diving into individual guides, consider your overall documentation structure:
+Prima di immergerti nelle singole guide, considera la struttura complessiva della tua documentazione:
 
-1. **Map the developer journey**: What path do developers take from first sign-up to advanced usage?
-2. **Identify knowledge gaps**: Where do developers typically get stuck?
-3. **Create progressive learning paths**: How can each guide build on previous knowledge?
+1. **Mappa il percorso dello sviluppatore**: Quale percorso seguono gli sviluppatori dalla prima registrazione all'uso avanzato?
+2. **Identifica le lacune di conoscenza**: Dove si bloccano tipicamente gli sviluppatori?
+3. **Crea percorsi di apprendimento progressivi**: Come può ogni guida basarsi sulla conoscenza precedente?
 
-### Guide Types to Consider
+### Tipi di Guide da Considerare
 
-Different guides serve different purposes:
+Diverse guide servono scopi diversi:
 
-* **Getting Started**: Onboarding new developers
-* **Tutorials**: Step-by-step instructions for specific tasks
-* **Conceptual Guides**: Explaining complex ideas or architecture
-* **How-To Guides**: Focused instructions for specific features
-* **Troubleshooting**: Solutions to common problems
+* **Primi Passi**: Onboarding di nuovi sviluppatori
+* **Tutorial**: Istruzioni passo-passo per compiti specifici
+* **Guide Concettuali**: Spiegazione di idee o architetture complesse
+* **Guide Come Fare**: Istruzioni mirate per funzionalità specifiche
+* **Risoluzione Problemi**: Soluzioni a problemi comuni
 
-## Maintaining Guides Over Time
+## Mantenimento delle Guide nel Tempo
 
-### Keeping Content Fresh
+### Mantenere il Contenuto Fresco
 
-Documentation requires regular maintenance:
+La documentazione richiede manutenzione regolare:
 
-1. Schedule regular review cycles (quarterly works well)
-2. Update guides, and your changelog, when features change
-3. Watch for user feedback that indicates confusion
-4. Monitor analytics to see which guides need improvement
+1. Programma cicli di revisione regolari (trimestrale funziona bene)
+2. Aggiorna le guide e il changelog quando le funzionalità cambiano
+3. Osserva i feedback degli utenti che indicano confusione
+4. Monitora le analisi per vedere quali guide necessitano miglioramenti
 
-### Versioning Considerations
+### Considerazioni sul Versioning
 
-If your API has multiple versions:
+Se la tua API ha più versioni:
 
-1. Use ReadMe's versioning feature to maintain separate documentation sets
-2. Clearly mark version-specific information
-3. Consider using callouts to highlight differences between versions
+1. Usa la funzionalità di versioning di ReadMe per mantenere set di documentazione separati
+2. Marca chiaramente le informazioni specifiche della versione
+3. Considera l'uso di callout per evidenziare differenze tra versioni
 
-## Collaborating with Git Integration
+## Collaborazione con Integrazione Git
 
-With ReadMe's [bi-directional Git sync](doc:bi-directional-sync), you can now collaborate on documentation using familiar Git workflows:
+Con la [sincronizzazione Git bidirezionale](doc:bi-directional-sync) di ReadMe, ora puoi collaborare sulla documentazione usando flussi di lavoro Git familiari:
 
-1. Connect your ReadMe project to GitHub/GitLab
-2. Edit documentation files directly in your repository
-3. Changes sync automatically to your ReadMe project
-4. Use pull requests and reviews for documentation changes
+1. Connetti il tuo progetto ReadMe a GitHub/GitLab
+2. Modifica i file di documentazione direttamente nel tuo repository
+3. I cambiamenti si sincronizzano automaticamente al tuo progetto ReadMe
+4. Usa pull request e revisioni per le modifiche alla documentazione
 
-## Measuring Success
+## Misurazione del Successo
 
-### Using Analytics
+### Utilizzo delle Analisi
 
-ReadMe provides insights into how developers use your documentation:
+ReadMe fornisce insights su come gli sviluppatori usano la tua documentazione:
 
-1. Monitor page views to identify popular guides
-2. Track search queries to find missing information
-3. Use this data to prioritize documentation improvements
+1. Monitora le visualizzazioni di pagina per identificare le guide popolari
+2. Traccia le query di ricerca per trovare informazioni mancanti
+3. Usa questi dati per dare priorità ai miglioramenti della documentazione
 
-### Gathering Feedback
+### Raccolta di Feedback
 
-Create feedback loops to continuously improve:
+Crea cicli di feedback per migliorare continuamente:
 
-1. Enable discussions on guides
-2. Regularly review questions and comments
-3. Update guides based on common questions
+1. Abilita discussioni sulle guide
+2. Rivedi regolarmente domande e commenti
+3. Aggiorna le guide basandoti su domande comuni
 
-## Next Steps
+## Prossimi Passi
 
-Now that you know how to create and manage guides in ReadMe, try:
+Ora che sai come creare e gestire guide in ReadMe, prova:
 
-* Creating your first category and guide
-* Experimenting with MDX components
-* Setting up a documentation review process
-* Connecting your documentation to GitHub for collaborative editing
+* Creare la tua prima categoria e guida
+* Sperimentare con i componenti MDX
+* Impostare un processo di revisione della documentazione
+* Collegare la tua documentazione a GitHub per editing collaborativo
 
-Need more help? Check out our other resources:
+Hai bisogno di più aiuto? Consulta le nostre altre risorse:
 
-* [MDX Documentation](doc:mdx)
-* [Bi-Directional Sync Setup](doc:bi-directional-sync)
+* [Documentazione MDX](doc:mdx)
+* [Configurazione Sincronizzazione Bidirezionale](doc:bi-directional-sync)
