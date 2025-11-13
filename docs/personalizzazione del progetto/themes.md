@@ -1,20 +1,25 @@
 ---
-title: Themes
+title: Temi
+excerpt: >-
+  Personalizza l'aspetto della tua documentazione con le opzioni di tema
+  disponibili in ReadMe, inclusi layout, branding e stili di intestazione.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-All plans have access to customize their in the **Theme** settings. Open **Settings** in the top-left of the admin UI, then select **Theme** in the sidebar.
+Tutti i piani hanno accesso alla personalizzazione nelle impostazioni **Tema**. Apri **Impostazioni** in alto a sinistra dell'interfaccia di amministrazione, quindi seleziona **Tema** nella barra laterale.
 
 * Layout
-* Branding (Logo, Favicon, and Colors)
-* Header style
+* Branding (Logo, Favicon e Colori)
+* Stile intestazione
 
 <PlanTable currentPlan="Free" />
 
 <Callout icon="💁‍♂️" theme="default">
-  **Note:** Additional customization options and services are available on Business and Enterprise plans.
+  **Nota:** Opzioni di personalizzazione aggiuntive e servizi sono disponibili nei piani Business ed Enterprise.
 </Callout>
 
 ***
@@ -23,10 +28,10 @@ All plans have access to customize their in the **Theme** settings. Open **Setti
 
 <Image align="center" border={false} width="400px" src="https://files.readme.io/3d30b1d7f55cd7e37def92bb05c5c4799bc0e1294169209626ff9a24181733cc-Launch_Week-20250628-1026262x.webp" />
 
-You can choose between 3 layout options: Classic, Compact, and Modern. And there’s also an option to stretch the layout for larger screens. You’ll be able to preview the layout before saving.
+Puoi scegliere tra 3 opzioni di layout: Classic, Compact e Modern. C'è anche un'opzione per estendere il layout per schermi più grandi. Potrai visualizzare l'anteprima del layout prima di salvare.
 
 <Callout icon="🚧" theme="warn">
-  A sidebar only option is coming soon!
+  Un'opzione solo barra laterale arriverà presto!
 </Callout>
 
 ***
@@ -35,51 +40,51 @@ You can choose between 3 layout options: Classic, Compact, and Modern. And there
 
 ### Logo
 
-An option to upload a white logo is available when an alternative is needed for certain themes and header color settings.
+È disponibile un'opzione per caricare un logo bianco quando è necessaria un'alternativa per certi temi e impostazioni del colore dell'intestazione.
 
-**Format**
+**Formato**
 
-* SVG is preferred for the best quality.
-* If your logo is too complex for an SVG, WEBP is a good alternative—use 2x of your desired logo size for clarity in high-resolution displays.
-* GIFs are not supported.
+* SVG è preferito per la migliore qualità.
+* Se il tuo logo è troppo complesso per un SVG, WEBP è una buona alternativa—usa 2x della dimensione desiderata del tuo logo per la chiarezza nei display ad alta risoluzione.
+* I GIF non sono supportati.
 
-**Dimensions**
+**Dimensioni**
 
-* 24px height by default. In the Classic and Modern themes you can select a larger 40px height logo.
+* 24px di altezza per default. Nei temi Classic e Modern puoi selezionare un logo di altezza più grande a 40px.
 
-**Further Customization**
+**Personalizzazione Avanzata**
 
-* Customers with access to Custom CSS can use our global classes and css variables to tweak their logo display further:
+* I clienti con accesso al CSS Personalizzato possono usare le nostre classi globali e variabili css per modificare ulteriormente la visualizzazione del loro logo:
 
 ```css
 .rm-Logo-img {
-  --Header-logo-height: YOUR_CUSTOM_HEIGHT
+  --Header-logo-height: TUA_ALTEZZA_PERSONALIZZATA
 }
 ```
 
 ***
 
-## Header
+## Intestazione
 
 <Image align="center" border={false} width="400px" src="https://files.readme.io/9c14d52d69809626037d9cb483cd2fb0619734f6ccc3c3428fd6380936a44b43-Launch_Week-20250628-1043112x.webp" />
 
-You can choose between 4 layout options: Line, Solid Color, Gradient, and Overlay.
+Puoi scegliere tra 4 opzioni di layout: Linea, Colore Solido, Gradiente e Sovrapposizione.
 
 <Callout icon="💁‍♂️" theme="default">
-  The Line header option now defaults to a tab display for links. Users with the older button display can switch. Once you switch, you will not be able to switch back.
+  L'opzione intestazione Linea ora è predefinita con una visualizzazione a schede per i link. Gli utenti con la precedente visualizzazione a pulsanti possono cambiare. Una volta cambiato, non potrai tornare indietro.
 </Callout>
 
-**Further Customization**
+**Personalizzazione Avanzata**
 
-* Customers with access to Custom CSS can use our global classes and css variables to tweak their header further:
+* I clienti con accesso al CSS Personalizzato possono usare le nostre classi globali e variabili css per modificare ulteriormente la loro intestazione:
 
 ```css
 .rm-Header {
-  --Header-background: YOUR_CUSTOM_VALUE /* defaults to your brand color */
-  --Header-border-color: YOUR_CUSTOM_VALUE /* default: rgba(0, 0, 0, 0.1) */
-  --Header-button-padding: YOUR_CUSTOM_VALUE /* default: 10px */
+  --Header-background: TUO_VALORE_PERSONALIZZATO /* predefinito al tuo colore del brand */
+  --Header-border-color: TUO_VALORE_PERSONALIZZATO /* predefinito: rgba(0, 0, 0, 0.1) */
+  --Header-button-padding: TUO_VALORE_PERSONALIZZATO /* predefinito: 10px */
 
-  /* Line theme only */
-  --Header-tab-underline: YOUR_CUSTOM_VALUE /* defaults to your brand color */
+  /* Solo tema Linea */
+  --Header-tab-underline: TUO_VALORE_PERSONALIZZATO /* predefinito al tuo colore del brand */
 }
 ```
