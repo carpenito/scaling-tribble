@@ -1,53 +1,59 @@
 ---
 title: LLMs.txt
+excerpt: >-
+  Con la nuova funzionalità LLMs.txt di ReadMe, puoi insegnare ai modelli di AI
+  come comprendere e rappresentare correttamente la documentazione della tua
+  API, garantendo risposte accurate senza allucinazioni.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-## Overview
+## Panoramica
 
-With our new [LLMs.txt](https://llmstxt.org/) feature, you can teach AI models how to properly understand and represent your API documentation. This allows you to provide the context that AI assistants like ChatGPT or Claude need to accurately answer questions about your API without hallucinating (making things up). Setting it up takes literally seconds – just flip a toggle and we'll generate the configuration file automatically. Behind the scenes, we're creating metadata that helps AI systems understand your documentation's structure, terminology, and most up-to-date information. LLMs.txt is available on all plans.
+Con la nostra nuova funzionalità [LLMs.txt](https://llmstxt.org/), puoi insegnare ai modelli di AI come comprendere e rappresentare correttamente la documentazione della tua API. Questo ti permette di fornire il contesto di cui gli assistenti AI come ChatGPT o Claude hanno bisogno per rispondere accuratamente alle domande sulla tua API senza allucinare (inventare informazioni). La configurazione richiede letteralmente secondi – basta attivare un interruttore e genereremo automaticamente il file di configurazione. Dietro le quinte, stiamo creando metadati che aiutano i sistemi AI a comprendere la struttura, la terminologia e le informazioni più aggiornate della tua documentazione. LLMs.txt è disponibile su tutti i piani.
 
-The result? Developers get accurate answers about your API even when they're asking AI tools instead of reading your docs directly. It's documentation that works everywhere your developers do!
+Il risultato? Gli sviluppatori ottengono risposte accurate sulla tua API anche quando fanno domande agli strumenti AI invece di leggere direttamente la tua documentazione. È documentazione che funziona ovunque lavorino i tuoi sviluppatori!
 
-## Benefits
+## Vantaggi
 
-* **Accuracy**: Helps AI models represent your documentation correctly
-* **Consistency**: Ensures proper terminology and version information
-* **Relevance**: Guides AI models to the most up-to-date information
-* **Zero Maintenance**: Automatically generated based on your existing documentation
+* **Accuratezza**: Aiuta i modelli AI a rappresentare correttamente la tua documentazione
+* **Coerenza**: Assicura terminologia e informazioni sulla versione appropriate
+* **Rilevanza**: Guida i modelli AI alle informazioni più aggiornate
+* **Zero Manutenzione**: Generato automaticamente basandosi sulla tua documentazione esistente
 
-## How It Works
+## Come Funziona
 
-LLMs.txt works as a configuration file at the root of your documentation site that AI language models can access and interpret. This file functions as a technical guide that instructs AI systems on how to properly read and reference your content.
+LLMs.txt funziona come un file di configurazione alla radice del tuo sito di documentazione che i modelli linguistici AI possono accedere e interpretare. Questo file funziona come una guida tecnica che istruisce i sistemi AI su come leggere e riferire correttamente i tuoi contenuti.
 
-When enabled, ReadMe automatically generates this configuration file based on your existing documentation structure. The file contains metadata about:
+Quando abilitato, ReadMe genera automaticamente questo file di configurazione basandosi sulla struttura della tua documentazione esistente. Il file contiene metadati su:
 
-* The organization of your documentation (guides, API reference, recipes, etc.)
-* Version information to ensure AI models reference the most current documentation
-* Important terminology specific to your API
-* Hierarchical structure of your content
+* L'organizzazione della tua documentazione (guide, riferimento API, ricette, ecc.)
+* Informazioni sulla versione per assicurare che i modelli AI facciano riferimento alla documentazione più recente
+* Terminologia importante specifica della tua API
+* Struttura gerarchica dei tuoi contenuti
 
-AI models that support LLMs.txt will check for this file before generating responses about your API. When they find it, they'll use the instructions to provide more accurate information, reducing the chances of outdated references or incorrect terminology.
+I modelli AI che supportano LLMs.txt controlleranno questo file prima di generare risposte sulla tua API. Quando lo trovano, useranno le istruzioni per fornire informazioni più accurate, riducendo le possibilità di riferimenti obsoleti o terminologia incorretta.
 
-For example, if you've recently renamed endpoints or changed parameter requirements, LLMs.txt helps ensure AI assistants don't provide outdated information to developers using your API.
+Ad esempio, se hai recentemente rinominato endpoint o cambiato i requisiti dei parametri, LLMs.txt aiuta ad assicurare che gli assistenti AI non forniscano informazioni obsolete agli sviluppatori che utilizzano la tua API.
 
-## Getting Started
+## Iniziare
 
-Enable LLMs.txt in just a few clicks to help AI models accurately represent your API documentation.
+Abilita LLMs.txt con pochi clic per aiutare i modelli AI a rappresentare accuratamente la documentazione della tua API.
 
 #### ReadMe Refactored
 
-For projects using the ReadMe Refactored interface:
+Per progetti che utilizzano l'interfaccia ReadMe Refactored:
 
-1. Navigate to your project hub.
-2. Click the **AI Settings (✨ Sparkle Icon)** in the top right menu.
-3. Toggle **Enable LLMs.txt** to ON.
-4. Click **Save**.
+1. Naviga al tuo hub del progetto.
+2. Clicca su **Impostazioni AI (✨ Icona Sparkle)** nel menu in alto a destra.
+3. Attiva **Abilita LLMs.txt** su ON.
+4. Clicca **Salva**.
 
 #### ReadMe Legacy
 
-1. Go to **Configuration** > **AI Settings**.
-2. Toggle **Enable LLMs.txt** to ON.
-3. Click **Save**.
+1. Vai su **Configurazione** > **Impostazioni AI**.
+2. Attiva **Abilita LLMs.txt** su ON.
+3. Clicca **Salva**.
