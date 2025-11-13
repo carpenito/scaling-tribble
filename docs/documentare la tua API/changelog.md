@@ -1,60 +1,65 @@
 ---
-title: Changelog
+title: Registro delle Modifiche
+excerpt: >-
+  Scopri come gestire e configurare il changelog di ReadMe per tenere traccia
+  degli aggiornamenti e delle modifiche del tuo progetto.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
 <br />
 
-> 📘 ReadMe Changelog
+> 📘 Registro delle Modifiche di ReadMe
 >
 > [https://docs.readme.com/changelog](https://docs.readme.com/changelog)
 
-## Add A Post
+## Aggiungere un Post
 
-Navigate to **Documentation > Changelog**.
+Naviga su **Documentazione > Registro delle Modifiche**.
 
-<Image align="center" alt={584} border={true} caption="To delete a post, hover over any title and click the red &#x22;X&#x22; that appears" title="Screenshot 2019-06-24 21.20.22.png" src="https://files.readme.io/f924318-Screenshot_2019-06-24_21.20.22.png" width="smart" />
+<Image align="center" alt={584} border={true} caption="Per eliminare un post, passa il mouse su qualsiasi titolo e clicca la &#x22;X&#x22; rossa che appare" title="Screenshot 2019-06-24 21.20.22.png" src="https://files.readme.io/f924318-Screenshot_2019-06-24_21.20.22.png" width="smart" />
 
 <Callout icon="🚧" theme="warn">
-  The Changelog is shared across all versions. Adding a post will add it to all versions. Deleting a post will remove it everywhere.
+  Il Registro delle Modifiche è condiviso tra tutte le versioni. Aggiungere un post lo aggiungerà a tutte le versioni. Eliminare un post lo rimuoverà ovunque.
 </Callout>
 
-Posts will appear from the most recent to the most outdated, both on the backend and the frontend.
+I post appariranno dal più recente al più datato, sia nel backend che nel frontend.
 
-<Image align="center" alt={1428} border={true} caption="Every post will display the Author and the amount of time passed since posting" title="Screenshot 2019-06-24 21.25.04.png" src="https://files.readme.io/d7b4cf2-Screenshot_2019-06-24_21.25.04.png" width="smart" />
+<Image align="center" alt={1428} border={true} caption="Ogni post mostrerà l'Autore e il tempo trascorso dalla pubblicazione" title="Screenshot 2019-06-24 21.25.04.png" src="https://files.readme.io/d7b4cf2-Screenshot_2019-06-24_21.25.04.png" width="smart" />
 
-## Changelog Types
+## Tipi di Changelog
 
-Changelog uses the same editor as our Documentation component with the added option to choose a Changelog Type
+Il Changelog usa lo stesso editor del nostro componente Documentazione con l'opzione aggiuntiva di scegliere un Tipo di Changelog
 
-<Image align="center" alt={1028} border={true} caption="No Type means that no icon will appear next to the title when published" title="Screenshot 2019-06-24 20.58.46.png" src="https://files.readme.io/8a37b11-Screenshot_2019-06-24_20.58.46.png" width="smart" />
+<Image align="center" alt={1028} border={true} caption="Nessun Tipo significa che non apparirà alcuna icona accanto al titolo quando pubblicato" title="Screenshot 2019-06-24 20.58.46.png" src="https://files.readme.io/8a37b11-Screenshot_2019-06-24_20.58.46.png" width="smart" />
 
-## Edit Metadata
+## Modificare i Metadati
 
-Modify the metadata from the dropdown arrow next to **Update Post**
+Modifica i metadati dalla freccia a discesa accanto a **Aggiorna Post**
 
 <Image align="center" border={true} width="smart" src="https://files.readme.io/5e28ab5-Screenshot_2019-06-24_21.12.54.png" className="border" />
 
-Change the **Post Date** to any time or the **Posted By** to any Project Member
+Cambia la **Data del Post** a qualsiasi orario o **Pubblicato Da** a qualsiasi Membro del Progetto
 
-<Image align="center" alt={1292} border={true} caption="Posts will appear from most recent to most outdated" title="Screenshot 2019-06-24 21.11.47.png" src="https://files.readme.io/edcbbf6-Screenshot_2019-06-24_21.11.47.png" width="smart" />
+<Image align="center" alt={1292} border={true} caption="I post appariranno dal più recente al più datato" title="Screenshot 2019-06-24 21.11.47.png" src="https://files.readme.io/edcbbf6-Screenshot_2019-06-24_21.11.47.png" width="smart" />
 
-Changelog posts are ordered by date. Change the Post Date to change the order.
+I post del changelog sono ordinati per data. Cambia la Data del Post per modificare l'ordine.
 
-# :fa-rss-square: RSS Feed
+# :fa-rss-square: Feed RSS
 
-Users can subscribe to your changelog. Simply add .rss to the end of your changelog URL
+Gli utenti possono iscriversi al tuo changelog. Semplicemente aggiungi .rss alla fine dell'URL del tuo changelog
 
-**yoursubdomain.readme.io/changelog.rss**
+**tuosottominio.readme.io/changelog.rss**
 
-Or for custom domains:
+O per domini personalizzati:
 
-**customdomain.com/changelog.rss**
+**dominiopersonalizzato.com/changelog.rss**
 
-and for enterprise projects with a custom domain:
+e per progetti enterprise con un dominio personalizzato:
 
-**customdomain.com/[project]/changelog.rss**
+**dominiopersonalizzato.com/[progetto]/changelog.rss**
 
-Once you have your URL, you can use any RSS feed widget/tool to input the URL and generate HTML to embed it ([here's](https://rss.bloople.net/) an example)!
+Una volta che hai il tuo URL, puoi usare qualsiasi widget/strumento di feed RSS per inserire l'URL e generare HTML da incorporare ([ecco](https://rss.bloople.net/) un esempio)!
