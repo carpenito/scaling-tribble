@@ -1,47 +1,52 @@
 ---
-title: Custom CSS & JavaScript
+title: CSS e JavaScript Personalizzati
+excerpt: >-
+  Scopri come aggiungere CSS e JavaScript personalizzati per personalizzare
+  ulteriormente l'aspetto del tuo sito di documentazione.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-In this section you can add CSS and Javascript to further customize the appearance of your docs site.
+In questa sezione puoi aggiungere CSS e Javascript per personalizzare ulteriormente l'aspetto del tuo sito di documentazione.
 
 <Image align="center" border={true} src="https://files.readme.io/ca07f17-CleanShot_2022-09-25_at_09.57.452x.png" className="border" />
 
-> 🚧 Selectors
+> 🚧 Selettori
 >
-> Use `.rm-` prefixed selectors. Hashed selectors change constantly and **should not** be relied on as selectors (ie. `Header-bottom2eLKOFXMEmh5`).
+> Usa selettori con prefisso `.rm-`. I selettori con hash cambiano costantemente e **non dovrebbero** essere usati come selettori (es. `Header-bottom2eLKOFXMEmh5`).
 
-## Custom Stylesheet
+## Foglio di Stile Personalizzato
 
 <Callout icon="📘" theme="info">
-  You should limit your changes to minor tweaks. Additionally, stylesheets aren't versioned; all versions use the same stylesheet.
+  Dovresti limitare le tue modifiche a piccoli aggiustamenti. Inoltre, i fogli di stile non hanno versioni; tutte le versioni usano lo stesso foglio di stile.
 </Callout>
 
-## Custom Javascript
+## Javascript Personalizzato
 
-Your Javascript will be included at the bottom of the page.
+Il tuo Javascript verrà incluso in fondo alla pagina.
 
 <details>
-  <summary><b>Global Variables</b></summary>
+  <summary><b>Variabili Globali</b></summary>
 
-  ReadMe exposes certain global variables to help you customize the user experience of your hub:
+  ReadMe espone certe variabili globali per aiutarti a personalizzare l'esperienza utente del tuo hub:
 
   * **`RM_ReferenceSidebarScrollTopOffset`**\
-    Pixel offset for the scroll-to-active-item sidebar logic in continuous <Glossary>Reference</Glossary> sections.
+    Offset in pixel per la logica di scorrimento-verso-elemento-attivo della sidebar nelle sezioni di <Glossary>Reference</Glossary> continue.
 </details>
 
-## Custom Include Tags
+## Tag di Inclusione Personalizzati
 
-**Header HTML**
+**HTML Header**
 
-Any html here will be included in the head tag, which is good for things like meta tags and loading external CSS or JS.
+Qualsiasi html qui verrà incluso nel tag head, che è utile per cose come meta tag e caricamento di CSS o JS esterni.
 
-**Footer HTML**  
+**HTML Footer**  
 ​  
-This will go right before the `</body>` tag. Good for things like analytics and tracking.
+Questo andrà proprio prima del tag `</body>`. Utile per cose come analisi e tracciamento.
 
-## Toggling Custom Javascript and CSS
+## Attivazione/Disattivazione di Javascript e CSS Personalizzati
 
-Add the `?disableCustomCss=true&disableCustomJs=true` query params to the end of any URL.
+Aggiungi i parametri di query `?disableCustomCss=true&disableCustomJs=true` alla fine di qualsiasi URL.
