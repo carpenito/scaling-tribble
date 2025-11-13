@@ -1,74 +1,79 @@
 ---
-title: API Reference
+title: Riferimento API
+excerpt: >-
+  Guida completa su come creare e gestire un riferimento API in ReadMe, con
+  OpenAPI, API Designer e personalizzazioni per una documentazione interattiva.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-# What Is an API Reference?
+# Cos'è un Riferimento API?
 
-An API reference is the definitive technical guide to your API, documenting every endpoint, parameter, and response code in detail. It's your ultimate source of truth that developers turn to when they need to know exactly how to interact with your API.
+Un riferimento API è la guida tecnica definitiva alla tua API, che documenta ogni endpoint, parametro e codice di risposta nel dettaglio. È la tua fonte assoluta di verità a cui gli sviluppatori si rivolgono quando hanno bisogno di sapere esattamente come interagire con la tua API.
 
-In ReadMe, your API reference is an interactive experience where developers can explore your API, make test calls right from the documentation, and see real responses without writing a single line of code.
+In ReadMe, il tuo riferimento API è un'esperienza interattiva dove gli sviluppatori possono esplorare la tua API, effettuare chiamate di test direttamente dalla documentazione e vedere risposte reali senza scrivere una singola riga di codice.
 
-## Why Your API Reference Matters
+## Perché il Tuo Riferimento API è Importante
 
-A well-crafted API reference can:
+Un riferimento API ben realizzato può:
 
-* **Reduce support tickets** by answering technical questions before they're asked
-* **Speed up developer onboarding** by providing clear, accurate implementation guidance
-* **Build developer trust** by showing that your API is thoughtfully designed and maintained
-* **Showcase your API's full capabilities** so developers discover features they might otherwise miss
+* **Ridurre i ticket di supporto** rispondendo alle domande tecniche prima che vengano poste
+* **Accelerare l'onboarding degli sviluppatori** fornendo una guida di implementazione chiara e accurata
+* **Costruire fiducia negli sviluppatori** dimostrando che la tua API è progettata e mantenuta con attenzione
+* **Mostrare le piene capacità della tua API** in modo che gli sviluppatori scoprano funzionalità che altrimenti potrebbero perdere
 
-## Getting Started with Your API Reference
+## Come Iniziare con il Tuo Riferimento API
 
-ReadMe offers several ways to create and maintain your API reference, whether you're working with OpenAPI (formerly Swagger) specifications or prefer to build your reference manually.
+ReadMe offre diversi modi per creare e mantenere il tuo riferimento API, sia che tu stia lavorando con specifiche OpenAPI (precedentemente Swagger) o preferisca costruire il tuo riferimento manualmente.
 
-### In This Section
+### In Questa Sezione
 
-You'll learn how to:
+Imparerai come:
 
-* **Upload and manage OpenAPI specifications** through multiple methods
-* **Work with our API Designer** if you don't have an OpenAPI specification
-* **Customize your API reference** to match your brand and enhance usability
-* **Create interactive examples** that developers can try right in your docs
-* **Keep your reference in sync** with your actual API as it evolves
+* **Caricare e gestire le specifiche OpenAPI** attraverso diversi metodi
+* **Lavorare con il nostro API Designer** se non hai una specifica OpenAPI
+* **Personalizzare il tuo riferimento API** per adattarlo al tuo brand e migliorare l'usabilità
+* **Creare esempi interattivi** che gli sviluppatori possono provare direttamente nella tua documentazione
+* **Mantenere il tuo riferimento sincronizzato** con la tua API reale mentre evolve
 
-## OpenAPI Upload and Management
+## Caricamento e Gestione OpenAPI
 
-ReadMe fully supports OpenAPI 3.0, OpenAPI 3.1, and Swagger 2.0 specifications. You can add your API spec to ReadMe in multiple ways:
+ReadMe supporta completamente le specifiche OpenAPI 3.0, OpenAPI 3.1 e Swagger 2.0. Puoi aggiungere la tua specifica API a ReadMe in diversi modi:
 
-* **File upload**: Drag and drop your OpenAPI/Swagger JSON or YAML file
-* **URL import**: Point ReadMe to where your spec lives online
-* **GitHub integration**: Connect directly to your GitHub repository
-* **Command line (rdme)**: Use our CLI tool for automated workflows
-* **API Sync**: Keep your API reference automatically in sync with your codebase
+* **Caricamento file**: Trascina e rilascia il tuo file OpenAPI/Swagger JSON o YAML
+* **Importazione URL**: Indica a ReadMe dove si trova online la tua specifica
+* **Integrazione GitHub**: Connettiti direttamente al tuo repository GitHub
+* **Riga di comando (rdme)**: Usa il nostro strumento CLI per flussi di lavoro automatizzati
+* **API Sync**: Mantieni il tuo riferimento API automaticamente sincronizzato con il tuo codice
 
-Once uploaded, ReadMe transforms your spec into beautifully formatted, interactive documentation that developers will love.
+Una volta caricata, ReadMe trasforma la tua specifica in documentazione interattiva splendidamente formattata che gli sviluppatori ameranno.
 
 ## API Designer
 
-Don't have an OpenAPI specification? No problem! ReadMe's [API Designer](doc:building-apis-from-scratch-with-the-api-designer) lets you build your API reference from scratch with an intuitive interface. Document your endpoints, parameters, request bodies, and response objects without needing to write a single line of YAML or JSON.
+Non hai una specifica OpenAPI? Nessun problema! L'[API Designer](doc:building-apis-from-scratch-with-the-api-designer) di ReadMe ti permette di costruire il tuo riferimento API da zero con un'interfaccia intuitiva. Documenta i tuoi endpoint, parametri, corpi delle richieste e oggetti di risposta senza dover scrivere una singola riga di YAML o JSON.
 
-## Customizing Your API Reference
+## Personalizzazione del Tuo Riferimento API
 
-Make your API reference truly yours with customization options:
+Rendi il tuo riferimento API veramente tuo con le opzioni di personalizzazione:
 
-* Add authentication details and custom headers
-* Include code samples in multiple programming languages
-* Organize endpoints into logical groups
-* Add custom documentation and overviews to each group of endpoints
+* Aggiungi dettagli di autenticazione e header personalizzati
+* Includi esempi di codice in diversi linguaggi di programmazione
+* Organizza gli endpoint in gruppi logici
+* Aggiungi documentazione personalizzata e panoramiche a ogni gruppo di endpoint
 
-## GraphQL Support
+## Supporto GraphQL
 
-Working with GraphQL? ReadMe offers limited but growing support for [GraphQL APIs](doc:graphql). You can document your schemas, queries, and mutations to help developers navigate your GraphQL API.
+Lavori con GraphQL? ReadMe offre supporto limitato ma in crescita per le [API GraphQL](doc:graphql). Puoi documentare i tuoi schemi, query e mutazioni per aiutare gli sviluppatori a navigare nella tua API GraphQL.
 
-## Best Practices for API References
+## Best Practice per i Riferimenti API
 
-To create an exceptional API reference:
+Per creare un riferimento API eccezionale:
 
-* **Be complete**: Document every endpoint, parameter, and response
-* **Include examples**: Show real request/response pairs for common use cases
-* **Explain errors**: Document all error codes and how to resolve them
-* **Keep it current**: Update documentation whenever your API changes
-* **Test it yourself**: Regularly use your own documentation to catch issues
+* **Sii completo**: Documenta ogni endpoint, parametro e risposta
+* **Includi esempi**: Mostra coppie di richiesta/risposta reali per casi d'uso comuni
+* **Spiega gli errori**: Documenta tutti i codici di errore e come risolverli
+* **Mantienilo aggiornato**: Aggiorna la documentazione ogni volta che la tua API cambia
+* **Testalo tu stesso**: Usa regolarmente la tua stessa documentazione per individuare i problemi
