@@ -32,32 +32,32 @@ export const ExampleComponent = ({ children }) => {
 {"success":true}
 ```
 
-# Create an ExampleComponent
+# Crea un ExampleComponent
 
 <!-- java@1 -->
 
-We're creating a React component called ExampleComponent.
+Stiamo creando un componente React chiamato ExampleComponent.
 
-The export keyword makes this component available for import elsewhere
+La parola chiave export rende questo componente disponibile per l'importazione altrove.
 
-({ children }) uses destructuring to access any content placed between the component's opening and closing tags.
+({ children }) utilizza la destrutturazione per accedere a qualsiasi contenuto inserito tra i tag di apertura e chiusura del componente.
 
-# Structuring the Component
+# Strutturazione del componente
 
 <!-- java@2-8 -->
 
-return (...) defines what the component will render, while the outer <div> uses Tailwind CSS classes to center its content and take up full width and height.
+return (...) definisce ciò che il componente renderà, mentre il <div> esterno utilizza le classi CSS Tailwind per centrare il suo contenuto e occupare l'intera larghezza e altezza.
 
 The inner <div> creates a dark gray box with rounded corners and padding
 
 {children} is where the magic happens—this will render whatever content you place between your component tags.
 
-# Using the Component
+# Utilizzo del componente
 
 <!-- java@11-13 -->
 
-The <ExampleComponent> opens the component.
+Il tag <ExampleComponent> apre il componente.
 
-The text between the tags becomes the children prop
+Il testo tra i tag diventa la proprietà children.
 
-Lastly, the </ExampleComponent> closes the component.
+Infine, il tag </ExampleComponent> chiude il componente.
