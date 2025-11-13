@@ -1,24 +1,29 @@
 ---
-title: Site Footer
+title: Footer del Sito
+excerpt: >-
+  Scopri come personalizzare il footer del tuo sito ReadMe rimuovendo il logo
+  ReadMe e aggiungendo HTML personalizzato sui piani Business ed Enterprise.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
 <br />
 
-> 📘 Available on Business and Enterprise Plans!
+> 📘 Disponibile sui Piani Business ed Enterprise!
 >
-> The option to white label your site, including removing the ReadMe logo and/or adding a custom footer, is only available on ReadMe's Business or Enterprise plans. To learn more about ReadMe's plans, pricing, and feature breakdowns, visit our [pricing page.](https://readme.com/pricing)
+> L'opzione per personalizzare il tuo sito sotto il tuo marchio, inclusa la rimozione del logo ReadMe e/o l'aggiunta di un footer personalizzato, è disponibile solo sui piani Business o Enterprise di ReadMe. Per saperne di più sui piani, prezzi e funzionalità di ReadMe, visita la nostra [pagina dei prezzi.](https://readme.com/pricing)
 
 <p class="blank-line" />
 
-## Removing the ReadMe Logo
+## Rimozione del Logo ReadMe
 
-This is where you can remove the ReadMe Logo
+Qui puoi rimuovere il Logo ReadMe
 
 <Image border={true} src="https://files.readme.io/29f9b21-CleanShot_2022-09-25_at_10.03.152x.png" className="border" />
 
-## Custom Footer HTML
+## HTML Footer Personalizzato
 
-You can add custom html for your footer here, then format it to your desire in [Adding Custom JavaScript/CSS](doc:custom-css-and-javascript) section.
+Puoi aggiungere HTML personalizzato per il tuo footer qui, quindi formattarlo secondo i tuoi desideri nella sezione [Aggiungere JavaScript/CSS Personalizzato](doc:custom-css-and-javascript).
