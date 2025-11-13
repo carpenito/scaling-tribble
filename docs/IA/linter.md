@@ -1,101 +1,107 @@
 ---
 title: Linter
+excerpt: >-
+  Il Linter automatizza la validazione dei contenuti controllando la
+  documentazione rispetto alla guida di stile aziendale e agli standard di
+  scrittura consolidati.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-The Linter automates content validation by checking documentation against your company’s style guide and established writing standards. It streamlines the manual review process writers typically perform with external tools.
+Il Linter automatizza la validazione dei contenuti controllando la documentazione rispetto alla guida di stile della tua azienda e agli standard di scrittura consolidati. Semplifica il processo di revisione manuale che gli scrittori tipicamente eseguono con strumenti esterni.
 
-You can configure custom rules to enforce code formatting, word choice, and adherence to internal style and best practices. Whether your documentation includes custom HTML or extensive code samples, the Linter ensures consistency across all your docs.
+Puoi configurare regole personalizzate per applicare la formattazione del codice, la scelta delle parole e l'adesione allo stile interno e alle migliori pratiche. Che la tua documentazione includa HTML personalizzato o esempi di codice estesi, il Linter garantisce coerenza in tutti i tuoi documenti.
 
 <PlanTable currentPlan="Startup" />
 
-## Configure
+## Configurazione
 
-You can add prompts to the Linter that are categorized as style guide, errors, or warnings.
+Puoi aggiungere prompt al Linter che sono categorizzati come guida di stile, errori o avvertenze.
 
 <Image border={false} src="https://files.readme.io/6844539c6c370fbc5fe87fa2bab007e50aa4fb52673fa629d247d0836534c971-image.png" />
 
-**Style Guide**: Write about what makes for great docs and the Linter will score your content. Example:
+**Guida di Stile**: Scrivi su cosa rende eccezionale la documentazione e il Linter valuterà i tuoi contenuti. Esempio:
 
-> Keep it short:
+> Mantienilo breve:
 >
-> Short text is always better. Short paragraphs are easier to read. Try to keep headings to one line. Two-line headings take up twice as much vertical space. Use short words in headings; if a customer uses larger fonts to improve accessibility, long words may break across lines.
+> Il testo breve è sempre migliore. I paragrafi brevi sono più facili da leggere. Cerca di mantenere le intestazioni su una riga. Le intestazioni su due righe occupano il doppio dello spazio verticale. Usa parole brevi nelle intestazioni; se un cliente usa caratteri più grandi per migliorare l'accessibilità, le parole lunghe potrebbero andare a capo.
 
 <br />
 
-> Clarity:
+> Chiarezza:
 >
-> Clear and concise text for easy scanning and readability. Get to the point so users can easily find what they need. Don’t use excessive words.
+> Testo chiaro e conciso per una facile scansione e leggibilità. Vai al punto così gli utenti possono trovare facilmente quello che cercano. Non usare parole eccessive.
 
 <br />
 
-> Natural and human tone:
+> Tono naturale e umano:
 >
-> Use everyday words that’s easy to understand. Less format but more professional than everyday conversation. Occasionally use a fun tone for celebratory moments but never for informational text. Be warm and supportive to users reading the docs.
+> Usa parole di tutti i giorni che sono facili da capire. Meno formale ma più professionale della conversazione quotidiana. Occasionalmente usa un tono divertente per momenti di celebrazione ma mai per testi informativi. Sii caloroso e di supporto agli utenti che leggono la documentazione.
 
 <br />
 
-**Errors**: Rules that can be checked objectively. Example:
+**Errori**: Regole che possono essere verificate oggettivamente. Esempio:
 
-> Capitalize ReadMe properly:
+> Scrivi ReadMe correttamente:
 >
-> Bad: Readme
+> Sbagliato: Readme
 >
-> Good: ReadMe
+> Giusto: ReadMe
 
 <br />
 
-> Wrap code elements in backticks (`):
+> Racchiudi gli elementi di codice in backtick (`):
 >
-> Bad: Run npm install –g my–package
+> Sbagliato: Esegui npm install –g my–package
 >
-> Good: Run `npm install –g my–package`
+> Giusto: Esegui `npm install –g my–package`
 
 <br />
 
-> Flag placeholder text like TODO, FIXME, or Lorem ipsum
+> Segnala il testo segnaposto come TODO, FIXME, o Lorem ipsum
 >
-> Example: TODO: Add description and image to this feature
+> Esempio: TODO: Aggiungi descrizione e immagine a questa funzionalità
 
 <br />
 
-**Warnings**: To point out issues that may be subjective. Example:
+**Avvertenze**: Per evidenziare problemi che potrebbero essere soggettivi. Esempio:
 
-> Hedging Language:
+> Linguaggio Evasivo:
 >
-> Avoid using uncertain or overly cautious language. It undermines confidence and make your instructions less direct. Opt for clear, confident language.
+> Evita di usare un linguaggio incerto o eccessivamente cauto. Compromette la fiducia e rende le tue istruzioni meno dirette. Opta per un linguaggio chiaro e sicuro.
 >
-> Bad: You might want to consider installing the latest version.
+> Sbagliato: Potresti voler considerare di installare l'ultima versione.
 >
-> Good: You can install the latest version to access new features.
-
-<br />
-
-> Weak writing:
->
-> Avoid weak writing like ‘You can’ or ‘There is’. These phrases bury the action, make writing less direct, and often add unnecessary words. Strong docs are clear and action-oriented.
->
-> Bad: You can configure the API by editing the settings file.
->
-> Good: Configure the API by editing the settings file.
+> Giusto: Puoi installare l'ultima versione per accedere alle nuove funzionalità.
 
 <br />
 
-> Active voice:
+> Scrittura debole:
 >
-> Refrain from using passive voice. Active voice is clearer, shorter, and tells the reader exactly who is doing what.
+> Evita la scrittura debole come 'Puoi' o 'C'è'. Queste frasi nascondono l'azione, rendono la scrittura meno diretta e spesso aggiungono parole inutili. La documentazione efficace è chiara e orientata all'azione.
 >
-> Bad: The token is generated when the user logs in.
+> Sbagliato: Puoi configurare l'API modificando il file delle impostazioni.
 >
-> Good: The system generates a token when the user logs in.
+> Giusto: Configura l'API modificando il file delle impostazioni.
 
 <br />
 
-## Running the Linter
+> Forma attiva:
+>
+> Evita di usare la forma passiva. La forma attiva è più chiara, più breve e dice al lettore esattamente chi sta facendo cosa.
+>
+> Sbagliato: Il token viene generato quando l'utente effettua l'accesso.
+>
+> Giusto: Il sistema genera un token quando l'utente effettua l'accesso.
 
-Once configured, running the Linter checks your page against your prompts. Issues can be fixed automatically using the Agent.
+<br />
+
+## Esecuzione del Linter
+
+Una volta configurato, l'esecuzione del Linter controlla la tua pagina rispetto ai tuoi prompt. I problemi possono essere risolti automaticamente utilizzando l'Agent.
 
 <Image align="center" border={false} width="350px" src="https://files.readme.io/02345a8505f8f89eaa3d97019252e3cfc3c9e16fdaed63ac7ed7b6df97b765f5-linter.png" />
 
@@ -103,10 +109,10 @@ Once configured, running the Linter checks your page against your prompts. Issue
 
 ## FAQ
 
-<Accordion title="Where should I send feedback or questions?" icon="fa-messages-question">
-  Email feedback or questions to [beta@readme.io](mailto:beta@readme.io)
+<Accordion title="Dove dovrei inviare feedback o domande?" icon="fa-messages-question">
+  Invia feedback o domande via email a [beta@readme.io](mailto:beta@readme.io)
 </Accordion>
 
-<Accordion title="What model does the Linter use?" icon="fa-wand-sparkles">
-  At the moment we use Gemini 2.5 Flash—though that may change as we adjust to balance quality and speed. In the future users will have the option to select models of their choice.
+<Accordion title="Quale modello usa il Linter?" icon="fa-wand-sparkles">
+  Al momento utilizziamo Gemini 2.5 Flash—anche se potrebbe cambiare mentre ci adattiamo per bilanciare qualità e velocità. In futuro gli utenti avranno l'opzione di selezionare i modelli di loro scelta.
 </Accordion>
