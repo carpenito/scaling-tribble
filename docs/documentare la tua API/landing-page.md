@@ -1,61 +1,66 @@
 ---
-title: Landing Page
+title: Pagina di Destinazione
+excerpt: >-
+  Una guida completa per creare e personalizzare la tua landing page nel portale
+  sviluppatori ReadMe.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-## 👋 Landing Page
+## 👋 Pagina di Destinazione
 
-A well-designed landing page is a good starting place to welcome users into your developer hub. This is the page we recommend you customize the most.
+Una landing page ben progettata è un buon punto di partenza per accogliere gli utenti nel tuo portale sviluppatori. Questa è la pagina che ti consigliamo di personalizzare di più.
 
-If you're only using the Guides (also known as Documentation) feature, you can just direct your users to that on the first page in your [site navigation](doc:site-navigation).
+Se stai usando solo la funzione Guide (nota anche come Documentazione), puoi semplicemente indirizzare i tuoi utenti verso quella nella prima pagina della tua [navigazione del sito](doc:site-navigation).
 
-## Building a Landing Page
+## Costruire una Landing Page
 
-When you go to the **Landing Page** tab you can customize things such as the header and body content.
+Quando vai alla scheda **Landing Page** puoi personalizzare elementi come il contenuto dell'intestazione e del corpo.
 
 <Image border={true} src="https://files.readme.io/9dfce6b-CleanShot_2022-09-24_at_08.48.532x.png" className="border" />
 
-> 📘 "First Page" Setting
+> 📘 Impostazione "Prima Pagina"
 >
-> Make sure you have Landing Page set to first page under the **Site Navigation > Advanced Settings**. (see screenshot below)
+> Assicurati di aver impostato Landing Page come prima pagina sotto **Navigazione Sito > Impostazioni Avanzate**. (vedi screenshot qui sotto)
 
 <Image border={true} src="https://files.readme.io/30eba67-CleanShot_2022-09-24_at_08.51.152x.png" className="border" />
 
-## Header
+## Intestazione
 
-**Promo Title**  
-This will be the title text that goes into header.
+**Titolo Promozionale**  
+Questo sarà il testo del titolo che va nell'intestazione.
 
-**Promo Text**  
-This will be the text that goes underneath the promo title, but it will still display in the header.
+**Testo Promozionale**  
+Questo sarà il testo che va sotto il titolo promozionale, ma verrà comunque visualizzato nell'intestazione.
 
-**Content**  
-Underneath the promo title and text, you will have the option of having Nothing, Buttons, Search Bar, or Custom HTML. Custom HTML will override your promo title/text, so keep that in mind when editing.
+**Contenuto**  
+Sotto il titolo e il testo promozionale, avrai l'opzione di non avere niente, pulsanti, barra di ricerca, o HTML personalizzato. L'HTML personalizzato sovrascriverà il tuo titolo/testo promozionale, quindi tienilo presente durante la modifica.
 
-## Body
+## Corpo
 
-You have many templates for your body content and you can add more than one if you want to display multiple templates on your landing page.
+Hai molti template per il contenuto del corpo e puoi aggiungerne più di uno se vuoi visualizzare template multipli sulla tua landing page.
 
-**Important Links**  
-This will be the default if you do not select any of the options. It will display documentation, announcements, and the forums.
+**Link Importanti**  
+Questa sarà l'opzione predefinita se non selezioni nessuna delle opzioni. Mostrerà documentazione, annunci e i forum.
 
 <Callout icon="🚧" theme="warn">
-  If you have any of these three features disabled, you should not use a Landing Page as it will link your users to a 404 page.
+  Se hai una di queste tre funzioni disabilitate, non dovresti usare una Landing Page poiché indirizzerà i tuoi utenti a una pagina 404.
 </Callout>
 
-**Documentation categories**  
-This simply lists all your categories with quick links to doc pages. You can also choose to display the reference section.
+**Categorie della documentazione**  
+Questo semplicemente elenca tutte le tue categorie con link rapidi alle pagine della documentazione. Puoi anche scegliere di visualizzare la sezione di riferimento.
 
-**Three columns of text, text, text + media**  
-These let you add the text yourself that you want displayed, and upload an image.
+**Tre colonne di testo, testo, testo + media**  
+Queste ti permettono di aggiungere tu stesso il testo che vuoi visualizzare e caricare un'immagine.
 
-**Custom HTML**  
-If none of these suit your needs, you can always add custom HTML to get it exactly how you want it.
+**HTML Personalizzato**  
+Se nessuna di queste opzioni soddisfa le tue esigenze, puoi sempre aggiungere HTML personalizzato per ottenerla esattamente come la vuoi.
 
-The Landing Page can be enabled or disabled in your Project Dashboard under **Appearance > Site Navigation** and you can toggle the Landing Page section to enable/disable it.
+La Landing Page può essere abilitata o disabilitata nel tuo Dashboard del Progetto sotto **Aspetto > Navigazione Sito** e puoi attivare/disattivare la sezione Landing Page per abilitarla/disabilitarla.
 
-> ❗️ Disabling Landing Page
+> ❗️ Disabilitare la Landing Page
 >
-> The Landing Page is shared across all versions. If you disable the Landing Page it will be removed everywhere.
+> La Landing Page è condivisa tra tutte le versioni. Se disabiliti la Landing Page verrà rimossa ovunque.
