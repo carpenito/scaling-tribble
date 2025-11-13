@@ -1,70 +1,76 @@
 ---
-title: Guides
+title: Guide
+excerpt: >-
+  Crea documentazione API chiara e coinvolgente con le nostre guide. Trasforma
+  concetti complessi in istruzioni facili da seguire per aiutare gli
+  sviluppatori a utilizzare con successo la tua API.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-# Overview
+# Panoramica
 
-Think of Guides as your API's instruction manual. This is where you'll transform complex concepts into clear, engaging documentation that helps developers succeed with your API. Whether you're documenting authentication flows or walking through common use cases, we've got the tools to make your docs shine.
+Pensa alle Guide come al manuale di istruzioni della tua API. Qui trasformerai concetti complessi in documentazione chiara e coinvolgente che aiuta gli sviluppatori a utilizzare con successo la tua API. Che tu stia documentando flussi di autenticazione o illustrando casi d'uso comuni, abbiamo gli strumenti per far brillare la tua documentazione.
 
-## Creating and Managing Guides
+## Creazione e Gestione delle Guide
 
-Writing great documentation shouldn't feel like rocket science. Our editing experience brings documentation creation right to your hub, where you can:
+Scrivere un'ottima documentazione non dovrebbe sembrare una scienza missilistica. La nostra esperienza di editing porta la creazione della documentazione direttamente nel tuo hub, dove puoi:
 
-* Create and organize documentation in real-time
-* Preview changes exactly as your users will see them
-* Collaborate with your team seamlessly
-* Publish updates with confidence
+* Creare e organizzare la documentazione in tempo reale
+* Visualizzare le modifiche esattamente come le vedranno i tuoi utenti
+* Collaborare con il tuo team senza interruzioni
+* Pubblicare aggiornamenti con sicurezza
 
-Your docs live where you do – right in the hub. Spot something that needs updating? Just click, edit, and publish. No more context-switching between different interfaces!
+La tua documentazione vive dove lavori tu – direttamente nell'hub. Noti qualcosa che ha bisogno di un aggiornamento? Clicca, modifica e pubblica. Niente più cambi di contesto tra interfacce diverse!
 
-With our MDX-powered editor, you can take your guides beyond static text:
+Con il nostro editor basato su MDX, puoi portare le tue guide oltre il semplice testo statico:
 
-* Add interactive code samples that developers can test right in your docs
-* Create expandable sections for complex topics
-* Insert diagrams and visualizations to explain complex concepts
-* Build custom components to showcase your API's unique features
+* Aggiungere esempi di codice interattivi che gli sviluppatori possono testare direttamente nella documentazione
+* Creare sezioni espandibili per argomenti complessi
+* Inserire diagrammi e visualizzazioni per spiegare concetti complessi
+* Costruire componenti personalizzati per mostrare le caratteristiche uniche della tua API
 
-## Structuring Your Documentation
+## Strutturare la Tua Documentazione
 
-Great documentation tells a story. Some developers will want to dive straight into code samples, while others might need more background. Our structure lets you cater to both by helping you organize your content in a way that makes sense for your API:
+Un'ottima documentazione racconta una storia. Alcuni sviluppatori vorranno immergersi direttamente negli esempi di codice, mentre altri potrebbero aver bisogno di maggiore background. La nostra struttura ti permette di soddisfare entrambi aiutandoti a organizzare i contenuti in modo sensato per la tua API:
 
-* **Categories**: Group related content together
-* **Pages**: Create standalone guides or multi-page tutorials
-* **Sections**: Break down complex topics into digestible chunks
-* **Custom Navigation**: Design a flow that guides developers through your API journey
+* **Categorie**: Raggruppa i contenuti correlati insieme
+* **Pagine**: Crea guide autonome o tutorial multi-pagina
+* **Sezioni**: Suddividi argomenti complessi in parti digeribili
+* **Navigazione Personalizzata**: Progetta un flusso che guidi gli sviluppatori attraverso il percorso della tua API
 
-## Best Practices for Writing Guides
+## Best Practice per Scrivere Guide
 
-The most effective guides combine clear explanations with practical examples. Here are some tips to make your guides more helpful:
+Le guide più efficaci combinano spiegazioni chiare con esempi pratici. Ecco alcuni consigli per rendere le tue guide più utili:
 
-* **Start with the why**: Explain the purpose and benefits before diving into implementation
-* **Use progressive disclosure**: Begin with basic concepts before introducing advanced topics
-* **Show, don't just tell**: Include code examples that developers can copy and adapt
-* **Consider different learning styles**: Some developers learn by reading, others by doing
-* **Keep it scannable**: Use headings, lists, and callouts to make information easy to find
-* **Update regularly**: Keep your guides in sync with your API as it evolves
+* **Inizia con il perché**: Spiega lo scopo e i benefici prima di immergerti nell'implementazione
+* **Usa la divulgazione progressiva**: Inizia con concetti base prima di introdurre argomenti avanzati
+* **Mostra, non solo dire**: Includi esempi di codice che gli sviluppatori possono copiare e adattare
+* **Considera diversi stili di apprendimento**: Alcuni sviluppatori imparano leggendo, altri facendo
+* **Mantienilo scansionabile**: Usa intestazioni, elenchi e callout per rendere le informazioni facili da trovare
+* **Aggiorna regolarmente**: Mantieni le tue guide sincronizzate con la tua API mentre si evolve
 
-## 🔄 Reusing Content Across Guides
+## 🔄 Riutilizzare Contenuti tra le Guide
 
-> 📘 Business Tier Feature
+> 📘 Funzionalità Business Tier
 >
-> Reusable Content is available on our Enterprise plan. Want to level up your documentation? Reach out to our team to learn more about Enterprise features that can supercharge your docs!
+> I Contenuti Riutilizzabili sono disponibili nel nostro piano Enterprise. Vuoi potenziare la tua documentazione? Contatta il nostro team per saperne di più sulle funzionalità Enterprise che possono accelerare la tua documentazione!
 
-Why write the same explanation twice? With reusable content blocks, you can:
+Perché scrivere la stessa spiegazione due volte? Con i blocchi di contenuto riutilizzabili, puoi:
 
-* Create consistent explanations for common concepts
-* Update information in one place and see it change everywhere
-* Maintain a unified voice across your entire documentation
-* Save time and reduce the risk of outdated information
+* Creare spiegazioni coerenti per concetti comuni
+* Aggiornare informazioni in un posto e vederle cambiare ovunque
+* Mantenere una voce unificata in tutta la documentazione
+* Risparmiare tempo e ridurre il rischio di informazioni obsolete
 
-## Next Steps
+## Prossimi Passi
 
-Ready to create guides that your developers will actually want to read? Here's how to get started:
+Pronto a creare guide che i tuoi sviluppatori vorranno davvero leggere? Ecco come iniziare:
 
-1. [Create your first guide](doc:creating-and-managing-guides#/creating-your-first-guide) with our intuitive editor.
-2. [Organize your content](doc:structuring-your-docs) into a logical structure.
-3. [Add interactive elements](doc:mdx) with MDX components.
-4. [Set up reusable content](doc:reusable-content) for consistency across your docs.
+1. [Crea la tua prima guida](doc:creating-and-managing-guides#/creating-your-first-guide) con il nostro editor intuitivo.
+2. [Organizza i tuoi contenuti](doc:structuring-your-docs) in una struttura logica.
+3. [Aggiungi elementi interattivi](doc:mdx) con i componenti MDX.
+4. [Configura contenuti riutilizzabili](doc:reusable-content) per la coerenza nella documentazione.
