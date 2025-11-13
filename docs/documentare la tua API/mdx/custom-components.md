@@ -1,34 +1,40 @@
 ---
-title: Custom Components
+title: Componenti Personalizzati
+excerpt: >-
+  Crea e gestisci componenti MDX personalizzati dalle impostazioni. Costruisci
+  componenti riutilizzabili per la tua documentazione con anteprima in tempo
+  reale.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-Create and manage custom MDX components from the **Custom Components** page in **Settings**. As you build, you’ll write JSX code and see a live preview of your component in real time. Once saved, you can access your components from the `<` menu and reuse them throughout your documentation.
+Crea e gestisci componenti MDX personalizzati dalla pagina **Componenti Personalizzati** in **Impostazioni**. Mentre costruisci, scriverai codice JSX e vedrai un'anteprima in tempo reale del tuo componente. Una volta salvato, puoi accedere ai tuoi componenti dal menu `<` e riutilizzarli in tutta la tua documentazione.
 
-### Key Benefits
+### Vantaggi Principali
 
-* Turn common patterns into reusable components to ensure consistency, simplify maintenance, and create a unified UI across your docs.
-* Personalize content based on audience, use case, or access level _without_ duplicating pages.
-* Tailor components to fit your product and make your documentation stand out.
-* Add interactivity to your docs with components that do more than just display content.
+* Trasforma i pattern comuni in componenti riutilizzabili per garantire coerenza, semplificare la manutenzione e creare un'interfaccia unificata in tutta la documentazione.
+* Personalizza i contenuti in base al pubblico, caso d'uso o livello di accesso _senza_ duplicare le pagine.
+* Adatta i componenti al tuo prodotto e fai risaltare la tua documentazione.
+* Aggiungi interattività alla tua documentazione con componenti che fanno di più che mostrare solo contenuti.
 
 ## Marketplace
 
-Browse the Marketplace to explore open-source components developed by the community. Each component is reviewed by ReadMe for quality and compliance. Simply select a component, make any necessary modifications, or use it as-is—then save it to begin integrating it into your documentation.
+Sfoglia il Marketplace per esplorare componenti open-source sviluppati dalla community. Ogni componente è revisionato da ReadMe per qualità e conformità. Seleziona semplicemente un componente, apporta le modifiche necessarie, o usalo così com'è—poi salvalo per iniziare a integrarlo nella tua documentazione.
 
 <Image align="center" border={false} src="https://files.readme.io/4878ee5ee5a98ad931898ff6a4638d3f79ea3f57c90296bcc65b0623d58c5219-Screenshot_2025-09-04_at_4.29.16_PM.png" />
 
 <Callout icon="💡" theme="default">
-  **Feeling creative?** Contribute your own! Open a pull request in the [GitHub repo](https://github.com/readmeio/marketplace). Once merged, see your component live in the Marketplace and help grow the library for everyone.
+  **Ti senti creativo?** Contribuisci con il tuo! Apri una pull request nel [repository GitHub](https://github.com/readmeio/marketplace). Una volta unita, vedi il tuo componente live nel Marketplace e aiuta a far crescere la libreria per tutti.
 </Callout>
 
 ***
 
-## Create Your First Component
+## Crea il Tuo Primo Componente
 
-Let's break down how to create a simple but useful custom component. We'll build a "Note" component that makes important information stand out in your docs.
+Analizziamo come creare un componente personalizzato semplice ma utile. Costruiremo un componente "Nota" che fa risaltare informazioni importanti nella tua documentazione.
 
 ```jsx
 export const ExampleComponent = props => {
@@ -42,45 +48,45 @@ export const ExampleComponent = props => {
 };
 
 <ExampleComponent>
-  Here's a very simple example component rather than an empty state. This should help you figure out what's happening quicker and see what's possible with custom components!
+  Ecco un esempio di componente molto semplice piuttosto che uno stato vuoto. Questo dovrebbe aiutarti a capire cosa sta succedendo più velocemente e vedere cosa è possibile con i componenti personalizzati!
 </ExampleComponent>
 ```
 
-### Understanding the Code
+### Comprendere il Codice
 
 <Image align="center" border={false} src="https://files.readme.io/e6e6aa810d1cd0f55f001261284d475c244902bd3bd14b46e98a6b15ac2680e4-CleanShot_2025-02-24_at_12.57.54.gif" />
 
-**Line 1:** `export const ExampleComponent = props => {`
+**Riga 1:** `export const ExampleComponent = props => {`
 
-* Here we're defining a new component called `ExampleComponent`
-* The `export` keyword is required to define any variable or component in MDX
-* We can access the React `props` to render any attributes or content added to the component tag
+* Qui stiamo definendo un nuovo componente chiamato `ExampleComponent`
+* La parola chiave `export` è richiesta per definire qualsiasi variabile o componente in MDX
+* Possiamo accedere alle `props` di React per renderizzare qualsiasi attributo o contenuto aggiunto al tag del componente
 
-**Lines 2-8:** The component's structure
+**Righe 2-8:** La struttura del componente
 
-* `return (...)` defines what the component will render when used
-* The outer `<div>` uses [Tailwind classes](https://tailwindcss.com/docs/styling-with-utility-classes) to center its content (`flex items-center`) and take up full width and height (`h-full w-full`)
-* The inner `<div>` creates a dark gray box (`bg-gray-800`) with rounded corners (`rounded-md`) and spacing (`p-6 m-4`)
-* `{props.children}` is the magic ingredient — it renders whatever content you place between your component tags
+* `return (...)` definisce cosa renderizzerà il componente quando viene utilizzato
+* Il `<div>` esterno usa [classi Tailwind](https://tailwindcss.com/docs/styling-with-utility-classes) per centrare il contenuto (`flex items-center`) e occupare tutta la larghezza e altezza (`h-full w-full`)
+* Il `<div>` interno crea una scatola grigio scuro (`bg-gray-800`) con angoli arrotondati (`rounded-md`) e spaziatura (`p-6 m-4`)
+* `{props.children}` è l'ingrediente magico — renderizza qualsiasi contenuto che inserisci tra i tag del tuo componente
 
 <Callout icon="💁" theme="default">
-  ### A Quick Note on Tailwind CSS
+  ### Una Nota Rapida su Tailwind CSS
 
-  Don't worry if these classes look unfamiliar! You can reference the official [Tailwind CSS docs](https://tailwindcss.com/docs/styling-with-utility-classes) for a comprehensive guide on styling with utility clas
+  Non preoccuparti se queste classi sembrano poco familiari! Puoi consultare la [documentazione ufficiale di Tailwind CSS](https://tailwindcss.com/docs/styling-with-utility-classes) per una guida completa su come stilizzare con le classi di utilità
 </Callout>
 
-**Lines 10-14:** To render default component in preview and in your docs
+**Righe 10-14:** Per renderizzare il componente predefinito nell'anteprima e nella tua documentazione
 
-* We require components to be added AFTER all exports to render the component in preview and use in the editor
-* MDX syntax requires creating a newline before the preview component or an error will occur
-* `<ExampleComponent>` opens the component
-* The text between the tags becomes the `children` prop
-* `</ExampleComponent>` closes the component
+* Richiediamo che i componenti siano aggiunti DOPO tutte le esportazioni per renderizzare il componente nell'anteprima e utilizzarlo nell'editor
+* La sintassi MDX richiede di creare una nuova riga prima del componente di anteprima o si verificherà un errore
+* `<ExampleComponent>` apre il componente
+* Il testo tra i tag diventa la prop `children`
+* `</ExampleComponent>` chiude il componente
 
-This simple example creates a reusable styled container that you can use throughout your documentation. Just wrap any content with `<ExampleComponent>` tags, and it will appear in a nice dark gray box with proper spacing and rounded corners!
+Questo semplice esempio crea un contenitore stilizzato riutilizzabile che puoi usare in tutta la tua documentazione. Basta avvolgere qualsiasi contenuto con i tag `<ExampleComponent>`, e apparirà in una bella scatola grigio scuro con spaziatura appropriata e angoli arrotondati!
 
-### See the recipe below to walk through the code!
+### Guarda la ricetta qui sotto per attraversare il codice!
 
-<Recipe slug="create-a-custom-component" title="Create a Custom Component" />
+<Recipe slug="create-a-custom-component" title="Crea un Componente Personalizzato" />
 
-What makes this powerful? You can now use this component anywhere in your documentation where you need to highlight content in a consistent way. Need to change how highlighted content looks across your entire documentation? Just update the component once, and the changes apply everywhere you've used it!
+Cosa rende questo potente? Ora puoi usare questo componente ovunque nella tua documentazione dove devi evidenziare contenuti in modo coerente. Hai bisogno di cambiare come appare il contenuto evidenziato in tutta la tua documentazione? Basta aggiornare il componente una volta, e i cambiamenti si applicano ovunque lo hai utilizzato!
