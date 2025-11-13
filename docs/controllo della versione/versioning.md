@@ -1,88 +1,94 @@
 ---
-title: Versioning
+title: Versionamento
+excerpt: >-
+  Mantenere più versioni della tua documentazione è fondamentale per molti
+  prodotti tecnici diversi. Questa pagina entra nei dettagli di come funziona il
+  versionamento in ReadMe.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-Maintaining multiple versions of your documentation is critical for many different technical products. This page goes into the details of how versioning works in ReadMe, as well as several use cases.
+Mantenere più versioni della tua documentazione è fondamentale per molti prodotti tecnici diversi. Questa pagina entra nei dettagli di come funziona il versionamento in ReadMe, così come diversi casi d'uso.
 
 <Callout icon="🚧" theme="warn">
-  **Affected Sections:** Only Guides, Recipes, and Reference sections are versioned. Content for Landing Page, Discussions, and Changelog will persist across versions.
+  **Sezioni Interessate:** Solo le sezioni Guide, Ricette e Riferimenti sono versionate. I contenuti per Landing Page, Discussioni e Changelog persisteranno attraverso le versioni.
 </Callout>
 
-## Making a New Version
+## Creare una Nuova Versione
 
-To create a new version, open the Versions & Branches menu by selecting the **version name** (i.e. v3.0) in the admin navigation. Then click on the **+ New Version** button in the right top corner. Choose which version to fork from and name your new version. This will create a copy of this version, you will not be able to pull the changes back to the version that was forked.
+Per creare una nuova versione, apri il menu Versioni e Rami selezionando il **nome della versione** (es. v3.0) nella navigazione amministrativa. Quindi clicca sul pulsante **+ Nuova Versione** nell'angolo in alto a destra. Scegli da quale versione fare il fork e nomina la tua nuova versione. Questo creerà una copia di questa versione, non sarai in grado di riportare le modifiche alla versione da cui è stato fatto il fork.
 
 <Image align="center" border={false} src="https://files.readme.io/c543cc3ff266bd3b210d720cfb7c5e09d7750c78dcb5ccfd60f669eae003ca39-versions.png" />
 
 ### Semver(-ish)
 
-Our versioning is based on [Semver](http://semver.org/), but is much more flexible than Semver in terms of the acceptable inputs. This means your versions can be as simple as `v1.0`, but as complex as `v1.0-hello-this-is-a-version`.
+Il nostro versionamento è basato su [Semver](http://semver.org/), ma è molto più flessibile di Semver in termini di input accettabili. Questo significa che le tue versioni possono essere semplici come `v1.0`, ma anche complesse come `v1.0-ciao-questa-è-una-versione`.
 
 ***
 
-## Version Options
+## Opzioni della Versione
 
 <Image align="center" border={false} width="500px" src="https://files.readme.io/159f0425970c8c5849bc6b6e7b684f51fdab23a656f6488139337adaa75e9d60-version_options.png" />
 
-### Default
+### Predefinita
 
-This is the version that your domain will direct to. Users can change to a different version by clicking the version dropdown selector.
+Questa è la versione a cui il tuo dominio punterà. Gli utenti possono cambiare a una versione diversa cliccando il selettore dropdown delle versioni.
 
 <Callout icon="🙅‍♂️" theme="default">
-  It is not possible to merge two versions. If you want to make changes to both, you will need to do it manually!
+  Non è possibile unire due versioni. Se vuoi apportare modifiche a entrambe, dovrai farlo manualmente!
 </Callout>
 
-### Public
+### Pubblica
 
-Selecting this will make this available in the version dropdown selector and to anyone that can view your docs. If unselected, this version will be marked as **Hidden** and only be visible to project admins.
+Selezionando questo renderai questa versione disponibile nel selettore dropdown delle versioni e a chiunque possa visualizzare i tuoi documenti. Se non selezionato, questa versione sarà contrassegnata come **Nascosta** e sarà visibile solo agli amministratori del progetto.
 
 ### Beta
 
-Indicating that a version is a beta will add a badge next to a version in the version dropdown selector. It does not create a callout on the page or any other visible changes.
+Indicare che una versione è una beta aggiungerà un badge accanto alla versione nel selettore dropdown delle versioni. Non crea un callout sulla pagina o altri cambiamenti visibili.
 
-### Deprecated
+### Deprecata
 
-Select this to mark older versions. In addition to seeing a "deprecated" badge next to the version in the version dropdown selector, users will also see a big red banner above the docs when visiting this deprecated version. Here's how it looks:
+Seleziona questo per contrassegnare le versioni più vecchie. Oltre a vedere un badge "deprecata" accanto alla versione nel selettore dropdown delle versioni, gli utenti vedranno anche un grande banner rosso sopra i documenti quando visitano questa versione deprecata. Ecco come appare:
 
 <Image align="center" border={true} width="smart" src="https://files.readme.io/RhO7iWuhSMGsBrHSrFMt_Screen%20Shot%202015-12-16%20at%2012.17.04%20PM.png" className="border" />
 
 ***
 
-## Displaying Version Dropdown
+## Visualizzazione del Dropdown delle Versioni
 
-<Image align="center" border={false} caption="Admin view: Hidden and Deprecated are not visible to end-users" src="https://files.readme.io/5f0ac4bab3338c5e1cceee0368a02363bb6c2eca6f40324725d6d43593e564ab-version_drop.png" />
+<Image align="center" border={false} caption="Vista amministratore: Nascosta e Deprecata non sono visibili agli utenti finali" src="https://files.readme.io/5f0ac4bab3338c5e1cceee0368a02363bb6c2eca6f40324725d6d43593e564ab-version_drop.png" />
 
-By default, we show the aforementioned version dropdown picker in the subnavigation bar. You can toggle to display or hide this in **Settings > Header & Footer > Subnavigation**.
+Di default, mostriamo il suddetto selettore dropdown delle versioni nella barra di sottonavigazione. Puoi alternare per mostrare o nascondere questo in **Impostazioni > Intestazione e Piè di pagina > Sottonavigazione**.
 
 <Image align="center" border={false} src="https://files.readme.io/1a975ae96b399662d42cee67ca226a8fd49bfb9188da95ccfd00a2125f0347d7-version_picker.png" />
 
 ***
 
-## Reusable Content
+## Contenuto Riutilizzabile
 
-Any [Reusable Content](doc:reusable-content) created within one Version can only be used within that Version's documentation; it's not possible to define Reusable Content blocks that can be used across Versions within a single project.
+Qualsiasi [Contenuto Riutilizzabile](doc:reusable-content) creato all'interno di una Versione può essere utilizzato solo all'interno della documentazione di quella Versione; non è possibile definire blocchi di Contenuto Riutilizzabile che possono essere utilizzati attraverso le Versioni all'interno di un singolo progetto.
 
-If a new Version is created when forked from an existing Version, the new Version inherits all the Reusable Content blocks defined in the existing Version. However, the Reusable Content blocks in the new Version are completely independent from the old Version.
+Se viene creata una nuova Versione quando viene fatta il fork da una Versione esistente, la nuova Versione eredita tutti i blocchi di Contenuto Riutilizzabile definiti nella Versione esistente. Tuttavia, i blocchi di Contenuto Riutilizzabile nella nuova Versione sono completamente indipendenti dalla vecchia Versione.
 
-> 📘 Global Reusable Content
+> 📘 Contenuto Riutilizzabile Globale
 >
-> Projects on an Enterprise plan have the ability to define **Global Reusable Content** that _can_ be used across Projects and Versions. See our [Reusable Content for Enterprise Groups docs](https://docs.readme.com/ent/docs/reusable-content-enterprise) for more information!
+> I progetti con un piano Enterprise hanno la capacità di definire **Contenuto Riutilizzabile Globale** che _può_ essere utilizzato attraverso Progetti e Versioni. Vedi i nostri [documenti Contenuto Riutilizzabile per Gruppi Enterprise](https://docs.readme.com/ent/docs/reusable-content-enterprise) per maggiori informazioni!
 
 ***
 
-## Use Cases
+## Casi d'Uso
 
-There are lots of different scenarios where doc versioning might be useful — some are more obvious than others. The most obvious use case is for when your documentation version needs to match the versioning that might be taking place with your API or other technical product, and you need to maintain copies of your docs for each respective version.
+Ci sono molti scenari diversi in cui il versionamento dei documenti potrebbe essere utile — alcuni sono più ovvi di altri. Il caso d'uso più ovvio è quando la versione della tua documentazione deve corrispondere al versionamento che potrebbe aver luogo con la tua API o altro prodotto tecnico, e hai bisogno di mantenere copie dei tuoi documenti per ogni rispettiva versione.
 
-Another use case is for bigger content restructuring or migrations, especially when these changes are more involved than simply updating a few pages (in which case we'd recommend [Suggested Edits](doc:suggested-edits). You can fork a new version of your docs, do some major restructuring (e.g. reorganizing page categories, combining pages, deleting outdated content, etc.), and still have your old docs as your public-facing changes. And when you're ready to flip the switch over, it's as easy as renaming the versions and toggling a few version settings!
+Un altro caso d'uso è per ristrutturazioni di contenuto più grandi o migrazioni, specialmente quando questi cambiamenti sono più complessi del semplice aggiornamento di alcune pagine (nel qual caso raccomanderemmo [Modifiche Suggerite](doc:suggested-edits). Puoi fare il fork di una nuova versione dei tuoi documenti, fare una ristrutturazione importante (es. riorganizzare le categorie delle pagine, combinare pagine, eliminare contenuto obsoleto, ecc.), e avere ancora i tuoi vecchi documenti come cambiamenti pubblici. E quando sei pronto a fare il cambio, è semplice come rinominare le versioni e attivare alcune impostazioni della versione!
 
 ***
 
 ## FAQ
 
-<Accordion title="How many versions can I create?" icon="fa-tags">
-  Free plan users can create up to 3 versions. Upgrade to the Startup plan or higher to unlock unlimited versions.
+<Accordion title="Quante versioni posso creare?" icon="fa-tags">
+  Gli utenti del piano gratuito possono creare fino a 3 versioni. Aggiorna al piano Startup o superiore per sbloccare versioni illimitate.
 </Accordion>
