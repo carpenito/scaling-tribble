@@ -1,4 +1,4 @@
 ---
-title: pet
+title: Animale domestico
 hidden: false
 ---
