@@ -1,36 +1,42 @@
 ---
-title: Docs Audit
+title: Audit della Documentazione
+excerpt: >-
+  Docs Audit ti offre un'analisi completa della tua documentazione, valutandola
+  secondo una guida di stile personalizzabile per garantire coerenza e usabilità
+  per gli sviluppatori.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-Docs Audit gives you a complete analysis of your documentation, scoring it against a customizable style guide. Style guides are a set of standards and rules for writing API documentation that ensures consistency and usability for developers.
+Docs Audit ti offre un'analisi completa della tua documentazione, valutandola secondo una guida di stile personalizzabile. Le guide di stile sono un insieme di standard e regole per scrivere documentazione API che garantisce coerenza e usabilità per gli sviluppatori.
 
-## How the Linter Works
+## Come Funziona il Linter
 
-**[ReadMe‘s Linter](/linter)** applies your custom style guide on the page level, using AI-powered prompts to raise issues while you write and edit content. You can configure these rules for the following categories:
+**[Il Linter di ReadMe](/linter)** applica la tua guida di stile personalizzata a livello di pagina, utilizzando prompt basati su AI per evidenziare problemi mentre scrivi e modifichi i contenuti. Puoi configurare queste regole per le seguenti categorie:
 
-* **Style Guide**: Ratings that measure how well content aligns with your company‘s definition of good documentation.
-* **Errors**: Objective, critical issues that must be fixed (e.g., spelling mistakes, incorrect grammar).
-* **Warnings**: Subjective issues that may require editorial judgment (e.g., contraction usage, vague language).
+* **Guida di Stile**: Valutazioni che misurano quanto bene il contenuto si allinea con la definizione della tua azienda di buona documentazione.
+* **Errori**: Problemi oggettivi e critici che devono essere corretti (ad es., errori di ortografia, grammatica scorretta).
+* **Avvisi**: Problemi soggettivi che potrebbero richiedere un giudizio editoriale (ad es., uso di contrazioni, linguaggio vago).
 
-The Linter can be run before saving page content, allowing you to check your work before saving changes.
+Il Linter può essere eseguito prima di salvare il contenuto della pagina, permettendoti di controllare il tuo lavoro prima di salvare le modifiche.
 
-## How Docs Audit Works
+## Come Funziona Docs Audit
 
-While the Linter works at a page level, **Docs Audit** scales these checks across all of your documentation. By aggregating results and analyzing ever page, Docs Audit helps you:
+Mentre il Linter lavora a livello di pagina, **Docs Audit** scala questi controlli su tutta la tua documentazione. Aggregando i risultati e analizzando ogni pagina, Docs Audit ti aiuta a:
 
-* Identify gaps, inconsistencies, and patterns.
-* Find areas where content doesn‘t align with your style guide.
-* Improve documentation quality and consistency.
+* Identificare lacune, incongruenze e pattern.
+* Trovare aree dove il contenuto non si allinea con la tua guida di stile.
+* Migliorare la qualità e coerenza della documentazione.
 
-Together, Docs Audit and the Linter are a powerful system for reviewing, scoring, and improving your documentation. The Linter ensures individual pages meet your standards, while Docs Audit provides the big-picture analysis you need to deliver a consistent, high-quality experience across your entire developer hub.
+Insieme, Docs Audit e il Linter costituiscono un sistema potente per revisionare, valutare e migliorare la tua documentazione. Il Linter garantisce che le singole pagine soddisfino i tuoi standard, mentre Docs Audit fornisce l'analisi generale necessaria per offrire un'esperienza coerente e di alta qualità in tutto il tuo hub per sviluppatori.
 
 <br />
 
 ## FAQ
 
-<Accordion title="Do I get Docs Audit with my Enterprise plan?" icon="fa-credit-card">
-  Yes, it‘s included in the Enterprise plan! [Reach out](https://readme.com/enterprise) to learn more!
+<Accordion title="Ottengo Docs Audit con il mio piano Enterprise?" icon="fa-credit-card">
+  Sì, è incluso nel piano Enterprise! [Contattaci](https://readme.com/enterprise) per saperne di più!
 </Accordion>
