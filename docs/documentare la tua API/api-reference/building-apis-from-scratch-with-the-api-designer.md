@@ -1,152 +1,157 @@
 ---
-title: Building APIs from Scratch with the API Designer
+title: Creazione di API da Zero con l'API Designer
+excerpt: >-
+  Scopri come creare documentazione API completa utilizzando l'API Designer di
+  ReadMe, anche senza specifiche OpenAPI esistenti.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
-# Overview
+# Panoramica
 
-No OpenAPI specification? No problem! ReadMe's API Designer lets you build your API reference directly in the platform with an intuitive visual interface – no YAML or JSON required.
+Nessuna specifica OpenAPI? Nessun problema! L'API Designer di ReadMe ti permette di costruire la tua documentazione API direttamente nella piattaforma con un'interfaccia visuale intuitiva – senza bisogno di YAML o JSON.
 
-In this guide, we'll walk through creating a Social Media API with endpoints for listing and creating posts. You'll see how easy it is to document your API even if you're starting from a blank slate.
+In questa guida, creeremo una Social Media API con endpoint per elencare e creare post. Vedrai quanto è facile documentare la tua API anche se stai partendo da zero.
 
-## Creating Your API Definition
+## Creazione della Definizione API
 
-Let's start by setting up the basic structure for your API:
+Iniziamo configurando la struttura base per la tua API:
 
-1. Navigate to **API Reference** in your ReadMe project
-2. Click the **+ Add** button
-3. Select **Start Building** under "Build an API definition from scratch"
+1. Naviga su **API Reference** nel tuo progetto ReadMe
+2. Clicca il pulsante **+ Add**
+3. Seleziona **Start Building** sotto "Build an API definition from scratch"
 
 <Image align="center" border={false} src="https://files.readme.io/f9e241f98e3e8ad91e999561f4e3b4dfe260a8e6a18662e23da840887977b6c7-CleanShot_2025-03-11_at_11.18.13.gif" />
 
-4. Enter your API definition details:
-   * **API Title**: Enter a descriptive name (e.g., "Social Media API")
-   * **Target Host URL**: Your API's base URL (e.g., "[http://api.example.com](http://api.example.com)")
-   * **Authentication Type**: Select your authentication method (None, API Key, Basic, or Bearer)
+4. Inserisci i dettagli della definizione API:
+   * **API Title**: Inserisci un nome descrittivo (es. "Social Media API")
+   * **Target Host URL**: L'URL base della tua API (es. "[http://api.example.com](http://api.example.com)")
+   * **Authentication Type**: Seleziona il tuo metodo di autenticazione (None, API Key, Basic, o Bearer)
 
 <Image align="center" border={false} src="https://files.readme.io/7a81519f9faf96f4af361d26c405792fe78488558a9c8e972d084d102dda098e-CleanShot_2025-03-11_at_11.21.07.gif" />
 
-5. Click **Save** to create your API definition
+5. Clicca **Save** per creare la definizione API
 
-Your new API definition will appear in the left navigation panel, ready for you to add endpoints.
+La tua nuova definizione API apparirà nel pannello di navigazione a sinistra, pronta per aggiungere endpoint.
 
-## Creating Your First Endpoint (List Social Media Posts)
+## Creazione del Primo Endpoint (Elenco Post Social Media)
 
-Let's create an endpoint to retrieve a list of social media posts:
+Creiamo un endpoint per recuperare un elenco di post social media:
 
-1. In the left navigation, you'll see a default endpoint labeled `/new-endpoint`
-2. Rename this to better reflect your API structure - let's call it "Posts"
-3. You'll now see this category in your left navigation
+1. Nella navigazione a sinistra, vedrai un endpoint predefinito etichettato `/new-endpoint`
+2. Rinominalo per riflettere meglio la struttura della tua API - chiamiamolo "Posts"
+3. Ora vedrai questa categoria nella tua navigazione a sinistra
 
 <Image align="center" border={false} src="https://files.readme.io/fc908c66586d12aa0327f1bc17d60a045a23e550e82161ae4818a37eb91b3931-CleanShot_2025-03-11_at_11.29.12.gif" />
 
-4. Create your GET endpoint for listing posts:
-   * Click on the endpoint to edit it
-   * Change the title to "List Social Media Posts"
-   * Select the **GET** method from the dropdown menu
-   * Set the path to `/posts`
-   * Add a description explaining what the endpoint does (e.g., "Returns a paginated list of social media posts")
+4. Crea il tuo endpoint GET per elencare i post:
+   * Clicca sull'endpoint per modificarlo
+   * Cambia il titolo in "List Social Media Posts"
+   * Seleziona il metodo **GET** dal menu a discesa
+   * Imposta il percorso su `/posts`
+   * Aggiungi una descrizione che spiega cosa fa l'endpoint (es. "Restituisce un elenco paginato di post social media")
 
 <Image align="center" border={false} src="https://files.readme.io/72e65717ef6534caa7b0d2a187deb7125b1466bc72a95a8fdcd7459267ae8b35-CleanShot_2025-03-11_at_11.31.27.gif" />
 
-### Adding Query Parameters
+### Aggiunta di Parametri Query
 
-Most list endpoints support pagination or filtering. Let's add some query parameters:
+La maggior parte degli endpoint di elenco supporta paginazione o filtri. Aggiungiamo alcuni parametri query:
 
-1. Locate the **Query Parameters** section and click the **+** button
-2. Add parameters for pagination:
-   * Add a `page` parameter of type `integer`
-   * Add a `limit` parameter of type `integer`
-   * Add any other filtering parameters (e.g., `category` as a `string`)
-3. For each parameter:
-   * Add a description
-   * Set whether it's required
-   * Provide a default value if applicable
+1. Individua la sezione **Query Parameters** e clicca il pulsante **+**
+2. Aggiungi parametri per la paginazione:
+   * Aggiungi un parametro `page` di tipo `integer`
+   * Aggiungi un parametro `limit` di tipo `integer`
+   * Aggiungi altri parametri di filtro (es. `category` come `string`)
+3. Per ogni parametro:
+   * Aggiungi una descrizione
+   * Imposta se è obbligatorio
+   * Fornisci un valore predefinito se applicabile
 
 <Image align="center" border={false} src="https://files.readme.io/c596d7f09014adbfb1166f81b10936c0427f6b0e4a4c1cc9f2983a51c55aaa55-CleanShot_2025-03-11_at_11.35.30.gif" />
 
 <br />
 
-## Creating Your Second Endpoint (Create a Social Media Post)
+## Creazione del Secondo Endpoint (Creazione Post Social Media)
 
-Now let's add an endpoint for creating new posts:
+Ora aggiungiamo un endpoint per creare nuovi post:
 
-1. In the left navigation, click the **+ New Category** button if you need a new category, or use your existing "Posts" category
-2. Click the + icon to add a new endpoint
-3. Set up your POST endpoint:
-   * Title: "Create New Post"
-   * Method: Select **POST** from the dropdown
-   * Path: `/posts`
-   * Description: "Allows authenticated users to create new posts"
+1. Nella navigazione a sinistra, clicca il pulsante **+ New Category** se hai bisogno di una nuova categoria, o usa la categoria "Posts" esistente
+2. Clicca l'icona + per aggiungere un nuovo endpoint
+3. Configura il tuo endpoint POST:
+   * Titolo: "Create New Post"
+   * Metodo: Seleziona **POST** dal menu a discesa
+   * Percorso: `/posts`
+   * Descrizione: "Consente agli utenti autenticati di creare nuovi post"
 
 <Image align="center" border={false} src="https://files.readme.io/fa7c7a03010f8fdbc0bee4ff32db7a11e34f723f3640ed6e3f311234e93dd2bd-CleanShot_2025-03-11_at_11.52.25.gif" />
 
-### Adding Request Body Parameters
+### Aggiunta di Parametri Request Body
 
-For a POST endpoint, you'll need to define the request body:
+Per un endpoint POST, dovrai definire il corpo della richiesta:
 
-1. Locate the **Request Body** section and click to expand it
-2. Set the content type to `object`
-3. Add the required fields:
-   * Add a `content` field of type `string` and mark it as required
-   * Add any additional fields your API accepts (e.g., `image_url`, `tags`)
-4. For each field:
-   * Add a clear description
-   * Mark whether it's required
-   * Provide any constraints (min/max length, pattern, etc.)
+1. Individua la sezione **Request Body** e clicca per espanderla
+2. Imposta il tipo di contenuto su `object`
+3. Aggiungi i campi richiesti:
+   * Aggiungi un campo `content` di tipo `string` e marcalo come obbligatorio
+   * Aggiungi eventuali campi aggiuntivi accettati dalla tua API (es. `image_url`, `tags`)
+4. Per ogni campo:
+   * Aggiungi una descrizione chiara
+   * Marca se è obbligatorio
+   * Fornisci eventuali vincoli (lunghezza min/max, pattern, ecc.)
 
 <Image align="center" border={false} src="https://files.readme.io/2a114a0bb8cfab72df455ea87638aa51d75a1ea3b931987fc18d1450f94cb08d-CleanShot_2025-03-11_at_11.57.21.gif" />
 
-### Adding Request Code Samples
+### Aggiunta di Esempi di Codice Request
 
-One of ReadMe's powerful features is automatic code sample generation:
+Una delle funzionalità potenti di ReadMe è la generazione automatica di esempi di codice:
 
-1. Find the **Request Code** section on the right
-2. ReadMe automatically generates code examples in multiple languages
-3. You can also click "Write your own static samples" to add custom examples
+1. Trova la sezione **Request Code** a destra
+2. ReadMe genera automaticamente esempi di codice in più linguaggi
+3. Puoi anche cliccare "Write your own static samples" per aggiungere esempi personalizzati
 
 <Image align="center" border={false} src="https://files.readme.io/646ce4e3467087d3d7b8396632e29af646bf02be9113054d0c63e69c14561a6c-CleanShot_2025-03-11_at_12.03.35.gif" />
 
 <br />
 
-## Testing Your API Documentation
+## Test della Documentazione API
 
-After creating your endpoints:
+Dopo aver creato i tuoi endpoint:
 
-1. Save your changes
-2. Toggle to the "View" mode to see how your documentation looks to developers
-3. Test the interactive features to ensure your examples work correctly
+1. Salva le modifiche
+2. Passa alla modalità "View" per vedere come appare la tua documentazione agli sviluppatori
+3. Testa le funzionalità interattive per assicurarti che i tuoi esempi funzionino correttamente
 
-## Tips for Great API Documentation
+## Consigli per Ottima Documentazione API
 
-* **Be thorough with descriptions**: Clearly explain what each endpoint does and why
-* **Provide realistic examples**: Use example data that looks like real-world usage
-* **Document error states**: Include examples of error responses and how to handle them
-* **Use consistent naming**: Maintain a consistent style across all endpoints and parameters
-* **Add "What's Next"**: Use the "What's Next" section to guide users on related endpoints they might need
+* **Sii completo con le descrizioni**: Spiega chiaramente cosa fa ogni endpoint e perché
+* **Fornisci esempi realistici**: Usa dati di esempio che sembrano un utilizzo nel mondo reale
+* **Documenta gli stati di errore**: Includi esempi di risposte di errore e come gestirle
+* **Usa nomenclatura coerente**: Mantieni uno stile coerente tra tutti gli endpoint e parametri
+* **Aggiungi "What's Next"**: Usa la sezione "What's Next" per guidare gli utenti verso endpoint correlati di cui potrebbero aver bisogno
 
-By following this guide, you've created a well-documented API reference from scratch using ReadMe's API Designer. Your developers now have interactive, clear documentation that helps them integrate with your API quickly and easily.
+Seguendo questa guida, hai creato una documentazione API ben strutturata da zero utilizzando l'API Designer di ReadMe. I tuoi sviluppatori ora hanno documentazione interattiva e chiara che li aiuta a integrarsi rapidamente e facilmente con la tua API.
 
-Remember, you can always return to the API Designer to add endpoints, update parameters, or enhance your documentation as your API evolves.
-
-<br />
-
-## Currently Unsupported OpenAPI Features in the API Designer
-
-We currently don't support all OpenAPI features in our API Designer. If you use any of these features in an endpoint you will be unable to edit them in our UI. However, these endpoints will still render properly in the documentation and can still be updated by editing the OpenAPI file directly.
+Ricorda, puoi sempre tornare all'API Designer per aggiungere endpoint, aggiornare parametri o migliorare la tua documentazione man mano che la tua API evolve.
 
 <br />
 
-| Unsupported OpenAPI Feature | Explanation                                                                                                                                                                               | OpenAPI Documentation                                                                                                                      |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Additional Properties       | The additionalProperties keyword is used within a schema to define whether properties not explicitly defined in the schema are allowed in objects, and if so, what their types should be. | [Dictionaries, HashMaps and Associative Arrays](https://swagger.io/docs/specification/v3_0/data-models/dictionaries/)                      |
-| Callbacks/Webhooks          | OpenAPI has a feature to define endpoints that will make an API call once an event has completed.                                                                                         | [Callbacks](https://swagger.io/docs/specification/v3_0/callbacks/)                                                                         |
-| References                  | Any endpoint that defines an object using a $ref.                                                                                                                                         | [Using Ref](https://swagger.io/docs/specification/v3_0/using-ref/)                                                                         |
-| Common Parameters           | Endpoints where parameters are defined at the path level instead of the method, so the parameters are shared between all methods for that URL.                                            | [Describing Parameters](https://swagger.io/docs/specification/v3_0/describing-parameters/#common-parameters)                               |
-| Links                       | Links are an OpenAPI feature that describes how the responses of one endpoint can be used as input for other operations.                                                                  | [Links](https://swagger.io/docs/specification/v3_0/links/)                                                                                 |
-| Polymorphism                | Polymorphism lets you define a schema that can represent multiple types or models.                                                                                                        | [Inheritance and Polymorphism](https://swagger.io/docs/specification/v3_0/data-models/inheritance-and-polymorphism/?sbsearch=Polymorphism) |
-| Server Variables            | Variables can be defined in the base path which can have a preset list of values the user can choose from.                                                                                | [API Server and Base Path](https://swagger.io/docs/specification/v3_0/api-host-and-base-path/?sbsearch=server%20variables)                 |
-| Style                       | The Style keyword allows configuration on how multiple values should be passed to a parameter.                                                                                            | [Parameter Serialization](https://swagger.io/docs/specification/v3_0/serialization/?sbsearch=Styles)                                       |
-| XML                         | Endpoints that accept or respond with XML data.                                                                                                                                           | [Representing XML](https://swagger.io/docs/specification/v3_0/data-models/representing-xml/?sbsearch=xml)                                  |
+## Funzionalità OpenAPI Attualmente Non Supportate nell'API Designer
+
+Attualmente non supportiamo tutte le funzionalità OpenAPI nel nostro API Designer. Se usi una di queste funzionalità in un endpoint non potrai modificarle nella nostra UI. Tuttavia, questi endpoint verranno comunque renderizzati correttamente nella documentazione e possono ancora essere aggiornati modificando direttamente il file OpenAPI.
+
+<br />
+
+| Funzionalità OpenAPI Non Supportata | Spiegazione                                                                                                                                                                              | Documentazione OpenAPI                                                                                                                     |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Additional Properties                | La keyword additionalProperties viene utilizzata all'interno di uno schema per definire se le proprietà non esplicitamente definite nello schema sono consentite negli oggetti, e se sì, quali dovrebbero essere i loro tipi. | [Dictionaries, HashMaps and Associative Arrays](https://swagger.io/docs/specification/v3_0/data-models/dictionaries/)                      |
+| Callbacks/Webhooks                  | OpenAPI ha una funzionalità per definire endpoint che faranno una chiamata API una volta completato un evento.                                                                          | [Callbacks](https://swagger.io/docs/specification/v3_0/callbacks/)                                                                         |
+| References                          | Qualsiasi endpoint che definisce un oggetto utilizzando un $ref.                                                                                                                        | [Using Ref](https://swagger.io/docs/specification/v3_0/using-ref/)                                                                         |
+| Common Parameters                    | Endpoint dove i parametri sono definiti a livello di percorso invece che di metodo, quindi i parametri sono condivisi tra tutti i metodi per quell'URL.                                | [Describing Parameters](https://swagger.io/docs/specification/v3_0/describing-parameters/#common-parameters)                               |
+| Links                                | I Links sono una funzionalità OpenAPI che descrive come le risposte di un endpoint possono essere utilizzate come input per altre operazioni.                                          | [Links](https://swagger.io/docs/specification/v3_0/links/)                                                                                 |
+| Polymorphism                         | Il polimorfismo ti permette di definire uno schema che può rappresentare più tipi o modelli.                                                                                            | [Inheritance and Polymorphism](https://swagger.io/docs/specification/v3_0/data-models/inheritance-and-polymorphism/?sbsearch=Polymorphism) |
+| Server Variables                     | Le variabili possono essere definite nel percorso base che possono avere una lista preimpostata di valori tra cui l'utente può scegliere.                                               | [API Server and Base Path](https://swagger.io/docs/specification/v3_0/api-host-and-base-path/?sbsearch=server%20variables)                 |
+| Style                                | La keyword Style consente la configurazione su come più valori dovrebbero essere passati a un parametro.                                                                                | [Parameter Serialization](https://swagger.io/docs/specification/v3_0/serialization/?sbsearch=Styles)                                       |
+| XML                                  | Endpoint che accettano o rispondono con dati XML.                                                                                                                                       | [Representing XML](https://swagger.io/docs/specification/v3_0/data-models/representing-xml/?sbsearch=xml)                                  |
