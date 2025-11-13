@@ -1,13 +1,18 @@
 ---
-title: Custom Icons
+title: Icone Personalizzate
+excerpt: >-
+  Come utilizzare le icone Font Awesome nella documentazione ReadMe, inclusi
+  esempi di accessibilità e best practices.
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
 ## Font Awesome
 
-ReadMe loads Font Awesome 6's [Regular](https://fontawesome.com/search?s=regular\&f=classic\&o=r) and [Duotone](https://fontawesome.com/search?s=solid\&f=duotone\&o=r) libraries, and you can use them in your docs!
+ReadMe carica le librerie [Regular](https://fontawesome.com/search?s=regular\&f=classic\&o=r) e [Duotone](https://fontawesome.com/search?s=solid\&f=duotone\&o=r) di Font Awesome 6, e puoi utilizzarle nella tua documentazione!
 
 <HTMLBlock>{`
 <div class="Flex">
@@ -39,21 +44,21 @@ ReadMe loads Font Awesome 6's [Regular](https://fontawesome.com/search?s=regular
 
 ***
 
-### Accessibility
+### Accessibilità
 
-If an icon is used decoratively, you can mark an icon as hidden. For example, using it next to an appropriate text label:
+Se un'icona viene utilizzata a scopo decorativo, puoi contrassegnarla come nascosta. Ad esempio, utilizzandola accanto a un'etichetta di testo appropriata:
 
 ```html
 <button>
   <i aria-hidden="true" class="fa-duotone fa-solid fa-computer-classic"></i>
-  Download to Floppy
+  Scarica su Floppy
 </button>
 ```
 
-If your icon should be interpreted semantically, use the `aria-label` attribute:
+Se la tua icona dovrebbe essere interpretata semanticamente, utilizza l'attributo `aria-label`:
 
 ```html
-<i aria-label="Download to Floppy" class="fa-duotone fa-solid fa-computer-classic"></i>
+<i aria-label="Scarica su Floppy" class="fa-duotone fa-solid fa-computer-classic"></i>
 ```
 
-You can refer to Font Awesome's [docs on accessibility](https://docs.fontawesome.com/web/dig-deeper/accessibility) for more information.
+Puoi consultare la [documentazione di Font Awesome sull'accessibilità](https://docs.fontawesome.com/web/dig-deeper/accessibility) per ulteriori informazioni.
