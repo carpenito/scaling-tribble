@@ -1,4 +1,4 @@
 ---
-title: store
+title: Negozio
 hidden: false
 ---
