@@ -1,5 +1,6 @@
 ---
 title: Versioning
+excerpt: hello world
 deprecated: false
 hidden: false
 metadata:
