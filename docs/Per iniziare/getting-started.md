@@ -4,6 +4,7 @@ excerpt: >-
   Questa pagina ti aiuterà a muovere i primi passi con
   Kirb_TranslationsQA_Nov2025. Sarai operativo in un batter d'occhio!
 hidden: false
+icon: fad fa-rocket-launch
 ---
 # Benvenuto in ReadMe
 
