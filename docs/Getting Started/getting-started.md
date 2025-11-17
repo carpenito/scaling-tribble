@@ -6,7 +6,7 @@ excerpt: >-
 hidden: false
 icon: fad fa-rocket-launch
 ---
-# Welcome to ReadMe
+# Welcome to ReadMe - Welcome to JFrog
 
 Welcome to your new developer hub—AI-powered, Git-backed, and built to help your docs evolve with your product.
 
