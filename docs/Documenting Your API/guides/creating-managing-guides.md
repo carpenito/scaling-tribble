@@ -46,7 +46,19 @@ Now that you've got your categories set up, let's add some pages:
 
 ### Using the Editor UI ✏️
 
-<Image align="center" border={false} src="https://files.readme.io/53c229bb50f36b2a6398894e5de72e9909397911c2deba6c77e629733e714a99-Editing_UI_-_view_to_edit_toggle.gif" />
+<Image align="left" border={false} width="50% " src="https://files.readme.io/53c229bb50f36b2a6398894e5de72e9909397911c2deba6c77e629733e714a99-Editing_UI_-_view_to_edit_toggle.gif" />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
 
 With ReadMe's editing UI, you'll create and edit content directly on your hub. This means what you see is exactly what your developers will see.
 
