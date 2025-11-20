@@ -112,3 +112,11 @@ Want to know how developers are actually using your API and docs?
 ## 💬 Need Help?
 
 Our team is here to support you. If you get stuck, [email us](mailto:support@readme.io) or open the Intercom widget on any page to chat with someone from our team. We've also got a <Anchor label="Slack community" target="_blank" href="https://readme.com/slack">Slack community</Anchor> if you want to say hi to the team and connect with other ReadMe users!
+
+<br />
+
+[comment]: <> "This is a comment, it will not be included"
+
+[comment]: <> "in  the output file unless you use it in"
+
+[comment]: <> "a reference style link."
