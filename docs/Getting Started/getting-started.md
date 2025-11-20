@@ -22,9 +22,11 @@ Create <Anchor label="**Guides**" target="_blank" href="https://docs.readme.com/
   <Card title="Component Marketplace" href="https://github.com/readmeio/marketplace/tree/main/components" icon="fa-store" target="_blank">
     Drop in and customize components.
   </Card>
+
   <Card title="MDX (Markdown + JSX)" href="https://docs.readme.com/main/docs/mdx" icon="fa-code">
     Build interactive components.
   </Card>
+
   <Card title="Custom Components" href="https://docs.readme.com/main/docs/building-custom-mdx-components" icon="fa-wrench">
     Create reusable components.
   </Card>
@@ -63,7 +65,7 @@ Access AI tools by clicking **:sparkles:AI** in your top navigation:
 
 ## 👀 Monitor Usage
 
-Track how developers use your API and docs with <Anchor label="My Developers" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">My Developers</Anchor>. Set up the <Anchor label="Personalized Docs Webhook" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">webhook</Anchor> and integrate the [Metrics SDK](https://docs.readme.com/main/docs/sending-api-logs).
+Track how developers use your API and docs with <Anchor label="My Developers" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">My Developers</Anchor>. Set up the <Anchor label="webhook" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">webhook</Anchor> and integrate the [Metrics SDK](https://docs.readme.com/main/docs/sending-api-logs).
 
 ***
 
@@ -91,3 +93,9 @@ Our team is here to support you. If you get stuck, [email us](mailto:support@rea
 [comment]: <> "in  the output file unless you use it in"
 
 [comment]: <> "a reference style link."
+
+<br />
+
+[//]: # "This may be the most platform independent comment"
+
+<br />
