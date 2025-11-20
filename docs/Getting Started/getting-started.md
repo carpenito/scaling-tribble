@@ -8,7 +8,7 @@ icon: fad fa-rocket-launch
 link:
   new_tab: false
 ---
-# Welcome to ReadMe
+# Welcome to ReadMe - Welcome to JFrog
 
 Welcome to your AI-powered, Git-backed developer hub. This starter page will help you get up and running quickly.
 
