@@ -6,7 +6,7 @@ hidden: false
 metadata:
   robots: index
 ---
-<br />
+STELLA ROSE ROSE ROSE
 
 <Cards columns={3}>
   <Card title="Quick Start" href="https://docs.readme.com/main/docs/quickstart" icon="fa-rocket-launch">
