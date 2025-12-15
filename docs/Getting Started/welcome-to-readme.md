@@ -22,6 +22,10 @@ metadata:
   </Card>
 </Cards>
 
+<br />
+
+<Anchor label="administration" target="_blank" href="/administration/docs/myjfrog-for-self-hosted">administration</Anchor>
+
 ## Recent Releases
 
 <Cards columns={3}>
@@ -118,7 +122,7 @@ metadata:
   </Card>
 </Cards>
 
-## Enterprise 
+## Enterprise
 
 <Cards columns={3}>
   <Card title="Group Overview" href="https://docs.readme.com/ent/docs/enterprise-group-overview" icon="fa-layer-group">
@@ -134,7 +138,7 @@ metadata:
   </Card>
 </Cards>
 
-## Get Support & Stay Updated 
+## Get Support & Stay Updated
 
 <Cards columns={2}>
   <Card title="ReadMe Community" href="https://readme.com/slack" icon="fa-comments">
