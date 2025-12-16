@@ -78,7 +78,7 @@ If a new Version is created when forked from an existing Version, the new Versio
 
 There are lots of different scenarios where doc versioning might be useful — some are more obvious than others. The most obvious use case is for when your documentation version needs to match the versioning that might be taking place with your API or other technical product, and you need to maintain copies of your docs for each respective version.
 
-Another use case is for bigger content restructuring or migrations, especially when these changes are more involved than simply updating a few pages (in which case we'd recommend [Suggested Edits](doc:suggested-edits). You can fork a new version of your docs, do some major restructuring (e.g. reorganizing page categories, combining pages, deleting outdated content, etc.), and still have your old docs as your public-facing changes. And when you're ready to flip the switch over, it's as easy as renaming the versions and toggling a few version settings!
+Another use case is for bigger content restructuring or migrations, especially when these changes are more involved than simply updating a few pages (in which case we'd recommend <Anchor label="Suggested Edits" target="_blank" href="doc:suggested-edits">Suggested Edits</Anchor>. You can fork a new version of your docs, do some major restructuring (e.g. reorganizing page categories, combining pages, deleting outdated content, etc.), and still have your old docs as your public-facing changes. And when you're ready to flip the switch over, it's as easy as renaming the versions and toggling a few version settings!
 
 ***
 
