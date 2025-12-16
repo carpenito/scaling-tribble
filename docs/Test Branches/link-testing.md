@@ -7,3 +7,7 @@ metadata:
   robots: index
 ---
 [Links to Pages](doc:links-to-pages)
+
+<br />
+
+<Anchor label="DevDash" target="_blank" href="/kirbdevdash/docs/getting-started">DevDash</Anchor>
