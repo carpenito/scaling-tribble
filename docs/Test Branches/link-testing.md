@@ -14,4 +14,4 @@ metadata:
 
 <br />
 
-[Versioning](doc:versioning)#versioning#making-a-new-version
+<Anchor label="making a new version" target="_blank" href="doc:versioning#making-a-new-version">making a new version</Anchor>
