@@ -20,7 +20,7 @@ To create a new version, open the Versions & Branches menu by selecting the **ve
 
 ### Semver(-ish)
 
-Our versioning is based on [Semver](http://semver.org/), but is much more flexible than Semver in terms of the acceptable inputs. This means your versions can be as simple as `v1.0`, but as complex as `v1.0-hello-this-is-a-version`.
+Our versioning is based on <Anchor label="Semver" target="_blank" href="http://semver.org/">Semver</Anchor>, but is much more flexible than Semver in terms of the acceptable inputs. This means your versions can be as simple as `v1.0`, but as complex as `v1.0-hello-this-is-a-version`.
 
 ***
 
