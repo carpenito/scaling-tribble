@@ -14,4 +14,4 @@ metadata:
 
 <br />
 
-<Anchor label="making a new version" target="_blank" href="doc:versioning#making-a-new-version">making a new version</Anchor>
+<Anchor label="use cases" target="_blank" href="doc:versioning#use-cases">use cases</Anchor>
