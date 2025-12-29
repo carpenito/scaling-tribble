@@ -6,7 +6,7 @@ icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-[Links to Pages](doc:links-to-pages)
+<Anchor label="Links to Pages" target="_blank" href="doc:links-to-pages">Links to Pages</Anchor>
 
 <br />
 
