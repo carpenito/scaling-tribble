@@ -1,5 +1,5 @@
 ---
-title: Copy of Add a new pet to the store
+title: 'Copy of Add a new pet to the store '
 api:
   file: petstore.json
   operationId: post_pet-1
