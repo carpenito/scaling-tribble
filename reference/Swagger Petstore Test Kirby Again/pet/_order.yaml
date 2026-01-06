@@ -1,4 +1,5 @@
 - addpet
+- addpet-1
 - updatepet
 - findpetsbystatus
 - findpetsbytags
@@ -6,4 +7,3 @@
 - updatepetwithform
 - deletepet
 - uploadfile
-- addpet-1
