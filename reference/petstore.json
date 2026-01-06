@@ -836,6 +836,32 @@
           }
         }
       }
+    },
+    "/pet-1": {
+      "post": {
+        "tags": [
+          "pet"
+        ],
+        "summary": "Copy of Add a new pet to the store",
+        "description": "",
+        "operationId": "post_pet-1",
+        "requestBody": {
+          "$ref": "#/components/requestBodies/Pet"
+        },
+        "responses": {
+          "405": {
+            "description": "Invalid input"
+          }
+        },
+        "security": [
+          {
+            "petstore_auth": [
+              "write:pets",
+              "read:pets"
+            ]
+          }
+        ]
+      }
     }
   },
   "components": {
