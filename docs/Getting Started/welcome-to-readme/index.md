@@ -4,6 +4,7 @@ excerpt: Helping you create docs that make your APIs easy to use and maintain.
 deprecated: false
 hidden: false
 metadata:
+  title: Welcome Stella
   robots: index
 ---
 STELLA ROSE ROSE ROSE
