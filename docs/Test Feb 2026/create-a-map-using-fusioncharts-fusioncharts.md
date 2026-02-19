@@ -522,13 +522,13 @@ To reduce the size of the package FusionCharts comes with only two maps, i.e., t
 
 Let's create a map of California to show the "Web visits for a particular month" as shown below:
 
-<RemoteFusionChartsMap
+That's it! The **California** map is ready.
+
+<FusionCaliMap
   configUrl="https://raw.githubusercontent.com/carpenito/kirb-translationsQA2025/refs/heads/v1.0/fusioncharts.california.js"
   height={550}
   fcVersion="4.2.1"
   />
-
-That's it! The **California** map is ready.
 
 ## Problem rendering the chart?
 
