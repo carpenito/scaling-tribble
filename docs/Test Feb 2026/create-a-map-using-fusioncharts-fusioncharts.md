@@ -111,3 +111,47 @@ Following code is the JSON representation of the above table with the required a
     }]
 }
 ```
+
+In the above JSON data:
+
+* Create the `chart` object to define the elements of the map.
+
+* Create the `colorRange` array to set the color associated with the specific range of values.
+
+* Specify `minValue` and `maxValue` within the `color` array under the `colorRange` array.
+
+* Create the `data` array to define the id of the continents and their corresponding values along with configurations. For example, the first object under `data` array contains the `id` and `value` of **North America** as **NA** and **.82** respectively.
+
+The chart object and the respective arrays contain a set of key-value pairs known as **attributes**. These attributes are used to set the functional and cosmetic properties of the map.
+
+Now that you have the data in JSON format, let's render the map.
+
+## Render the Map
+
+To render the map follow the steps below:
+
+1. Include the `fusioncharts` library.
+
+2. Include the FusionMaps renderer.
+
+3. Include the map definition file.
+
+4. Include the FusionCharts theme file to apply style to the charts.
+
+5. Add the map renderer and map definition as a dependency to the core.
+
+6. Add the theme as a dependency to the core.
+
+7. Store the chart configurations as a JSON object. In this JSON object:
+
+   * Set the map type as `world`. Each map is represented with a unique map alias. For World map, the alias is `world`. Find the complete list of map types with their respective alias [here](https://www.fusioncharts.com/dev/map-guide/list-of-maps).
+
+   * Set the width and height (in pixels).
+
+   * Set the `dataFormat` as **json**.
+
+   * Embed the json data as the value of the `dataSource`.
+
+8. Add a container (instance) for the chart.
+
+The consolidated code is shown below:
