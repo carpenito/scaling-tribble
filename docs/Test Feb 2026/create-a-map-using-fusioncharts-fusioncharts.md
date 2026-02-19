@@ -517,9 +517,14 @@ To reduce the size of the package FusionCharts comes with only two maps, i.e., t
 Let's create a map of California to show the "Web visits for a particular month" as shown below:
 
 <Tabs>
-  <Tab title="CHART">
-    
-  </Tab>
+  <Tab title="CHART" />
+  <FusionCaliMap configUrl="https://raw.githubusercontent.com/carpenito/kirb-translationsQA2025/refs/heads/v1.0/fusioncharts.california.js" height={550} fcVersion="4.2.1" />
+
+  To render the above map, first install fusionmaps package which contains all the map definition files as shown below
+
+```
+$ npm install fusion maps
+```
 
   <Tab title="Second Tab">
     Here's content that's only inside the second Tab.
@@ -529,6 +534,12 @@ Let's create a map of California to show the "Web visits for a particular month"
     Here's content that's only inside the third Tab.
   </Tab>
 </Tabs>
+
+<br />
+
+<br />
+
+<br />
 
 That's it! The **California** map is ready.
 
