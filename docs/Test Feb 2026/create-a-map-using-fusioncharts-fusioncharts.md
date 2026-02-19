@@ -17,7 +17,63 @@ In this page, we'll see how to install **FusionCharts** library and all the othe
 
 Install **FusionCharts** using any of the following steps:
 
-<FusionChartInstallation />
+<Tabs>
+  <Tab title="NPM">
+    **To install the`fusioncharts` package via npm run the command below:**
+
+    ```powershell
+    npm install fusioncharts
+    ```
+  </Tab>
+
+  <Tab title="CDN">
+    **To install the FusionCharts Suite follow the steps below:**
+
+    1. Include the **FusionCharts** JavaScript files from CDN.
+    2. Include the FusionCharts map renderer.
+    3. Include the map definition file.
+    4. Include the FusionCharts theme file to apply style to the charts.
+
+    The code is shown below:
+
+    ```html
+    <head>
+        <!-- Step 1 - Include the fusioncharts core library -->
+        <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+        <!-- Step 2 - Include the map renderer file -->
+        <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.maps.js"></script>
+        <!-- Step 3 - Include the map definition file -->
+        <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.world.js"></script>
+        <!-- Step 4 - Include the fusion theme -->
+        <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+    </head>
+    ```
+  </Tab>
+
+  <Tab title="Local Files">
+    **To install the FusionCharts Suite follow the steps below:**
+
+    1. Include the **FusionCharts** JavaScript files, which can be downloaded from [here](https://www.fusioncharts.com/download/fusioncharts-suite-xt).
+    2. Include the FusionCharts map renderer.
+    3. Include the map definition file.
+    4. Include the FusionCharts theme file to apply style to the charts.
+
+    The code is shown below:
+
+    ```html
+    <head>
+        <!-- Step 1 - Include the fusioncharts core library -->
+        <script type="text/javascript" src="path/to/local/fusioncharts.js"></script>
+        <!-- Step 2 - Include the map renderer file -->
+        <script type="text/javascript" src="path/to/local/fusioncharts.maps.js"></script>
+        <!-- Step 3 - Include the map definition file -->
+        <script type="text/javascript" src="path/to/local/fusioncharts.world.js"></script>
+        <!-- Step 4 - Include the fusion theme -->
+        <script type="text/javascript" src="path/to/local/themes/fusioncharts.theme.fusion.js"></script>
+    </head>
+    ```
+  </Tab>
+</Tabs>
 
 That completes the installation of **FusionCharts** Suite.
 
@@ -526,6 +582,7 @@ Let's create a map of California to show the "Web visits for a particular month"
     $ npm install fusionmaps
     ```
   </Tab>
+
   <Tab title="JSON">
     ```
     {
@@ -988,10 +1045,11 @@ After installing fusionmaps package, the code to render the map of California is
   <Tab title="Local Files">
     To use any other map (except World and USA) from the 1600+ maps, download the map definition files, then copy those map files to your current maps folder.
 
-    The map definition files are named in the fusioncharts.[MAP_ALIAS].js format, where MAP_ALIAS represents the country, state or region name.
-    ``` 
-<html>
-<head>
+    The map definition files are named in the fusioncharts.\[MAP\_ALIAS].js format, where MAP\_ALIAS represents the country, state or region name.
+
+    ```
+    <html>
+    <head>
     <!-- Including the fusioncharts core library -->
     <script type="text/javascript" src="path/to/local/fusioncharts.js"></script>
     <!-- Including the map renderer file -->
@@ -1000,8 +1058,8 @@ After installing fusionmaps package, the code to render the map of California is
     <script type="text/javascript" src="path/to/local/fusioncharts.california.js"></script>
     <!-- Including the fusion theme -->
     <script type="text/javascript" src="path/to/local/themes/fusioncharts.theme.fusion.js"></script>
-<script type="text/javascript">
-const webVisit = {
+    <script type="text/javascript">
+    const webVisit = {
     type: 'maps/california',
     renderAt: 'chart-container',
     width: '800',
@@ -1034,13 +1092,13 @@ const webVisit = {
         },
         "data": [{"id":"001","value":2834},{"id":"003","value":3182},{"id":"005","value":3280},{"id":"007","value":911},{"id":"009","value":292},{"id":"011","value":530},{"id":"013","value":2515},{"id":"015","value":728},{"id":"017","value":1974},{"id":"019","value":848},{"id":"021","value":3278},{"id":"023","value":4463},{"id":"025","value":1198},{"id":"027","value":378},{"id":"029","value":2610},{"id":"031","value":1200},{"id":"033","value":3820},{"id":"035","value":940},{"id":"037","value":3416},{"id":"039","value":4004},{"id":"041","value":1604},{"id":"043","value":4011},{"id":"045","value":3203},{"id":"047","value":3775},{"id":"049","value":2721},{"id":"051","value":3417},{"id":"053","value":1530},{"id":"055","value":412},{"id":"057","value":3434},{"id":"059","value":1670},{"id":"061","value":1274},{"id":"063","value":4339},{"id":"065","value":2073},{"id":"067","value":1018},{"id":"069","value":3967},{"id":"071","value":3401},{"id":"073","value":3307},{"id":"075","value":1938},{"id":"077","value":489},{"id":"079","value":3207},{"id":"081","value":2295},{"id":"083","value":2747},{"id":"085","value":1114},{"id":"087","value":3400},{"id":"089","value":784},{"id":"091","value":1673},{"id":"093","value":4274},{"id":"095","value":4509},{"id":"097","value":3862},{"id":"099","value":1356},{"id":"101","value":4126},{"id":"103","value":1314},{"id":"105","value":1807},{"id":"107","value":4026},{"id":"109","value":3456},{"id":"111","value":1393},{"id":"113","value":1500},{"id":"115","value":2218}]
     }
-};
-// Render
-webVisit.render();
-</script>
-</head>
+    };
+    // Render
+    webVisit.render();
+    </script>
+    </head>
     </html>
-```
+    ```
   </Tab>
 </Tabs>
 
