@@ -28,7 +28,6 @@ In this section, we will create a visualization using the **World Map** showing 
 The chart data uses geographical entity IDs (e.g., `NA` for North America, `AF` for Africa) and a color gradient to represent growth ranges.
 
 <HTMLBlock>{`
-\`\`\`html title="getting-started-your-first-map.html"
 <html>
 <head>
     <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
@@ -81,7 +80,7 @@ The chart data uses geographical entity IDs (e.g., `NA` for North America, `AF` 
     </script>
 </body>
 </html>
-\`\`\`<div id="chart-container" style="width:100%;max-width:800px;margin:0 auto;"></div>
+<div id="chart-container" style="width:100%;max-width:800px;margin:0 auto;"></div>
 <script src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
 <script src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.maps.js"></script>
 <script src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.world.js"></script>
