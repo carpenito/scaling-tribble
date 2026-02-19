@@ -1045,42 +1045,6 @@ webVisit.render();
   </Tab>
 </Tabs>
 
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-**
-
-<br />
-
 That's it! The **California** map is ready.
 
 ## Problem rendering the chart?
