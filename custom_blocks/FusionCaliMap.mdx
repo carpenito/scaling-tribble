@@ -1,0 +1,247 @@
+---
+name: FusionCaliMap
+---
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+
+export const FusionCaliMap = props => {
+  const configUrl = props.configUrl || '';
+  const height = props.height || 550;
+  const width = props.width || '100%';
+
+  // Pin a version for reliability (avoid "latest" in PoCs)
+  const fcVersion = props.fcVersion || '4.2.1';
+
+  // Primary CDN (FusionCharts) + fallbacks (jsDelivr + unpkg)
+  const fcCdnBase = props.fcCdnBase || 'https://cdn.fusioncharts.com/fusioncharts/latest/';
+  const jsdelivrBase = 'https://cdn.jsdelivr.net/npm/fusioncharts@' + fcVersion + '/';
+  const unpkgBase = 'https://unpkg.com/fusioncharts@' + fcVersion + '/';
+
+  // Optional override: if you want to force a specific map definition url (rarely needed)
+  const mapDefinitionUrl = props.mapDefinitionUrl || '';
+
+  const containerRef = useRef(null);
+  const chartRef = useRef(null);
+
+  const [loading, setLoading] = useState(Boolean(configUrl));
+  const [error, setError] = useState('');
+  const [config, setConfig] = useState(null);
+
+  const normalizeAliasFromType = cfgType => {
+    // Accept:
+    //  "maps/world" -> "world"
+    //  "world" -> "world"
+    //  "maps/california" -> "california"
+    const t = String(cfgType || '').trim();
+    if (!t) return '';
+    const parts = t.split('/').map(p => p.trim()).filter(Boolean);
+    if (!parts.length) return '';
+    if (parts.length === 2 && parts[0] === 'maps') return parts[1];
+    return parts[parts.length - 1];
+  };
+
+  const scriptAlreadyPresent = src =>
+    Boolean(src) && Boolean(document.querySelector('script[data-rm-fc="' + src + '"]'));
+
+  const loadScript = src => {
+    if (!src) return Promise.reject(new Error('Missing script src'));
+    if (scriptAlreadyPresent(src)) return Promise.resolve();
+
+    return new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = src;
+      s.async = true;
+      s.defer = true;
+      s.setAttribute('data-rm-fc', src);
+      s.onload = () => resolve();
+      s.onerror = () => reject(new Error('Failed to load script: ' + src));
+      document.head.appendChild(s);
+    });
+  };
+
+  const loadScriptWithFallbacks = async (sources, label) => {
+    const tried = [];
+    for (const src of sources) {
+      if (!src) continue;
+      try {
+        await loadScript(src);
+        return src;
+      } catch (e) {
+        tried.push(src);
+      }
+    }
+    const msg = label
+      ? label + ' failed to load. Tried: ' + tried.join(' , ')
+      : 'Script failed to load. Tried: ' + tried.join(' , ');
+    throw new Error(msg);
+  };
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function run() {
+      setError('');
+      setConfig(null);
+
+      if (!configUrl) {
+        setLoading(false);
+        setError('Missing configUrl prop.');
+        return;
+      }
+
+      setLoading(true);
+      try {
+        const res = await fetch(configUrl, { credentials: 'omit' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const json = await res.json();
+        if (!cancelled) setConfig(json);
+      } catch (e) {
+        if (!cancelled) setError(e && e.message ? e.message : 'Failed to load JSON config.');
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    }
+
+    run();
+    return () => { cancelled = true; };
+  }, [configUrl]);
+
+  const scriptPlan = useMemo(() => {
+    const alias = normalizeAliasFromType(config && config.type);
+    const effectiveMapUrl = mapDefinitionUrl;
+
+    // IMPORTANT:
+    // Always prefer /maps/fusioncharts.<alias>.js (works for world, usa, california, etc.)
+    const inferredMapCandidates = effectiveMapUrl
+      ? [effectiveMapUrl]
+      : alias
+        ? [
+            fcCdnBase + 'maps/fusioncharts.' + alias + '.js',
+            jsdelivrBase + 'maps/fusioncharts.' + alias + '.js',
+            unpkgBase + 'maps/fusioncharts.' + alias + '.js'
+          ]
+        : [];
+
+    return {
+      fusioncharts: [
+        fcCdnBase + 'fusioncharts.js',
+        jsdelivrBase + 'fusioncharts.js',
+        unpkgBase + 'fusioncharts.js'
+      ],
+      mapsCore: [
+        fcCdnBase + 'fusioncharts.maps.js',
+        jsdelivrBase + 'fusioncharts.maps.js',
+        unpkgBase + 'fusioncharts.maps.js'
+      ],
+      mapDef: inferredMapCandidates,
+      theme: [
+        fcCdnBase + 'themes/fusioncharts.theme.fusion.js',
+        jsdelivrBase + 'themes/fusioncharts.theme.fusion.js',
+        unpkgBase + 'themes/fusioncharts.theme.fusion.js'
+      ],
+      alias
+    };
+  }, [config, mapDefinitionUrl, fcCdnBase, jsdelivrBase, unpkgBase]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function render() {
+      if (!config) return;
+      if (!containerRef.current) return;
+
+      // If config.type is missing, we can't infer the map file reliably
+      const alias = scriptPlan.alias;
+      if (!mapDefinitionUrl && !alias) {
+        setError('Config is missing "type" (e.g. "maps/world"). Cannot infer map definition file.');
+        return;
+      }
+
+      // Cleanup any previous chart instance
+      try {
+        if (chartRef.current && typeof chartRef.current.dispose === 'function') chartRef.current.dispose();
+      } catch (e) {}
+      chartRef.current = null;
+
+      try {
+        // 1) Load core + maps
+        await loadScriptWithFallbacks(scriptPlan.fusioncharts, 'FusionCharts core');
+        await loadScriptWithFallbacks(scriptPlan.mapsCore, 'FusionCharts maps core');
+
+        // 2) Load the specific map definition
+        await loadScriptWithFallbacks(scriptPlan.mapDef, 'Map definition' + (alias ? ' (' + alias + ')' : ''));
+
+        // 3) Load theme (optional but nice)
+        await loadScriptWithFallbacks(scriptPlan.theme, 'Fusion theme');
+
+        if (cancelled) return;
+
+        const FC = window.FusionCharts;
+        if (!FC) throw new Error('FusionCharts did not load (window.FusionCharts missing).');
+
+        const renderId = containerRef.current.id;
+        if (!renderId) throw new Error('Missing container id.');
+
+        // IMPORTANT:
+        // FusionCharts map "type" is usually the alias itself ("world", "california")
+        // Some configs use "maps/world". We normalize to alias for safety.
+        const cfg = Object.assign({}, config, { renderAt: renderId });
+        if (cfg.type && String(cfg.type).includes('/')) cfg.type = normalizeAliasFromType(cfg.type);
+
+        if (width) cfg.width = width;
+        if (height) cfg.height = String(height);
+
+        chartRef.current = new FC(cfg);
+        chartRef.current.render();
+      } catch (e) {
+        if (!cancelled) setError(e && e.message ? e.message : 'Failed to render map.');
+      }
+    }
+
+    render();
+    return () => {
+      cancelled = true;
+      try {
+        if (chartRef.current && typeof chartRef.current.dispose === 'function') chartRef.current.dispose();
+      } catch (e) {}
+      chartRef.current = null;
+    };
+  }, [config, scriptPlan, width, height, mapDefinitionUrl]);
+
+  const containerId = useMemo(() => {
+    const rand = Math.random().toString(16).slice(2);
+    return 'rm-fc-map-' + rand;
+  }, []);
+
+  if (loading) {
+    return (
+      <div style={{ padding: 12, fontFamily: 'system-ui, sans-serif', fontSize: 13, color: '#64748b' }}>
+        Loading map...
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div style={{ borderRadius: 10, border: '1px solid #fecaca', background: '#fff5f5', padding: '10px 14px', fontFamily: 'system-ui, sans-serif' }}>
+        <div style={{ fontSize: 13, fontWeight: 600, color: '#b91c1c' }}>Map failed</div>
+        <div style={{ fontSize: 13, color: '#dc2626', marginTop: 4 }}>{error}</div>
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ border: '1px solid rgba(0,0,0,0.12)', borderRadius: 12, overflow: 'hidden' }}>
+      <div
+        id={containerId}
+        ref={containerRef}
+        style={{ width: '100%', height: Number(height) || 550, background: '#fff' }}
+      />
+    </div>
+  );
+};
+
+<FusionCaliMap
+  configUrl="https://raw.githubusercontent.com/carpenito/kirb-translationsQA2025/refs/heads/v1.0/fusioncharts.california.json"
+  height={550}
+  fcVersion="4.2.1"
+  />
