@@ -521,3 +521,17 @@ Let's create a map of California to show the "Web visits for a particular month"
 To reduce the size of the package FusionCharts comes with only two maps, i.e., the World map and the USA map. However, FusionCharts provide 1600+ maps for you to explore. Download the map files separately if you want to save them locally.
 
 Let's create a map of California to show the "Web visits for a particular month" as shown below:
+
+<br />
+
+That's it! The **California** map is ready.
+
+## Problem rendering the chart?
+
+In case there is an error, and you are unable to see the chart, check for the following:
+
+* If you are getting a JavaScript error on your page, check your browser console for the exact error and fix accordingly. If you're unable to solve it, click [here](https://www.fusioncharts.com/contact-support) to get in touch with our support team.
+
+* If the chart does not show up at all, but there are no JavaScript errors, check if the FusionCharts Suite XT JavaScript library has loaded correctly. You can use developer tools within your browser to see if `fusioncharts.js` was loaded.
+
+* If you get a **Loading Data** or **Error in loading data** message, check whether your JSON data structure is correct, or there are conflicts related to quotation marks in your code.
