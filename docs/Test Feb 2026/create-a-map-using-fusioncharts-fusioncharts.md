@@ -516,19 +516,23 @@ To reduce the size of the package FusionCharts comes with only two maps, i.e., t
 
 Let's create a map of California to show the "Web visits for a particular month" as shown below:
 
-## Render other maps
+<Tabs>
+  <Tab title="CHART">
+    
+  </Tab>
 
-To reduce the size of the package FusionCharts comes with only two maps, i.e., the World map and the USA map. However, FusionCharts provide 1600+ maps for you to explore. Download the map files separately if you want to save them locally.
+  <Tab title="Second Tab">
+    Here's content that's only inside the second Tab.
+  </Tab>
 
-Let's create a map of California to show the "Web visits for a particular month" as shown below:
+  <Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  </Tab>
+</Tabs>
 
 That's it! The **California** map is ready.
 
-<FusionCaliMap
-  configUrl="https://raw.githubusercontent.com/carpenito/kirb-translationsQA2025/refs/heads/v1.0/fusioncharts.california.js"
-  height={550}
-  fcVersion="4.2.1"
-  />
+<FusionCaliMap configUrl="https://raw.githubusercontent.com/carpenito/kirb-translationsQA2025/refs/heads/v1.0/fusioncharts.california.js" height={550} fcVersion="4.2.1" />
 
 ## Problem rendering the chart?
 
