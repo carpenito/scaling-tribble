@@ -33,14 +33,14 @@ The chart data uses geographical entity IDs (e.g., `NA` for North America, `AF` 
 
 The data for the above map is represented in the table below:
 
-| State | Entity Name | Value |
-| ----- | ----------- | ----- ||
-| North America | NA | 82 |
-| South America | SA | 2.04 |
-| Asia | AS | 1.78 |
-| Europe | EU | 40 |
-| Africa | AF | 2.58 |
-| Australia | AU | 1.30 |
+| State         | Entity Name | Value |
+| ------------- | ----------- | ----- |
+| North America | NA          | 82    |
+| South America | SA          | 2.04  |
+| Asia          | AS          | 1.78  |
+| Europe        | EU          | 40    |
+| Africa        | AF          | 2.58  |
+| Australia     | AU          | 1.30  |
 
 In the above table, the column **Entity Name** represents the geographical entities represented in the map, whose full names are given in the **State** column.
 
