@@ -804,10 +804,6 @@ Let's create a map of California to show the "Web visits for a particular month"
     $ npm install fusionmaps
 ``` 
   </Tab>
-
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  </Tab>
 </Tabs>
 
 <br />
