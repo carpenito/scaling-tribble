@@ -135,3 +135,28 @@ When you open this HTML file in a browser, the map renders a color-coded world m
 | `#FFD74D` (yellow)      | 0.5% – 1.0%  | North America (0.82%) |
 | `#FB8C00` (orange)      | 1.0% – 2.0%  | Asia (1.78%)          |
 | `#E65100` (deep orange) | 2.0% – 3.0%  | Africa (2.58%)        |
+
+<br />
+
+## Map Data
+
+The data for the above map is represented in the table below:
+
+| State | Entity Name | Value |
+| ----- | ----------- | ----- ||
+| North America | NA | 82 |
+| South America | SA | 2.04 |
+| Asia | AS | 1.78 |
+| Europe | EU | 40 |
+| Africa | AF | 2.58 |
+| Australia | AU | 1.30 |
+
+In the above table, the column **Entity Name** represents the geographical entities represented in the map, whose full names are given in the **State** column.
+
+FusionCharts accepts data in **JSON** format in which the above entities are denoted by the `id` key in the `data` object.
+
+For any map visualization, it is important to provide the correct value for the `id` keys. For example, if you want to denote Africa, the value for the corresponding `id` must be `AF` and not `AFR`.
+
+We have a detailed [Map Specification Sheets](https://www.fusioncharts.com/dev/maps/spec-sheets/world) for all the maps that can be rendered using FusionCharts, where you can find the correct `id` of the maps you want to create.
+
+Following code is the JSON representation of the above table with the required attributes to render the above map.
