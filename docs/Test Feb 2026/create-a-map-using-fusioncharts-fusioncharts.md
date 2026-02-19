@@ -27,7 +27,10 @@ In this section, we will create a visualization using the **World Map** showing 
 
 The chart data uses geographical entity IDs (e.g., `NA` for North America, `AF` for Africa) and a color gradient to represent growth ranges.
 
-[INSERT MAP]
+<RemoteFusionChartsMap
+  configUrl="https://raw.githubusercontent.com/aerdman1/aerdman1.github.io/refs/heads/main/fusioncharts-map-world.json"
+  height={550}
+/>
 
 ## Map Data
 
