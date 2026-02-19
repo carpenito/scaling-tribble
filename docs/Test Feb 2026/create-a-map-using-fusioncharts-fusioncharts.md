@@ -544,8 +544,6 @@ Let's create a map of California to show the "Web visits for a particular month"
 
 That's it! The **California** map is ready.
 
-<FusionCaliMap configUrl="https://raw.githubusercontent.com/carpenito/kirb-translationsQA2025/refs/heads/v1.0/fusioncharts.california.js" height={550} fcVersion="4.2.1" />
-
 ## Problem rendering the chart?
 
 In case there is an error, and you are unable to see the chart, check for the following:
