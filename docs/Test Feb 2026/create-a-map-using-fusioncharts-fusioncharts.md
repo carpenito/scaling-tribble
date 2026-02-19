@@ -27,7 +27,7 @@ In this section, we will create a visualization using the **World Map** showing 
 
 The chart data uses geographical entity IDs (e.g., `NA` for North America, `AF` for Africa) and a color gradient to represent growth ranges.
 
-<br />
+[INSERT MAP]
 
 ## Map Data
 
