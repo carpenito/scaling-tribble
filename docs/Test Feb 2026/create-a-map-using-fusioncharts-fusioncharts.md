@@ -9,3 +9,10 @@ icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
+**FusionCharts Suite XT** — the industry's most comprehensive JavaScript charting solution — is all about easing the whole process of data visualization through charts.
+
+In this page, we'll see how to install **FusionCharts** library and all the other dependencies on your system and render a map using Plain JavaScript.
+
+## Installation
+
+Install **FusionCharts** using any of the following steps:
