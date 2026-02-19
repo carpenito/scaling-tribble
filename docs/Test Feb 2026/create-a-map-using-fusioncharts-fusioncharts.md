@@ -18,3 +18,9 @@ In this page, we'll see how to install **FusionCharts** library and all the othe
 Install **FusionCharts** using any of the following steps:
 
 <FusionChartInstallation />
+
+That completes the installation of **FusionCharts** Suite.
+
+## Create Your First Map
+
+In this section, we will create a visualization using the **World Map** showing the average annual population growth.
