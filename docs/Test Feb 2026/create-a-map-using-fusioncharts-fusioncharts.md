@@ -515,3 +515,9 @@ That's it! Your first map using Plain JavaScript is ready.
 To reduce the size of the package FusionCharts comes with only two maps, i.e., the **World** map and the **USA** map. However, FusionCharts provide 1600+ maps for you to explore. [Download](https://www.fusioncharts.com/download/map-definition-files) the map files separately if you want to save them locally.
 
 Let's create a map of California to show the "Web visits for a particular month" as shown below:
+
+## Render other maps
+
+To reduce the size of the package FusionCharts comes with only two maps, i.e., the World map and the USA map. However, FusionCharts provide 1600+ maps for you to explore. Download the map files separately if you want to save them locally.
+
+Let's create a map of California to show the "Web visits for a particular month" as shown below:
