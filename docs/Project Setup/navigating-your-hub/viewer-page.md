@@ -15,3 +15,7 @@ Sending a branch to a group viewer
 </Accordion>
 
 Enabled the Admin & Editor as approvals
+
+Enabled the Admin & Editor merge approvals
+
+<br />
