@@ -99,3 +99,16 @@ Our team is here to support you. If you get stuck, [email us](mailto:support@rea
 [//]: # "This may be the most platform independent comment"
 
 <br />
+
+<ChangelogWidget
+  feedUrl="https://<DOMAIN>/changelog.rss"
+  position="bottom-right"
+  maxItems={20}
+  badgeMode="unread"
+  excerptMaxChars={160}
+  newIsYoungerThanDays={30}
+  useProxy={true}
+  adminOnly={false}
+/>
+
+<br />
