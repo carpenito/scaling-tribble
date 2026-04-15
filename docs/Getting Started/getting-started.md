@@ -100,6 +100,6 @@ Our team is here to support you. If you get stuck, [email us](mailto:support@rea
 
 <br />
 
-<ChangelogWidget feedUrl="https://<sales-translations.readme.io>/changelog.rss" position="bottom-right" maxItems={20} badgeMode="unread" excerptMaxChars={160} newIsYoungerThanDays={30} useProxy={true} adminOnly={false} />
+<ChangelogWidget feedUrl="https://sales-translations.readme.io/demo/changelog.rss" position="bottom-right" maxItems={20} badgeMode="unread" excerptMaxChars={160} newIsYoungerThanDays={30} useProxy={true} adminOnly={false} />
 
 <br />
