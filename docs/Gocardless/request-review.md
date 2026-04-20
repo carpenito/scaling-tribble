@@ -267,11 +267,16 @@ metadata:
 
 Here's how to think through the full picture:
 
-Where ReadMe is a strong fit — the core of what you're asking for is exactly what ReadMe was built to do. OpenAPI-synced reference, multi-language code samples, Try It sandbox, changelog, page ratings, and content analytics are all first-class features. The WYSIWYG + GitHub Sync combination directly addresses the "easy to update for engineers and non-engineers" requirement.
+Where ReadMe is a strong fit:
+
+* the core of what you're asking for is exactly what ReadMe was built to do. OpenAPI-synced reference, multi-language code samples, Try It sandbox, changelog, page ratings, and content analytics are all first-class features. The WYSIWYG + GitHub Sync combination directly addresses the "easy to update for engineers and non-engineers" requirement.
+* AI-native / MCP indexing — ReadMe ships both sides of the MCP story:
+  The author-facing MCP server lets your team query, read, and update documentation through AI tools — useful for content workflows, bulk edits, and AI-assisted writing directly against your live docs.
+  The user-facing MCP server is the more strategically significant one for this evaluation — it gives your API users' AI tools (Cursor, Claude, Windsurf, etc.) live access to your spec and docs as context while they're coding. That's exactly what the "MCP-indexed" criterion in the original requirements was asking for.
+  That actually makes ReadMe's AI-native story stronger than I initially assessed — and stronger than what many competitors offer. The only remaining nuance on that card would be whether llms.txt is generated natively, but the MCP piece is clearly covered. Worth updating the artifact if you're sharing it.
 
 Where it's partial, and what to do about it:
 
-* AI-native / MCP indexing — ReadMe doesn't ship an llms.txt or MCP integration out of the box, but you can generate one via the Guides API and host it at /llms.txt. For MCP indexing, you'd need a custom integration or a third-party layer. Worth flagging to ReadMe's team — this is actively evolving.
 * Semantic search — current search is keyword-based. Zero-result tracking is available in analytics (you can see what returned no results) but isn't auto-surfaced as a queue for content work. If semantic search is hard criteria, this is the biggest gap vs alternatives like Mintlify or a custom Algolia integration.
 * Sub-100ms TTFB guarantee — ReadMe's SSR performance is generally solid, but you're on their infrastructure and can't contractually enforce a TTFB SLA. If that's a hard requirement, self-hosted solutions (Mintlify, Docusaurus + Vercel) give you more control.
 * Content governance / quality gates — GitHub Sync handles the PR review part well, but broken link checking and linting need to be bolted on in CI (e.g. broken-link-checker against your staging URL on every PR). ReadMe doesn't enforce this natively.
