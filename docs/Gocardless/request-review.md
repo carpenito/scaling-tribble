@@ -191,7 +191,7 @@ metadata:
       <span class="card-title">AI-native / LLM-readable</span>
       <span class="badge badge-partial">Partial</span>
     </div>
-    <div class="card-body">ReadMe pages render clean HTML and expose a public sitemap — crawlable by LLMs. Native llms.txt or MCP indexing is not currently a built-in feature, but content is accessible to crawlers.</div>
+    <div class="card-body">ReadMe pages render clean HTML and expose a public sitemap — crawlable by LLMs. Native llms.txt is supported and automatically generates a configuration file at the root of your documentation site based on your existing documentation structure. MCP indexing is not currently a built-in feature, but content is accessible to crawlers.</div>
     <div class="card-detail">You can generate an llms.txt from the Guides API. MCP indexing would need a custom integration or third-party.</div>
   </div>
   <div class="card">
