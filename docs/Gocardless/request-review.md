@@ -265,4 +265,15 @@ metadata:
 </html>
 `}</HTMLBlock>
 
-<br />
+Here's how to think through the full picture:
+
+Where ReadMe is a strong fit — the core of what you're asking for is exactly what ReadMe was built to do. OpenAPI-synced reference, multi-language code samples, Try It sandbox, changelog, page ratings, and content analytics are all first-class features. The WYSIWYG + GitHub Sync combination directly addresses the "easy to update for engineers and non-engineers" requirement.
+
+Where it's partial, and what to do about it:
+
+* AI-native / MCP indexing — ReadMe doesn't ship an llms.txt or MCP integration out of the box, but you can generate one via the Guides API and host it at /llms.txt. For MCP indexing, you'd need a custom integration or a third-party layer. Worth flagging to ReadMe's team — this is actively evolving.
+* Semantic search — current search is keyword-based. Zero-result tracking is available in analytics (you can see what returned no results) but isn't auto-surfaced as a queue for content work. If semantic search is hard criteria, this is the biggest gap vs alternatives like Mintlify or a custom Algolia integration.
+* Sub-100ms TTFB guarantee — ReadMe's SSR performance is generally solid, but you're on their infrastructure and can't contractually enforce a TTFB SLA. If that's a hard requirement, self-hosted solutions (Mintlify, Docusaurus + Vercel) give you more control.
+* Content governance / quality gates — GitHub Sync handles the PR review part well, but broken link checking and linting need to be bolted on in CI (e.g. broken-link-checker against your staging URL on every PR). ReadMe doesn't enforce this natively.
+* Personalisation by scheme/country/integration method — user variable injection (API keys, company name) is excellent. True conditional content branching by integration type isn't native and would require either separate versioned doc trees or custom JS blocks.
+* On the build vs buy vs open source question — ReadMe sits squarely in the "buy" column with a strong managed-platform story. If strict performance SLAs, deep MCP/AI-native features, or aggressive content conditionals are hard requirements, it's worth putting Mintlify side-by-side (stronger AI-native story, more config flexibility) and Docusaurus + Vercel (full control, more engineering lift). Happy to do a direct comparison against either if useful.
