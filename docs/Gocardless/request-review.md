@@ -191,8 +191,8 @@ metadata:
       <span class="card-title">AI-native / LLM-readable</span>
       <span class="badge badge-yes">Native</span>
     </div>
-    <div class="card-body">ReadMe pages render clean HTML and expose a public sitemap — crawlable by LLMs. Native llms.txt is supported and automatically generates a configuration file at the root of your documentation site based on your existing documentation structure. MCP indexing is not currently a built-in feature, but content is accessible to crawlers.</div>
-    <div class="card-detail">You can generate an llms.txt from the Guides API. MCP indexing would need a custom integration or third-party.</div>
+    <div class="card-body">Full AI-native stack: LLMs.txt auto-generated with a single toggle (all plans, zero maintenance). Two native MCP servers — one for doc authors to manage docs via AI, one for API users to give their AI tools live access to your spec and docs. ReadMe pages render clean HTML and expose a public sitemap — crawlable by LLMs. Native llms.txt is supported and automatically generates a configuration file at the root of your documentation site based on your existing documentation structure.</div>
+    <div class="card-detail">LLMs.txt available on all plans. MCP servers are a built-in, not a custom integration.</div>
   </div>
   <div class="card">
     <div class="card-header">
