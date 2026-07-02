@@ -1,5 +1,5 @@
 ---
-title: Deletes a pet
+title: Supprime un animal
 api:
   file: petstore.json
   operationId: deletePet
