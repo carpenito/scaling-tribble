@@ -1,90 +1,91 @@
 ---
-title: Getting Started with TranslationsQA_Nov2025
+title: Premiers pas avec TranslationsQA_Nov2025
 excerpt: >-
-  Quick start guide to get you up and running with your developer hub - write
-  docs, add AI features, and sync with Git.
+  Guide de démarrage rapide pour vous lancer avec votre hub développeur -
+  rédigez de la documentation, ajoutez des fonctionnalités IA et synchronisez
+  avec Git.
 hidden: false
 icon: fad fa-rocket-launch
 link:
   new_tab: false
 ---
-# Welcome to ReadMe - Welcome to JFrog
+# Bienvenue sur ReadMe - Bienvenue sur JFrog
 
-Welcome to your AI-powered, Git-backed developer hub. This starter page will help you get up and running quickly.
+Bienvenue sur votre hub développeur alimenté par l'IA et adossé à Git. Cette page de démarrage vous aidera à vous lancer rapidement.
 
 ***
 
-## ✍️ Write Docs with Components
+## ✍️ Rédigez de la documentation avec des composants
 
-Create <Anchor label="**Guides**" target="_blank" href="https://docs.readme.com/main/docs/creating-and-managing-guides">**Guides**</Anchor> to walk users through key concepts and tutorials. Use ReadMe's MDX editor to combine Markdown with custom components like `<Card>`, `<Tab>`, and `<Accordion>`.
+Créez des <Anchor label="**Guides**" target="_blank" href="https://docs.readme.com/main/docs/creating-and-managing-guides">**Guides**</Anchor> pour accompagner les utilisateurs à travers les concepts clés et les tutoriels. Utilisez l'éditeur MDX de ReadMe pour combiner Markdown avec des composants personnalisés tels que `<Card>`, `<Tab>` et `<Accordion>`.
 
 <Cards columns={3}>
-  <Card title="Component Marketplace" href="https://github.com/readmeio/marketplace/tree/main/components" icon="fa-store" target="_blank">
-    Drop in and customize components.
+  <Card title="Marketplace de composants" href="https://github.com/readmeio/marketplace/tree/main/components" icon="fa-store" target="_blank">
+    Intégrez et personnalisez des composants.
   </Card>
 
   <Card title="MDX (Markdown + JSX)" href="https://docs.readme.com/main/docs/mdx" icon="fa-code">
-    Build interactive components.
+    Créez des composants interactifs.
   </Card>
 
-  <Card title="Custom Components" href="https://docs.readme.com/main/docs/building-custom-mdx-components" icon="fa-wrench">
-    Create reusable components.
+  <Card title="Composants personnalisés" href="https://docs.readme.com/main/docs/building-custom-mdx-components" icon="fa-wrench">
+    Créez des composants réutilisables.
   </Card>
 </Cards>
 
 ***
 
-## 🤖 Add AI Features
+## 🤖 Ajoutez des fonctionnalités IA
 
-Access AI tools by clicking **:sparkles:AI** in your top navigation:
+Accédez aux outils IA en cliquant sur **:sparkles:IA** dans votre barre de navigation supérieure :
 
-* **AI Agent** - Draft documentation, translate pages, apply style guides
-* **MCP Server** - Convert API docs into AI-readable resources
-* **AI Search** - Help developers get instant answers
-* **Open in AI Services** - Let users access docs in ChatGPT, Claude, etc.
-
-***
-
-## 🌿 Work with Branches
-
-<Anchor label="Branches" target="_blank" href="https://docs.readme.com/main/docs/branches">Branches</Anchor> bring Git-style workflows to documentation:
-
-* Draft changes without publishing immediately
-* Review and preview updates before going live
-* Share edits with teammates for feedback
-* Safely iterate without disrupting production docs
+* **Agent IA** - Rédigez de la documentation, traduisez des pages, appliquez des guides de style
+* **Serveur MCP** - Convertissez la documentation API en ressources lisibles par l'IA
+* **Recherche IA** - Aidez les développeurs à obtenir des réponses instantanées
+* **Ouvrir dans les services IA** - Permettez aux utilisateurs d'accéder à la documentation dans ChatGPT, Claude, etc.
 
 ***
 
-## 🔁 Sync with Git
+## 🌿 Travaillez avec des branches
 
-* **[Bi-Directional GitHub Sync](https://docs.readme.com/main/docs/bi-directional-sync)** - Connect your GitHub repo for seamless collaboration
-* **OpenAPI Sync** - Use [`rdme`](https://docs.readme.com/docs/rdme#upload) or the API to keep your API Reference updated
+<Anchor label="Branches" target="_blank" href="https://docs.readme.com/main/docs/branches">Les branches</Anchor> apportent des workflows de type Git à la documentation :
 
-***
-
-## 👀 Monitor Usage
-
-Track how developers use your API and docs with <Anchor label="My Developers" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">My Developers</Anchor>. Set up the <Anchor label="webhook" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">webhook</Anchor> and integrate the [Metrics SDK](https://docs.readme.com/main/docs/sending-api-logs).
+* Rédigez des modifications sans les publier immédiatement
+* Révisez et prévisualisez les mises à jour avant leur mise en ligne
+* Partagez les modifications avec vos coéquipiers pour obtenir des retours
+* Itérez en toute sécurité sans perturber la documentation en production
 
 ***
 
-## 🚀 Next Steps
+## 🔁 Synchronisez avec Git
 
-1. Create your first Guide or sync your OpenAPI file
-2. [Connect GitHub for bi-directional sync](/docs/getting-started#/settings/git-connection/github)
-3. Set up your <Anchor label="MCP server" target="_blank" href="https://docs.readme.com/main/docs/mcp-servers">MCP server</Anchor>
-4. Check **My Developers** to understand your audience
+* **[Synchronisation GitHub bidirectionnelle](https://docs.readme.com/main/docs/bi-directional-sync)** - Connectez votre dépôt GitHub pour une collaboration fluide
+* **Synchronisation OpenAPI** - Utilisez [`rdme`](https://docs.readme.com/docs/rdme#upload) ou l'API pour maintenir votre référence API à jour
+
+***
+
+## 👀 Surveillez l'utilisation
+
+Suivez la façon dont les développeurs utilisent votre API et votre documentation avec <Anchor label="My Developers" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">Mes développeurs</Anchor>. Configurez le <Anchor label="webhook" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">webhook</Anchor> et intégrez le [SDK Metrics](https://docs.readme.com/main/docs/sending-api-logs).
+
+***
+
+## 🚀 Prochaines étapes
+
+1. Créez votre premier Guide ou synchronisez votre fichier OpenAPI
+2. [Connectez GitHub pour une synchronisation bidirectionnelle](/docs/getting-started#/settings/git-connection/github)
+3. Configurez votre <Anchor label="MCP server" target="_blank" href="https://docs.readme.com/main/docs/mcp-servers">serveur MCP</Anchor>
+4. Consultez **Mes développeurs** pour mieux comprendre votre audience
 
 ***
 
 <Callout icon="💼" theme="default">
-  Need enterprise features for multiple products or advanced permissions? [Let's talk.](mailto:growth@readme.io)
+  Vous avez besoin de fonctionnalités entreprise pour plusieurs produits ou de permissions avancées ? [Parlons-en.](mailto:growth@readme.io)
 </Callout>
 
-## 💬 Need Help?
+## 💬 Besoin d'aide ?
 
-Our team is here to support you. If you get stuck, [email us](mailto:support@readme.io) or open the Intercom widget on any page to chat with someone from our team. We've also got a <Anchor label="Slack community" target="_blank" href="https://readme.com/slack">Slack community</Anchor> if you want to say hi to the team and connect with other ReadMe users!
+Notre équipe est là pour vous accompagner. Si vous êtes bloqué, [envoyez-nous un e-mail](mailto:support@readme.io) ou ouvrez le widget Intercom sur n'importe quelle page pour discuter avec un membre de notre équipe. Nous avons également une <Anchor label="Slack community" target="_blank" href="https://readme.com/slack">communauté Slack</Anchor> si vous souhaitez saluer l'équipe et échanger avec d'autres utilisateurs de ReadMe !
 
 <br />
 
