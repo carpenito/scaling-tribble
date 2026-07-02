@@ -1,5 +1,5 @@
 ---
-title: Changelog
+title: 更新日志
 deprecated: false
 hidden: false
 metadata:
@@ -7,54 +7,54 @@ metadata:
 ---
 <br />
 
-> 📘 ReadMe Changelog
+> 📘 ReadMe 更新日志
 >
 > [https://docs.readme.com/changelog](https://docs.readme.com/changelog)
 
-## Add A Post
+## 添加文章
 
-Navigate to **Documentation > Changelog**.
+导航至 **文档 > 更新日志**。
 
 <Image align="center" alt={584} border={true} caption="To delete a post, hover over any title and click the red &#x22;X&#x22; that appears" title="Screenshot 2019-06-24 21.20.22.png" src="https://files.readme.io/f924318-Screenshot_2019-06-24_21.20.22.png" width="smart" />
 
 <Callout icon="🚧" theme="warn">
-  The Changelog is shared across all versions. Adding a post will add it to all versions. Deleting a post will remove it everywhere.
+  更新日志在所有版本之间共享。添加一篇文章将会将其添加到所有版本中。删除一篇文章将会在所有地方将其移除。
 </Callout>
 
-Posts will appear from the most recent to the most outdated, both on the backend and the frontend.
+文章将按从最新到最旧的顺序显示，无论是在后台还是前台。
 
 <Image align="center" alt={1428} border={true} caption="Every post will display the Author and the amount of time passed since posting" title="Screenshot 2019-06-24 21.25.04.png" src="https://files.readme.io/d7b4cf2-Screenshot_2019-06-24_21.25.04.png" width="smart" />
 
-## Changelog Types
+## 更新日志类型
 
-Changelog uses the same editor as our Documentation component with the added option to choose a Changelog Type
+更新日志使用与我们的文档组件相同的编辑器，并额外提供选择更新日志类型的选项
 
 <Image align="center" alt={1028} border={true} caption="No Type means that no icon will appear next to the title when published" title="Screenshot 2019-06-24 20.58.46.png" src="https://files.readme.io/8a37b11-Screenshot_2019-06-24_20.58.46.png" width="smart" />
 
-## Edit Metadata
+## 编辑元数据
 
-Modify the metadata from the dropdown arrow next to **Update Post**
+通过 **更新文章** 旁边的下拉箭头修改元数据
 
 <Image align="center" border={true} width="smart" src="https://files.readme.io/5e28ab5-Screenshot_2019-06-24_21.12.54.png" className="border" />
 
-Change the **Post Date** to any time or the **Posted By** to any Project Member
+将 **发布日期** 更改为任意时间，或将 **发布者** 更改为任意项目成员
 
 <Image align="center" alt={1292} border={true} caption="Posts will appear from most recent to most outdated" title="Screenshot 2019-06-24 21.11.47.png" src="https://files.readme.io/edcbbf6-Screenshot_2019-06-24_21.11.47.png" width="smart" />
 
-Changelog posts are ordered by date. Change the Post Date to change the order.
+更新日志文章按日期排序。更改发布日期即可更改排列顺序。
 
-# :fa-rss-square: RSS Feed
+# :fa-rss-square: RSS 订阅
 
-Users can subscribe to your changelog. Simply add .rss to the end of your changelog URL
+用户可以订阅您的更新日志。只需在更新日志 URL 末尾添加 .rss
 
 **yoursubdomain.readme.io/changelog.rss**
 
-Or for custom domains:
+或对于自定义域名：
 
 **customdomain.com/changelog.rss**
 
-and for enterprise projects with a custom domain:
+对于使用自定义域名的企业项目：
 
 **customdomain.com/[project]/changelog.rss**
 
-Once you have your URL, you can use any RSS feed widget/tool to input the URL and generate HTML to embed it ([here's](https://rss.bloople.net/) an example)!
+获取 URL 后，您可以使用任何 RSS 订阅小部件/工具输入该 URL 并生成可嵌入的 HTML（[这里](https://rss.bloople.net/) 有一个示例）！
