@@ -1,12 +1,12 @@
 ---
-title: Link Testing
+title: Linktesten
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-<Anchor label="Links to Pages" target="_blank" href="doc:links-to-pages">Links to Pages</Anchor>
+<Anchor label="Links to Pages" target="_blank" href="doc:links-to-pages">Links naar pagina's</Anchor>
 
 <br />
 
@@ -14,4 +14,4 @@ metadata:
 
 <br />
 
-<Anchor label="use cases" target="_blank" href="doc:versioning#use-cases">use cases</Anchor>
+<Anchor label="use cases" target="_blank" href="doc:versioning#use-cases">gebruiksscenario's</Anchor>
