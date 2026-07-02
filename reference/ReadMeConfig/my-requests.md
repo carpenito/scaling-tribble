@@ -1,6 +1,8 @@
 ---
-title: My Requests
-excerpt: Set up My Requests to enable your users to debug their requests.
+title: Mes Requêtes
+excerpt: >-
+  Configurez Mes Requêtes pour permettre à vos utilisateurs de déboguer leurs
+  requêtes.
 api_config: my-requests
 hidden: true
 icon: icon-key1
