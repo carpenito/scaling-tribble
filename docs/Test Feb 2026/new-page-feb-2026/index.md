@@ -1,17 +1,17 @@
 ---
-title: New Page Feb 2026
-excerpt: Description (Optional)
+title: 新页面 2026年2月
+excerpt: 描述（可选）
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-Creating a new page
+创建新页面
 
-> Block quote
+> 块引用
 >
-> how do I end the block quote?" 
+> 如何结束块引用？"
 
 <Image align="center" border={true} caption="cute" src="https://files.readme.io/60d3abfd54ed970594a171087b9854f9cfaa0f4cee3f4d6a7d0a7b37a091f5e9-Family_Pic.jpg" />
 
