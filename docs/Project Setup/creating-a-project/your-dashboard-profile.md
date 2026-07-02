@@ -1,23 +1,23 @@
 ---
-title: Your Dashboard & Profile
+title: Votre tableau de bord et profil
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# Navigating Your Dashboard
+# Naviguer dans votre tableau de bord
 
-Welcome to your <Glossary>dashboard</Glossary>! This is where you’ll create new pages, make edits, and update any and all things related to your ReadMe project(s). It’s also where you go to publish pages that’ll go live on your <Glossary>hub</Glossary> in addition to where you can create and update your profile, add and manage your team, and customize the appearance of your project.
+Bienvenue sur votre <Glossary>tableau de bord</Glossary> ! C'est ici que vous créerez de nouvelles pages, effectuerez des modifications et mettrez à jour tout ce qui concerne votre ou vos projets ReadMe. C'est également ici que vous publiez les pages qui seront mises en ligne sur votre <Glossary>hub</Glossary>, mais aussi là où vous pouvez créer et mettre à jour votre profil, ajouter et gérer votre équipe, et personnaliser l'apparence de votre projet.
 
-To visit your ReadMe dashboard, head to [dash.readme.com](https://dash.readme.com/). Login with your ReadMe account credentials, and if you don’t have an account yet, you can also sign up for an account here.
+Pour accéder à votre tableau de bord ReadMe, rendez-vous sur [dash.readme.com](https://dash.readme.com/). Connectez-vous avec vos identifiants ReadMe, et si vous n'avez pas encore de compte, vous pouvez également en créer un ici.
 
-Once you’re logged in, you’ll arrive at your dashboard home where you’ll see a list of all of the projects that you’re either a <Glossary>Project Owner</Glossary> or <Glossary>Project Admin</Glossary> of.
+Une fois connecté, vous arriverez sur la page d'accueil de votre tableau de bord, où vous verrez la liste de tous les projets dont vous êtes soit <Glossary>Propriétaire de projet</Glossary> soit <Glossary>Administrateur de projet</Glossary>.
 
-Click the icon next to your account name in the top nav of the page to see your project settings, where you can edit payments, view [invoices](/main/docs/payment-and-billing-info#viewing-receipts-and-billing-history), and change your password.
+Cliquez sur l'icône à côté de votre nom de compte dans la barre de navigation supérieure pour accéder aux paramètres de votre projet, où vous pouvez gérer les paiements, consulter les [factures](/main/docs/payment-and-billing-info#viewing-receipts-and-billing-history) et modifier votre mot de passe.
 
-## Editing Your Profile
+## Modifier votre profil
 
-The icon next to your account name is also where you’ll go to edit your profile. In the profile section, you will be able to edit your name, email, and password. This is also where you can subscribe to notifications and enable two-factor authentication.
+L'icône à côté de votre nom de compte est également l'endroit où vous pourrez modifier votre profil. Dans la section profil, vous pourrez modifier votre nom, votre adresse e-mail et votre mot de passe. C'est aussi ici que vous pouvez vous abonner aux notifications et activer l'authentification à deux facteurs.
 
 <p class="blank-line" />
 
@@ -25,9 +25,9 @@ The icon next to your account name is also where you’ll go to edit your profil
 
 <p class="blank-line" />
 
-## Manage Your API Keys
+## Gérer vos clés API
 
-You can manage your API keys via your project dashboard in Configuration > API Keys.
+Vous pouvez gérer vos clés API depuis le tableau de bord de votre projet dans Configuration > Clés API.
 
 <p class="blank-line" />
 
