@@ -1,6 +1,8 @@
 ---
-title: Authentication
-excerpt: Set up the authentication for your API to help users manage their credentials.
+title: Authentification
+excerpt: >-
+  Configurez l'authentification de votre API pour aider les utilisateurs à gérer
+  leurs identifiants.
 api_config: authentication
 hidden: true
 icon: icon-key1
