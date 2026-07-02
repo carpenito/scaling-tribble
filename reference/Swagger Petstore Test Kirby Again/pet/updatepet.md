@@ -1,5 +1,5 @@
 ---
-title: Update an existing Rigatoni
+title: Een bestaande Rigatoni bijwerken
 api:
   file: petstore.json
   operationId: updatePet
