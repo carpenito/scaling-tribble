@@ -1,12 +1,13 @@
 ---
-title: Create a Custom Component
+title: Créer un composant personnalisé
 description: >-
-  Recipe DescriptioThis recipe walks through creating a simple reusable styled
-  container that you can use throughout your documentation.
+  Description de la recetteCette recette explique comment créer un conteneur
+  stylisé simple et réutilisable que vous pouvez utiliser dans toute votre
+  documentation.
 
 
-  Just wrap any content with ExampleComponent tags, and it will appear in a nice
-  dark gray box!n
+  Il suffit d'envelopper n'importe quel contenu avec les balises
+  ExampleComponent, et il apparaîtra dans une belle boîte gris foncé !
 hidden: false
 recipe:
   color: '#018FF4'
@@ -32,32 +33,32 @@ export const ExampleComponent = ({ children }) => {
 {"success":true}
 ```
 
-# Create an ExampleComponent
+# Créer un ExampleComponent
 
 <!-- java@1 -->
 
-We're creating a React component called ExampleComponent.
+Nous créons un composant React appelé ExampleComponent.
 
-The export keyword makes this component available for import elsewhere
+Le mot-clé export rend ce composant disponible pour être importé ailleurs
 
-({ children }) uses destructuring to access any content placed between the component's opening and closing tags.
+({ children }) utilise la déstructuration pour accéder à tout contenu placé entre les balises d'ouverture et de fermeture du composant.
 
-# Structuring the Component
+# Structurer le composant
 
 <!-- java@2-8 -->
 
-return (...) defines what the component will render, while the outer <div> uses Tailwind CSS classes to center its content and take up full width and height.
+return (...) définit ce que le composant va afficher, tandis que le <div> externe utilise les classes Tailwind CSS pour centrer son contenu et occuper toute la largeur et la hauteur.
 
-The inner <div> creates a dark gray box with rounded corners and padding
+Le <div> interne crée une boîte gris foncé avec des coins arrondis et un rembourrage
 
-{children} is where the magic happens—this will render whatever content you place between your component tags.
+{children} est là où la magie opère — cela affichera le contenu que vous placez entre les balises de votre composant.
 
-# Using the Component
+# Utiliser le composant
 
 <!-- java@11-13 -->
 
-The <ExampleComponent> opens the component.
+Le <ExampleComponent> ouvre le composant.
 
-The text between the tags becomes the children prop
+Le texte entre les balises devient la prop children
 
-Lastly, the </ExampleComponent> closes the component.
+Enfin, le </ExampleComponent> ferme le composant.
