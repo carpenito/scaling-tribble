@@ -1,14 +1,14 @@
 ---
-title: Recipes
+title: Recettes
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# Overview
+# Vue d'ensemble
 
-Recipes transform intimidating code blocks into friendly, step-by-step walkthroughs that actually make sense. Instead of dumping a wall of code on your developers and hoping for the best, Recipes break everything down into digestible chunks with clear explanations that guide them from "What does this do?" to "Got it, I'm ready to build!"  
-Key Features
+Les Recettes transforment des blocs de code intimidants en guides pas à pas conviviaux qui ont vraiment du sens. Au lieu de noyer vos développeurs sous une masse de code en espérant le meilleur, les Recettes décomposent tout en morceaux digestes avec des explications claires qui les accompagnent de « À quoi ça sert ? » à « Compris, je suis prêt à construire ! »  
+Fonctionnalités clés
 
 <br />
 
@@ -16,23 +16,23 @@ Key Features
 
 <br />
 
-## Key Features
+## Fonctionnalités clés
 
-* **Smart Code Annotation**: Your code samples get the VIP treatment with line-by-line breakdowns that highlight exactly what's happening at each step—no more guessing games or Stack Overflow deep dives.
-* **Multi-Language Magic**: One Recipe, multiple programming languages. Your developers can stick with their favorite syntax while following the same logical flow, making everyone happy.
-* **Contextual Embedding**: Drop Recipes directly into your guides or API reference pages where developers need them most—it's like having helpful hints exactly when and where they matter.
-* **Live Response Previews**: Show developers the payoff by including actual API responses alongside your code, so they know their implementation is working before they even run it.
-* **Brand-Forward Customization**: Make your Recipes uniquely yours with custom emojis, colors, and descriptions that reflect your API's personality while keeping the experience engaging.
+* **Annotation de code intelligente** : Vos exemples de code bénéficient d'un traitement de faveur avec des analyses ligne par ligne qui mettent en évidence exactement ce qui se passe à chaque étape — fini les devinettes et les plongées interminables sur Stack Overflow.
+* **Magie multilangage** : Une seule Recette, plusieurs langages de programmation. Vos développeurs peuvent rester avec leur syntaxe préférée tout en suivant le même flux logique, pour la satisfaction de tous.
+* **Intégration contextuelle** : Insérez des Recettes directement dans vos guides ou pages de référence API là où les développeurs en ont le plus besoin — comme avoir des conseils utiles exactement au bon moment et au bon endroit.
+* **Aperçus de réponses en direct** : Montrez aux développeurs le résultat en incluant de vraies réponses API à côté de votre code, afin qu'ils sachent que leur implémentation fonctionne avant même de l'exécuter.
+* **Personnalisation à votre image** : Rendez vos Recettes uniques avec des emojis, des couleurs et des descriptions personnalisés qui reflètent la personnalité de votre API tout en maintenant une expérience engageante.
 
 <br />
 
-## **How It Works**
+## **Comment ça fonctionne**
 
-Recipes are built around three core areas that transform complex code into guided learning experiences.
+Les Recettes s'articulent autour de trois domaines essentiels qui transforment du code complexe en expériences d'apprentissage guidées.
 
-### Highlighted Steps (Left Sidebar):
+### Étapes mises en évidence (barre latérale gauche) :
 
-Your storytelling space where you break down code into logical chunks and explain what each section accomplishes. This narrative thread helps developers understand not just what to do, but why each step matters.
+Votre espace narratif où vous décomposez le code en blocs logiques et expliquez ce qu'accomplit chaque section. Ce fil conducteur aide les développeurs à comprendre non seulement quoi faire, mais aussi pourquoi chaque étape est importante.
 
 <Image align="left" border={false} src="https://files.readme.io/2864a230cd6c4c44603d711bac57709a728101a9146390f38ef43a29beb231c8-Screenshot_2025-05-22_at_1.52.51_PM.png" />
 
@@ -64,24 +64,24 @@ Your storytelling space where you break down code into logical chunks and explai
 
 <br />
 
-### Code Panel (Upper Right)
+### Panneau de code (en haut à droite)
 
-Your actual code sample with syntax highlighting. Copy/paste your code, then map your explanations to specific line numbers.
+Votre exemple de code réel avec coloration syntaxique. Copiez-collez votre code, puis associez vos explications à des numéros de ligne spécifiques.
 
 <Image align="center" border={false} src="https://files.readme.io/99bfb0c375ce0610f6ecf9d20b34209b051870b64324a00286ef948aa821c8f2-Screenshot_2025-05-22_at_2.09.51_PM.png" />
 
-### Response Section (Lower Right)
+### Section de réponse (en bas à droite)
 
-Show the payoff with actual API responses developers will see when everything works. It's about building confidence and helping them recognize success.
+Montrez le résultat avec les vraies réponses API que les développeurs verront lorsque tout fonctionne. Il s'agit de renforcer leur confiance et de les aider à reconnaître le succès.
 
-The magic happens when developers encounter your Recipes throughout their docs journey. Whether embedded as cards in guides or placed contextually in API references, Recipes open as interactive modals that provide deep-dive guidance without breaking their flow.
+La magie opère lorsque les développeurs rencontrent vos Recettes tout au long de leur parcours dans la documentation. Qu'elles soient intégrées sous forme de cartes dans des guides ou placées de manière contextuelle dans des références API, les Recettes s'ouvrent sous forme de fenêtres modales interactives offrant des conseils approfondis sans interrompre leur flux de travail.
 
-## Use Cases
+## Cas d'utilisation
 
-* **First-Day Success**: Transform that overwhelming "Hello World" moment into a confident first integration with guided authentication flows and basic request patterns that actually work.
-* **Complex Workflow Mastery**: Take multi-step processes like webhook configurations or advanced query operations and make them feel achievable with clear, progressive explanations..
-* **Feature Spotlight**: When you ship new capabilities, Recipes turn feature announcements into hands-on tutorials that drive immediate adoption..
+* **Succès dès le premier jour** : Transformez ce moment écrasant du « Hello World » en une première intégration confiante grâce à des flux d'authentification guidés et des modèles de requêtes de base qui fonctionnent vraiment.
+* **Maîtrise des flux de travail complexes** : Prenez des processus en plusieurs étapes comme les configurations de webhooks ou les opérations de requêtes avancées et rendez-les accessibles grâce à des explications claires et progressives.
+* **Mise en avant des fonctionnalités** : Lorsque vous lancez de nouvelles capacités, les Recettes transforment les annonces de fonctionnalités en tutoriels pratiques qui favorisent une adoption immédiate.
 
-## **Getting Started**
+## **Premiers pas**
 
-Ready to transform your code samples into developer-friendly experiences? Head to the Recipes section in your Editing UI and start building. You'll configure your step-by-step explanations, add your code with strategic line highlighting, and include those satisfying success responses. Customize the visual experience to match your brand, choose strategic embedding locations throughout your docs, and flip the switch to make your Recipes live. Your developers will thank you for turning documentation into an actually helpful learning experience.
+Prêt à transformer vos exemples de code en expériences conviviales pour les développeurs ? Rendez-vous dans la section Recettes de votre interface d'édition et commencez à construire. Vous configurerez vos explications pas à pas, ajouterez votre code avec une mise en évidence stratégique des lignes, et inclurez ces réponses de succès satisfaisantes. Personnalisez l'expérience visuelle pour correspondre à votre image de marque, choisissez des emplacements d'intégration stratégiques dans toute votre documentation, et activez le tout pour mettre vos Recettes en ligne. Vos développeurs vous remercieront d'avoir transformé la documentation en une véritable expérience d'apprentissage utile.
