@@ -7,110 +7,110 @@ metadata:
 ---
 <br />
 
-This FAQ answers common questions about using [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) with ReadMe projects.
+Deze FAQ beantwoordt veelgestelde vragen over het gebruik van [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) met ReadMe-projecten.
 
-## General
+## Algemeen
 
-### What is the Model Context Protocol (MCP)?
+### Wat is het Model Context Protocol (MCP)?
 
-Model Context Protocol (MCP) is a standard for how AI assistants interact with APIs. In ReadMe, MCP turns your API documentation and OpenAPI definition into a structured resource that AI tools can understand, search, and call programmatically.
+Model Context Protocol (MCP) is een standaard voor de manier waarop AI-assistenten met API's communiceren. In ReadMe zet MCP uw API-documentatie en OpenAPI-definitie om in een gestructureerde resource die AI-tools kunnen begrijpen, doorzoeken en programmatisch aanroepen.
 
-### How does MCP work with my ReadMe project?
+### Hoe werkt MCP met mijn ReadMe-project?
 
-ReadMe creates a dedicated MCP server for your project. This server connects to your OpenAPI specification and your [Ask AI](/docs/ask-ai) functionality, so AI assistants can:
+ReadMe maakt een speciale MCP-server aan voor uw project. Deze server verbindt met uw OpenAPI-specificatie en uw [Ask AI](/docs/ask-ai)-functionaliteit, zodat AI-assistenten het volgende kunnen doen:
 
-* Read and understand your OpenAPI spec
-* Execute API calls
-* Search your docs
-* Pull in endpoint details, request bodies, response schemas, and example code snippets
+* Uw OpenAPI-spec lezen en begrijpen
+* API-aanroepen uitvoeren
+* Uw documentatie doorzoeken
+* Endpoint-details, request bodies, response-schema's en voorbeeldcodefragmenten ophalen
 
-### What can AI assistants do through the MCP server?
+### Wat kunnen AI-assistenten doen via de MCP-server?
 
-Once connected to your MCP server, AI assistants can:
+Nadat ze verbonden zijn met uw MCP-server, kunnen AI-assistenten:
 
-* Browse and list available API endpoints
-* Inspect security schemes and authentication requirements
-* Fetch detailed endpoint documentation
-* Get structured request and response schemas
-* Generate example code snippets to call your API
-* Search your broader documentation for context and guides
+* Beschikbare API-endpoints bekijken en weergeven
+* Beveiligingsschema's en authenticatievereisten inspecteren
+* Gedetailleerde endpoint-documentatie ophalen
+* Gestructureerde request- en response-schema's opvragen
+* Voorbeeldcodefragmenten genereren om uw API aan te roepen
+* Uw bredere documentatie doorzoeken voor context en handleidingen
 
-## Enabling & Using MCP
+## MCP inschakelen & gebruiken
 
-### How do I enable my MCP server in ReadMe?
+### Hoe schakel ik mijn MCP-server in ReadMe in?
 
-In Edit Mode, in the top right-hand corner, click **:sparkles:AI** to open the side panel. Select **MCP** and toggle **MCP Server** on to activate your MCP server. Once enabled, your MCP URL will be:
+Klik in de bewerkingsmodus in de rechterbovenhoek op **:sparkles:AI** om het zijpaneel te openen. Selecteer **MCP** en zet **MCP Server** aan om uw MCP-server te activeren. Zodra ingeschakeld, is uw MCP-URL:
 
 `https://your-project.readme.com/mcp`
 
-You can share this URL with your developers so they can connect compatible AI tools (like Cursor) directly to your API and docs.
+U kunt deze URL delen met uw ontwikkelaars zodat zij compatibele AI-tools (zoals Cursor) rechtstreeks kunnen verbinden met uw API en documentatie.
 
-### How do I test that my MCP server is working?
+### Hoe test ik of mijn MCP-server werkt?
 
-Once you’ve enabled MCP:
+Nadat u MCP hebt ingeschakeld:
 
-1. Open your AI editor (Cursor, VS Code, etc.).
-2. Start a new chat with the AI assistant.
-3. Ask questions like:
-   * "How do I [common use case]?"
-   * "Show me an example of [API functionality]."
-   * "Create a [integration type] using [your API]."
+1. Open uw AI-editor (Cursor, VS Code, enz.).
+2. Start een nieuw gesprek met de AI-assistent.
+3. Stel vragen zoals:
+   * "Hoe doe ik [veelvoorkomend gebruik]?"
+   * "Laat me een voorbeeld zien van [API-functionaliteit]."
+   * "Maak een [integratietype] met behulp van [uw API]."
 
-If configured correctly, the assistant should be able to discover your endpoints, read your docs, and generate working examples.
+Als alles correct is geconfigureerd, zou de assistent uw endpoints moeten kunnen ontdekken, uw documentatie kunnen lezen en werkende voorbeelden kunnen genereren.
 
-### Can I control which endpoints are exposed via MCP?
+### Kan ik bepalen welke endpoints beschikbaar zijn via MCP?
 
-Yes. You can disable endpoints you don’t want accessible from your MCP server under **Enabled MCP Routes**. Only enabled routes will be available to AI assistants through the MCP tools.
+Ja. U kunt endpoints die u niet toegankelijk wilt maken via uw MCP-server uitschakelen onder **Ingeschakelde MCP-routes**. Alleen ingeschakelde routes zijn beschikbaar voor AI-assistenten via de MCP-tools.
 
-## Tools & Capabilities
+## Tools & mogelijkheden
 
-### What OpenAPI tools are available through MCP?
+### Welke OpenAPI-tools zijn beschikbaar via MCP?
 
-The MCP server exposes several OpenAPI-focused tools, including:
+De MCP-server biedt verschillende OpenAPI-gerichte tools, waaronder:
 
-* `execute-request` – Make API calls directly from your specification.
-* `get-endpoint` – Retrieve detailed endpoint information.
-* `get-request-body` – Access structured request parameters.
-* `get-response-schema` – View what your API returns.
-* `list-endpoints` – Browse all available API endpoints.
-* `list-security-schemes` – Inspect authentication requirements.
-* `search-schema` – Search across your OpenAPI schema.
-* `get-code-snippet` – Generate example code in your preferred language.
+* `execute-request` – Voer API-aanroepen rechtstreeks uit vanuit uw specificatie.
+* `get-endpoint` – Haal gedetailleerde endpoint-informatie op.
+* `get-request-body` – Toegang tot gestructureerde request-parameters.
+* `get-response-schema` – Bekijk wat uw API retourneert.
+* `list-endpoints` – Blader door alle beschikbare API-endpoints.
+* `list-security-schemes` – Inspecteer authenticatievereisten.
+* `search-schema` – Zoek door uw OpenAPI-schema.
+* `get-code-snippet` – Genereer voorbeeldcode in uw voorkeurstaal.
 
-### What documentation tools are available?
+### Welke documentatietools zijn beschikbaar?
 
-Documentation tools focus on your broader knowledge base:
+Documentatietools richten zich op uw bredere kennisbank:
 
-* `search` – Search your entire documentation set for relevant content.
-* `fetch` – Return a specific guides page.
+* `search` – Doorzoek uw volledige documentatieset op relevante inhoud.
+* `fetch` – Geef een specifieke handleidingspagina terug.
 
 <Callout icon="📘" theme="info">
-  Documentation tools require upgrading your current plan with the <Anchor label="AI Booster Pack" target="_blank" href="https://readme.com/pricing">AI Booster Pack</Anchor>.
+  Voor documentatietools moet u uw huidige abonnement upgraden met het <Anchor label="AI Booster Pack" target="_blank" href="https://readme.com/pricing">AI Booster Pack</Anchor>.
 
-  For Enterprise customers, please reach out to your CSM.
+  Voor Enterprise-klanten kunt u contact opnemen met uw CSM.
 
-  For Startup and Business customers, please upgrade your plan with the AI Booster Pack from your **Manage Plan** page under Settings.
+  Voor Startup- en Business-klanten kunt u uw abonnement upgraden met het AI Booster Pack via uw **Abonnement beheren**-pagina onder Instellingen.
 </Callout>
 
-## Configuration & Access
+## Configuratie & toegang
 
-### How do branches work with MCP?
+### Hoe werken branches met MCP?
 
-By default, the MCP server connects to the latest stable version of your project. To target a different branch, append `?branch=<name>` to the MCP URL. When using a branch-specific MCP server, the `search-documentation` functionality will not be available.
+Standaard verbindt de MCP-server met de nieuwste stabiele versie van uw project. Om een andere branch te gebruiken, voegt u `?branch=<name>` toe aan de MCP-URL. Wanneer u een branch-specifieke MCP-server gebruikt, is de `search-documentation`-functionaliteit niet beschikbaar.
 
-### How do I allow MCP to access private projects?
+### Hoe geef ik MCP toegang tot privéprojecten?
 
-For private or protected projects, you’ll need to configure your MCP client to send an `x-readme-auth` header:
+Voor privé- of beveiligde projecten moet u uw MCP-client configureren om een `x-readme-auth`-header te verzenden:
 
-* **Password protected**: `x-readme-auth` should be the site password.
-* **Teammates only & Custom login**: `x-readme-auth` should be an API key in the form `bearer <api_key>`.
+* **Wachtwoordbeveiligd**: `x-readme-auth` moet het sitewachtwoord zijn.
+* **Alleen teamleden & Aangepaste login**: `x-readme-auth` moet een API-sleutel zijn in de vorm `bearer <api_key>`.
 
-### How can I generate connection instructions for my users?
+### Hoe kan ik verbindingsinstructies genereren voor mijn gebruikers?
 
-After activating your MCP server, click **Generate MCP Template** in your project. This creates a new, unpublished **MCP** guide in your project’s Guides or API Reference, under a new category called **MCP SERVER**. The guide includes ready-made instructions for connecting to your MCP server from tools like Cursor and Claude Desktop.
+Na het activeren van uw MCP-server klikt u op **MCP-sjabloon genereren** in uw project. Dit maakt een nieuwe, niet-gepubliceerde **MCP**-handleiding aan in de Handleidingen of API-referentie van uw project, onder een nieuwe categorie genaamd **MCP SERVER**. De handleiding bevat kant-en-klare instructies voor het verbinden met uw MCP-server vanuit tools zoals Cursor en Claude Desktop.
 
-## Plans, Pricing & Requirements
+## Abonnementen, prijzen & vereisten
 
-### Do I need a specific plan or add-on to use MCP?
+### Heb ik een specifiek abonnement of add-on nodig om MCP te gebruiken?
 
-All ReadMe projects can auto-generate an MCP server once MCP is enabled. However, some capabilities (like Documentation Tools) require the **AI Booster Pack** add-on. Enterprise customers should contact their CSM, and Startup/Business customers can upgrade from their **Manage Plan** page under Settings.
+Alle ReadMe-projecten kunnen automatisch een MCP-server genereren zodra MCP is ingeschakeld. Sommige mogelijkheden (zoals Documentatietools) vereisen echter de **AI Booster Pack**-add-on. Enterprise-klanten kunnen contact opnemen met hun CSM, en Startup/Business-klanten kunnen upgraden via hun **Abonnement beheren**-pagina onder Instellingen.
