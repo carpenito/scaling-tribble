@@ -559,8 +559,8 @@
         "tags": [
           "store"
         ],
-        "summary": "Delete purchase order by ID",
-        "description": "For valid response try integer IDs with positive integer value. Negative or non-integer values will generate API errors",
+        "summary": "根据 ID 删除采购订单",
+        "description": "如需获得有效响应，请使用正整数值的整数 ID。负数或非整数值将产生 API 错误",
         "operationId": "deleteOrder",
         "parameters": [
           {
