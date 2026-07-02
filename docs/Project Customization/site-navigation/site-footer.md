@@ -1,5 +1,5 @@
 ---
-title: Site Footer
+title: Sitevoettekst
 deprecated: false
 hidden: false
 metadata:
@@ -7,18 +7,18 @@ metadata:
 ---
 <br />
 
-> 📘 Available on Business and Enterprise Plans!
+> 📘 Beschikbaar op Business en Enterprise plannen!
 >
-> The option to white label your site, including removing the ReadMe logo and/or adding a custom footer, is only available on ReadMe's Business or Enterprise plans. To learn more about ReadMe's plans, pricing, and feature breakdowns, visit our [pricing page.](https://readme.com/pricing)
+> De mogelijkheid om uw site te white labelen, inclusief het verwijderen van het ReadMe-logo en/of het toevoegen van een aangepaste voettekst, is alleen beschikbaar op ReadMe's Business- of Enterprise-plannen. Voor meer informatie over ReadMe's plannen, prijzen en functies, bezoek onze [prijspagina.](https://readme.com/pricing)
 
 <p class="blank-line" />
 
-## Removing the ReadMe Logo
+## Het ReadMe-logo verwijderen
 
-This is where you can remove the ReadMe Logo
+Hier kunt u het ReadMe-logo verwijderen
 
 <Image border={true} src="https://files.readme.io/29f9b21-CleanShot_2022-09-25_at_10.03.152x.png" className="border" />
 
-## Custom Footer HTML
+## Aangepaste voettekst HTML
 
-You can add custom html for your footer here, then format it to your desire in [Adding Custom JavaScript/CSS](doc:custom-css-and-javascript) section.
+U kunt hier aangepaste HTML voor uw voettekst toevoegen en deze vervolgens naar wens opmaken in de sectie [Aangepaste JavaScript/CSS toevoegen](doc:custom-css-and-javascript).
