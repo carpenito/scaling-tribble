@@ -1,112 +1,112 @@
 ---
-title: Migrating to ReadMe
+title: Migreren naar ReadMe
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-With our documentation migration tool, we've made it super simple to bring your existing documentation into ReadMe. Whether you're coming from Docusaurus, GitBook, Mintlify, Nextra, or Zendesk, we've got you covered. Let's walk through the process of giving your docs an awesome new home.
+Met onze documentatiemigratietool hebben we het heel eenvoudig gemaakt om je bestaande documentatie naar ReadMe over te brengen. Of je nu komt van Docusaurus, GitBook, Mintlify, Nextra of Zendesk, wij hebben je gedekt. Laten we het proces doorlopen om je documentatie een geweldige nieuwe thuis te geven.
 
-## Before You Begin
+## Voordat je begint
 
-Here's what you'll need to have ready:
+Dit heb je nodig:
 
-* The URL of your current documentation
-* Access to your existing documentation platform
-* Your ReadMe account (if you don't have one yet, you can sign up at readme.com)
+* De URL van je huidige documentatie
+* Toegang tot je bestaande documentatieplatform
+* Je ReadMe-account (als je er nog geen hebt, kun je je aanmelden op readme.com)
 
-## 🔄 Migration Process
+## 🔄 Migratieproces
 
-### Step 1: Access the Migration Tool
+### Stap 1: Toegang tot de migratietool
 
-Head over to our [migration portal at MrScraper x ReadMe](https://readme.mrscraper.com/). This is your gateway to seamless documentation migration.
+Ga naar onze [migratieportal bij MrScraper x ReadMe](https://readme.mrscraper.com/). Dit is jouw toegangspoort tot een naadloze documentatiemigratie.
 
-### Step 2: Fill Out Your Details
+### Stap 2: Vul je gegevens in
 
-Let's get you set up:
+Laten we je instellen:
 
-1. Enter your name and email address - we'll use these to keep you updated on your migration progress
-2. Select your current documentation platform from the options:
+1. Voer je naam en e-mailadres in - we gebruiken deze om je op de hoogte te houden van je migratievoortgang
+2. Selecteer je huidige documentatieplatform uit de opties:
    * Docusaurus
    * GitBook
    * Mintlify
    * Nextra
    * Zendesk
 
-### Step 3: Provide Your Documentation URL
+### Stap 3: Geef je documentatie-URL op
 
-Enter the full URL of your current documentation (e.g., [https://docs.yourdomain.com](https://docs.yourdomain.com)). Make sure this URL points to the root of your documentation.
+Voer de volledige URL van je huidige documentatie in (bijv. [https://docs.yourdomain.com](https://docs.yourdomain.com)). Zorg ervoor dat deze URL verwijst naar de root van je documentatie.
 
-### Step 4: Specify Version Information
+### Stap 4: Geef versie-informatie op
 
-If you're using version control in your current documentation:
+Als je versiebeheer gebruikt in je huidige documentatie:
 
-* Enter your version number in the format v2.0 or v2.1.0-beta
-* This helps ensure your versioned content migrates correctly
+* Voer je versienummer in het formaat v2.0 of v2.1.0-beta in
+* Dit helpt ervoor te zorgen dat je versie-inhoud correct wordt gemigreerd
 
-### Step 5: Initiate Migration
+### Stap 5: Start de migratie
 
-Click the "Submit" button to start the migration process. Our tool will:
+Klik op de knop "Verzenden" om het migratieproces te starten. Onze tool zal:
 
-* Analyze your existing documentation structure
-* Convert your content to ReadMe's MDX format
-* Preserve your documentation hierarchy
-* Maintain your existing content relationships
+* Je bestaande documentatiestructuur analyseren
+* Je inhoud converteren naar het MDX-formaat van ReadMe
+* Je documentatiehiërarchie behouden
+* Je bestaande inhoudsrelaties handhaven
 
-## 🎯 What Gets Migrated
+## 🎯 Wat wordt er gemigreerd
 
-Our migration tool handles:
+Onze migratietool verwerkt:
 
-* All documentation pages and their content
-* Images and other media files
-* Code blocks and syntax highlighting
-* Headers and navigation structure
-* Links between pages
-* Custom HTML and CSS (where applicable)
+* Alle documentatiepagina's en hun inhoud
+* Afbeeldingen en andere mediabestanden
+* Codeblokken en syntaxismarkering
+* Koppen en navigatiestructuur
+* Koppelingen tussen pagina's
+* Aangepaste HTML en CSS (waar van toepassing)
 
-## 📝 Post-Migration Steps
+## 📝 Stappen na de migratie
 
-After the migration completes:
+Nadat de migratie is voltooid:
 
-1. Review your migrated content in ReadMe
-2. Verify all links are working correctly
-3. Check that your code samples are properly formatted
-4. Update any platform-specific features to use ReadMe equivalents
-5. Take advantage of ReadMe's MDX capabilities to enhance your docs
+1. Bekijk je gemigreerde inhoud in ReadMe
+2. Controleer of alle koppelingen correct werken
+3. Controleer of je codevoorbeelden correct zijn opgemaakt
+4. Werk platformspecifieke functies bij om ReadMe-equivalenten te gebruiken
+5. Maak gebruik van de MDX-mogelijkheden van ReadMe om je documentatie te verbeteren
 
-## ⚡ Best Practices
+## ⚡ Beste praktijken
 
-* **Clean Up First**: Before migrating, consider cleaning up your existing documentation
-* **Test Run**: If possible, do a test migration with a small section first
-* **Backup**: Always keep a backup of your original documentation
-* **Review**: Plan time for post-migration review and adjustments
-* **Enhance**: Look for opportunities to improve your docs using ReadMe's features
+* **Eerst opruimen**: Overweeg je bestaande documentatie op te ruimen voordat je migreert
+* **Testrun**: Doe indien mogelijk eerst een testmigratie met een klein gedeelte
+* **Back-up**: Bewaar altijd een back-up van je originele documentatie
+* **Beoordeling**: Plan tijd in voor beoordeling en aanpassingen na de migratie
+* **Verbeteren**: Zoek naar mogelijkheden om je documentatie te verbeteren met de functies van ReadMe
 
 ***
 
-## 🎉 What's Next?
+## 🎉 Wat is de volgende stap?
 
-Once your content is migrated, you'll have access to all of ReadMe's powerful features:
+Zodra je inhoud is gemigreerd, heb je toegang tot alle krachtige functies van ReadMe:
 
-* Interactive API documentation
-* Developer metrics and insights
-* Customizable landing pages
-* Bi-directional Git sync
-* MDX support for dynamic content
-* And much more!
+* Interactieve API-documentatie
+* Ontwikkelaarsstatistieken en inzichten
+* Aanpasbare landingspagina's
+* Bidirectionele Git-synchronisatie
+* MDX-ondersteuning voor dynamische inhoud
+* En nog veel meer!
 
-Remember, migration is just the beginning. With ReadMe, you're setting yourself up for documentation success with tools that grow with your API.
+Onthoud dat migratie slechts het begin is. Met ReadMe zet je jezelf op weg naar documentatiesucces met tools die meegroeien met je API.
 
 <br />
 
 <Callout icon="☝️" theme="default">
-  ### Importing via GitHub
+  ### Importeren via GitHub
 
-  You also start a new project and sync to an empty GitHub repository. From there, you can add Markdown content and your OAS file following our [file and naming conventions](https://docs.readme.com/main/docs/documentation-structure).
+  Je kunt ook een nieuw project starten en synchroniseren met een leeg GitHub-repository. Van daaruit kun je Markdown-inhoud en je OAS-bestand toevoegen volgens onze [bestands- en naamgevingsconventies](https://docs.readme.com/main/docs/documentation-structure).
 </Callout>
 
 <Callout icon="💼" theme="default">
-  ### Professional Services
+  ### Professionele diensten
 
-  Customers looking for a hands off approach to importing their docs should reach out to our [sales team](mailto:growth@readme.io).
+  Klanten die op zoek zijn naar een hands-off aanpak voor het importeren van hun documentatie, kunnen contact opnemen met ons [verkoopteam](mailto:growth@readme.io).
 </Callout>
