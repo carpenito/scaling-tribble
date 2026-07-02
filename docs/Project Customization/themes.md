@@ -1,55 +1,55 @@
 ---
-title: Themes
+title: Thèmes
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-All plans have access to customize their in the **Theme** settings. Open **Settings** in the top-left of the admin UI, then select **Theme** in the sidebar.
+Tous les plans ont accès à la personnalisation dans les paramètres **Thème**. Ouvrez **Paramètres** en haut à gauche de l'interface d'administration, puis sélectionnez **Thème** dans la barre latérale.
 
-* Layout
-* Branding (Logo, Favicon, and Colors)
-* Header style
+* Mise en page
+* Image de marque (Logo, Favicon et Couleurs)
+* Style d'en-tête
 
 <PlanTable currentPlan="Free" />
 
 <Callout icon="💁‍♂️" theme="default">
-  **Note:** Additional customization options and services are available on Business and Enterprise plans.
+  **Remarque :** Des options de personnalisation supplémentaires et des services sont disponibles avec les plans Business et Enterprise.
 </Callout>
 
 ***
 
-## Layout
+## Mise en page
 
 <Image align="center" border={false} width="400px" src="https://files.readme.io/3d30b1d7f55cd7e37def92bb05c5c4799bc0e1294169209626ff9a24181733cc-Launch_Week-20250628-1026262x.webp" />
 
-You can choose between 3 layout options: Classic, Compact, and Modern. And there’s also an option to stretch the layout for larger screens. You’ll be able to preview the layout before saving.
+Vous pouvez choisir parmi 3 options de mise en page : Classique, Compact et Moderne. Il existe également une option pour étirer la mise en page sur les grands écrans. Vous pourrez prévisualiser la mise en page avant de sauvegarder.
 
 <Callout icon="🚧" theme="warn">
-  A sidebar only option is coming soon!
+  Une option avec barre latérale uniquement arrive bientôt !
 </Callout>
 
 ***
 
-## Branding
+## Image de marque
 
 ### Logo
 
-An option to upload a white logo is available when an alternative is needed for certain themes and header color settings.
+Une option pour télécharger un logo blanc est disponible lorsqu'une alternative est nécessaire pour certains thèmes et paramètres de couleur d'en-tête.
 
 **Format**
 
-* SVG is preferred for the best quality.
-* If your logo is too complex for an SVG, WEBP is a good alternative—use 2x of your desired logo size for clarity in high-resolution displays.
-* GIFs are not supported.
+* Le SVG est préféré pour une meilleure qualité.
+* Si votre logo est trop complexe pour un SVG, le WEBP est une bonne alternative — utilisez 2x de la taille souhaitée de votre logo pour une meilleure clarté sur les écrans haute résolution.
+* Les GIF ne sont pas pris en charge.
 
 **Dimensions**
 
-* 24px height by default. In the Classic and Modern themes you can select a larger 40px height logo.
+* 24px de hauteur par défaut. Dans les thèmes Classique et Moderne, vous pouvez sélectionner une hauteur de logo plus grande de 40px.
 
-**Further Customization**
+**Personnalisation avancée**
 
-* Customers with access to Custom CSS can use our global classes and css variables to tweak their logo display further:
+* Les clients ayant accès au CSS personnalisé peuvent utiliser nos classes globales et variables CSS pour affiner l'affichage de leur logo :
 
 ```css
 .rm-Logo-img {
@@ -59,19 +59,19 @@ An option to upload a white logo is available when an alternative is needed for 
 
 ***
 
-## Header
+## En-tête
 
 <Image align="center" border={false} width="400px" src="https://files.readme.io/9c14d52d69809626037d9cb483cd2fb0619734f6ccc3c3428fd6380936a44b43-Launch_Week-20250628-1043112x.webp" />
 
-You can choose between 4 layout options: Line, Solid Color, Gradient, and Overlay.
+Vous pouvez choisir parmi 4 options de mise en page : Ligne, Couleur unie, Dégradé et Superposition.
 
 <Callout icon="💁‍♂️" theme="default">
-  The Line header option now defaults to a tab display for links. Users with the older button display can switch. Once you switch, you will not be able to switch back.
+  L'option d'en-tête Ligne affiche désormais par défaut les liens sous forme d'onglets. Les utilisateurs disposant de l'ancien affichage en boutons peuvent effectuer le changement. Une fois le changement effectué, il ne sera pas possible de revenir en arrière.
 </Callout>
 
-**Further Customization**
+**Personnalisation avancée**
 
-* Customers with access to Custom CSS can use our global classes and css variables to tweak their header further:
+* Les clients ayant accès au CSS personnalisé peuvent utiliser nos classes globales et variables CSS pour affiner leur en-tête :
 
 ```css
 .rm-Header {
