@@ -231,8 +231,8 @@
         "tags": [
           "pet"
         ],
-        "summary": "Find pet by ID",
-        "description": "Returns a single pet",
+        "summary": "通过ID查找宠物",
+        "description": "返回单个宠物",
         "operationId": "getPetById",
         "parameters": [
           {
