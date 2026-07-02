@@ -1,5 +1,5 @@
 ---
-title: this is crazy
+title: c'est fou
 deprecated: false
 hidden: false
 metadata:
