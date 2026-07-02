@@ -1,146 +1,146 @@
 ---
-title: Reusable Content
+title: Herbruikbare Inhoud
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# Simplify Your Docs Maintenance Workflow with Reusable Content!
+# Vereenvoudig je Documentatie-onderhoud met Herbruikbare Inhoud!
 
-**Edit once, update everywhere**. Reusable Content blocks help you minimize manual errors and ensure that changes to your developer hub occur in all the places they’re needed. 😉
+**Eén keer bewerken, overal bijwerken**. Herbruikbare inhoudsblokken helpen je handmatige fouten te minimaliseren en zorgen ervoor dat wijzigingen in je developer hub op alle benodigde plaatsen worden doorgevoerd. 😉
 
 <Image align="center" border={true} src="https://files.readme.io/05b4408-RC_gif_long.gif" className="border" />
 
-## How Reusable Content Works
+## Hoe Herbruikbare Inhoud Werkt
 
-Reusable Content, as the name implies, allows ReadMe Admins to create blocks of Markdown content that can be used repeatedly across multiple pages in their projects’ docs. When anyone in your project with Admin access edits and updates a Reusable Content block, it automatically updates across every instance where it’s used—a huge time savings benefit!
+Herbruikbare Inhoud, zoals de naam al aangeeft, stelt ReadMe-beheerders in staat om blokken Markdown-inhoud te maken die herhaaldelijk op meerdere pagina's in hun projectdocumentatie kunnen worden gebruikt. Wanneer iemand in je project met beheerderstoegang een Herbruikbaar inhoudsblok bewerkt en bijwerkt, wordt dit automatisch bijgewerkt in elke instantie waar het wordt gebruikt—een enorme tijdsbesparing!
 
-Reusable Content acts as a block, and lives in the editor’s slash menu. Creating a Reusable Content block isn’t just for text—it supports all Markdown!—which means you can have Reusable Content blocks that include images, code snippets, callouts, and more!
+Herbruikbare Inhoud fungeert als een blok en is te vinden in het slash-menu van de editor. Het maken van een Herbruikbaar inhoudsblok is niet alleen voor tekst—het ondersteunt alle Markdown!—wat betekent dat je Herbruikbare inhoudsblokken kunt hebben die afbeeldingen, codefragmenten, callouts en meer bevatten!
 
 <Image align="center" border={true} src="https://files.readme.io/88eaaa9-Docs_adding_RC_block_with_image.gif" className="border" />
 
-### Benefits of Using Reusable Content Blocks
+### Voordelen van het Gebruik van Herbruikbare Inhoudsblokken
 
-1️⃣ **More efficient documentation creation** - for our ReadMe Admins who are responsible for producing and managing extensive API documentation, the ability to make changes across multiple pages in your docs by updating a Reusable Content block (vs. having to hunt for each instance and manually update it) significantly streamlines the docs editing and maintenance workflow!
+1️⃣ **Efficiëntere documentatieontwikkeling** - voor onze ReadMe-beheerders die verantwoordelijk zijn voor het produceren en beheren van uitgebreide API-documentatie, stroomlijnt de mogelijkheid om wijzigingen op meerdere pagina's door te voeren door een Herbruikbaar inhoudsblok bij te werken (in plaats van elke instantie handmatig op te zoeken en bij te werken) de bewerkings- en onderhoudsworkflow aanzienlijk!
 
-2️⃣ **Better accuracy and fewer mistakes** - Fewer manual edits, and more automated changes, means less room for error! Whether it’s including version specific content, adding relevant callouts for specific plan types, or ensuring that all related pages link back to one another, Reusable Content blocks allow your team to scale documentation production and ensure greater quality assurance across the board.
+2️⃣ **Betere nauwkeurigheid en minder fouten** - Minder handmatige bewerkingen en meer geautomatiseerde wijzigingen betekent minder ruimte voor fouten! Of het nu gaat om versiespecifieke inhoud, het toevoegen van relevante callouts voor specifieke plantypen, of het zorgen dat alle gerelateerde pagina's naar elkaar verwijzen, Herbruikbare inhoudsblokken stellen je team in staat om de documentatieproductie op te schalen en een betere kwaliteitsborging te garanderen.
 
-3️⃣ **More clarity across your documentation = a better UX for developers visiting your hub** - Reusable Content blocks allow Project Admins to streamline and unify how they communicate concepts that are repeated throughout your developer hub. Developers rely on your documentation to understand how to integrate and successfully use your API or product, and when that documentation is clear and consistent, it helps developers have a better experience in your hub and with using your API/product overall!
+3️⃣ **Meer duidelijkheid in je documentatie = een betere UX voor ontwikkelaars die je hub bezoeken** - Herbruikbare inhoudsblokken stellen projectbeheerders in staat om te stroomlijnen en te verenigen hoe ze concepten communiceren die herhaaldelijk voorkomen in je developer hub. Ontwikkelaars vertrouwen op je documentatie om te begrijpen hoe ze je API of product kunnen integreren en succesvol kunnen gebruiken, en wanneer die documentatie duidelijk en consistent is, helpt dit ontwikkelaars een betere ervaring te hebben in je hub en met het gebruik van je API/product in het algemeen!
 
-> 📘 Reusable Content is available on ReadMe Business and Enterprise plans!
+> 📘 Herbruikbare Inhoud is beschikbaar op ReadMe Business- en Enterprise-plannen!
 >
-> If you’re on our Business or Enterprise plans, you’ll be able to create Reusable Content blocks from the Editor slash menu (or by using the \< syntax). Enterprise Groups will also have access to the Reusable Content page in their Enterprise Group dashboard.  If you’re on our Free, Startup, or Open Source plans, you’ll need to upgrade your plan in order to access this feature. You can do that in the Upgrade Plan page in your project dashboard!
+> Als je een Business- of Enterprise-plan hebt, kun je Herbruikbare inhoudsblokken maken via het slash-menu van de editor (of door de \< syntaxis te gebruiken). Enterprise-groepen hebben ook toegang tot de pagina Herbruikbare Inhoud in hun Enterprise-groepsdashboard. Als je een Free-, Startup- of Open Source-plan hebt, moet je je plan upgraden om toegang te krijgen tot deze functie. Dat kun je doen op de pagina Plan Upgraden in je projectdashboard!
 
-## Using Reusable Content Across Your Project
+## Herbruikbare Inhoud Gebruiken in je Project
 
-Business plan project dashboards and Enterprise child projects have a **Reusable Content** page in the Documentation section of their project dashboards. This page provides a centralized place to see and manage all Reusable Content blocks used across a project. Within this page Admins can create new Reusable Content blocks, edit existing ones, and delete blocks (only if they’re not being used in any pages).
+Projectdashboards van het Business-plan en Enterprise-kindprojecten hebben een **Herbruikbare Inhoud**-pagina in de Documentatiesectie van hun projectdashboards. Deze pagina biedt een centrale plek om alle Herbruikbare inhoudsblokken die in een project worden gebruikt te bekijken en te beheren. Op deze pagina kunnen beheerders nieuwe Herbruikbare inhoudsblokken maken, bestaande bewerken en blokken verwijderen (alleen als ze niet op pagina's worden gebruikt).
 
 <Image align="center" border={true} src="https://files.readme.io/cef3109-Docs_RC_Menu_in_self_serve_and_child_proj_dashboards.png" className="border" />
 
-### Creating a New Reusable Content Block on a Guides or API Reference Page
+### Een Nieuw Herbruikbaar Inhoudsblok Maken op een Handleidingen- of API-referentiepagina
 
-There are **two ways** to create a new Reusable Content block in a Guides or API Reference page in your project dashboard.
+Er zijn **twee manieren** om een nieuw Herbruikbaar inhoudsblok te maken op een Handleidingen- of API-referentiepagina in je projectdashboard.
 
-**Option 1: Highlight an existing block and “Make[it] Reusable”**
+**Optie 1: Markeer een bestaand blok en kies "Maak[het] Herbruikbaar"**
 
-If you have an existing Markdown block that you’d like to make reusable, use the Block Actions menu to select the text and choose the Make Reusable option. From there, you’ll be able to make additional edits in the Reusable Content editing window before saving the block.
+Als je een bestaand Markdown-blok hebt dat je herbruikbaar wilt maken, gebruik dan het menu Blokacties om de tekst te selecteren en kies de optie Maak Herbruikbaar. Daarna kun je aanvullende bewerkingen maken in het bewerkingsvenster voor Herbruikbare Inhoud voordat je het blok opslaat.
 
 <Image align="center" border={true} src="https://files.readme.io/ba2a818-Docs_Make_Text_into_RC_block.png" className="border" />
 
-**Option 2: Create a new Reusable Content block from the editor’s Slash menu**
+**Optie 2: Maak een nieuw Herbruikbaar inhoudsblok via het slash-menu van de editor**
 
-Similar to how you’d create any Markdown block, type / to bring up the Slash menu and navigate over to the Reusable Content section. There are two options: **Create New** and **Reuse Content**.
+Net zoals je een Markdown-blok zou maken, typ je / om het slash-menu te openen en navigeer je naar de sectie Herbruikbare Inhoud. Er zijn twee opties: **Nieuw Maken** en **Inhoud Hergebruiken**.
 
 <Image align="center" border={true} src="https://files.readme.io/3e4f3eb-Docs_Creating_New_RC_Block_from_Slash_Menu.gif" className="border" />
 
-Whether you highlight an existing block to make it reusable or select “Create New” from the Reusable Content section of the Slash menu, this Reusable Content window will appear. This is where you’ll name the reusable content block (this is only used internally), can create and make edits to the block, and save it to make it reusable.
+Of je nu een bestaand blok markeert om het herbruikbaar te maken of "Nieuw Maken" selecteert in de sectie Herbruikbare Inhoud van het slash-menu, dit venster voor Herbruikbare Inhoud verschijnt. Hier geef je het herbruikbare inhoudsblok een naam (dit wordt alleen intern gebruikt), kun je het blok maken en bewerken, en sla je het op om het herbruikbaar te maken.
 
 <Image align="center" border={true} src="https://files.readme.io/726d3c2-Docs_RC_editing_menu_blank.png" className="border" />
 
-> 🚧 You cannot edit the name of a Reusable Content block once it’s been created
+> 🚧 Je kunt de naam van een Herbruikbaar inhoudsblok niet bewerken nadat het is aangemaakt
 >
-> Once you name your Reusable Content block, you cannot change or edit the name. You can only edit the body content of the block.
+> Zodra je je Herbruikbaar inhoudsblok een naam hebt gegeven, kun je de naam niet meer wijzigen of bewerken. Je kunt alleen de inhoud van het blok bewerken.
 
-### Adding a Reusable Content Block to a Page
+### Een Herbruikbaar Inhoudsblok aan een Pagina Toevoegen
 
-Just as there are two ways to create a new Reusable Content block, there are also two ways to insert an existing Reusable Content block into a Guides or API Reference page.
+Net zoals er twee manieren zijn om een nieuw Herbruikbaar inhoudsblok te maken, zijn er ook twee manieren om een bestaand Herbruikbaar inhoudsblok in een Handleidingen- of API-referentiepagina in te voegen.
 
-Similar to how you insert a variable or glossary term, typing “\<” in a page will bring up a menu of your project’s Reusable Content blocks, in addition to your glossary terms and variables. Select the Reusable Content block you want to use from the list to insert it onto the page.
+Net zoals je een variabele of glossariumterm invoegt, opent het typen van "\<" op een pagina een menu met de Herbruikbare inhoudsblokken van je project, naast je glossariumtermen en variabelen. Selecteer het Herbruikbare inhoudsblok dat je wilt gebruiken uit de lijst om het op de pagina in te voegen.
 
 <Image align="center" border={true} src="https://files.readme.io/0b9fbf2-Docs_Using__to_Bring_Up_RC_Menu.png" className="border" />
 
-You can also insert a Reusable Content block from the editor’s Slash menu. Select the “Reuse Content” option from the menu to see a list of all available Reusable Content blocks. Scroll through the options, select the one you want to use, and it’ll be inserted into the page!
+Je kunt ook een Herbruikbaar inhoudsblok invoegen via het slash-menu van de editor. Selecteer de optie "Inhoud Hergebruiken" in het menu om een lijst van alle beschikbare Herbruikbare inhoudsblokken te zien. Blader door de opties, selecteer de gewenste optie en deze wordt in de pagina ingevoegd!
 
 <Image align="center" border={true} src="https://files.readme.io/1171888-Docs_Adding_Existing_RC_block_from_slash_menu.gif" className="border" />
 
-### Identifying a Reusable Content Block in Use
+### Een Herbruikbaar Inhoudsblok in Gebruik Herkennen
 
-Reusable Content blocks have a green border and are labeled as **REUSABLE** in the editor.
+Herbruikbare inhoudsblokken hebben een groene rand en zijn gelabeld als **HERBRUIKBAAR** in de editor.
 
 <Image align="center" border={true} src="https://files.readme.io/bac17d4-docs_page_-_RC_block_menu.png" className="border" />
 
-Features:
+Functies:
 
-1. The left label identifies the block as Reusable and lists the name of the block
-2. If you click the left dropdown, you’ll have the option to **edit** or **detach** the block
-3. The right label notes how many pages this particular block is used across
-4. If you click the right dropdown, it reveals the specific pages where the Reusable Content block is in use
+1. Het linkerlabel identificeert het blok als Herbruikbaar en toont de naam van het blok
+2. Als je op het linkervervolgkeuzemenu klikt, heb je de optie om het blok te **bewerken** of te **loskoppelen**
+3. Het rechterlabel geeft aan op hoeveel pagina's dit specifieke blok wordt gebruikt
+4. Als je op het rechtervervolgkeuzemenu klikt, worden de specifieke pagina's weergegeven waar het Herbruikbare inhoudsblok in gebruik is
 
-### Editing a Reusable Content Block
+### Een Herbruikbaar Inhoudsblok Bewerken
 
-When you click the left label dropdown in an Reusable Content block and select **Edit**, the editing window will appear. If you are on a Business plan (or creating a block for a single Enterprise child project), you can edit the Reusable Content block and click **Update** which will update the Reusable Content block info across all instances where it’s being used. If you are on an Enterprise project, head to [this page](https://docs.readme.com/ent/docs/reusable-content-enterprise#/) in our Enterprise Guides to learn more about the process.
+Wanneer je op het linkerlabelvervolgkeuzemenu in een Herbruikbaar inhoudsblok klikt en **Bewerken** selecteert, verschijnt het bewerkingsvenster. Als je een Business-plan hebt (of een blok maakt voor een enkel Enterprise-kindproject), kun je het Herbruikbare inhoudsblok bewerken en op **Bijwerken** klikken, waardoor de informatie van het Herbruikbare inhoudsblok in alle instanties waar het wordt gebruikt wordt bijgewerkt. Als je een Enterprise-project hebt, ga dan naar [deze pagina](https://docs.readme.com/ent/docs/reusable-content-enterprise#/) in onze Enterprise-handleidingen voor meer informatie over het proces.
 
-In this editing window there’s also an option to **Delete** which deletes the block entirely. In order to delete a Reusable Content block you must first remove—either by deleting or detaching—all instances of it across your project.
+In dit bewerkingsvenster is er ook een optie om te **Verwijderen**, waarmee het blok volledig wordt verwijderd. Om een Herbruikbaar inhoudsblok te verwijderen, moet je eerst alle instanties ervan in je project verwijderen—door ze te verwijderen of los te koppelen.
 
 <Image align="center" border={true} src="https://files.readme.io/1e3f201-Docs_Deleting_an_RC_Block.png" className="border" />
 
-### Detaching a Reusable Content Block
+### Een Herbruikbaar Inhoudsblok Loskoppelen
 
-If you want to remove the instance of a Reusable Content block or want to make an edit to a block on one page that you don’t want to be reflected across all instances, consider **detaching** the block.
+Als je de instantie van een Herbruikbaar inhoudsblok wilt verwijderen of een bewerking wilt maken aan een blok op één pagina die je niet wilt doorvoeren in alle instanties, overweeg dan het blok **los te koppelen**.
 
-You can do this via the left dropdown menu at the top of the Reusable Content block. Select **Detach** and the block will immediately revert to its original Markdown state.
+Je kunt dit doen via het linkervervolgkeuzemenu bovenaan het Herbruikbare inhoudsblok. Selecteer **Loskoppelen** en het blok keert onmiddellijk terug naar zijn oorspronkelijke Markdown-staat.
 
 <Image align="center" border={true} src="https://files.readme.io/7b61371-Detaching_an_RC_block.gif" className="border" />
 
 <Callout icon="⏭️" theme="default">
-  ### Looking for More Information About Reusable Content for Your Enterprise Group?
+  ### Op zoek naar meer informatie over Herbruikbare Inhoud voor je Enterprise-groep?
 
-  We have a separate page for that! If you’re an Enterprise customer looking to learn more about managing Reusable Content for your Enterprise Group, head to [this page](https://docs.readme.com/ent/docs/reusable-content-enterprise#/)!
+  We hebben daar een aparte pagina voor! Als je een Enterprise-klant bent die meer wil weten over het beheren van Herbruikbare Inhoud voor je Enterprise-groep, ga dan naar [deze pagina](https://docs.readme.com/ent/docs/reusable-content-enterprise#/)!
 </Callout>
 
-## Reusable Content FAQs
+## Veelgestelde Vragen over Herbruikbare Inhoud
 
-**How do you find the Reusable Content blocks that already exist for your project?**
+**Hoe vind je de Herbruikbare inhoudsblokken die al bestaan voor je project?**
 
-There are currently two ways to locate the Reusable Content blocks that have been created for your Business plan project (or Enterprise child project) – (1) you can locate them via the editor slash menu (Reusable -> Reuse Content -> populates a list of all Reusable Content blocks) or (2) use the \< syntax to bring up the menu of all RC blocks (in addition to your project’s glossary terms and variables).
+Er zijn momenteel twee manieren om de Herbruikbare inhoudsblokken te vinden die zijn gemaakt voor je Business-planproject (of Enterprise-kindproject) – (1) je kunt ze vinden via het slash-menu van de editor (Herbruikbaar -> Inhoud Hergebruiken -> toont een lijst van alle Herbruikbare inhoudsblokken) of (2) gebruik de \< syntaxis om het menu van alle RC-blokken te openen (naast de glossariumtermen en variabelen van je project).
 
-**What are some things to keep in mind when using Reusable Content blocks?**
+**Waar moet je op letten bij het gebruik van Herbruikbare inhoudsblokken?**
 
-* You cannot nest a Reusable Content block within another Reusable Content block
-* A Reusable Content block is saved separately from the page in which it’s being used. To update a block, save the change in the Reusable Content editing window, and then save the page you’re working in
-* When you initially create and save a Reusable Content block, the block will say “used in 0 pages”. You’ll need to save the page in order for the block count to update to say “used in 1 page”
-* If you export a project to .md files, and then re-import that file back into ReadMe, any previously created Reusable Content blocks that were exported will no longer be recognized as Reusable Content blocks in the new project. If the new project is on Business or Enterprise, you will be able to create new Reusable Content blocks
+* Je kunt een Herbruikbaar inhoudsblok niet nesten binnen een ander Herbruikbaar inhoudsblok
+* Een Herbruikbaar inhoudsblok wordt apart opgeslagen van de pagina waarop het wordt gebruikt. Om een blok bij te werken, sla je de wijziging op in het bewerkingsvenster voor Herbruikbare Inhoud en sla je vervolgens de pagina op waaraan je werkt
+* Wanneer je voor het eerst een Herbruikbaar inhoudsblok maakt en opslaat, zal het blok "gebruikt op 0 pagina's" weergeven. Je moet de pagina opslaan zodat het blokaantal wordt bijgewerkt naar "gebruikt op 1 pagina"
+* Als je een project exporteert naar .md-bestanden en dat bestand vervolgens opnieuw importeert in ReadMe, worden eerder gemaakte Herbruikbare inhoudsblokken die zijn geëxporteerd niet langer herkend als Herbruikbare inhoudsblokken in het nieuwe project. Als het nieuwe project een Business- of Enterprise-plan heeft, kun je nieuwe Herbruikbare inhoudsblokken maken
 
-**How does versioning work with Reusable Content blocks?**
+**Hoe werkt versiebeheer met Herbruikbare inhoudsblokken?**
 
-* Each version of your ReadMe project has its own subset of reusable blocks
-* You can’t use reusable blocks across versions, unless you manually clone them and add them to a new version. Even still, once you update in one version, they won’t auto-update in other versions
-  * E.g., if you create a new version of your project, v2.0, that is forked from v1.0, the new version will include any Reusable Content blocks that were created and used in v1.0. The Reusable Content blocks that are now in v2.0, however, are different—and while still reusable and auto-syncing—do not sync with the Reusable Content blocks in v1.0 (even though the blocks have the same name). The count for how many times a Reusable Content block is used is tied to the version level.
+* Elke versie van je ReadMe-project heeft zijn eigen subset van herbruikbare blokken
+* Je kunt geen herbruikbare blokken gebruiken over versies heen, tenzij je ze handmatig kloont en toevoegt aan een nieuwe versie. Zelfs dan worden ze niet automatisch bijgewerkt in andere versies wanneer je er één bijwerkt
+  * Bijv., als je een nieuwe versie van je project maakt, v2.0, die is afgesplitst van v1.0, bevat de nieuwe versie alle Herbruikbare inhoudsblokken die zijn gemaakt en gebruikt in v1.0. De Herbruikbare inhoudsblokken die nu in v2.0 staan, zijn echter anders—en hoewel ze nog steeds herbruikbaar en automatisch gesynchroniseerd zijn—synchroniseren ze niet met de Herbruikbare inhoudsblokken in v1.0 (ook al hebben de blokken dezelfde naam). Het aantal keren dat een Herbruikbaar inhoudsblok wordt gebruikt, is gekoppeld aan het versieniveau.
 
-**How do Suggested Edits work with Reusable Content blocks?**
+**Hoe werken Voorgestelde Bewerkingen met Herbruikbare inhoudsblokken?**
 
-* You cannot suggest an edit on a Reusable Content block—this applies to both logged-in users and Admins viewing your project from the hub
-* Logged-in users can suggest to move a Reusable Content block, remove it from the page’s content, and detach it
-* To suggest an edit to the content of a Reusable Content block, the end user will first need to detach the block and then edit that content
-* When the above happens, Project Admins will have the option to merge the suggestion from the project dashboard, as is the case with all Suggested Edits
+* Je kunt geen bewerking voorstellen voor een Herbruikbaar inhoudsblok—dit geldt voor zowel ingelogde gebruikers als beheerders die je project vanuit de hub bekijken
+* Ingelogde gebruikers kunnen voorstellen om een Herbruikbaar inhoudsblok te verplaatsen, het uit de inhoud van de pagina te verwijderen en het los te koppelen
+* Om een bewerking van de inhoud van een Herbruikbaar inhoudsblok voor te stellen, moet de eindgebruiker eerst het blok loskoppelen en vervolgens die inhoud bewerken
+* Wanneer het bovenstaande gebeurt, hebben projectbeheerders de optie om de suggestie samen te voegen vanuit het projectdashboard, zoals het geval is bij alle Voorgestelde Bewerkingen
 
-**What happens if you upgrade or downgrade your plan?**
+**Wat gebeurt er als je je plan upgradet of downgradet?**
 
-* Currently, Reusable Content is only available on Business and Enterprise plans
-* Reusable Content is also included in ReadMe’s free trial
-* If you downgrade from a plan where you had access to and had previously created Reusable Content blocks, the following will happen:
-  * The Reusable Content blocks will still exist in the pages of your project
-  * These blocks will be in ‘view only’ mode—you won’t be able to edit them unless you detach them
-  * You’ll also lose the “Used In” menu and will not be able to see where the blocks are used across the project
-* If you then upgrade back to Business or Enterprise, then:
-  * You’ll gain access back to any existing Reusable Content blocks and have the ability to create, update, detach, and/or delete existing and new Reusable Content blocks
+* Momenteel is Herbruikbare Inhoud alleen beschikbaar op Business- en Enterprise-plannen
+* Herbruikbare Inhoud is ook inbegrepen in de gratis proefperiode van ReadMe
+* Als je downgradet van een plan waarbij je toegang had tot en eerder Herbruikbare inhoudsblokken had gemaakt, gebeurt het volgende:
+  * De Herbruikbare inhoudsblokken blijven bestaan op de pagina's van je project
+  * Deze blokken zijn in de modus 'alleen weergeven'—je kunt ze niet bewerken tenzij je ze loskoppelt
+  * Je verliest ook het menu "Gebruikt In" en kunt niet meer zien waar de blokken in het project worden gebruikt
+* Als je vervolgens upgradet naar Business of Enterprise, dan:
+  * Krijg je weer toegang tot bestaande Herbruikbare inhoudsblokken en heb je de mogelijkheid om bestaande en nieuwe Herbruikbare inhoudsblokken te maken, bij te werken, los te koppelen en/of te verwijderen
