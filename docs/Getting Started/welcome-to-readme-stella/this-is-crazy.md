@@ -1,5 +1,5 @@
 ---
-title: this is crazy
+title: dit is gek
 deprecated: false
 hidden: false
 metadata:
