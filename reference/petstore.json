@@ -590,8 +590,8 @@
         "tags": [
           "user"
         ],
-        "summary": "Create user",
-        "description": "This can only be done by the logged in user.",
+        "summary": "Créer un utilisateur",
+        "description": "Cela ne peut être effectué que par l'utilisateur connecté.",
         "operationId": "createUser",
         "requestBody": {
           "content": {
