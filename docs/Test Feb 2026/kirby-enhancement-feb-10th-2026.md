@@ -1,6 +1,6 @@
 ---
-title: Kirby Enhancement Feb 10th 2026
-excerpt: WOW
+title: Amélioration Kirby du 10 février 2026
+excerpt: SUPER
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
@@ -8,16 +8,16 @@ metadata:
   robots: index
 ---
 <Tabs>
-  <Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
+  <Tab title="Premier onglet">
+    Bienvenue dans le contenu que vous ne pouvez voir qu'à l'intérieur du premier onglet.
   </Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
+  <Tab title="Deuxième onglet">
+    Voici le contenu qui se trouve uniquement dans le deuxième onglet.
   </Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
+  <Tab title="Troisième onglet">
+    Voici le contenu qui se trouve uniquement dans le troisième onglet.
   </Tab>
 </Tabs>
 
