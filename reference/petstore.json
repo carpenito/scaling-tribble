@@ -733,7 +733,7 @@
         "tags": [
           "user"
         ],
-        "summary": "Get user by user name",
+        "summary": "Obtenir un utilisateur par nom d'utilisateur",
         "description": "",
         "operationId": "getUserByName",
         "parameters": [
