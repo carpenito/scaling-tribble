@@ -1,81 +1,81 @@
 ---
-title: Navigating Your Hub
+title: 导航您的中心
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Let's explore the key areas of your developer hub and discover how each one helps you create an exceptional documentation experience.
+让我们探索开发者中心的核心区域，了解每个区域如何帮助您打造卓越的文档体验。
 
-## Core Navigation Areas
+## 核心导航区域
 
-### 👀 View Mode
+### 👀 查看模式
 
-Experience your docs exactly as your developers do. Perfect for:
+以开发者的视角体验您的文档。适用于：
 
-* Reading through content in its published form
-* Getting a clear picture of your documentation structure
-* Understanding the developer journey
-* Identifying areas for improvement
+* 以发布形式阅读内容
+* 清晰了解文档结构
+* 理解开发者使用旅程
+* 发现需要改进的地方
 
-### ✏️ Edit Mode
+### ✏️ 编辑模式
 
 <Image align="center" border={false} src="https://files.readme.io/17b07f56b7af997a97df4a615eb89c4cd4066cbd5881402fc992a9e85a32a349-Edit_Directly_in_Docs.gif" />
 
-Click **Edit** to transform any page into your workspace:
+点击**编辑**将任意页面转变为您的工作区：
 
-* Make changes right where you see them
-* Access the full editor toolkit
-* Organize your content structure
-* See updates in real-time
+* 在所见之处直接进行修改
+* 使用完整的编辑器工具套件
+* 整理内容结构
+* 实时查看更新
 
-### 👥 My Developers
+### 👥 我的开发者
 
-Gain insights into API usage and performance:
+深入了解 API 使用情况和性能表现：
 
-* Track real-time API interactions
-* Identify and resolve issues quickly
-* Monitor response times
-* Understand usage patterns
+* 追踪实时 API 交互
+* 快速识别并解决问题
+* 监控响应时间
+* 了解使用模式
 
-## Settings & Customization
+## 设置与自定义
 
-### ⚙️ Project Settings
+### ⚙️ 项目设置
 
 <Image align="center" border={false} src="https://files.readme.io/4b2bd94863cd043a93871a73de327b661c8dae2ed81fe91bcaf0f87161b45030-CleanShot_2024-11-08_at_20.13.41.gif" />
 
-Your hub's command center puts essential controls at your fingertips:
+中心的控制台让您轻松掌握核心控制项：
 
-* Configure API authentication
-* Set up custom domains
-* Manage team access
-* Adjust project-wide preferences
+* 配置 API 身份验证
+* 设置自定义域名
+* 管理团队访问权限
+* 调整项目全局偏好设置
 
-### 🔄 Version Control
+### 🔄 版本控制
 
-Keep documentation organized across API versions:
+跨 API 版本有序管理文档：
 
-* Toggle between different versions
-* Control version visibility
-* Maintain version-specific content
-* Manage deprecation notices
+* 在不同版本之间切换
+* 控制版本可见性
+* 维护特定版本的内容
+* 管理弃用通知
 
-### ♻️ Content Settings
+### ♻️ 内容设置
 
-Streamline content management with reusable elements:
+通过可复用元素简化内容管理：
 
-* Create and edit glossary terms
-* Manage reusable content blocks
-* Configure global variables
-* Structure documentation categories
+* 创建和编辑术语表条目
+* 管理可复用内容块
+* 配置全局变量
+* 构建文档分类结构
 
-### 🎨 Appearance Settings
+### 🎨 外观设置
 
 <Image align="center" border={false} src="https://files.readme.io/30873289762d450fc8ca2f838398b3cc1fc884b73127232c7b2c3ce14b6e6c47-CleanShot_2024-11-08_at_20.17.28.gif" />
 
-Shape your hub's visual identity:
+塑造中心的视觉形象：
 
-* Apply your brand colors
-* Customize navigation layout
-* Update logos and icons
-* Fine-tune theme elements
+* 应用品牌色彩
+* 自定义导航布局
+* 更新 Logo 和图标
+* 精细调整主题元素
