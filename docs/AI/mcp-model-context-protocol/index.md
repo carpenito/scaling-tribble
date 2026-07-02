@@ -5,53 +5,53 @@ hidden: false
 metadata:
   robots: index
 ---
-[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) is a standardization of how AI assistants interact with APIs, and ReadMe is bringing this capability to your developer hub. With MCP servers, you can convert your API documentation into a structured, resource that AI assistants can understand and interact with programmatically.
+[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) est une standardisation de la façon dont les assistants IA interagissent avec les API, et ReadMe apporte cette capacité à votre hub développeur. Grâce aux serveurs MCP, vous pouvez convertir votre documentation API en une ressource structurée que les assistants IA peuvent comprendre et avec laquelle ils peuvent interagir de manière programmatique.
 
-## Key Features
+## Fonctionnalités principales
 
-* **Custom Tooling**: Define custom workflow and endpoint combinations. <Badge label="New" bgColor="var(--purple)" textColor="var(--purple100)" cornerRadius="30px" />
-* **Enabled Routes**: Disable endpoints you don’t want accessible in your MCP server <Badge label="New" bgColor="var(--purple)" textColor="var(--purple100)" cornerRadius="30px" />
-* **OpenAPI Integration**: Generate an MCP server from your existing OpenAPI specification.
-* **AI assistants can connect to your MCP server to**:
-  * Read and understand your OpenAPI spec.
-  * Execute API calls.
-  * Search docs with [Ask AI](/docs/ask-ai).
-* **MCP Tools**:
-  * **OpenAPI Tools**:
-    * `execute-request` - Make API calls directly from your specification
-    * `get-endpoint` - Pull in detailed endpoint information on demand
-    * `get-request-body` - Access structured request parameters
-    * `get-response-schema` - Understand what your API returns
-    * `list-endpoints` - Browse all available API endpoints
-    * `list-security-schemes` - Access authentication requirements
-    * `search-schema` - Find exactly what you need in your API spec
-    * `get-code-snippet` - Example code snippets in your preferred language to interact with your endpoint.
-  * **Documentation Tools**:
-    * `search` - Search your entire knowledge base for relevant information
-    * `fetch` - Return a guides page
+* **Outils personnalisés** : Définissez des combinaisons de workflows et d'endpoints personnalisés. <Badge label="New" bgColor="var(--purple)" textColor="var(--purple100)" cornerRadius="30px" />
+* **Routes activées** : Désactivez les endpoints que vous ne souhaitez pas rendre accessibles dans votre serveur MCP <Badge label="New" bgColor="var(--purple)" textColor="var(--purple100)" cornerRadius="30px" />
+* **Intégration OpenAPI** : Générez un serveur MCP à partir de votre spécification OpenAPI existante.
+* **Les assistants IA peuvent se connecter à votre serveur MCP pour** :
+  * Lire et comprendre votre spécification OpenAPI.
+  * Exécuter des appels API.
+  * Rechercher dans la documentation avec [Ask AI](/docs/ask-ai).
+* **Outils MCP** :
+  * **Outils OpenAPI** :
+    * `execute-request` - Effectuer des appels API directement depuis votre spécification
+    * `get-endpoint` - Récupérer des informations détaillées sur les endpoints à la demande
+    * `get-request-body` - Accéder aux paramètres de requête structurés
+    * `get-response-schema` - Comprendre ce que retourne votre API
+    * `list-endpoints` - Parcourir tous les endpoints API disponibles
+    * `list-security-schemes` - Accéder aux exigences d'authentification
+    * `search-schema` - Trouver exactement ce dont vous avez besoin dans votre spécification API
+    * `get-code-snippet` - Exemples de code dans le langage de votre choix pour interagir avec votre endpoint.
+  * **Outils de documentation** :
+    * `search` - Rechercher dans l'ensemble de votre base de connaissances les informations pertinentes
+    * `fetch` - Retourner une page de guides
 
 <Callout icon="📘" theme="info">
-  Documentation Tools require upgrading your current plan with the <Anchor label="AI Booster Pack" target="_blank" href="https://readme.com/pricing">AI Booster Pack</Anchor>.
+  Les outils de documentation nécessitent la mise à niveau de votre plan actuel avec le <Anchor label="AI Booster Pack" target="_blank" href="https://readme.com/pricing">AI Booster Pack</Anchor>.
 
-  For Enterprise customers, please reach out to your CSM.
+  Pour les clients Enterprise, veuillez contacter votre CSM.
 
-  For Startup and Business customers, please upgrade your plan with the AI Booster Pack from your **Manage Plan** page under Settings.
+  Pour les clients Startup et Business, veuillez mettre à niveau votre plan avec l'AI Booster Pack depuis votre page **Gérer le plan** dans les Paramètres.
 </Callout>
 
-## How It Works
+## Comment ça fonctionne
 
-We create a dedicated MCP server that connects to your OpenAPI specification and [Ask AI](/docs/ask-ai) functionality. This creates a bridge between your API documentation and AI assistants, making your API instantly more accessible and understandable to AI tools.
+Nous créons un serveur MCP dédié qui se connecte à votre spécification OpenAPI et à la fonctionnalité [Ask AI](/docs/ask-ai). Cela crée un pont entre votre documentation API et les assistants IA, rendant votre API instantanément plus accessible et compréhensible pour les outils IA.
 
-## Extra Features
+## Fonctionnalités supplémentaires
 
-* **Branches** By default, the MCP server is connected to the latest stable version. To chose a different branch append `?branch=<name>` to the MCP url. NOTE: When you are on a branch `search-documentation` will not be available.
-* **Private Projects** To access protected projects, you will need to configure your MCP client to send a `x-readme-auth` header
-  * Password protected: `x-readme-auth` should be the site password
-  * Teammates only & Custom login: `x-readme-auth` should be an api key in the form `bearer <api_key>`
+* **Branches** Par défaut, le serveur MCP est connecté à la dernière version stable. Pour choisir une branche différente, ajoutez `?branch=<name>` à l'URL MCP. REMARQUE : Lorsque vous êtes sur une branche, `search-documentation` ne sera pas disponible.
+* **Projets privés** Pour accéder aux projets protégés, vous devrez configurer votre client MCP pour envoyer un en-tête `x-readme-auth`
+  * Protégé par mot de passe : `x-readme-auth` doit être le mot de passe du site
+  * Coéquipiers uniquement & Connexion personnalisée : `x-readme-auth` doit être une clé API sous la forme `bearer <api_key>`
 
-## Getting Started with MCP
+## Démarrer avec MCP
 
-Choose how you’d like to start working with MCP:
+Choisissez comment vous souhaitez commencer à utiliser MCP :
 
-1. <Anchor label="Auto-Generate Your Own MCP Server" target="_blank" href="doc:generate-your-own-mcp-server">Auto-Generate Your Own MCP Server</Anchor>: Every ReadMe project automatically includes a fully configured MCP server. Simply enable MCP to connect your API documentation to AI tools.
-2. <Anchor label="Use ReadMe’s MCP Server" target="_blank" href="doc:readmes-mcp-server">Use ReadMe’s MCP Server</Anchor>: With ReadMe’s MCP server, you can do everything you normally would in ReadMe, like adding and editing pages, directly through our API.
+1. <Anchor label="Auto-Generate Your Own MCP Server" target="_blank" href="doc:generate-your-own-mcp-server">Générez automatiquement votre propre serveur MCP</Anchor> : Chaque projet ReadMe inclut automatiquement un serveur MCP entièrement configuré. Activez simplement MCP pour connecter votre documentation API aux outils IA.
+2. <Anchor label="Use ReadMe’s MCP Server" target="_blank" href="doc:readmes-mcp-server">Utilisez le serveur MCP de ReadMe</Anchor> : Avec le serveur MCP de ReadMe, vous pouvez faire tout ce que vous faites habituellement dans ReadMe, comme ajouter et modifier des pages, directement via notre API.
