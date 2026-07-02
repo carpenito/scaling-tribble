@@ -5,10 +5,10 @@ hidden: false
 metadata:
   robots: index
 ---
-# Overview
+# Overzicht
 
-Recipes transform intimidating code blocks into friendly, step-by-step walkthroughs that actually make sense. Instead of dumping a wall of code on your developers and hoping for the best, Recipes break everything down into digestible chunks with clear explanations that guide them from "What does this do?" to "Got it, I'm ready to build!"  
-Key Features
+Recipes transformeren intimiderende codeblokken in vriendelijke, stapsgewijze walkthroughs die echt begrijpelijk zijn. In plaats van een muur van code op je ontwikkelaars af te vuren en het beste te hopen, breken Recipes alles op in verteerbare stukken met duidelijke uitleg die hen begeleidt van "Wat doet dit?" naar "Begrepen, ik ben klaar om te bouwen!"
+Belangrijkste functies
 
 <br />
 
@@ -16,23 +16,23 @@ Key Features
 
 <br />
 
-## Key Features
+## Belangrijkste functies
 
-* **Smart Code Annotation**: Your code samples get the VIP treatment with line-by-line breakdowns that highlight exactly what's happening at each step—no more guessing games or Stack Overflow deep dives.
-* **Multi-Language Magic**: One Recipe, multiple programming languages. Your developers can stick with their favorite syntax while following the same logical flow, making everyone happy.
-* **Contextual Embedding**: Drop Recipes directly into your guides or API reference pages where developers need them most—it's like having helpful hints exactly when and where they matter.
-* **Live Response Previews**: Show developers the payoff by including actual API responses alongside your code, so they know their implementation is working before they even run it.
-* **Brand-Forward Customization**: Make your Recipes uniquely yours with custom emojis, colors, and descriptions that reflect your API's personality while keeping the experience engaging.
+* **Slimme code-annotatie**: Je codevoorbeelden krijgen de VIP-behandeling met regel-voor-regel uitleg die precies laat zien wat er bij elke stap gebeurt—geen giswerk of eindeloze Stack Overflow-sessies meer.
+* **Meertalige magie**: Één Recipe, meerdere programmeertalen. Je ontwikkelaars kunnen bij hun favoriete syntax blijven terwijl ze dezelfde logische stroom volgen, zodat iedereen tevreden is.
+* **Contextuele inbedding**: Voeg Recipes direct in je handleidingen of API-referentiepagina's in waar ontwikkelaars ze het meest nodig hebben—alsof je precies op het juiste moment en de juiste plek nuttige hints geeft.
+* **Live responsvoorbeelden**: Laat ontwikkelaars het resultaat zien door echte API-responses naast je code op te nemen, zodat ze weten dat hun implementatie werkt nog voordat ze hem uitvoeren.
+* **Merkgerichte aanpassing**: Maak je Recipes uniek met aangepaste emoji's, kleuren en beschrijvingen die de persoonlijkheid van je API weerspiegelen en de ervaring boeiend houden.
 
 <br />
 
-## **How It Works**
+## **Hoe het werkt**
 
-Recipes are built around three core areas that transform complex code into guided learning experiences.
+Recipes zijn opgebouwd rond drie kerngebieden die complexe code omzetten in begeleide leerervaringen.
 
-### Highlighted Steps (Left Sidebar):
+### Gemarkeerde stappen (linker zijbalk):
 
-Your storytelling space where you break down code into logical chunks and explain what each section accomplishes. This narrative thread helps developers understand not just what to do, but why each step matters.
+Je vertelruimte waar je code opsplitst in logische stukken en uitlegt wat elk onderdeel doet. Deze verhaallijn helpt ontwikkelaars te begrijpen niet alleen wát ze moeten doen, maar ook waarom elke stap belangrijk is.
 
 <Image align="left" border={false} src="https://files.readme.io/2864a230cd6c4c44603d711bac57709a728101a9146390f38ef43a29beb231c8-Screenshot_2025-05-22_at_1.52.51_PM.png" />
 
@@ -64,24 +64,24 @@ Your storytelling space where you break down code into logical chunks and explai
 
 <br />
 
-### Code Panel (Upper Right)
+### Codepaneel (rechtsboven)
 
-Your actual code sample with syntax highlighting. Copy/paste your code, then map your explanations to specific line numbers.
+Je daadwerkelijke codevoorbeeld met syntaxismarkering. Plak je code erin en koppel je uitleg aan specifieke regelnummers.
 
 <Image align="center" border={false} src="https://files.readme.io/99bfb0c375ce0610f6ecf9d20b34209b051870b64324a00286ef948aa821c8f2-Screenshot_2025-05-22_at_2.09.51_PM.png" />
 
-### Response Section (Lower Right)
+### Responsgedeelte (rechtsonder)
 
-Show the payoff with actual API responses developers will see when everything works. It's about building confidence and helping them recognize success.
+Laat het resultaat zien met echte API-responses die ontwikkelaars te zien krijgen als alles werkt. Het gaat erom vertrouwen op te bouwen en hen te helpen succes te herkennen.
 
-The magic happens when developers encounter your Recipes throughout their docs journey. Whether embedded as cards in guides or placed contextually in API references, Recipes open as interactive modals that provide deep-dive guidance without breaking their flow.
+De magie gebeurt wanneer ontwikkelaars je Recipes tegenkomen tijdens hun documentatiereis. Of ze nu als kaarten in handleidingen zijn ingesloten of contextueel in API-referenties zijn geplaatst, Recipes openen als interactieve modals die diepgaande begeleiding bieden zonder hun flow te onderbreken.
 
-## Use Cases
+## Gebruiksscenario's
 
-* **First-Day Success**: Transform that overwhelming "Hello World" moment into a confident first integration with guided authentication flows and basic request patterns that actually work.
-* **Complex Workflow Mastery**: Take multi-step processes like webhook configurations or advanced query operations and make them feel achievable with clear, progressive explanations..
-* **Feature Spotlight**: When you ship new capabilities, Recipes turn feature announcements into hands-on tutorials that drive immediate adoption..
+* **Succes op de eerste dag**: Transformeer dat overweldigende "Hello World"-moment in een zelfverzekerde eerste integratie met begeleide authenticatiestromen en basisverzoekpatronen die echt werken.
+* **Beheersing van complexe workflows**: Neem meerstapsprocessen zoals webhookconfiguraties of geavanceerde querybewerkingen en maak ze haalbaar met duidelijke, progressieve uitleg.
+* **Functie in de spotlight**: Wanneer je nieuwe mogelijkheden uitbrengt, maken Recipes van functieaankondigingen hands-on tutorials die directe adoptie stimuleren.
 
-## **Getting Started**
+## **Aan de slag**
 
-Ready to transform your code samples into developer-friendly experiences? Head to the Recipes section in your Editing UI and start building. You'll configure your step-by-step explanations, add your code with strategic line highlighting, and include those satisfying success responses. Customize the visual experience to match your brand, choose strategic embedding locations throughout your docs, and flip the switch to make your Recipes live. Your developers will thank you for turning documentation into an actually helpful learning experience.
+Klaar om je codevoorbeelden te transformeren in ontwikkelaarsvriendelijke ervaringen? Ga naar het gedeelte Recipes in je bewerkingsinterface en begin met bouwen. Je configureert je stapsgewijze uitleg, voegt je code toe met strategische regelmarkering en voegt die bevredigende succesresponses toe. Pas de visuele ervaring aan op je merk, kies strategische inbeddingslocaties in je documentatie en zet de schakelaar om om je Recipes live te zetten. Je ontwikkelaars zullen je dankbaar zijn voor het omzetten van documentatie in een echt nuttige leerervaring.
