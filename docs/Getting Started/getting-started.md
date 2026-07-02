@@ -1,90 +1,88 @@
 ---
-title: Getting Started with TranslationsQA_Nov2025
-excerpt: >-
-  Quick start guide to get you up and running with your developer hub - write
-  docs, add AI features, and sync with Git.
+title: 翻译质量保证入门_2025年11月
+excerpt: 快速入门指南，帮助您快速上手开发者中心——编写文档、添加 AI 功能并与 Git 同步。
 hidden: false
 icon: fad fa-rocket-launch
 link:
   new_tab: false
 ---
-# Welcome to ReadMe - Welcome to JFrog
+# 欢迎使用 ReadMe - 欢迎使用 JFrog
 
-Welcome to your AI-powered, Git-backed developer hub. This starter page will help you get up and running quickly.
+欢迎来到您的 AI 驱动、Git 支持的开发者中心。本入门页面将帮助您快速上手。
 
 ***
 
-## ✍️ Write Docs with Components
+## ✍️ 使用组件编写文档
 
-Create <Anchor label="**Guides**" target="_blank" href="https://docs.readme.com/main/docs/creating-and-managing-guides">**Guides**</Anchor> to walk users through key concepts and tutorials. Use ReadMe's MDX editor to combine Markdown with custom components like `<Card>`, `<Tab>`, and `<Accordion>`.
+创建 <Anchor label="**Guides**" target="_blank" href="https://docs.readme.com/main/docs/creating-and-managing-guides">**指南**</Anchor> 以引导用户了解关键概念和教程。使用 ReadMe 的 MDX 编辑器将 Markdown 与自定义组件结合，例如 `<Card>`、`<Tab>` 和 `<Accordion>`。
 
 <Cards columns={3}>
-  <Card title="Component Marketplace" href="https://github.com/readmeio/marketplace/tree/main/components" icon="fa-store" target="_blank">
-    Drop in and customize components.
+  <Card title="组件市场" href="https://github.com/readmeio/marketplace/tree/main/components" icon="fa-store" target="_blank">
+    拖入并自定义组件。
   </Card>
 
-  <Card title="MDX (Markdown + JSX)" href="https://docs.readme.com/main/docs/mdx" icon="fa-code">
-    Build interactive components.
+  <Card title="MDX（Markdown + JSX）" href="https://docs.readme.com/main/docs/mdx" icon="fa-code">
+    构建交互式组件。
   </Card>
 
-  <Card title="Custom Components" href="https://docs.readme.com/main/docs/building-custom-mdx-components" icon="fa-wrench">
-    Create reusable components.
+  <Card title="自定义组件" href="https://docs.readme.com/main/docs/building-custom-mdx-components" icon="fa-wrench">
+    创建可复用的组件。
   </Card>
 </Cards>
 
 ***
 
-## 🤖 Add AI Features
+## 🤖 添加 AI 功能
 
-Access AI tools by clicking **:sparkles:AI** in your top navigation:
+点击顶部导航栏中的 **:sparkles:AI** 即可访问 AI 工具：
 
-* **AI Agent** - Draft documentation, translate pages, apply style guides
-* **MCP Server** - Convert API docs into AI-readable resources
-* **AI Search** - Help developers get instant answers
-* **Open in AI Services** - Let users access docs in ChatGPT, Claude, etc.
-
-***
-
-## 🌿 Work with Branches
-
-<Anchor label="Branches" target="_blank" href="https://docs.readme.com/main/docs/branches">Branches</Anchor> bring Git-style workflows to documentation:
-
-* Draft changes without publishing immediately
-* Review and preview updates before going live
-* Share edits with teammates for feedback
-* Safely iterate without disrupting production docs
+* **AI Agent** - 起草文档、翻译页面、应用风格指南
+* **MCP Server** - 将 API 文档转换为 AI 可读资源
+* **AI 搜索** - 帮助开发者即时获取答案
+* **在 AI 服务中打开** - 让用户在 ChatGPT、Claude 等平台中访问文档
 
 ***
 
-## 🔁 Sync with Git
+## 🌿 使用分支
 
-* **[Bi-Directional GitHub Sync](https://docs.readme.com/main/docs/bi-directional-sync)** - Connect your GitHub repo for seamless collaboration
-* **OpenAPI Sync** - Use [`rdme`](https://docs.readme.com/docs/rdme#upload) or the API to keep your API Reference updated
+<Anchor label="Branches" target="_blank" href="https://docs.readme.com/main/docs/branches">分支</Anchor> 将 Git 风格的工作流引入文档管理：
 
-***
-
-## 👀 Monitor Usage
-
-Track how developers use your API and docs with <Anchor label="My Developers" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">My Developers</Anchor>. Set up the <Anchor label="webhook" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">webhook</Anchor> and integrate the [Metrics SDK](https://docs.readme.com/main/docs/sending-api-logs).
+* 在不立即发布的情况下起草更改
+* 在上线前审查和预览更新
+* 与团队成员共享编辑内容以获取反馈
+* 安全地迭代，不影响生产文档
 
 ***
 
-## 🚀 Next Steps
+## 🔁 与 Git 同步
 
-1. Create your first Guide or sync your OpenAPI file
-2. [Connect GitHub for bi-directional sync](/docs/getting-started#/settings/git-connection/github)
-3. Set up your <Anchor label="MCP server" target="_blank" href="https://docs.readme.com/main/docs/mcp-servers">MCP server</Anchor>
-4. Check **My Developers** to understand your audience
+* **[双向 GitHub 同步](https://docs.readme.com/main/docs/bi-directional-sync)** - 连接您的 GitHub 仓库，实现无缝协作
+* **OpenAPI 同步** - 使用 [`rdme`](https://docs.readme.com/docs/rdme#upload) 或 API 保持 API 参考文档的最新状态
+
+***
+
+## 👀 监控使用情况
+
+通过 <Anchor label="My Developers" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">我的开发者</Anchor> 追踪开发者如何使用您的 API 和文档。设置 <Anchor label="webhook" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">webhook</Anchor> 并集成 [Metrics SDK](https://docs.readme.com/main/docs/sending-api-logs)。
+
+***
+
+## 🚀 后续步骤
+
+1. 创建您的第一个指南或同步您的 OpenAPI 文件
+2. [连接 GitHub 以实现双向同步](/docs/getting-started#/settings/git-connection/github)
+3. 设置您的 <Anchor label="MCP server" target="_blank" href="https://docs.readme.com/main/docs/mcp-servers">MCP server</Anchor>
+4. 查看**我的开发者**以了解您的受众
 
 ***
 
 <Callout icon="💼" theme="default">
-  Need enterprise features for multiple products or advanced permissions? [Let's talk.](mailto:growth@readme.io)
+  需要适用于多个产品或高级权限的企业功能？[联系我们。](mailto:growth@readme.io)
 </Callout>
 
-## 💬 Need Help?
+## 💬 需要帮助？
 
-Our team is here to support you. If you get stuck, [email us](mailto:support@readme.io) or open the Intercom widget on any page to chat with someone from our team. We've also got a <Anchor label="Slack community" target="_blank" href="https://readme.com/slack">Slack community</Anchor> if you want to say hi to the team and connect with other ReadMe users!
+我们的团队随时为您提供支持。如果遇到问题，请[发送邮件给我们](mailto:support@readme.io)，或在任意页面打开 Intercom 小部件与我们的团队成员在线交流。我们还有一个 <Anchor label="Slack community" target="_blank" href="https://readme.com/slack">Slack 社区</Anchor>，欢迎您与团队打招呼并与其他 ReadMe 用户交流！
 
 <br />
 
