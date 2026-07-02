@@ -1,13 +1,13 @@
 ---
-title: Creating a Recipe
+title: Een Recipe aanmaken
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# Overview
+# Overzicht
 
-Ready to transform your code samples into developer-friendly learning experiences? This guide walks you through building your first Recipe from start to finish. You'll learn how to break down complex code into digestible steps, add helpful annotations, and customize the visual experience to match your brand.
+Klaar om je codevoorbeelden om te zetten in ontwikkelaarsvriendelijke leerervaringen? Deze gids leidt je stap voor stap door het maken van je eerste Recipe. Je leert hoe je complexe code opsplitst in begrijpelijke stappen, nuttige annotaties toevoegt en de visuele weergave aanpast aan je huisstijl.
 
 <br />
 
@@ -15,80 +15,80 @@ Ready to transform your code samples into developer-friendly learning experience
 
 <br />
 
-## Before You Start
+## Voordat je begint
 
-* Have your code sample ready (or know which API endpoint you want to use as a starting point)
-* Ensure the Recipes section is accessible in your ReadMe project
-* Consider what programming languages your developers use most
-* Think about the key learning objectives for this particular code walkthrough
+* Zorg dat je codevoorbeeld klaar is (of weet welk API-endpoint je als startpunt wilt gebruiken)
+* Controleer of de sectie Recipes toegankelijk is in je ReadMe-project
+* Bedenk welke programmeertalen je ontwikkelaars het meest gebruiken
+* Denk na over de belangrijkste leerdoelen voor deze specifieke code-walkthrough
 
-## Creating a Recipe
+## Een Recipe aanmaken
 
 <Image border={false} src="https://files.readme.io/4482047-Screen_Shot_2020-12-01_at_3.42.35_PM.png" />
 
-### 1. Access the Recipe Editor
+### 1. Open de Recipe Editor
 
-Navigate to your ReadMe project and click **Edit** to enter the editing UI. From the main navigation, select **Recipes** to access the Recipe management area. Click the **Create New Recipe** button to launch the Recipe builder.
+Navigeer naar je ReadMe-project en klik op **Bewerken** om de bewerkingsinterface te openen. Selecteer in de hoofdnavigatie **Recipes** om naar het Recipe-beheergebied te gaan. Klik op de knop **Nieuw Recipe aanmaken** om de Recipe-builder te starten.
 
 <Image align="center" border={false} src="https://files.readme.io/139f1a2224d1add344a0071284be7614929b7cac5be5babf7cb0860b16b9f81e-Screenshot_2025-05-22_at_12.47.08_PM.png" />
 
-### 2. Configure Your Code Sample
+### 2. Configureer je codevoorbeeld
 
-1. In the upper right panel, select your programming language from the dropdown menu.
-2. Add your code sample and make sure it's properly formatted with syntax highlighting. This will be the foundation that your step-by-step annotations will reference.
+1. Selecteer in het paneel rechtsboven je programmeertaal uit het dropdownmenu.
+2. Voeg je codevoorbeeld toe en zorg ervoor dat het correct is opgemaakt met syntaxismarkering. Dit vormt de basis waarnaar je stapsgewijze annotaties zullen verwijzen.
 
 <Image align="center" border={false} src="https://files.readme.io/91f78f372bffaf5521f48ba6972275b5d3fa1b74cf4b4f917a5d7284a6d51c11-Screenshot_2025-05-22_at_2.09.51_PM.png" />
 
-**Note:** Each Recipe can support multiple programming languages, so you can add additional language versions after setting up your first one.
+**Opmerking:** Elke Recipe kan meerdere programmeertalen ondersteunen, zodat je na het instellen van de eerste taal extra taalversies kunt toevoegen.
 
-### 3. Build Your Step-by-Step Annotations
+### 3. Bouw je stapsgewijze annotaties
 
-In the left sidebar, create your highlighted steps that will guide developers through your code. For each step:
+Maak in de linker zijbalk je gemarkeerde stappen aan die ontwikkelaars door je code begeleiden. Voor elke stap:
 
-* Write a clear, descriptive title that explains what this part of the code accomplishes
-* Add detailed explanations that help developers understand the "why" behind each section
-* Specify the line numbers that should be highlighted for this step
-* Use conversational language that makes complex concepts approachable
+* Schrijf een duidelijke, beschrijvende titel die uitlegt wat dit deel van de code doet
+* Voeg gedetailleerde uitleg toe die ontwikkelaars helpt het "waarom" achter elke sectie te begrijpen
+* Geef de regelnummers op die voor deze stap gemarkeerd moeten worden
+* Gebruik toegankelijke taal die complexe concepten begrijpelijk maakt
 
-Each step should focus on a specific concept or action within your code sample, building understanding progressively.
+Elke stap moet zich richten op een specifiek concept of een specifieke actie binnen je codevoorbeeld, zodat het begrip geleidelijk wordt opgebouwd.
 
 <Image border={false} src="https://files.readme.io/cece453-Screen_Shot_2020-12-01_at_3.49.54_PM.png" />
 
-### **4. Add Response Examples**
+### **4. Voeg responsvoorbeelden toe**
 
-In the lower right panel, include the expected API response when your code runs successfully. This shows developers exactly what success looks like and helps them verify their implementation.
+Neem in het paneel rechtsonder de verwachte API-respons op wanneer je code succesvol wordt uitgevoerd. Dit laat ontwikkelaars precies zien hoe succes eruitziet en helpt hen hun implementatie te verifiëren.
 
-If your code doesn't generate a response (or if showing one isn't relevant), you can leave this section empty—it will automatically hide from the final Recipe.
+Als je code geen respons genereert (of als het tonen ervan niet relevant is), kun je deze sectie leeg laten — deze wordt automatisch verborgen in de definitieve Recipe.
 
-**Note:** User data variables work in Recipes too! If you have personalized docs set up, you can include dynamic content in your responses.
+**Opmerking:** Gebruikersdatavariabelen werken ook in Recipes! Als je gepersonaliseerde docs hebt ingesteld, kun je dynamische inhoud in je responsen opnemen.
 
-> 👍 User data variables work in Recipes!
+> 👍 Gebruikersdatavariabelen werken in Recipes!
 >
-> If you have [variables](doc:personalized-docs) in your documentation, for example passed in via the Personalized Docs Webhook, they'll work in Recipes too!
+> Als je [variabelen](doc:personalized-docs) in je documentatie hebt, bijvoorbeeld doorgegeven via de Personalized Docs Webhook, werken ze ook in Recipes!
 
-### 5. Customize Visual Appearance
+### 5. Pas de visuele weergave aan
 
-Switch to the **Appearance** tab to make your Recipe uniquely yours:
+Schakel over naar het tabblad **Weergave** om je Recipe een eigen stijl te geven:
 
-* **Select an emoji**: Click the emoji icon to choose from the dropdown menu
-* **Set background color**: Use the color picker to select a background that matches your brand (supports RGB, HSL, or HEX values)
-* **Write a description**: Add a detailed description that will appear on the larger Recipe card in your Recipes section
+* **Selecteer een emoji**: Klik op het emoji-pictogram om een keuze te maken uit het dropdownmenu
+* **Stel de achtergrondkleur in**: Gebruik de kleurkiezer om een achtergrond te selecteren die bij je huisstijl past (ondersteunt RGB-, HSL- of HEX-waarden)
+* **Schrijf een beschrijving**: Voeg een gedetailleerde beschrijving toe die verschijnt op de grotere Recipe-kaart in je Recipes-sectie
 
-The _Open Recipe_ button color automatically inherits from your project's link color settings.
+De kleur van de knop _Recipe openen_ wordt automatisch overgenomen van de linkkleurinstellingen van je project.
 
 <Image border={false} src="https://files.readme.io/ea6500f-Screen_Shot_2020-10-19_at_12.41.19_PM.png" />
 
-### **6. Choose Embedding Locations**
+### **6. Kies insluitlocaties**
 
-Decide where your Recipe should appear throughout your documentation:
+Bepaal waar je Recipe in je documentatie moet verschijnen:
 
-* **API Reference embedding**: Select specific endpoints where this Recipe provides relevant context
-* **Recipes section**: Your Recipe will automatically appear in the main Recipes area once published
-* **Guide embedding**: You can manually embed the Recipe into guide pages later using the Recipe widget
+* **API Reference-insluiting**: Selecteer specifieke endpoints waar deze Recipe relevante context biedt
+* **Recipes-sectie**: Je Recipe verschijnt automatisch in het hoofdgedeelte Recipes zodra het is gepubliceerd
+* **Gids-insluiting**: Je kunt de Recipe later handmatig insluiten in gidspagina's via de Recipe-widget
 
-Select the checkboxes next to relevant endpoints to make your Recipe accessible exactly where developers need it most.
+Selecteer de selectievakjes naast relevante endpoints om je Recipe precies daar toegankelijk te maken waar ontwikkelaars het het meest nodig hebben.
 
-The Recipe will appear as a clickable card as shown in the preview area of the Appearance step.
+De Recipe verschijnt als een klikbare kaart, zoals weergegeven in het voorbeeldgebied van de stap Weergave.
 
 <Image border={false} src="https://files.readme.io/20cf1e2-Screen_Shot_2020-12-03_at_5.14.16_PM.png" />
 
@@ -99,51 +99,51 @@ The Recipe will appear as a clickable card as shown in the preview area of the A
 <br />
 
 <Callout icon="🚧" theme="warn">
-  Embeds will not appear in the Reference section [until the Recipes section is enabled](#enable-recipes-section).
+  Insluitingen verschijnen niet in de Reference-sectie [totdat de Recipes-sectie is ingeschakeld](#enable-recipes-section).
 </Callout>
 
 <br />
 
-### 7. Set Publication Status
+### 7. Stel de publicatiestatus in
 
-Choose your Recipe's visibility level:
+Kies het zichtbaarheidsniveau van je Recipe:
 
-* **Unpublished**: Only visible to project administrators (default for new Recipes)
-* **Published**: Visible to all users in your Recipe collection
-* **Featured**: Showcased prominently at the top of your Recipes section (only one Recipe can be featured at a time)
+* **Niet gepubliceerd**: Alleen zichtbaar voor projectbeheerders (standaard voor nieuwe Recipes)
+* **Gepubliceerd**: Zichtbaar voor alle gebruikers in je Recipe-collectie
+* **Uitgelicht**: Prominent weergegeven bovenaan je Recipes-sectie (slechts één Recipe kan tegelijk worden uitgelicht)
 
-Start with "Published" to make your Recipe available to developers, or keep it "Unpublished" while you're still refining the content.
+Begin met "Gepubliceerd" om je Recipe beschikbaar te maken voor ontwikkelaars, of houd het op "Niet gepubliceerd" terwijl je de inhoud nog verfijnt.
 
-|                 |                                                                                                                                                                 |
-| :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Featured**    | This is the showcased Recipe at the top of the Recipe section. One Recipe must be featured if your Recipes page is public, and it must be in a published state. |
-| **Published**   | Visible to users in the card grid below the featured Recipe                                                                                                     |
-| **Unpublished** | Cannot be seen by customers. New Recipes are unpublished by default.                                                                                            |
+|                      |                                                                                                                                                                                          |
+| :------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Uitgelicht**       | Dit is de uitgelichte Recipe bovenaan de Recipes-sectie. Eén Recipe moet worden uitgelicht als je Recipes-pagina openbaar is, en deze moet de status Gepubliceerd hebben. |
+| **Gepubliceerd**     | Zichtbaar voor gebruikers in het kaartraster onder de uitgelichte Recipe                                                                                                                 |
+| **Niet gepubliceerd**| Niet zichtbaar voor klanten. Nieuwe Recipes zijn standaard niet gepubliceerd.                                                                                                            |
 
 <Image border={false} src="https://files.readme.io/445d0c8-Screen_Shot_2020-12-16_at_3.54.22_PM.png" />
 
 <br />
 
-## FAQ & Troubleshooting
+## Veelgestelde vragen & probleemoplossing
 
-**Can I remove the Recipe icon in the nav bar?**
+**Kan ik het Recipe-pictogram in de navigatiebalk verwijderen?**
 
-This section is only visible to project admins. Your customers will not see this section unless you [enable it](#enabling-your-recipes-page) to make it visible to them.
+Deze sectie is alleen zichtbaar voor projectbeheerders. Je klanten zien deze sectie niet tenzij je [deze inschakelt](#enabling-your-recipes-page) om hem voor hen zichtbaar te maken.
 
-As we transition more editing capabilities to the frontend of your docs hub, we'll continue to make it clearer what project admins see versus what your customers see.
+Naarmate we meer bewerkingsmogelijkheden naar de frontend van je docs hub verplaatsen, zullen we duidelijker maken wat projectbeheerders zien versus wat je klanten zien.
 
-**How do I change the color of the blue "Open Recipe" button?**
+**Hoe verander ik de kleur van de blauwe knop "Recipe openen"?**
 
-This button color is inherited from the Link Color you've set in the [Theme Editor](/main/docs/design-themes) in your project settings. To change it, you will need to change the Link Color for your entire ReadMe hub.
+De kleur van deze knop wordt overgenomen van de Linkkleur die je hebt ingesteld in de [Thema-editor](/main/docs/design-themes) in je projectinstellingen. Om deze te wijzigen, moet je de Linkkleur voor je gehele ReadMe-hub aanpassen.
 
-**Can I rename the Recipe section like the other sections?**
+**Kan ik de naam van de Recipes-sectie wijzigen, net als de andere secties?**
 
-Not yet, but we're working on it!
+Nog niet, maar we werken eraan!
 
-**My code highlighting isn't working correctly?** Double-check that your line numbers are accurate and that you've selected the correct programming language. Remember that line numbers start from 1, not 0.
+**Mijn codemarkering werkt niet correct?** Controleer of je regelnummers kloppen en of je de juiste programmeertaal hebt geselecteerd. Onthoud dat regelnummers beginnen bij 1, niet bij 0.
 
-**The Recipe widget doesn't appear in my guides?** Make sure the Recipes section is enabled in your site navigation settings. The widget won't be available until Recipes are activated for your project.
+**De Recipe-widget verschijnt niet in mijn gidsen?** Zorg ervoor dat de Recipes-sectie is ingeschakeld in de navigatie-instellingen van je site. De widget is pas beschikbaar als Recipes zijn geactiveerd voor je project.
 
-**My embedded Recipe isn't showing up in API Reference pages?** Embedded Recipes only appear once the Recipes section is publicly enabled. Check your site navigation settings and ensure at least one Recipe is published.
+**Mijn ingesloten Recipe verschijnt niet op API Reference-pagina's?** Ingesloten Recipes verschijnen pas zodra de Recipes-sectie openbaar is ingeschakeld. Controleer je sitenavigatie-instellingen en zorg ervoor dat er minimaal één Recipe is gepubliceerd.
 
-**The response section disappeared?** If you clear the default response content completely, the response panel will automatically hide. Add content back to make it visible again.
+**De responssectie is verdwenen?** Als je de standaard responsinhoud volledig verwijdert, wordt het responspaneel automatisch verborgen. Voeg inhoud toe om het weer zichtbaar te maken.
