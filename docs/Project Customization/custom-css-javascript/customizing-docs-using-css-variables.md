@@ -1,15 +1,15 @@
 ---
-title: Customizing Docs Using CSS Variables
+title: Docs aanpassen met CSS-variabelen
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## Customization Options
+## Aanpassingsopties
 
-There are two ways to customize your docs. We recommend using CSS variables; it's the easiest and safest way to add customization to your docs.
+Er zijn twee manieren om je documentatie aan te passen. We raden aan om CSS-variabelen te gebruiken; dit is de eenvoudigste en veiligste manier om aanpassingen toe te voegen aan je docs.
 
-If you want to change your header background, you can set the CSS variable like so:
+Als je de achtergrond van je header wilt wijzigen, kun je de CSS-variabele als volgt instellen:
 
 ```css
 .App {
@@ -17,7 +17,7 @@ If you want to change your header background, you can set the CSS variable like 
 }
 ```
 
-The other option is to write custom CSS. We'll expose global class names for you to use as selectors (prefixed with `rm`):
+De andere optie is om aangepaste CSS te schrijven. We stellen globale klassenamen beschikbaar die je als selectors kunt gebruiken (voorafgegaan door `rm`):
 
 ```css
 .rm-Header {
@@ -27,13 +27,13 @@ The other option is to write custom CSS. We'll expose global class names for you
 
 > 📘 :root vs body
 >
-> Our CSS vars are targeted on the `:root` selector and load in after yours, so use the `body` selector to ensure your variables take priority!
+> Onze CSS-variabelen zijn gericht op de `:root`-selector en worden na die van jou geladen, dus gebruik de `body`-selector om ervoor te zorgen dat jouw variabelen prioriteit krijgen!
 
 ***
 
-## Changing Your Typeface
+## Je Lettertype Wijzigen
 
-You can change the typeface throughout your docs through the `--font-family` variable.
+Je kunt het lettertype in je gehele documentatie wijzigen via de `--font-family`-variabele.
 
 ```css Custom CSS
 .App {
@@ -42,13 +42,13 @@ You can change the typeface throughout your docs through the `--font-family` var
 
 ```
 
-If you’re using a service like Google Fonts, you'll need to include the `<link />` elements in your Custom HTML.
+Als je een dienst zoals Google Fonts gebruikt, moet je de `<link />`-elementen opnemen in je aangepaste HTML.
 
 ***
 
 ## Header
 
-Some variables vary depending on the primary color of your header background (set in the Appearance page, if it's dark or light). You can base your CSS variable overrides on light or dark by doing:
+Sommige variabelen variëren afhankelijk van de primaire kleur van de achtergrond van je header (ingesteld op de Weergavepagina, of deze donker of licht is). Je kunt je CSS-variabele-overschrijvingen baseren op licht of donker door het volgende te doen:
 
 ```cs
 .ThemeContext_dark {
@@ -56,23 +56,23 @@ Some variables vary depending on the primary color of your header background (se
 }
 ```
 
-### CSS Variables
+### CSS-variabelen
 
-| Name                         | Default Value                  | Description                                                                                      |
+| Naam                         | Standaardwaarde                  | Beschrijving                                                                                      |
 | :--------------------------- | :----------------------------- | :----------------------------------------------------------------------------------------------- |
-| `--Header-background`        | `var(--color-primary)`         | `--color-primary` is your header background from the Appearance page of the dash.                |
+| `--Header-background`        | `var(--color-primary)`         | `--color-primary` is de achtergrond van je header op de Weergavepagina van het dashboard.                |
 | `--Header-border-color`      | `rgba(0, 0, 0, 0.1)`           |                                                                                                  |
 | `--Header-border-width`      | `1px`                          |                                                                                                  |
-| `--Header-button-color`      |                                | Color of button text in the header.                                                              |
-| `--Header-button-hover`      |                                | Color of the button text when it's hovered over.                                                 |
-| `--Header-button-active`     |                                | Color of of the button text when it is selected.                                                 |
+| `--Header-button-color`      |                                | Kleur van de knoptekst in de header.                                                              |
+| `--Header-button-hover`      |                                | Kleur van de knoptekst wanneer er overheen wordt gehoverd.                                                 |
+| `--Header-button-active`     |                                | Kleur van de knoptekst wanneer deze geselecteerd is.                                                 |
 | `--Header-button-focus`      |                                |                                                                                                  |
 | `--Header-jumpTo-background` | `var(--color-primary-inverse)` |                                                                                                  |
 | `--Header-jumpTo-color`      | `var(--color-primary)`         |                                                                                                  |
-| `--Header-tab-padding`       | `5px 2px`                      | Amount of padding within each navigation tab (available with the Line header option).            |
-| `--Header-tab-underline`     | `var(--color-primary)`         | Color of the tab underline when using tabbed navigation (available with the Line header option). |
+| `--Header-tab-padding`       | `5px 2px`                      | Hoeveelheid opvulling binnen elk navigatietabblad (beschikbaar met de Lijn-headeroptie).            |
+| `--Header-tab-underline`     | `var(--color-primary)`         | Kleur van de tabonderstreping bij gebruik van tabbladnavigatie (beschikbaar met de Lijn-headeroptie). |
 
-### Global Classes
+### Globale klassen
 
 <Image border={false} src="https://files.readme.io/fd2d896-An_Introduction_to_ReadMe-20220323-115038.png" />
 
@@ -83,85 +83,85 @@ Some variables vary depending on the primary color of your header background (se
 5. `.rm-SearchToggle`
 6. `.rm-Header-top-link_login`
 
-Not pictured:
+Niet afgebeeld:
 
 * `.rm-JumpTo`
 * `.rm-Logo-img`
 
 ***
 
-## Sidebar
+## Zijbalk
 
-### Global Classes
+### Globale klassen
 
 <Image border={false} src="https://files.readme.io/861a758-Safari_-_An_Introduction_to_ReadMe_-_2021-10-27_at_09.55_AM.png" title="Safari - An Introduction to ReadMe - 2021-10-27 at 09.55 AM.png" />
 
 1. `.rm-Sidebar`
 2. `.rm-Sidebar-link `
-3. `.rm-Sidebar-wrapper` (wraps both heading and list)
-4. `.rm-Sidebar-heading` (just the heading)
-5. `.rm-Sidebar-list` (just the list)
+3. `.rm-Sidebar-wrapper` (omhult zowel de kop als de lijst)
+4. `.rm-Sidebar-heading` (alleen de kop)
+5. `.rm-Sidebar-list` (alleen de lijst)
 
-### CSS Variables
+### CSS-variabelen
 
-| Name                       | Default Value        | Description                                  |
+| Naam                       | Standaardwaarde        | Beschrijving                                  |
 | :------------------------- | :------------------- | :------------------------------------------- |
 | `--Sidebar-border-color`   | `rgba(0, 0, 0, 0.1)` |                                              |
-| `--Sidebar-indent`         | `15px`               | Indentation space of subpages                |
-| `--Sidebar-link-padding-y` | `5px`                | Vertical padding of each item in the sidebar |
+| `--Sidebar-indent`         | `15px`               | Inspringing van subpagina's                |
+| `--Sidebar-link-padding-y` | `5px`                | Verticale opvulling van elk item in de zijbalk |
 
 ***
 
-## Article
+## Artikel
 
-### Global Classes
+### Globale klassen
 
 <Image border={false} src="https://files.readme.io/93ce267-Safari_-_Get_changelogs_-_2021-05-25_at_01.42_PM.png" title="Safari - Get changelogs - 2021-05-25 at 01.42 PM.png" />
 
-1. `.rm-APISectionHeader` (this selector is used in the Playground and will affect those too)
+1. `.rm-APISectionHeader` (deze selector wordt ook gebruikt in de Playground en heeft daar ook invloed op)
 2. `.rm-APILogInfo`
 3. `.rm-APILogsTable`
 4. `.rm-ParamContainer `
-5. `.rm-ParamInput` or `.rm-ParamSelect`
+5. `.rm-ParamInput` of `.rm-ParamSelect`
 6. `.rm-APIResponseSchemaPicker`
 
-Not pictured:
+Niet afgebeeld:
 
-* `.rm-Pagination` (the wrapper for the Previous / Next Page navigation buttons located at the bottom of page)
+* `.rm-Pagination` (de wrapper voor de navigatieknoppen Vorige / Volgende pagina onderaan de pagina)
 
 ## Playground
 
-### CSS Variables
+### CSS-variabelen
 
-| Name                          | Default Value                                          | Description                                                                                                              |
+| Naam                          | Standaardwaarde                                          | Beschrijving                                                                                                              |
 | :---------------------------- | :----------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
-| `--tryit-background`          | `var(--color-primary, #118cfd)`                        | Background color of the Try It button. `--color-primary` is your header background from the Appearance page of the dash. |
+| `--tryit-background`          | `var(--color-primary, #118cfd)`                        | Achtergrondkleur van de Try It-knop. `--color-primary` is de achtergrond van je header op de Weergavepagina van het dashboard. |
 | `--tryit-background-hover`    | `var(--color-primary-darken-10, #0272d9)`              |                                                                                                                          |
 | `--tryit-background-active`   | `var(--color-primary-darken-20, #0158a7)`              |                                                                                                                          |
 | `--tryit-background-focus`    | `var(--color-primary-alpha-25, rgba(17,140,253,0.25))` |                                                                                                                          |
 | `--tryit-background-disabled` | `var(--color-primary-darken-20, #0158a7)`              |                                                                                                                          |
-| `--tryit-border-radius`       | `var(--border-radius-lg)`                              | `--border-radius-lg` defaults to 7.5px.                                                                                  |
+| `--tryit-border-radius`       | `var(--border-radius-lg)`                              | `--border-radius-lg` is standaard 7,5px.                                                                                  |
 | `--tryit-color`               | `var(--color-primary-inverse)`                         |                                                                                                                          |
 | `--tryit-spinner-color`       | `var(--color-primary-inverse)`                         |                                                                                                                          |
 
-### Global Classes
+### Globale klassen
 
 <Image border={false} src="https://files.readme.io/561e588-Safari_-_Get_metadata_-_2021-05-25_at_01.15_PM.png" title="Safari - Get metadata - 2021-05-25 at 01.15 PM.png" />
 
-Language Picker:
+Taalkiezer:
 
 1. `.rm-LanguageButton`
 2. `.rm-LanguageButton-more`
-3. `.rm-APISectionHeader` (this selector is used in the Article and will affect those too)
+3. `.rm-APISectionHeader` (deze selector wordt ook gebruikt in het Artikel en heeft daar ook invloed op)
 4. `.rm-PlaygroundRequest`
 5. `.rm-TryIt`
 6. `.rm-PlaygroundResponse`
 
 ***
 
-## Global Variables
+## Globale variabelen
 
-| Name                      | Default Value                                                                                                                       |
+| Naam                      | Standaardwaarde                                                                                                                       |
 | :------------------------ | :---------------------------------------------------------------------------------------------------------------------------------- |
 | `--border-radius`         | `5px`                                                                                                                               |
 | `--border-radius-lg`      | `calc(var(--border-radius) * 1.5)`                                                                                                  |
@@ -178,4 +178,4 @@ Language Picker:
 
 ## ReadMe Markdown
 
-We also have several variables that are specific to [ReadMe Markdown (RDMD)](https://rdmd.readme.io), which is the Markdown engine that renders all of ReadMe's Markdown content. You can read about these variables and other tips for [customizing RDMD](https://rdmd.readme.io/docs/custom-css).
+We hebben ook verschillende variabelen die specifiek zijn voor [ReadMe Markdown (RDMD)](https://rdmd.readme.io), de Markdown-engine die alle Markdown-inhoud van ReadMe rendert. Je kunt meer lezen over deze variabelen en andere tips voor het [aanpassen van RDMD](https://rdmd.readme.io/docs/custom-css).
