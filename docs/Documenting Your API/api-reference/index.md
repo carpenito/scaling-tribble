@@ -1,74 +1,74 @@
 ---
-title: API Reference
+title: API 参考文档
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# What Is an API Reference?
+# 什么是 API 参考文档？
 
-An API reference is the definitive technical guide to your API, documenting every endpoint, parameter, and response code in detail. It's your ultimate source of truth that developers turn to when they need to know exactly how to interact with your API.
+API 参考文档是您 API 的权威技术指南，详细记录了每个端点、参数和响应代码。它是开发者在需要了解如何与您的 API 进行交互时所依赖的最终信息来源。
 
-In ReadMe, your API reference is an interactive experience where developers can explore your API, make test calls right from the documentation, and see real responses without writing a single line of code.
+在 ReadMe 中，您的 API 参考文档是一种交互式体验，开发者可以探索您的 API、直接在文档中发起测试调用，并在不编写任何代码的情况下查看真实响应。
 
-## Why Your API Reference Matters
+## 为什么 API 参考文档如此重要
 
-A well-crafted API reference can:
+一份精心编写的 API 参考文档可以：
 
-* **Reduce support tickets** by answering technical questions before they're asked
-* **Speed up developer onboarding** by providing clear, accurate implementation guidance
-* **Build developer trust** by showing that your API is thoughtfully designed and maintained
-* **Showcase your API's full capabilities** so developers discover features they might otherwise miss
+* **减少支持工单**，在问题被提出之前就解答技术疑问
+* **加速开发者入门**，提供清晰、准确的实现指导
+* **建立开发者信任**，展示您的 API 经过精心设计和维护
+* **展示 API 的全部功能**，让开发者发现他们可能错过的特性
 
-## Getting Started with Your API Reference
+## 开始使用 API 参考文档
 
-ReadMe offers several ways to create and maintain your API reference, whether you're working with OpenAPI (formerly Swagger) specifications or prefer to build your reference manually.
+ReadMe 提供多种方式来创建和维护您的 API 参考文档，无论您是使用 OpenAPI（前身为 Swagger）规范，还是更倾向于手动构建参考文档。
 
-### In This Section
+### 本节内容
 
-You'll learn how to:
+您将学习如何：
 
-* **Upload and manage OpenAPI specifications** through multiple methods
-* **Work with our API Designer** if you don't have an OpenAPI specification
-* **Customize your API reference** to match your brand and enhance usability
-* **Create interactive examples** that developers can try right in your docs
-* **Keep your reference in sync** with your actual API as it evolves
+* **通过多种方式上传和管理 OpenAPI 规范**
+* **使用 API 设计器**（如果您没有 OpenAPI 规范）
+* **自定义 API 参考文档**，以匹配您的品牌风格并提升可用性
+* **创建交互式示例**，让开发者可以直接在文档中尝试
+* **保持参考文档与实际 API 同步**，随 API 的演进而更新
 
-## OpenAPI Upload and Management
+## OpenAPI 上传与管理
 
-ReadMe fully supports OpenAPI 3.0, OpenAPI 3.1, and Swagger 2.0 specifications. You can add your API spec to ReadMe in multiple ways:
+ReadMe 完全支持 OpenAPI 3.0、OpenAPI 3.1 和 Swagger 2.0 规范。您可以通过多种方式将 API 规范添加到 ReadMe：
 
-* **File upload**: Drag and drop your OpenAPI/Swagger JSON or YAML file
-* **URL import**: Point ReadMe to where your spec lives online
-* **GitHub integration**: Connect directly to your GitHub repository
-* **Command line (rdme)**: Use our CLI tool for automated workflows
-* **API Sync**: Keep your API reference automatically in sync with your codebase
+* **文件上传**：拖放您的 OpenAPI/Swagger JSON 或 YAML 文件
+* **URL 导入**：将 ReadMe 指向您的规范在线托管地址
+* **GitHub 集成**：直接连接到您的 GitHub 仓库
+* **命令行工具（rdme）**：使用我们的 CLI 工具实现自动化工作流
+* **API 同步**：让您的 API 参考文档与代码库自动保持同步
 
-Once uploaded, ReadMe transforms your spec into beautifully formatted, interactive documentation that developers will love.
+上传后，ReadMe 会将您的规范转换为格式精美、交互丰富的文档，深受开发者喜爱。
 
-## API Designer
+## API 设计器
 
-Don't have an OpenAPI specification? No problem! ReadMe's [API Designer](doc:building-apis-from-scratch-with-the-api-designer) lets you build your API reference from scratch with an intuitive interface. Document your endpoints, parameters, request bodies, and response objects without needing to write a single line of YAML or JSON.
+没有 OpenAPI 规范？没关系！ReadMe 的 [API 设计器](doc:building-apis-from-scratch-with-the-api-designer) 让您可以通过直观的界面从头构建 API 参考文档。无需编写任何 YAML 或 JSON，即可记录您的端点、参数、请求体和响应对象。
 
-## Customizing Your API Reference
+## 自定义 API 参考文档
 
-Make your API reference truly yours with customization options:
+通过自定义选项，让您的 API 参考文档真正属于您：
 
-* Add authentication details and custom headers
-* Include code samples in multiple programming languages
-* Organize endpoints into logical groups
-* Add custom documentation and overviews to each group of endpoints
+* 添加身份验证详情和自定义请求头
+* 包含多种编程语言的代码示例
+* 将端点组织成逻辑分组
+* 为每组端点添加自定义文档和概述
 
-## GraphQL Support
+## GraphQL 支持
 
-Working with GraphQL? ReadMe offers limited but growing support for [GraphQL APIs](doc:graphql). You can document your schemas, queries, and mutations to help developers navigate your GraphQL API.
+正在使用 GraphQL？ReadMe 为 [GraphQL API](doc:graphql) 提供有限但持续增长的支持。您可以记录您的 Schema、查询和变更操作，帮助开发者更好地使用您的 GraphQL API。
 
-## Best Practices for API References
+## API 参考文档最佳实践
 
-To create an exceptional API reference:
+要创建出色的 API 参考文档：
 
-* **Be complete**: Document every endpoint, parameter, and response
-* **Include examples**: Show real request/response pairs for common use cases
-* **Explain errors**: Document all error codes and how to resolve them
-* **Keep it current**: Update documentation whenever your API changes
-* **Test it yourself**: Regularly use your own documentation to catch issues
+* **保持完整**：记录每个端点、参数和响应
+* **包含示例**：为常见用例展示真实的请求/响应对
+* **说明错误**：记录所有错误代码及其解决方法
+* **保持更新**：每当 API 发生变化时及时更新文档
+* **亲自测试**：定期使用自己的文档，及时发现问题
