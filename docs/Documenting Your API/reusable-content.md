@@ -1,146 +1,146 @@
 ---
-title: Reusable Content
+title: Contenu Réutilisable
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# Simplify Your Docs Maintenance Workflow with Reusable Content!
+# Simplifiez votre flux de travail de maintenance de documentation avec le Contenu Réutilisable !
 
-**Edit once, update everywhere**. Reusable Content blocks help you minimize manual errors and ensure that changes to your developer hub occur in all the places they’re needed. 😉
+**Modifiez une fois, mettez à jour partout**. Les blocs de Contenu Réutilisable vous aident à minimiser les erreurs manuelles et à garantir que les modifications apportées à votre hub développeur s'appliquent partout où elles sont nécessaires. 😉
 
 <Image align="center" border={true} src="https://files.readme.io/05b4408-RC_gif_long.gif" className="border" />
 
-## How Reusable Content Works
+## Comment fonctionne le Contenu Réutilisable
 
-Reusable Content, as the name implies, allows ReadMe Admins to create blocks of Markdown content that can be used repeatedly across multiple pages in their projects’ docs. When anyone in your project with Admin access edits and updates a Reusable Content block, it automatically updates across every instance where it’s used—a huge time savings benefit!
+Le Contenu Réutilisable, comme son nom l'indique, permet aux administrateurs ReadMe de créer des blocs de contenu Markdown pouvant être utilisés à plusieurs reprises sur plusieurs pages de la documentation de leurs projets. Lorsqu'un membre de votre projet disposant d'un accès Administrateur modifie et met à jour un bloc de Contenu Réutilisable, celui-ci est automatiquement mis à jour dans chaque instance où il est utilisé — un gain de temps considérable !
 
-Reusable Content acts as a block, and lives in the editor’s slash menu. Creating a Reusable Content block isn’t just for text—it supports all Markdown!—which means you can have Reusable Content blocks that include images, code snippets, callouts, and more!
+Le Contenu Réutilisable se présente sous forme de bloc et se trouve dans le menu slash de l'éditeur. La création d'un bloc de Contenu Réutilisable ne se limite pas au texte — il prend en charge tout le Markdown ! — ce qui signifie que vous pouvez avoir des blocs de Contenu Réutilisable incluant des images, des extraits de code, des encadrés et bien plus encore !
 
 <Image align="center" border={true} src="https://files.readme.io/88eaaa9-Docs_adding_RC_block_with_image.gif" className="border" />
 
-### Benefits of Using Reusable Content Blocks
+### Avantages de l'utilisation des blocs de Contenu Réutilisable
 
-1️⃣ **More efficient documentation creation** - for our ReadMe Admins who are responsible for producing and managing extensive API documentation, the ability to make changes across multiple pages in your docs by updating a Reusable Content block (vs. having to hunt for each instance and manually update it) significantly streamlines the docs editing and maintenance workflow!
+1️⃣ **Une création de documentation plus efficace** - pour nos administrateurs ReadMe responsables de la production et de la gestion d'une documentation API étendue, la possibilité d'apporter des modifications sur plusieurs pages de votre documentation en mettant à jour un bloc de Contenu Réutilisable (plutôt que de devoir rechercher chaque instance et la mettre à jour manuellement) simplifie considérablement le flux de travail d'édition et de maintenance de la documentation !
 
-2️⃣ **Better accuracy and fewer mistakes** - Fewer manual edits, and more automated changes, means less room for error! Whether it’s including version specific content, adding relevant callouts for specific plan types, or ensuring that all related pages link back to one another, Reusable Content blocks allow your team to scale documentation production and ensure greater quality assurance across the board.
+2️⃣ **Une meilleure précision et moins d'erreurs** - Moins de modifications manuelles et plus de changements automatisés signifient moins de risques d'erreurs ! Qu'il s'agisse d'inclure du contenu spécifique à une version, d'ajouter des encadrés pertinents pour des types de plans spécifiques, ou de s'assurer que toutes les pages connexes se renvoient mutuellement, les blocs de Contenu Réutilisable permettent à votre équipe de faire évoluer la production de documentation et d'assurer une meilleure garantie de qualité dans l'ensemble.
 
-3️⃣ **More clarity across your documentation = a better UX for developers visiting your hub** - Reusable Content blocks allow Project Admins to streamline and unify how they communicate concepts that are repeated throughout your developer hub. Developers rely on your documentation to understand how to integrate and successfully use your API or product, and when that documentation is clear and consistent, it helps developers have a better experience in your hub and with using your API/product overall!
+3️⃣ **Plus de clarté dans votre documentation = une meilleure expérience utilisateur pour les développeurs visitant votre hub** - Les blocs de Contenu Réutilisable permettent aux administrateurs de projet de rationaliser et d'unifier la façon dont ils communiquent les concepts répétés dans votre hub développeur. Les développeurs s'appuient sur votre documentation pour comprendre comment intégrer et utiliser avec succès votre API ou produit, et lorsque cette documentation est claire et cohérente, elle aide les développeurs à avoir une meilleure expérience dans votre hub et avec l'utilisation de votre API/produit en général !
 
-> 📘 Reusable Content is available on ReadMe Business and Enterprise plans!
+> 📘 Le Contenu Réutilisable est disponible sur les plans ReadMe Business et Enterprise !
 >
-> If you’re on our Business or Enterprise plans, you’ll be able to create Reusable Content blocks from the Editor slash menu (or by using the \< syntax). Enterprise Groups will also have access to the Reusable Content page in their Enterprise Group dashboard.  If you’re on our Free, Startup, or Open Source plans, you’ll need to upgrade your plan in order to access this feature. You can do that in the Upgrade Plan page in your project dashboard!
+> Si vous êtes sur nos plans Business ou Enterprise, vous pourrez créer des blocs de Contenu Réutilisable depuis le menu slash de l'éditeur (ou en utilisant la syntaxe \<). Les groupes Enterprise auront également accès à la page Contenu Réutilisable dans leur tableau de bord de groupe Enterprise. Si vous êtes sur nos plans Gratuit, Startup ou Open Source, vous devrez mettre à niveau votre plan pour accéder à cette fonctionnalité. Vous pouvez le faire depuis la page Mise à niveau du plan dans le tableau de bord de votre projet !
 
-## Using Reusable Content Across Your Project
+## Utilisation du Contenu Réutilisable dans votre projet
 
-Business plan project dashboards and Enterprise child projects have a **Reusable Content** page in the Documentation section of their project dashboards. This page provides a centralized place to see and manage all Reusable Content blocks used across a project. Within this page Admins can create new Reusable Content blocks, edit existing ones, and delete blocks (only if they’re not being used in any pages).
+Les tableaux de bord des projets du plan Business et les projets enfants Enterprise disposent d'une page **Contenu Réutilisable** dans la section Documentation de leurs tableaux de bord de projet. Cette page offre un espace centralisé pour voir et gérer tous les blocs de Contenu Réutilisable utilisés dans un projet. Sur cette page, les administrateurs peuvent créer de nouveaux blocs de Contenu Réutilisable, modifier les existants et supprimer des blocs (uniquement s'ils ne sont utilisés dans aucune page).
 
 <Image align="center" border={true} src="https://files.readme.io/cef3109-Docs_RC_Menu_in_self_serve_and_child_proj_dashboards.png" className="border" />
 
-### Creating a New Reusable Content Block on a Guides or API Reference Page
+### Créer un nouveau bloc de Contenu Réutilisable sur une page Guides ou Référence API
 
-There are **two ways** to create a new Reusable Content block in a Guides or API Reference page in your project dashboard.
+Il existe **deux façons** de créer un nouveau bloc de Contenu Réutilisable dans une page Guides ou Référence API de votre tableau de bord de projet.
 
-**Option 1: Highlight an existing block and “Make[it] Reusable”**
+**Option 1 : Sélectionner un bloc existant et le « Rendre Réutilisable »**
 
-If you have an existing Markdown block that you’d like to make reusable, use the Block Actions menu to select the text and choose the Make Reusable option. From there, you’ll be able to make additional edits in the Reusable Content editing window before saving the block.
+Si vous avez un bloc Markdown existant que vous souhaitez rendre réutilisable, utilisez le menu Actions de bloc pour sélectionner le texte et choisir l'option Rendre Réutilisable. À partir de là, vous pourrez effectuer des modifications supplémentaires dans la fenêtre d'édition du Contenu Réutilisable avant d'enregistrer le bloc.
 
 <Image align="center" border={true} src="https://files.readme.io/ba2a818-Docs_Make_Text_into_RC_block.png" className="border" />
 
-**Option 2: Create a new Reusable Content block from the editor’s Slash menu**
+**Option 2 : Créer un nouveau bloc de Contenu Réutilisable depuis le menu Slash de l'éditeur**
 
-Similar to how you’d create any Markdown block, type / to bring up the Slash menu and navigate over to the Reusable Content section. There are two options: **Create New** and **Reuse Content**.
+De la même façon que vous créeriez n'importe quel bloc Markdown, tapez / pour afficher le menu Slash et naviguez jusqu'à la section Contenu Réutilisable. Deux options sont disponibles : **Créer Nouveau** et **Réutiliser le Contenu**.
 
 <Image align="center" border={true} src="https://files.readme.io/3e4f3eb-Docs_Creating_New_RC_Block_from_Slash_Menu.gif" className="border" />
 
-Whether you highlight an existing block to make it reusable or select “Create New” from the Reusable Content section of the Slash menu, this Reusable Content window will appear. This is where you’ll name the reusable content block (this is only used internally), can create and make edits to the block, and save it to make it reusable.
+Que vous sélectionniez un bloc existant pour le rendre réutilisable ou que vous choisissiez « Créer Nouveau » dans la section Contenu Réutilisable du menu Slash, cette fenêtre de Contenu Réutilisable apparaîtra. C'est ici que vous nommerez le bloc de contenu réutilisable (ceci est uniquement utilisé en interne), que vous pourrez créer et modifier le bloc, et l'enregistrer pour le rendre réutilisable.
 
 <Image align="center" border={true} src="https://files.readme.io/726d3c2-Docs_RC_editing_menu_blank.png" className="border" />
 
-> 🚧 You cannot edit the name of a Reusable Content block once it’s been created
+> 🚧 Vous ne pouvez pas modifier le nom d'un bloc de Contenu Réutilisable une fois qu'il a été créé
 >
-> Once you name your Reusable Content block, you cannot change or edit the name. You can only edit the body content of the block.
+> Une fois que vous avez nommé votre bloc de Contenu Réutilisable, vous ne pouvez pas changer ou modifier le nom. Vous pouvez uniquement modifier le contenu du corps du bloc.
 
-### Adding a Reusable Content Block to a Page
+### Ajouter un bloc de Contenu Réutilisable à une page
 
-Just as there are two ways to create a new Reusable Content block, there are also two ways to insert an existing Reusable Content block into a Guides or API Reference page.
+Tout comme il existe deux façons de créer un nouveau bloc de Contenu Réutilisable, il existe également deux façons d'insérer un bloc de Contenu Réutilisable existant dans une page Guides ou Référence API.
 
-Similar to how you insert a variable or glossary term, typing “\<” in a page will bring up a menu of your project’s Reusable Content blocks, in addition to your glossary terms and variables. Select the Reusable Content block you want to use from the list to insert it onto the page.
+De la même façon que vous insérez une variable ou un terme de glossaire, taper « \< » dans une page affichera un menu de vos blocs de Contenu Réutilisable du projet, en plus de vos termes de glossaire et variables. Sélectionnez le bloc de Contenu Réutilisable que vous souhaitez utiliser dans la liste pour l'insérer sur la page.
 
 <Image align="center" border={true} src="https://files.readme.io/0b9fbf2-Docs_Using__to_Bring_Up_RC_Menu.png" className="border" />
 
-You can also insert a Reusable Content block from the editor’s Slash menu. Select the “Reuse Content” option from the menu to see a list of all available Reusable Content blocks. Scroll through the options, select the one you want to use, and it’ll be inserted into the page!
+Vous pouvez également insérer un bloc de Contenu Réutilisable depuis le menu Slash de l'éditeur. Sélectionnez l'option « Réutiliser le Contenu » dans le menu pour voir la liste de tous les blocs de Contenu Réutilisable disponibles. Faites défiler les options, sélectionnez celle que vous souhaitez utiliser, et elle sera insérée dans la page !
 
 <Image align="center" border={true} src="https://files.readme.io/1171888-Docs_Adding_Existing_RC_block_from_slash_menu.gif" className="border" />
 
-### Identifying a Reusable Content Block in Use
+### Identifier un bloc de Contenu Réutilisable en cours d'utilisation
 
-Reusable Content blocks have a green border and are labeled as **REUSABLE** in the editor.
+Les blocs de Contenu Réutilisable ont une bordure verte et sont étiquetés **RÉUTILISABLE** dans l'éditeur.
 
 <Image align="center" border={true} src="https://files.readme.io/bac17d4-docs_page_-_RC_block_menu.png" className="border" />
 
-Features:
+Fonctionnalités :
 
-1. The left label identifies the block as Reusable and lists the name of the block
-2. If you click the left dropdown, you’ll have the option to **edit** or **detach** the block
-3. The right label notes how many pages this particular block is used across
-4. If you click the right dropdown, it reveals the specific pages where the Reusable Content block is in use
+1. L'étiquette de gauche identifie le bloc comme Réutilisable et indique le nom du bloc
+2. Si vous cliquez sur le menu déroulant de gauche, vous aurez la possibilité de **modifier** ou de **détacher** le bloc
+3. L'étiquette de droite indique sur combien de pages ce bloc particulier est utilisé
+4. Si vous cliquez sur le menu déroulant de droite, il révèle les pages spécifiques où le bloc de Contenu Réutilisable est utilisé
 
-### Editing a Reusable Content Block
+### Modifier un bloc de Contenu Réutilisable
 
-When you click the left label dropdown in an Reusable Content block and select **Edit**, the editing window will appear. If you are on a Business plan (or creating a block for a single Enterprise child project), you can edit the Reusable Content block and click **Update** which will update the Reusable Content block info across all instances where it’s being used. If you are on an Enterprise project, head to [this page](https://docs.readme.com/ent/docs/reusable-content-enterprise#/) in our Enterprise Guides to learn more about the process.
+Lorsque vous cliquez sur le menu déroulant de l'étiquette gauche dans un bloc de Contenu Réutilisable et sélectionnez **Modifier**, la fenêtre d'édition apparaît. Si vous êtes sur un plan Business (ou si vous créez un bloc pour un seul projet enfant Enterprise), vous pouvez modifier le bloc de Contenu Réutilisable et cliquer sur **Mettre à jour**, ce qui mettra à jour les informations du bloc de Contenu Réutilisable dans toutes les instances où il est utilisé. Si vous êtes sur un projet Enterprise, rendez-vous sur [cette page](https://docs.readme.com/ent/docs/reusable-content-enterprise#/) dans nos Guides Enterprise pour en savoir plus sur le processus.
 
-In this editing window there’s also an option to **Delete** which deletes the block entirely. In order to delete a Reusable Content block you must first remove—either by deleting or detaching—all instances of it across your project.
+Dans cette fenêtre d'édition, il y a également une option **Supprimer** qui supprime entièrement le bloc. Pour supprimer un bloc de Contenu Réutilisable, vous devez d'abord supprimer — soit en effaçant, soit en détachant — toutes ses instances dans votre projet.
 
 <Image align="center" border={true} src="https://files.readme.io/1e3f201-Docs_Deleting_an_RC_Block.png" className="border" />
 
-### Detaching a Reusable Content Block
+### Détacher un bloc de Contenu Réutilisable
 
-If you want to remove the instance of a Reusable Content block or want to make an edit to a block on one page that you don’t want to be reflected across all instances, consider **detaching** the block.
+Si vous souhaitez supprimer l'instance d'un bloc de Contenu Réutilisable ou apporter une modification à un bloc sur une page sans que cela se répercute sur toutes les instances, envisagez de **détacher** le bloc.
 
-You can do this via the left dropdown menu at the top of the Reusable Content block. Select **Detach** and the block will immediately revert to its original Markdown state.
+Vous pouvez le faire via le menu déroulant de gauche en haut du bloc de Contenu Réutilisable. Sélectionnez **Détacher** et le bloc reviendra immédiatement à son état Markdown d'origine.
 
 <Image align="center" border={true} src="https://files.readme.io/7b61371-Detaching_an_RC_block.gif" className="border" />
 
 <Callout icon="⏭️" theme="default">
-  ### Looking for More Information About Reusable Content for Your Enterprise Group?
+  ### Vous cherchez plus d'informations sur le Contenu Réutilisable pour votre groupe Enterprise ?
 
-  We have a separate page for that! If you’re an Enterprise customer looking to learn more about managing Reusable Content for your Enterprise Group, head to [this page](https://docs.readme.com/ent/docs/reusable-content-enterprise#/)!
+  Nous avons une page dédiée à cela ! Si vous êtes un client Enterprise souhaitant en savoir plus sur la gestion du Contenu Réutilisable pour votre groupe Enterprise, rendez-vous sur [cette page](https://docs.readme.com/ent/docs/reusable-content-enterprise#/) !
 </Callout>
 
-## Reusable Content FAQs
+## FAQ sur le Contenu Réutilisable
 
-**How do you find the Reusable Content blocks that already exist for your project?**
+**Comment trouver les blocs de Contenu Réutilisable qui existent déjà pour votre projet ?**
 
-There are currently two ways to locate the Reusable Content blocks that have been created for your Business plan project (or Enterprise child project) – (1) you can locate them via the editor slash menu (Reusable -> Reuse Content -> populates a list of all Reusable Content blocks) or (2) use the \< syntax to bring up the menu of all RC blocks (in addition to your project’s glossary terms and variables).
+Il existe actuellement deux façons de localiser les blocs de Contenu Réutilisable créés pour votre projet de plan Business (ou projet enfant Enterprise) – (1) vous pouvez les localiser via le menu slash de l'éditeur (Réutilisable -> Réutiliser le Contenu -> affiche une liste de tous les blocs de Contenu Réutilisable) ou (2) utiliser la syntaxe \< pour afficher le menu de tous les blocs RC (en plus des termes de glossaire et des variables de votre projet).
 
-**What are some things to keep in mind when using Reusable Content blocks?**
+**Quels sont les points importants à garder à l'esprit lors de l'utilisation des blocs de Contenu Réutilisable ?**
 
-* You cannot nest a Reusable Content block within another Reusable Content block
-* A Reusable Content block is saved separately from the page in which it’s being used. To update a block, save the change in the Reusable Content editing window, and then save the page you’re working in
-* When you initially create and save a Reusable Content block, the block will say “used in 0 pages”. You’ll need to save the page in order for the block count to update to say “used in 1 page”
-* If you export a project to .md files, and then re-import that file back into ReadMe, any previously created Reusable Content blocks that were exported will no longer be recognized as Reusable Content blocks in the new project. If the new project is on Business or Enterprise, you will be able to create new Reusable Content blocks
+* Vous ne pouvez pas imbriquer un bloc de Contenu Réutilisable dans un autre bloc de Contenu Réutilisable
+* Un bloc de Contenu Réutilisable est enregistré séparément de la page dans laquelle il est utilisé. Pour mettre à jour un bloc, enregistrez la modification dans la fenêtre d'édition du Contenu Réutilisable, puis enregistrez la page sur laquelle vous travaillez
+* Lorsque vous créez et enregistrez initialement un bloc de Contenu Réutilisable, le bloc indiquera « utilisé dans 0 pages ». Vous devrez enregistrer la page pour que le compteur du bloc se mette à jour et indique « utilisé dans 1 page »
+* Si vous exportez un projet en fichiers .md, puis réimportez ce fichier dans ReadMe, tous les blocs de Contenu Réutilisable précédemment créés qui ont été exportés ne seront plus reconnus comme des blocs de Contenu Réutilisable dans le nouveau projet. Si le nouveau projet est sur Business ou Enterprise, vous pourrez créer de nouveaux blocs de Contenu Réutilisable
 
-**How does versioning work with Reusable Content blocks?**
+**Comment fonctionne la gestion des versions avec les blocs de Contenu Réutilisable ?**
 
-* Each version of your ReadMe project has its own subset of reusable blocks
-* You can’t use reusable blocks across versions, unless you manually clone them and add them to a new version. Even still, once you update in one version, they won’t auto-update in other versions
-  * E.g., if you create a new version of your project, v2.0, that is forked from v1.0, the new version will include any Reusable Content blocks that were created and used in v1.0. The Reusable Content blocks that are now in v2.0, however, are different—and while still reusable and auto-syncing—do not sync with the Reusable Content blocks in v1.0 (even though the blocks have the same name). The count for how many times a Reusable Content block is used is tied to the version level.
+* Chaque version de votre projet ReadMe possède son propre sous-ensemble de blocs réutilisables
+* Vous ne pouvez pas utiliser des blocs réutilisables entre les versions, sauf si vous les clonez manuellement et les ajoutez à une nouvelle version. Même dans ce cas, une fois que vous mettez à jour dans une version, ils ne se mettront pas à jour automatiquement dans les autres versions
+  * Par exemple, si vous créez une nouvelle version de votre projet, v2.0, dérivée de v1.0, la nouvelle version inclura tous les blocs de Contenu Réutilisable créés et utilisés dans v1.0. Les blocs de Contenu Réutilisable qui se trouvent maintenant dans v2.0, cependant, sont différents — et bien que toujours réutilisables et synchronisés automatiquement — ne se synchronisent pas avec les blocs de Contenu Réutilisable dans v1.0 (même si les blocs portent le même nom). Le compteur indiquant combien de fois un bloc de Contenu Réutilisable est utilisé est lié au niveau de version.
 
-**How do Suggested Edits work with Reusable Content blocks?**
+**Comment fonctionnent les Suggestions de modifications avec les blocs de Contenu Réutilisable ?**
 
-* You cannot suggest an edit on a Reusable Content block—this applies to both logged-in users and Admins viewing your project from the hub
-* Logged-in users can suggest to move a Reusable Content block, remove it from the page’s content, and detach it
-* To suggest an edit to the content of a Reusable Content block, the end user will first need to detach the block and then edit that content
-* When the above happens, Project Admins will have the option to merge the suggestion from the project dashboard, as is the case with all Suggested Edits
+* Vous ne pouvez pas suggérer une modification sur un bloc de Contenu Réutilisable — cela s'applique à la fois aux utilisateurs connectés et aux administrateurs qui consultent votre projet depuis le hub
+* Les utilisateurs connectés peuvent suggérer de déplacer un bloc de Contenu Réutilisable, de le supprimer du contenu de la page et de le détacher
+* Pour suggérer une modification du contenu d'un bloc de Contenu Réutilisable, l'utilisateur final devra d'abord détacher le bloc, puis modifier ce contenu
+* Lorsque cela se produit, les administrateurs de projet auront la possibilité de fusionner la suggestion depuis le tableau de bord du projet, comme c'est le cas pour toutes les Suggestions de modifications
 
-**What happens if you upgrade or downgrade your plan?**
+**Que se passe-t-il si vous mettez à niveau ou rétrogradez votre plan ?**
 
-* Currently, Reusable Content is only available on Business and Enterprise plans
-* Reusable Content is also included in ReadMe’s free trial
-* If you downgrade from a plan where you had access to and had previously created Reusable Content blocks, the following will happen:
-  * The Reusable Content blocks will still exist in the pages of your project
-  * These blocks will be in ‘view only’ mode—you won’t be able to edit them unless you detach them
-  * You’ll also lose the “Used In” menu and will not be able to see where the blocks are used across the project
-* If you then upgrade back to Business or Enterprise, then:
-  * You’ll gain access back to any existing Reusable Content blocks and have the ability to create, update, detach, and/or delete existing and new Reusable Content blocks
+* Actuellement, le Contenu Réutilisable est uniquement disponible sur les plans Business et Enterprise
+* Le Contenu Réutilisable est également inclus dans l'essai gratuit de ReadMe
+* Si vous rétrogradez depuis un plan où vous aviez accès et aviez précédemment créé des blocs de Contenu Réutilisable, voici ce qui se passera :
+  * Les blocs de Contenu Réutilisable existeront toujours dans les pages de votre projet
+  * Ces blocs seront en mode « lecture seule » — vous ne pourrez pas les modifier à moins de les détacher
+  * Vous perdrez également le menu « Utilisé dans » et ne pourrez pas voir où les blocs sont utilisés dans le projet
+* Si vous repassez ensuite à Business ou Enterprise, alors :
+  * Vous retrouverez l'accès à tous les blocs de Contenu Réutilisable existants et aurez la possibilité de créer, mettre à jour, détacher et/ou supprimer des blocs de Contenu Réutilisable existants et nouveaux
