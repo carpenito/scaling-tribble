@@ -5,58 +5,58 @@ hidden: false
 metadata:
   robots: index
 ---
-Your users can get instant answers about your product with Ask AI. The assistant uses your selected model, trained on your documentation, to deliver accurate, context-aware responses. It includes direct links to your docs, allowing users to explore topics in more detail.
+Uw gebruikers kunnen directe antwoorden krijgen over uw product met Ask AI. De assistent gebruikt uw geselecteerde model, getraind op uw documentatie, om nauwkeurige, contextbewuste antwoorden te geven. Het bevat directe links naar uw docs, zodat gebruikers onderwerpen verder kunnen verkennen.
 
 ***
 
-## End-User Preview
+## Eindgebruikersvoorbeeld
 
-When your users interact with Ask AI, it’ll open the Assistant with your custom example questions and receive responses based on your configurations from the Admin panel. Responses will only reference any public pages. For Enterprise groups with public and private projects, Ask AI will provide info based on the users’ permission to view a project.
+Wanneer uw gebruikers met Ask AI werken, wordt de Assistent geopend met uw aangepaste voorbeeldvragen en ontvangen zij antwoorden op basis van uw configuraties in het Beheerderspaneel. Antwoorden verwijzen alleen naar openbare pagina's. Voor Enterprise-groepen met openbare en privéprojecten geeft Ask AI informatie op basis van de machtigingen van de gebruiker om een project te bekijken.
 
 <Image align="center" border={false} width="750px" src="https://files.readme.io/93bba5b92a2c954d7aa1b5847d3648837ac31668b9861e35479e7a906596b3ab-user_gif.gif" />
 
-## Configure
+## Configureren
 
-Customize the AI assistant’s tone, answer length, and forbidden to fit your branding. Set example questions for your end-users to see and select an available model that fits your needs.
+Pas de toon, antwoordlengte en verboden onderwerpen van de AI-assistent aan om bij uw huisstijl te passen. Stel voorbeeldvragen in voor uw eindgebruikers en selecteer een beschikbaar model dat aan uw behoeften voldoet.
 
 <Image align="center" border={false} src="https://files.readme.io/afc7f66444d7c8186118082c46a34ed5a8af5bbdfdb65cc9af97f8fba3969724-Ask_AI.png" />
 
-### Enterprise Groups
+### Enterprise-groepen
 
-All configurations mentioned above are available for Enterprise projects in your Group Dashboard. Customizations at the group level will apply across all corresponding child projects.
+Alle hierboven genoemde configuraties zijn beschikbaar voor Enterprise-projecten in uw Groepsdashboard. Aanpassingen op groepsniveau worden toegepast op alle bijbehorende onderliggende projecten.
 
-## Analytics
+## Analyses
 
-Dig into user questions, responses, and feedback to understand what your users are looking for—and how effectively the assistant is performing. You can view all analytics in the **Ask AI dashboard** under **Settings**. To share insights with your team, export the data as a CSV with custom date ranges. The export process may take some time depending on the data volume, but when ready, the download will immediately begin in your browser.
+Duik in gebruikersvragen, antwoorden en feedback om te begrijpen waar uw gebruikers naar op zoek zijn — en hoe effectief de assistent presteert. U kunt alle analyses bekijken in het **Ask AI-dashboard** onder **Instellingen**. Om inzichten te delen met uw team, exporteert u de gegevens als een CSV met aangepaste datumbereiken. Het exportproces kan enige tijd duren afhankelijk van het gegevensvolume, maar zodra het klaar is, begint de download direct in uw browser.
 
 <Image align="center" border={false} width="650px" src="https://files.readme.io/27af66805d9c4eb18c468750023284c9682c2734dd2422bb650d7408b98a4787-analytics.png" />
 
 <br />
 
-## FAQ
+## Veelgestelde vragen
 
-<Accordion title="What happens to my data?" icon="fa-chart-simple">
-  Ask AI is powered by OpenAI’s APIs and the Markdown content along with API definitions are sent to them to generate answers to user questions.
-  While OpenAI retains logs of these API requests for 30 days, no data is used to train their AI models.
+<Accordion title="Wat gebeurt er met mijn gegevens?" icon="fa-chart-simple">
+  Ask AI wordt aangedreven door de API's van OpenAI en de Markdown-inhoud samen met API-definities worden naar hen verzonden om antwoorden op gebruikersvragen te genereren.
+  Hoewel OpenAI logboeken van deze API-verzoeken 30 dagen bewaart, worden er geen gegevens gebruikt om hun AI-modellen te trainen.
 </Accordion>
 
-<Accordion title="Does Ask AI reference hidden pages?" icon="fa-user-ninja">
-  No, hidden pages are never indexed by Ask AI.
-  For Enterprise groups, only project content the user has access to is used to answer questions.
+<Accordion title="Verwijst Ask AI naar verborgen pagina's?" icon="fa-user-ninja">
+  Nee, verborgen pagina's worden nooit geïndexeerd door Ask AI.
+  Voor Enterprise-groepen wordt alleen projectinhoud waartoe de gebruiker toegang heeft, gebruikt om vragen te beantwoorden.
 </Accordion>
 
-<Accordion title="How quickly are changes added to Ask AI’s models?" icon="fa-swap">
-  Currently, new content is updated every 2 hours though this may change as we continue to develop Ask AI.
+<Accordion title="Hoe snel worden wijzigingen toegevoegd aan de modellen van Ask AI?" icon="fa-swap">
+  Momenteel wordt nieuwe inhoud elke 2 uur bijgewerkt, hoewel dit kan veranderen naarmate we Ask AI verder ontwikkelen.
 </Accordion>
 
-<Accordion title="What tools are offered to monitor responses?" icon="fa-monitor-waveform">
-  Logs for every question and answer are available in the admin dashboard. See [Analytics](https://docs.readme.com/maindocs/ask-ai#analytics) above.
+<Accordion title="Welke hulpmiddelen worden aangeboden om antwoorden te monitoren?" icon="fa-monitor-waveform">
+  Logboeken voor elke vraag en elk antwoord zijn beschikbaar in het beheerderdashboard. Zie [Analyses](https://docs.readme.com/maindocs/ask-ai#analytics) hierboven.
 </Accordion>
 
-<Accordion title="How can I try Ask AI?" icon="fa-sparkles">
-  You can test Ask AI on ReadMe’s docs or on your own docs as a trial.
+<Accordion title="Hoe kan ik Ask AI uitproberen?" icon="fa-sparkles">
+  U kunt Ask AI testen op de docs van ReadMe of op uw eigen docs als proef.
 </Accordion>
 
-<Accordion title="I’m using the previous Ask AI experience. Where can I find these settings?" icon="fa-robot">
-  You can upgrade to the new experience from the configuration panel in the Ask AI panel. Upgrading is permanent and cannot be done.
+<Accordion title="Ik gebruik de vorige Ask AI-ervaring. Waar kan ik deze instellingen vinden?" icon="fa-robot">
+  U kunt upgraden naar de nieuwe ervaring vanuit het configuratiepaneel in het Ask AI-paneel. Upgraden is permanent en kan niet ongedaan worden gemaakt.
 </Accordion>
