@@ -1,5 +1,5 @@
 ---
-title: Place an order for a pet
+title: Plaats een bestelling voor een huisdier
 api:
   file: petstore.json
   operationId: placeOrder
