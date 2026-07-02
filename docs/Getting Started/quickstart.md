@@ -1,77 +1,77 @@
 ---
-title: Quickstart
+title: Snelstart
 excerpt: >-
-  Ready to create stellar, interactive API documentation? Get your developer hub
-  up and running in minutes!
+  Klaar om indrukwekkende, interactieve API-documentatie te maken? Zet je
+  ontwikkelaarshub in enkele minuten op!
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## Step 1: Create Your Project 🎨
+## Stap 1: Maak Je Project Aan 🎨
 
-First things first – give your API documentation a home:
+Eerst de basis – geef je API-documentatie een thuis:
 
-1. Sign into your ReadMe account
-2. Click "Create New Project"
-3. Give your project a name that resonates with your API
-4. Upload your logo (we work our magic to match your brand colors!)
+1. Log in op je ReadMe-account
+2. Klik op "Create New Project"
+3. Geef je project een naam die bij je API past
+4. Upload je logo (wij zorgen ervoor dat het aansluit bij je merkkleuren!)
 
-## Step 2: Add Your OpenAPI Specification 📚
+## Stap 2: Voeg Je OpenAPI-specificatie Toe 📚
 
-Here's where the real magic happens! We transform your OpenAPI spec into engaging, interactive documentation. You have two great options:
+Hier gebeurt de echte magie! We transformeren je OpenAPI-spec naar aantrekkelijke, interactieve documentatie. Je hebt twee geweldige opties:
 
-1. **Upload Your File Directly**
-   * Hit that big blue "Upload OpenAPI file" button
-   * Select your OpenAPI/Swagger specification file
-   * Watch as we validate and process your spec
+1. **Upload Je Bestand Rechtstreeks**
+   * Klik op de grote blauwe knop "Upload OpenAPI file"
+   * Selecteer je OpenAPI/Swagger-specificatiebestand
+   * Kijk toe terwijl we je spec valideren en verwerken
 
-2. **Import via URL**
-   * Pop your OpenAPI specification URL into the field
-   * Click **Import OpenAPI file**
-   * We fetch and validate your spec automatically
+2. **Importeren via URL**
+   * Plak de URL van je OpenAPI-specificatie in het veld
+   * Klik op **Import OpenAPI file**
+   * Wij halen je spec op en valideren deze automatisch
 
-Once your spec is uploaded, we give you a sneak peek of your new docs! You see:
+Zodra je spec is geüpload, krijg je alvast een voorproefje van je nieuwe documentatie! Je ziet:
 
-* A preview of your API endpoints
-* Your documentation structure
-* A success message confirming everything looks great
-* The **Go to Docs** button that unveils your transformed API reference
+* Een voorbeeld van je API-endpoints
+* De structuur van je documentatie
+* Een bevestigingsbericht dat alles er goed uitziet
+* De knop **Go to Docs** die je getransformeerde API-referentie onthult
 
-Don't have an OpenAPI file handy? No worries! You can click **Skip to Docs** and explore more API documentation options in your project settings later.
+Geen OpenAPI-bestand bij de hand? Geen probleem! Je kunt op **Skip to Docs** klikken en later in je projectinstellingen meer opties voor API-documentatie verkennen.
 
 <Callout icon="👀" theme="default">
   ### Best Practice
 
-  Keep an eye on that preview – it's your first look at how developers interact with your API docs! 🎯
+  Houd dat voorbeeld goed in de gaten – het is je eerste blik op hoe ontwikkelaars omgaan met je API-documentatie! 🎯
 </Callout>
 
-## Step 3: Create Your First Guide 📝
+## Stap 3: Maak Je Eerste Handleiding 📝
 
-Time to make your docs shine! You're greeted with a _Getting Started_ page in _View_ mode – transform it into something awesome:
+Tijd om je documentatie te laten schitteren! Je wordt begroet met een _Getting Started_-pagina in de _View_-modus – maak er iets geweldigs van:
 
-1. Click the **Edit** button in the top navigation (look for that friendly pencil icon!)
-2. Click "+ NEW CATEGORY" to create a home for your getting started guides
-3. Name your category "Getting Started" – this is your developers' first stop
-4. See that "+" button next to your new Getting Started category? Click it to create your first guide page
-5. Time to write! Hit the '/' key while writing to summon our handy menu of content blocks and components:
-   * Craft your documentation with Markdown
-   * Drop in code blocks that developers can copy to try out
-   * Spice things up with custom components
+1. Klik op de knop **Edit** in de bovenste navigatie (zoek naar dat vriendelijke potloodpictogram!)
+2. Klik op "+ NEW CATEGORY" om een plek te maken voor je starthandleidingen
+3. Noem je categorie "Getting Started" – dit is de eerste stop voor je ontwikkelaars
+4. Zie je die "+"-knop naast je nieuwe Getting Started-categorie? Klik erop om je eerste handleidingpagina aan te maken
+5. Tijd om te schrijven! Druk op de '/' toets tijdens het schrijven om ons handige menu met inhoudsblokken en componenten op te roepen:
+   * Schrijf je documentatie met Markdown
+   * Voeg codeblokken in die ontwikkelaars kunnen kopiëren om uit te proberen
+   * Maak het interessanter met aangepaste componenten
 
-Remember: Great documentation tells a story. Start with the basics and guide your developers through their journey with your API. What do they need to know first? What quick wins can you help them achieve? 🎯
+Onthoud: Goede documentatie vertelt een verhaal. Begin met de basis en begeleid je ontwikkelaars door hun reis met je API. Wat moeten ze als eerste weten? Welke snelle successen kun je hen helpen behalen? 🎯
 
-## What's Next? 🎯
+## Wat Nu? 🎯
 
-You've got the foundations – now make your docs truly shine:
+Je hebt de basis gelegd – maak je documentatie nu echt laten schitteren:
 
-* **Customize Your Hub**: Add your brand colors and custom domain
-* **Monitor API Usage**: Keep tabs on how developers use your API
-* **Build Your Community**: Enable discussions and suggested edits
-* **Stay Current**: Keep your changelog updated with the latest API changes
+* **Pas Je Hub Aan**: Voeg je merkkleuren en een aangepast domein toe
+* **Monitor API-gebruik**: Houd bij hoe ontwikkelaars je API gebruiken
+* **Bouw Je Community**: Schakel discussies en voorgestelde bewerkingen in
+* **Blijf Actueel**: Houd je changelog bijgewerkt met de nieuwste API-wijzigingen
 
-Need a hand? Our friendly support team is just a chat away – look for the owl in the corner! 🦉
+Hulp nodig? Ons vriendelijke supportteam is slechts een chatje verwijderd – zoek naar de uil in de hoek! 🦉
 
-Remember, great documentation is a journey, not a destination. We're here to help you make yours exceptional!
+Onthoud: geweldige documentatie is een reis, geen bestemming. Wij zijn er om je te helpen de jouwe uitzonderlijk te maken!
 
 <br />
