@@ -1,89 +1,89 @@
 ---
-title: Versioning
-excerpt: hello world
+title: Versiebeheer
+excerpt: hallo wereld
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Maintaining multiple versions of your documentation is critical for many different technical products. This page goes into the details of how versioning works in ReadMe, as well as several use cases.
+Het bijhouden van meerdere versies van uw documentatie is essentieel voor veel technische producten. Deze pagina gaat in op de details van hoe versiebeheer werkt in ReadMe, evenals verschillende gebruiksscenario's.
 
 <Callout icon="🚧" theme="warn">
-  **Affected Sections:** Only Guides, Recipes, and Reference sections are versioned. Content for Landing Page, Discussions, and Changelog will persist across versions.
+  **Betrokken secties:** Alleen de secties Guides, Recipes en Reference zijn versiegebonden. Inhoud voor de Landingspagina, Discussies en Changelog blijft beschikbaar over alle versies heen.
 </Callout>
 
-## Making a New Version
+## Een nieuwe versie aanmaken
 
-To create a new version, open the Versions & Branches menu by selecting the **version name** (i.e. v3.0) in the admin navigation. Then click on the **+ New Version** button in the right top corner. Choose which version to fork from and name your new version. This will create a copy of this version, you will not be able to pull the changes back to the version that was forked.
+Om een nieuwe versie te maken, opent u het menu Versies & Branches door de **versienaam** (bijv. v3.0) te selecteren in de beheernavigatie. Klik vervolgens op de knop **+ Nieuwe versie** in de rechterbovenhoek. Kies van welke versie u wilt vertakken en geef uw nieuwe versie een naam. Dit maakt een kopie van deze versie aan; u kunt de wijzigingen niet terugplaatsen naar de versie waarvan is vertakt.
 
 <Image align="center" border={false} src="https://files.readme.io/c543cc3ff266bd3b210d720cfb7c5e09d7750c78dcb5ccfd60f669eae003ca39-versions.png" />
 
-### Semver(-ish)
+### Semver(-achtig)
 
-Our versioning is based on <Anchor label="Semver" target="_blank" href="http://semver.org/">Semver</Anchor>, but is much more flexible than Semver in terms of the acceptable inputs. This means your versions can be as simple as `v1.0`, but as complex as `v1.0-hello-this-is-a-version`.
+Onze versiebeheer is gebaseerd op <Anchor label="Semver" target="_blank" href="http://semver.org/">Semver</Anchor>, maar is veel flexibeler dan Semver wat betreft de toegestane invoer. Dit betekent dat uw versies zo eenvoudig kunnen zijn als `v1.0`, maar ook zo complex als `v1.0-hello-this-is-a-version`.
 
 ***
 
-## Version Options
+## Versieopties
 
 <Image align="center" border={false} width="500px" src="https://files.readme.io/159f0425970c8c5849bc6b6e7b684f51fdab23a656f6488139337adaa75e9d60-version_options.png" />
 
-### Default
+### Standaard
 
-This is the version that your domain will direct to. Users can change to a different version by clicking the version dropdown selector.
+Dit is de versie waarnaar uw domein verwijst. Gebruikers kunnen naar een andere versie overschakelen door op de versie-keuzelijst te klikken.
 
 <Callout icon="🙅‍♂️" theme="default">
-  It is not possible to merge two versions. If you want to make changes to both, you will need to do it manually!
+  Het is niet mogelijk om twee versies samen te voegen. Als u wijzigingen in beide wilt aanbrengen, moet u dit handmatig doen!
 </Callout>
 
-### Public
+### Openbaar
 
-Selecting this will make this available in the version dropdown selector and to anyone that can view your docs. If unselected, this version will be marked as **Hidden** and only be visible to project admins.
+Dit selecteren maakt de versie beschikbaar in de versie-keuzelijst en voor iedereen die uw documentatie kan bekijken. Als dit niet is geselecteerd, wordt deze versie gemarkeerd als **Verborgen** en is deze alleen zichtbaar voor projectbeheerders.
 
 ### Beta
 
-Indicating that a version is a beta will add a badge next to a version in the version dropdown selector. It does not create a callout on the page or any other visible changes.
+Aangeven dat een versie een beta is, voegt een badge toe naast de versie in de versie-keuzelijst. Dit maakt geen callout op de pagina of andere zichtbare wijzigingen aan.
 
-### Deprecated
+### Verouderd
 
-Select this to mark older versions. In addition to seeing a "deprecated" badge next to the version in the version dropdown selector, users will also see a big red banner above the docs when visiting this deprecated version. Here's how it looks:
+Selecteer dit om oudere versies te markeren. Naast een "verouderd"-badge naast de versie in de versie-keuzelijst, zien gebruikers ook een grote rode banner boven de documentatie wanneer ze deze verouderde versie bezoeken. Zo ziet het eruit:
 
 <Image align="center" border={true} width="smart" src="https://files.readme.io/RhO7iWuhSMGsBrHSrFMt_Screen%20Shot%202015-12-16%20at%2012.17.04%20PM.png" className="border" />
 
 ***
 
-## Displaying Version Dropdown
+## Versie-keuzelijst weergeven
 
 <Image align="center" border={false} caption="Admin view: Hidden and Deprecated are not visible to end-users" src="https://files.readme.io/5f0ac4bab3338c5e1cceee0368a02363bb6c2eca6f40324725d6d43593e564ab-version_drop.png" />
 
-By default, we show the aforementioned version dropdown picker in the subnavigation bar. You can toggle to display or hide this in **Settings > Header & Footer > Subnavigation**.
+Standaard tonen we de eerder genoemde versie-keuzelijst in de subnavigatiebalk. U kunt instellen of u deze wilt weergeven of verbergen via **Instellingen > Koptekst & Voettekst > Subnavigatie**.
 
 <Image align="center" border={false} src="https://files.readme.io/1a975ae96b399662d42cee67ca226a8fd49bfb9188da95ccfd00a2125f0347d7-version_picker.png" />
 
 ***
 
-## Reusable Content
+## Herbruikbare inhoud
 
-Any [Reusable Content](doc:reusable-content) created within one Version can only be used within that Version's documentation; it's not possible to define Reusable Content blocks that can be used across Versions within a single project.
+Elke [Herbruikbare inhoud](doc:reusable-content) die binnen één versie is aangemaakt, kan alleen worden gebruikt binnen de documentatie van die versie; het is niet mogelijk om Herbruikbare inhoudsblokken te definiëren die over versies heen binnen één project kunnen worden gebruikt.
 
-If a new Version is created when forked from an existing Version, the new Version inherits all the Reusable Content blocks defined in the existing Version. However, the Reusable Content blocks in the new Version are completely independent from the old Version.
+Als een nieuwe versie wordt aangemaakt door te vertakken vanuit een bestaande versie, erft de nieuwe versie alle Herbruikbare inhoudsblokken die in de bestaande versie zijn gedefinieerd. De Herbruikbare inhoudsblokken in de nieuwe versie zijn echter volledig onafhankelijk van de oude versie.
 
-> 📘 Global Reusable Content
+> 📘 Globale herbruikbare inhoud
 >
-> Projects on an Enterprise plan have the ability to define **Global Reusable Content** that _can_ be used across Projects and Versions. See our [Reusable Content for Enterprise Groups docs](https://docs.readme.com/ent/docs/reusable-content-enterprise) for more information!
+> Projecten met een Enterprise-abonnement hebben de mogelijkheid om **Globale herbruikbare inhoud** te definiëren die _wel_ over projecten en versies heen kan worden gebruikt. Bekijk onze [documentatie over herbruikbare inhoud voor Enterprise-groepen](https://docs.readme.com/ent/docs/reusable-content-enterprise) voor meer informatie!
 
 ***
 
-## Use Cases
+## Gebruiksscenario's
 
-There are lots of different scenarios where doc versioning might be useful — some are more obvious than others. The most obvious use case is for when your documentation version needs to match the versioning that might be taking place with your API or other technical product, and you need to maintain copies of your docs for each respective version.
+Er zijn veel verschillende situaties waarin documentatieversiebeheer nuttig kan zijn — sommige zijn duidelijker dan andere. Het meest voor de hand liggende gebruiksscenario is wanneer uw documentatieversie moet overeenkomen met de versiebeheer van uw API of ander technisch product, en u kopieën van uw documentatie moet bijhouden voor elke respectieve versie.
 
-Another use case is for bigger content restructuring or migrations, especially when these changes are more involved than simply updating a few pages (in which case we'd recommend <Anchor label="Suggested Edits" target="_blank" href="doc:suggested-edits">Suggested Edits</Anchor>. You can fork a new version of your docs, do some major restructuring (e.g. reorganizing page categories, combining pages, deleting outdated content, etc.), and still have your old docs as your public-facing changes. And when you're ready to flip the switch over, it's as easy as renaming the versions and toggling a few version settings!
+Een ander gebruiksscenario is voor grotere inhoudsherstructureringen of migraties, vooral wanneer deze wijzigingen meer omvatten dan het eenvoudigweg bijwerken van een paar pagina's (in welk geval we <Anchor label="Suggested Edits" target="_blank" href="doc:suggested-edits">Voorgestelde bewerkingen</Anchor> aanbevelen). U kunt een nieuwe versie van uw documentatie vertakken, een grote herstructurering uitvoeren (bijv. paginacategorieën reorganiseren, pagina's samenvoegen, verouderde inhoud verwijderen, enz.), en toch uw oude documentatie als publiek zichtbare versie behouden. En wanneer u klaar bent om de overstap te maken, is het zo eenvoudig als het hernoemen van de versies en het aanpassen van een paar versie-instellingen!
 
 ***
 
-## FAQ
+## Veelgestelde vragen
 
-<Accordion title="How many versions can I create?" icon="fa-tags">
-  Free plan users can create up to 3 versions. Upgrade to the Startup plan or higher to unlock unlimited versions.
+<Accordion title="Hoeveel versies kan ik aanmaken?" icon="fa-tags">
+  Gebruikers van het gratis abonnement kunnen tot 3 versies aanmaken. Upgrade naar het Startup-abonnement of hoger om onbeperkte versies te ontgrendelen.
 </Accordion>
