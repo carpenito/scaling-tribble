@@ -380,7 +380,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Uploads an image",
+        "summary": "上传图片",
         "description": "",
         "operationId": "uploadFile",
         "parameters": [
