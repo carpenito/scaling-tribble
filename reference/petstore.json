@@ -473,7 +473,7 @@
         "tags": [
           "store"
         ],
-        "summary": "Place an order for a pet",
+        "summary": "为宠物下订单",
         "description": "",
         "operationId": "placeOrder",
         "requestBody": {
