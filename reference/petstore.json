@@ -442,8 +442,8 @@
         "tags": [
           "store"
         ],
-        "summary": "Returns pet inventories by status",
-        "description": "Returns a map of status codes to quantities",
+        "summary": "Geeft huisdiervoorraden terug per status",
+        "description": "Geeft een overzicht van statuscodes met bijbehorende aantallen",
         "operationId": "getInventory",
         "responses": {
           "200": {
