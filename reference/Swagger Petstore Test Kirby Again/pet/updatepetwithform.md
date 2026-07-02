@@ -1,5 +1,5 @@
 ---
-title: Updates a pet in the store with form data
+title: Met à jour un animal dans le magasin avec des données de formulaire
 api:
   file: petstore.json
   operationId: updatePetWithForm
