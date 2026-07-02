@@ -1,57 +1,57 @@
 ---
-title: MCP (Model Context Protocol)
+title: MCP（模型上下文协议）
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) is a standardization of how AI assistants interact with APIs, and ReadMe is bringing this capability to your developer hub. With MCP servers, you can convert your API documentation into a structured, resource that AI assistants can understand and interact with programmatically.
+[Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) 是 AI 助手与 API 交互方式的标准化规范，ReadMe 正将这一能力引入您的开发者中心。借助 MCP 服务器，您可以将 API 文档转换为结构化资源，使 AI 助手能够以编程方式理解并与之交互。
 
-## Key Features
+## 主要功能
 
-* **Custom Tooling**: Define custom workflow and endpoint combinations. <Badge label="New" bgColor="var(--purple)" textColor="var(--purple100)" cornerRadius="30px" />
-* **Enabled Routes**: Disable endpoints you don’t want accessible in your MCP server <Badge label="New" bgColor="var(--purple)" textColor="var(--purple100)" cornerRadius="30px" />
-* **OpenAPI Integration**: Generate an MCP server from your existing OpenAPI specification.
-* **AI assistants can connect to your MCP server to**:
-  * Read and understand your OpenAPI spec.
-  * Execute API calls.
-  * Search docs with [Ask AI](/docs/ask-ai).
-* **MCP Tools**:
-  * **OpenAPI Tools**:
-    * `execute-request` - Make API calls directly from your specification
-    * `get-endpoint` - Pull in detailed endpoint information on demand
-    * `get-request-body` - Access structured request parameters
-    * `get-response-schema` - Understand what your API returns
-    * `list-endpoints` - Browse all available API endpoints
-    * `list-security-schemes` - Access authentication requirements
-    * `search-schema` - Find exactly what you need in your API spec
-    * `get-code-snippet` - Example code snippets in your preferred language to interact with your endpoint.
-  * **Documentation Tools**:
-    * `search` - Search your entire knowledge base for relevant information
-    * `fetch` - Return a guides page
+* **自定义工具**：定义自定义工作流和端点组合。<Badge label="New" bgColor="var(--purple)" textColor="var(--purple100)" cornerRadius="30px" />
+* **启用路由**：禁用您不希望在 MCP 服务器中访问的端点 <Badge label="New" bgColor="var(--purple)" textColor="var(--purple100)" cornerRadius="30px" />
+* **OpenAPI 集成**：从现有的 OpenAPI 规范生成 MCP 服务器。
+* **AI 助手可连接到您的 MCP 服务器以**：
+  * 读取并理解您的 OpenAPI 规范。
+  * 执行 API 调用。
+  * 使用 [Ask AI](/docs/ask-ai) 搜索文档。
+* **MCP 工具**：
+  * **OpenAPI 工具**：
+    * `execute-request` - 直接从您的规范发起 API 调用
+    * `get-endpoint` - 按需获取详细的端点信息
+    * `get-request-body` - 访问结构化的请求参数
+    * `get-response-schema` - 了解您的 API 返回内容
+    * `list-endpoints` - 浏览所有可用的 API 端点
+    * `list-security-schemes` - 访问身份验证要求
+    * `search-schema` - 在您的 API 规范中精确查找所需内容
+    * `get-code-snippet` - 以您偏好的语言获取与端点交互的示例代码片段。
+  * **文档工具**：
+    * `search` - 在整个知识库中搜索相关信息
+    * `fetch` - 返回指南页面
 
 <Callout icon="📘" theme="info">
-  Documentation Tools require upgrading your current plan with the <Anchor label="AI Booster Pack" target="_blank" href="https://readme.com/pricing">AI Booster Pack</Anchor>.
+  文档工具需要通过 <Anchor label="AI Booster Pack" target="_blank" href="https://readme.com/pricing">AI Booster Pack</Anchor> 升级您当前的套餐。
 
-  For Enterprise customers, please reach out to your CSM.
+  企业客户请联系您的客户成功经理（CSM）。
 
-  For Startup and Business customers, please upgrade your plan with the AI Booster Pack from your **Manage Plan** page under Settings.
+  初创版和商业版客户，请在设置中的**管理套餐**页面通过 AI Booster Pack 升级您的套餐。
 </Callout>
 
-## How It Works
+## 工作原理
 
-We create a dedicated MCP server that connects to your OpenAPI specification and [Ask AI](/docs/ask-ai) functionality. This creates a bridge between your API documentation and AI assistants, making your API instantly more accessible and understandable to AI tools.
+我们创建一个专用的 MCP 服务器，将其连接到您的 OpenAPI 规范和 [Ask AI](/docs/ask-ai) 功能。这在您的 API 文档与 AI 助手之间建立了一座桥梁，使您的 API 对 AI 工具而言更易访问、更易理解。
 
-## Extra Features
+## 额外功能
 
-* **Branches** By default, the MCP server is connected to the latest stable version. To chose a different branch append `?branch=<name>` to the MCP url. NOTE: When you are on a branch `search-documentation` will not be available.
-* **Private Projects** To access protected projects, you will need to configure your MCP client to send a `x-readme-auth` header
-  * Password protected: `x-readme-auth` should be the site password
-  * Teammates only & Custom login: `x-readme-auth` should be an api key in the form `bearer <api_key>`
+* **分支** 默认情况下，MCP 服务器连接到最新的稳定版本。若要选择其他分支，请在 MCP URL 后附加 `?branch=<name>`。注意：当您处于某个分支时，`search-documentation` 将不可用。
+* **私有项目** 若要访问受保护的项目，您需要配置 MCP 客户端以发送 `x-readme-auth` 请求头
+  * 密码保护：`x-readme-auth` 应为站点密码
+  * 仅限团队成员 & 自定义登录：`x-readme-auth` 应为格式为 `bearer <api_key>` 的 API 密钥
 
-## Getting Started with MCP
+## MCP 入门指南
 
-Choose how you’d like to start working with MCP:
+选择您希望开始使用 MCP 的方式：
 
-1. <Anchor label="Auto-Generate Your Own MCP Server" target="_blank" href="doc:generate-your-own-mcp-server">Auto-Generate Your Own MCP Server</Anchor>: Every ReadMe project automatically includes a fully configured MCP server. Simply enable MCP to connect your API documentation to AI tools.
-2. <Anchor label="Use ReadMe’s MCP Server" target="_blank" href="doc:readmes-mcp-server">Use ReadMe’s MCP Server</Anchor>: With ReadMe’s MCP server, you can do everything you normally would in ReadMe, like adding and editing pages, directly through our API.
+1. <Anchor label="Auto-Generate Your Own MCP Server" target="_blank" href="doc:generate-your-own-mcp-server">自动生成您自己的 MCP 服务器</Anchor>：每个 ReadMe 项目都自动包含一个完整配置的 MCP 服务器。只需启用 MCP，即可将您的 API 文档连接到 AI 工具。
+2. <Anchor label="Use ReadMe’s MCP Server" target="_blank" href="doc:readmes-mcp-server">使用 ReadMe 的 MCP 服务器</Anchor>：借助 ReadMe 的 MCP 服务器，您可以通过我们的 API 直接完成在 ReadMe 中通常会做的一切操作，例如添加和编辑页面。
