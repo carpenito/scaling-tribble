@@ -842,7 +842,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Copy of Add a new pet to the store",
+        "summary": "添加新宠物到商店的副本",
         "description": "",
         "operationId": "post_pet-1",
         "requestBody": {
