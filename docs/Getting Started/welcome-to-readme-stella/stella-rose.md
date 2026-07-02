@@ -6,4 +6,4 @@ metadata:
   title: wowzer
   robots: index
 ---
-will be 2 in February!
+wordt 2 in februari!
