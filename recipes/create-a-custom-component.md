@@ -1,12 +1,9 @@
 ---
-title: Create a Custom Component
-description: >-
-  Recipe DescriptioThis recipe walks through creating a simple reusable styled
-  container that you can use throughout your documentation.
+title: 创建自定义组件
+description: |-
+  食谱描述：本食谱将引导您创建一个简单的可复用样式容器，您可以在整个文档中使用它。
 
-
-  Just wrap any content with ExampleComponent tags, and it will appear in a nice
-  dark gray box!n
+  只需用 ExampleComponent 标签包裹任意内容，它就会显示在一个漂亮的深灰色框中！
 hidden: false
 recipe:
   color: '#018FF4'
@@ -32,32 +29,32 @@ export const ExampleComponent = ({ children }) => {
 {"success":true}
 ```
 
-# Create an ExampleComponent
+# 创建 ExampleComponent
 
 <!-- java@1 -->
 
-We're creating a React component called ExampleComponent.
+我们正在创建一个名为 ExampleComponent 的 React 组件。
 
-The export keyword makes this component available for import elsewhere
+export 关键字使该组件可以在其他地方被导入使用。
 
-({ children }) uses destructuring to access any content placed between the component's opening and closing tags.
+({ children }) 使用解构来访问放置在组件开闭标签之间的任何内容。
 
-# Structuring the Component
+# 构建组件结构
 
 <!-- java@2-8 -->
 
-return (...) defines what the component will render, while the outer <div> uses Tailwind CSS classes to center its content and take up full width and height.
+return (...) 定义了组件将渲染的内容，外层 <div> 使用 Tailwind CSS 类来使其内容居中，并占据完整的宽度和高度。
 
-The inner <div> creates a dark gray box with rounded corners and padding
+内层 <div> 创建一个带有圆角和内边距的深灰色框。
 
-{children} is where the magic happens—this will render whatever content you place between your component tags.
+{children} 是魔法发生的地方——它将渲染您放置在组件标签之间的任何内容。
 
-# Using the Component
+# 使用组件
 
 <!-- java@11-13 -->
 
-The <ExampleComponent> opens the component.
+<ExampleComponent> 用于打开组件。
 
-The text between the tags becomes the children prop
+标签之间的文本将成为 children 属性的值。
 
-Lastly, the </ExampleComponent> closes the component.
+最后，</ExampleComponent> 用于关闭组件。
