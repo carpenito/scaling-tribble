@@ -1,15 +1,15 @@
 ---
-title: Customizing Docs Using CSS Variables
+title: Personnalisation de la documentation avec des variables CSS
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## Customization Options
+## Options de personnalisation
 
-There are two ways to customize your docs. We recommend using CSS variables; it's the easiest and safest way to add customization to your docs.
+Il existe deux façons de personnaliser votre documentation. Nous recommandons d'utiliser les variables CSS ; c'est la méthode la plus simple et la plus sûre pour ajouter des personnalisations à votre documentation.
 
-If you want to change your header background, you can set the CSS variable like so:
+Si vous souhaitez modifier l'arrière-plan de votre en-tête, vous pouvez définir la variable CSS comme suit :
 
 ```css
 .App {
@@ -17,7 +17,7 @@ If you want to change your header background, you can set the CSS variable like 
 }
 ```
 
-The other option is to write custom CSS. We'll expose global class names for you to use as selectors (prefixed with `rm`):
+L'autre option consiste à écrire du CSS personnalisé. Nous exposons des noms de classes globaux que vous pouvez utiliser comme sélecteurs (préfixés par `rm`) :
 
 ```css
 .rm-Header {
@@ -27,13 +27,13 @@ The other option is to write custom CSS. We'll expose global class names for you
 
 > 📘 :root vs body
 >
-> Our CSS vars are targeted on the `:root` selector and load in after yours, so use the `body` selector to ensure your variables take priority!
+> Nos variables CSS ciblent le sélecteur `:root` et se chargent après les vôtres, donc utilisez le sélecteur `body` pour vous assurer que vos variables ont la priorité !
 
 ***
 
-## Changing Your Typeface
+## Changer votre police de caractères
 
-You can change the typeface throughout your docs through the `--font-family` variable.
+Vous pouvez modifier la police de caractères dans toute votre documentation via la variable `--font-family`.
 
 ```css Custom CSS
 .App {
@@ -42,13 +42,13 @@ You can change the typeface throughout your docs through the `--font-family` var
 
 ```
 
-If you’re using a service like Google Fonts, you'll need to include the `<link />` elements in your Custom HTML.
+Si vous utilisez un service comme Google Fonts, vous devrez inclure les éléments `<link />` dans votre HTML personnalisé.
 
 ***
 
-## Header
+## En-tête
 
-Some variables vary depending on the primary color of your header background (set in the Appearance page, if it's dark or light). You can base your CSS variable overrides on light or dark by doing:
+Certaines variables varient en fonction de la couleur principale de l'arrière-plan de votre en-tête (définie dans la page Apparence, selon qu'elle est sombre ou claire). Vous pouvez baser vos remplacements de variables CSS sur le mode clair ou sombre en procédant comme suit :
 
 ```cs
 .ThemeContext_dark {
@@ -56,23 +56,23 @@ Some variables vary depending on the primary color of your header background (se
 }
 ```
 
-### CSS Variables
+### Variables CSS
 
-| Name                         | Default Value                  | Description                                                                                      |
+| Nom                          | Valeur par défaut              | Description                                                                                      |
 | :--------------------------- | :----------------------------- | :----------------------------------------------------------------------------------------------- |
-| `--Header-background`        | `var(--color-primary)`         | `--color-primary` is your header background from the Appearance page of the dash.                |
+| `--Header-background`        | `var(--color-primary)`         | `--color-primary` correspond à l'arrière-plan de votre en-tête défini dans la page Apparence du tableau de bord.                |
 | `--Header-border-color`      | `rgba(0, 0, 0, 0.1)`           |                                                                                                  |
 | `--Header-border-width`      | `1px`                          |                                                                                                  |
-| `--Header-button-color`      |                                | Color of button text in the header.                                                              |
-| `--Header-button-hover`      |                                | Color of the button text when it's hovered over.                                                 |
-| `--Header-button-active`     |                                | Color of of the button text when it is selected.                                                 |
+| `--Header-button-color`      |                                | Couleur du texte des boutons dans l'en-tête.                                                              |
+| `--Header-button-hover`      |                                | Couleur du texte du bouton au survol.                                                 |
+| `--Header-button-active`     |                                | Couleur du texte du bouton lorsqu'il est sélectionné.                                                 |
 | `--Header-button-focus`      |                                |                                                                                                  |
 | `--Header-jumpTo-background` | `var(--color-primary-inverse)` |                                                                                                  |
 | `--Header-jumpTo-color`      | `var(--color-primary)`         |                                                                                                  |
-| `--Header-tab-padding`       | `5px 2px`                      | Amount of padding within each navigation tab (available with the Line header option).            |
-| `--Header-tab-underline`     | `var(--color-primary)`         | Color of the tab underline when using tabbed navigation (available with the Line header option). |
+| `--Header-tab-padding`       | `5px 2px`                      | Quantité de rembourrage dans chaque onglet de navigation (disponible avec l'option d'en-tête Ligne).            |
+| `--Header-tab-underline`     | `var(--color-primary)`         | Couleur du soulignement de l'onglet lors de l'utilisation de la navigation par onglets (disponible avec l'option d'en-tête Ligne). |
 
-### Global Classes
+### Classes globales
 
 <Image border={false} src="https://files.readme.io/fd2d896-An_Introduction_to_ReadMe-20220323-115038.png" />
 
@@ -83,85 +83,85 @@ Some variables vary depending on the primary color of your header background (se
 5. `.rm-SearchToggle`
 6. `.rm-Header-top-link_login`
 
-Not pictured:
+Non représentés :
 
 * `.rm-JumpTo`
 * `.rm-Logo-img`
 
 ***
 
-## Sidebar
+## Barre latérale
 
-### Global Classes
+### Classes globales
 
 <Image border={false} src="https://files.readme.io/861a758-Safari_-_An_Introduction_to_ReadMe_-_2021-10-27_at_09.55_AM.png" title="Safari - An Introduction to ReadMe - 2021-10-27 at 09.55 AM.png" />
 
 1. `.rm-Sidebar`
 2. `.rm-Sidebar-link `
-3. `.rm-Sidebar-wrapper` (wraps both heading and list)
-4. `.rm-Sidebar-heading` (just the heading)
-5. `.rm-Sidebar-list` (just the list)
+3. `.rm-Sidebar-wrapper` (englobe à la fois le titre et la liste)
+4. `.rm-Sidebar-heading` (uniquement le titre)
+5. `.rm-Sidebar-list` (uniquement la liste)
 
-### CSS Variables
+### Variables CSS
 
-| Name                       | Default Value        | Description                                  |
+| Nom                        | Valeur par défaut    | Description                                  |
 | :------------------------- | :------------------- | :------------------------------------------- |
 | `--Sidebar-border-color`   | `rgba(0, 0, 0, 0.1)` |                                              |
-| `--Sidebar-indent`         | `15px`               | Indentation space of subpages                |
-| `--Sidebar-link-padding-y` | `5px`                | Vertical padding of each item in the sidebar |
+| `--Sidebar-indent`         | `15px`               | Espace d'indentation des sous-pages                |
+| `--Sidebar-link-padding-y` | `5px`                | Rembourrage vertical de chaque élément dans la barre latérale |
 
 ***
 
 ## Article
 
-### Global Classes
+### Classes globales
 
 <Image border={false} src="https://files.readme.io/93ce267-Safari_-_Get_changelogs_-_2021-05-25_at_01.42_PM.png" title="Safari - Get changelogs - 2021-05-25 at 01.42 PM.png" />
 
-1. `.rm-APISectionHeader` (this selector is used in the Playground and will affect those too)
+1. `.rm-APISectionHeader` (ce sélecteur est utilisé dans le Playground et l'affectera également)
 2. `.rm-APILogInfo`
 3. `.rm-APILogsTable`
 4. `.rm-ParamContainer `
-5. `.rm-ParamInput` or `.rm-ParamSelect`
+5. `.rm-ParamInput` ou `.rm-ParamSelect`
 6. `.rm-APIResponseSchemaPicker`
 
-Not pictured:
+Non représentés :
 
-* `.rm-Pagination` (the wrapper for the Previous / Next Page navigation buttons located at the bottom of page)
+* `.rm-Pagination` (le conteneur des boutons de navigation Page précédente / Page suivante situés en bas de page)
 
 ## Playground
 
-### CSS Variables
+### Variables CSS
 
-| Name                          | Default Value                                          | Description                                                                                                              |
+| Nom                           | Valeur par défaut                                      | Description                                                                                                              |
 | :---------------------------- | :----------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
-| `--tryit-background`          | `var(--color-primary, #118cfd)`                        | Background color of the Try It button. `--color-primary` is your header background from the Appearance page of the dash. |
+| `--tryit-background`          | `var(--color-primary, #118cfd)`                        | Couleur d'arrière-plan du bouton Essayer. `--color-primary` correspond à l'arrière-plan de votre en-tête défini dans la page Apparence du tableau de bord. |
 | `--tryit-background-hover`    | `var(--color-primary-darken-10, #0272d9)`              |                                                                                                                          |
 | `--tryit-background-active`   | `var(--color-primary-darken-20, #0158a7)`              |                                                                                                                          |
 | `--tryit-background-focus`    | `var(--color-primary-alpha-25, rgba(17,140,253,0.25))` |                                                                                                                          |
 | `--tryit-background-disabled` | `var(--color-primary-darken-20, #0158a7)`              |                                                                                                                          |
-| `--tryit-border-radius`       | `var(--border-radius-lg)`                              | `--border-radius-lg` defaults to 7.5px.                                                                                  |
+| `--tryit-border-radius`       | `var(--border-radius-lg)`                              | `--border-radius-lg` est défini par défaut à 7,5px.                                                                                  |
 | `--tryit-color`               | `var(--color-primary-inverse)`                         |                                                                                                                          |
 | `--tryit-spinner-color`       | `var(--color-primary-inverse)`                         |                                                                                                                          |
 
-### Global Classes
+### Classes globales
 
 <Image border={false} src="https://files.readme.io/561e588-Safari_-_Get_metadata_-_2021-05-25_at_01.15_PM.png" title="Safari - Get metadata - 2021-05-25 at 01.15 PM.png" />
 
-Language Picker:
+Sélecteur de langue :
 
 1. `.rm-LanguageButton`
 2. `.rm-LanguageButton-more`
-3. `.rm-APISectionHeader` (this selector is used in the Article and will affect those too)
+3. `.rm-APISectionHeader` (ce sélecteur est utilisé dans l'Article et l'affectera également)
 4. `.rm-PlaygroundRequest`
 5. `.rm-TryIt`
 6. `.rm-PlaygroundResponse`
 
 ***
 
-## Global Variables
+## Variables globales
 
-| Name                      | Default Value                                                                                                                       |
+| Nom                       | Valeur par défaut                                                                                                                   |
 | :------------------------ | :---------------------------------------------------------------------------------------------------------------------------------- |
 | `--border-radius`         | `5px`                                                                                                                               |
 | `--border-radius-lg`      | `calc(var(--border-radius) * 1.5)`                                                                                                  |
@@ -176,6 +176,6 @@ Language Picker:
 | `--transition-slow`       | `.3s`                                                                                                                               |
 | `--transition-timing`     | `cubic-bezier(.16,1,.3,1)`                                                                                                          |
 
-## ReadMe Markdown
+## Markdown ReadMe
 
-We also have several variables that are specific to [ReadMe Markdown (RDMD)](https://rdmd.readme.io), which is the Markdown engine that renders all of ReadMe's Markdown content. You can read about these variables and other tips for [customizing RDMD](https://rdmd.readme.io/docs/custom-css).
+Nous disposons également de plusieurs variables spécifiques au [Markdown ReadMe (RDMD)](https://rdmd.readme.io), qui est le moteur Markdown utilisé pour afficher tout le contenu Markdown de ReadMe. Vous pouvez en savoir plus sur ces variables et d'autres conseils pour [personnaliser RDMD](https://rdmd.readme.io/docs/custom-css).
