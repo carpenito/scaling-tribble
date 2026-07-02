@@ -1,9 +1,9 @@
 ---
-title: Stella Rose
+title: 斯特拉·罗斯
 deprecated: false
 hidden: false
 metadata:
-  title: wowzer
+  title: 哇哦
   robots: index
 ---
-will be 2 in February!
+二月份就要2岁了！
