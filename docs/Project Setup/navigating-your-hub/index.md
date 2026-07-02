@@ -1,81 +1,81 @@
 ---
-title: Navigating Your Hub
+title: Navigeren in je Hub
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Let's explore the key areas of your developer hub and discover how each one helps you create an exceptional documentation experience.
+Laten we de belangrijkste onderdelen van je developer hub verkennen en ontdekken hoe elk onderdeel je helpt een uitzonderlijke documentatie-ervaring te creëren.
 
-## Core Navigation Areas
+## Kernnavigatie-onderdelen
 
-### 👀 View Mode
+### 👀 Weergavemodus
 
-Experience your docs exactly as your developers do. Perfect for:
+Bekijk je documentatie precies zoals je ontwikkelaars dat doen. Ideaal voor:
 
-* Reading through content in its published form
-* Getting a clear picture of your documentation structure
-* Understanding the developer journey
-* Identifying areas for improvement
+* Inhoud lezen in de gepubliceerde vorm
+* Een duidelijk beeld krijgen van je documentatiestructuur
+* De ontwikkelaarsreis begrijpen
+* Verbeterpunten identificeren
 
-### ✏️ Edit Mode
+### ✏️ Bewerkingsmodus
 
 <Image align="center" border={false} src="https://files.readme.io/17b07f56b7af997a97df4a615eb89c4cd4066cbd5881402fc992a9e85a32a349-Edit_Directly_in_Docs.gif" />
 
-Click **Edit** to transform any page into your workspace:
+Klik op **Bewerken** om elke pagina in je werkruimte te transformeren:
 
-* Make changes right where you see them
-* Access the full editor toolkit
-* Organize your content structure
-* See updates in real-time
+* Wijzigingen aanbrengen precies waar je ze ziet
+* Toegang tot de volledige editor-toolkit
+* Je inhoudsstructuur organiseren
+* Updates in realtime bekijken
 
-### 👥 My Developers
+### 👥 Mijn Ontwikkelaars
 
-Gain insights into API usage and performance:
+Krijg inzicht in API-gebruik en prestaties:
 
-* Track real-time API interactions
-* Identify and resolve issues quickly
-* Monitor response times
-* Understand usage patterns
+* Realtime API-interacties bijhouden
+* Problemen snel identificeren en oplossen
+* Responstijden monitoren
+* Gebruikspatronen begrijpen
 
-## Settings & Customization
+## Instellingen & Aanpassing
 
-### ⚙️ Project Settings
+### ⚙️ Projectinstellingen
 
 <Image align="center" border={false} src="https://files.readme.io/4b2bd94863cd043a93871a73de327b661c8dae2ed81fe91bcaf0f87161b45030-CleanShot_2024-11-08_at_20.13.41.gif" />
 
-Your hub's command center puts essential controls at your fingertips:
+Het commandocentrum van je hub biedt essentiële bedieningselementen binnen handbereik:
 
-* Configure API authentication
-* Set up custom domains
-* Manage team access
-* Adjust project-wide preferences
+* API-authenticatie configureren
+* Aangepaste domeinen instellen
+* Teamtoegang beheren
+* Projectbrede voorkeuren aanpassen
 
-### 🔄 Version Control
+### 🔄 Versiebeheer
 
-Keep documentation organized across API versions:
+Houd documentatie georganiseerd over API-versies heen:
 
-* Toggle between different versions
-* Control version visibility
-* Maintain version-specific content
-* Manage deprecation notices
+* Schakelen tussen verschillende versies
+* Zichtbaarheid van versies beheren
+* Versiespecifieke inhoud onderhouden
+* Verouderde versies beheren
 
-### ♻️ Content Settings
+### ♻️ Inhoudsinstellingen
 
-Streamline content management with reusable elements:
+Stroomlijn inhoudsbeheer met herbruikbare elementen:
 
-* Create and edit glossary terms
-* Manage reusable content blocks
-* Configure global variables
-* Structure documentation categories
+* Woordenlijsttermen aanmaken en bewerken
+* Herbruikbare inhoudsblokken beheren
+* Globale variabelen configureren
+* Documentatiecategorieën structureren
 
-### 🎨 Appearance Settings
+### 🎨 Weergave-instellingen
 
 <Image align="center" border={false} src="https://files.readme.io/30873289762d450fc8ca2f838398b3cc1fc884b73127232c7b2c3ce14b6e6c47-CleanShot_2024-11-08_at_20.17.28.gif" />
 
-Shape your hub's visual identity:
+Vorm de visuele identiteit van je hub:
 
-* Apply your brand colors
-* Customize navigation layout
-* Update logos and icons
-* Fine-tune theme elements
+* Je merkkleuren toepassen
+* De navigatie-indeling aanpassen
+* Logo's en pictogrammen bijwerken
+* Thema-elementen verfijnen
