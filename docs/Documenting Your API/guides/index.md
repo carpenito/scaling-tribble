@@ -5,66 +5,66 @@ hidden: false
 metadata:
   robots: index
 ---
-# Overview
+# Overzicht
 
-Think of Guides as your API's instruction manual. This is where you'll transform complex concepts into clear, engaging documentation that helps developers succeed with your API. Whether you're documenting authentication flows or walking through common use cases, we've got the tools to make your docs shine.
+Beschouw Guides als de gebruiksaanwijzing van je API. Dit is waar je complexe concepten omzet in heldere, boeiende documentatie die ontwikkelaars helpt succesvol met je API te werken. Of je nu authenticatiestromen documenteert of veelvoorkomende gebruiksscenario's doorloopt, wij hebben de tools om je documentatie te laten schitteren.
 
-## Creating and Managing Guides
+## Guides Aanmaken en Beheren
 
-Writing great documentation shouldn't feel like rocket science. Our editing experience brings documentation creation right to your hub, where you can:
+Goede documentatie schrijven hoeft geen hogere wiskunde te zijn. Onze bewerkingservaring brengt het aanmaken van documentatie rechtstreeks naar je hub, waar je kunt:
 
-* Create and organize documentation in real-time
-* Preview changes exactly as your users will see them
-* Collaborate with your team seamlessly
-* Publish updates with confidence
+* Documentatie in realtime aanmaken en organiseren
+* Wijzigingen precies bekijken zoals je gebruikers ze zullen zien
+* Naadloos samenwerken met je team
+* Updates met vertrouwen publiceren
 
-Your docs live where you do – right in the hub. Spot something that needs updating? Just click, edit, and publish. No more context-switching between different interfaces!
+Je documentatie leeft waar jij bent – rechtstreeks in de hub. Zie je iets dat bijgewerkt moet worden? Klik gewoon, bewerk en publiceer. Geen gedoe meer met wisselen tussen verschillende interfaces!
 
-With our MDX-powered editor, you can take your guides beyond static text:
+Met onze MDX-aangedreven editor kun je je guides verder brengen dan statische tekst:
 
-* Add interactive code samples that developers can test right in your docs
-* Create expandable sections for complex topics
-* Insert diagrams and visualizations to explain complex concepts
-* Build custom components to showcase your API's unique features
+* Voeg interactieve codevoorbeelden toe die ontwikkelaars direct in je documentatie kunnen testen
+* Maak uitklapbare secties voor complexe onderwerpen
+* Voeg diagrammen en visualisaties in om complexe concepten uit te leggen
+* Bouw aangepaste componenten om de unieke functies van je API te presenteren
 
-## Structuring Your Documentation
+## Je Documentatie Structureren
 
-Great documentation tells a story. Some developers will want to dive straight into code samples, while others might need more background. Our structure lets you cater to both by helping you organize your content in a way that makes sense for your API:
+Goede documentatie vertelt een verhaal. Sommige ontwikkelaars willen meteen in codevoorbeelden duiken, terwijl anderen meer achtergrondinformatie nodig hebben. Onze structuur stelt je in staat om aan beide groepen tegemoet te komen door je te helpen je inhoud te organiseren op een manier die logisch is voor je API:
 
-* **Categories**: Group related content together
-* **Pages**: Create standalone guides or multi-page tutorials
-* **Sections**: Break down complex topics into digestible chunks
-* **Custom Navigation**: Design a flow that guides developers through your API journey
+* **Categorieën**: Groepeer gerelateerde inhoud samen
+* **Pagina's**: Maak zelfstandige guides of meerdelige tutorials
+* **Secties**: Verdeel complexe onderwerpen in behapbare stukken
+* **Aangepaste navigatie**: Ontwerp een flow die ontwikkelaars door je API-reis begeleidt
 
-## Best Practices for Writing Guides
+## Best Practices voor het Schrijven van Guides
 
-The most effective guides combine clear explanations with practical examples. Here are some tips to make your guides more helpful:
+De meest effectieve guides combineren duidelijke uitleg met praktische voorbeelden. Hier zijn enkele tips om je guides nuttiger te maken:
 
-* **Start with the why**: Explain the purpose and benefits before diving into implementation
-* **Use progressive disclosure**: Begin with basic concepts before introducing advanced topics
-* **Show, don't just tell**: Include code examples that developers can copy and adapt
-* **Consider different learning styles**: Some developers learn by reading, others by doing
-* **Keep it scannable**: Use headings, lists, and callouts to make information easy to find
-* **Update regularly**: Keep your guides in sync with your API as it evolves
+* **Begin met het waarom**: Leg het doel en de voordelen uit voordat je ingaat op de implementatie
+* **Gebruik progressieve onthulling**: Begin met basisconcepten voordat je geavanceerde onderwerpen introduceert
+* **Laat zien, vertel niet alleen**: Voeg codevoorbeelden toe die ontwikkelaars kunnen kopiëren en aanpassen
+* **Houd rekening met verschillende leerstijlen**: Sommige ontwikkelaars leren door te lezen, anderen door te doen
+* **Maak het scanbaar**: Gebruik koppen, lijsten en call-outs om informatie gemakkelijk vindbaar te maken
+* **Werk regelmatig bij**: Houd je guides gesynchroniseerd met je API terwijl deze evolueert
 
-## 🔄 Reusing Content Across Guides
+## 🔄 Inhoud Hergebruiken in Guides
 
-> 📘 Business Tier Feature
+> 📘 Business Tier-functie
 >
-> Reusable Content is available on our Enterprise plan. Want to level up your documentation? Reach out to our team to learn more about Enterprise features that can supercharge your docs!
+> Herbruikbare inhoud is beschikbaar in ons Enterprise-abonnement. Wil je je documentatie naar een hoger niveau tillen? Neem contact op met ons team voor meer informatie over Enterprise-functies die je documentatie een boost kunnen geven!
 
-Why write the same explanation twice? With reusable content blocks, you can:
+Waarom dezelfde uitleg twee keer schrijven? Met herbruikbare inhoudsblokken kun je:
 
-* Create consistent explanations for common concepts
-* Update information in one place and see it change everywhere
-* Maintain a unified voice across your entire documentation
-* Save time and reduce the risk of outdated information
+* Consistente uitleg maken voor veelvoorkomende concepten
+* Informatie op één plek bijwerken en overal de wijziging zien
+* Een uniforme stem behouden in je volledige documentatie
+* Tijd besparen en het risico op verouderde informatie verminderen
 
-## Next Steps
+## Volgende Stappen
 
-Ready to create guides that your developers will actually want to read? Here's how to get started:
+Klaar om guides te maken die je ontwikkelaars echt willen lezen? Zo ga je aan de slag:
 
-1. [Create your first guide](doc:creating-and-managing-guides#/creating-your-first-guide) with our intuitive editor.
-2. [Organize your content](doc:structuring-your-docs) into a logical structure.
-3. [Add interactive elements](doc:mdx) with MDX components.
-4. [Set up reusable content](doc:reusable-content) for consistency across your docs.
+1. [Maak je eerste guide](doc:creating-and-managing-guides#/creating-your-first-guide) met onze intuïtieve editor.
+2. [Organiseer je inhoud](doc:structuring-your-docs) in een logische structuur.
+3. [Voeg interactieve elementen toe](doc:mdx) met MDX-componenten.
+4. [Stel herbruikbare inhoud in](doc:reusable-content) voor consistentie in je documentatie.
