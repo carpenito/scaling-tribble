@@ -733,7 +733,7 @@
         "tags": [
           "user"
         ],
-        "summary": "Get user by user name",
+        "summary": "Gebruiker ophalen op gebruikersnaam",
         "description": "",
         "operationId": "getUserByName",
         "parameters": [
