@@ -5,32 +5,32 @@ hidden: false
 metadata:
   robots: index
 ---
-Docs Audit gives you a complete analysis of your documentation, scoring it against a customizable style guide. Style guides are a set of standards and rules for writing API documentation that ensures consistency and usability for developers.
+Docs Audit geeft je een volledige analyse van je documentatie en beoordeelt deze aan de hand van een aanpasbare stijlgids. Stijlgidsen zijn een set standaarden en regels voor het schrijven van API-documentatie die zorgen voor consistentie en bruikbaarheid voor ontwikkelaars.
 
-## How the Linter Works
+## Hoe de Linter werkt
 
-**[ReadMe‘s Linter](/linter)** applies your custom style guide on the page level, using AI-powered prompts to raise issues while you write and edit content. You can configure these rules for the following categories:
+**[De Linter van ReadMe](/linter)** past je aangepaste stijlgids toe op paginaniveau, waarbij AI-gestuurde prompts worden gebruikt om problemen te signaleren terwijl je inhoud schrijft en bewerkt. Je kunt deze regels configureren voor de volgende categorieën:
 
-* **Style Guide**: Ratings that measure how well content aligns with your company‘s definition of good documentation.
-* **Errors**: Objective, critical issues that must be fixed (e.g., spelling mistakes, incorrect grammar).
-* **Warnings**: Subjective issues that may require editorial judgment (e.g., contraction usage, vague language).
+* **Stijlgids**: Beoordelingen die meten hoe goed de inhoud aansluit bij de definitie van goede documentatie van jouw bedrijf.
+* **Fouten**: Objectieve, kritieke problemen die opgelost moeten worden (bijv. spelfouten, onjuiste grammatica).
+* **Waarschuwingen**: Subjectieve problemen die redactioneel oordeel kunnen vereisen (bijv. gebruik van samentrekkingen, vaag taalgebruik).
 
-The Linter can be run before saving page content, allowing you to check your work before saving changes.
+De Linter kan worden uitgevoerd voordat pagina-inhoud wordt opgeslagen, zodat je je werk kunt controleren voordat je wijzigingen opslaat.
 
-## How Docs Audit Works
+## Hoe Docs Audit werkt
 
-While the Linter works at a page level, **Docs Audit** scales these checks across all of your documentation. By aggregating results and analyzing ever page, Docs Audit helps you:
+Terwijl de Linter op paginaniveau werkt, schaalt **Docs Audit** deze controles op over al je documentatie. Door resultaten samen te voegen en elke pagina te analyseren, helpt Docs Audit je om:
 
-* Identify gaps, inconsistencies, and patterns.
-* Find areas where content doesn‘t align with your style guide.
-* Improve documentation quality and consistency.
+* Hiaten, inconsistenties en patronen te identificeren.
+* Gebieden te vinden waar inhoud niet aansluit bij je stijlgids.
+* De kwaliteit en consistentie van documentatie te verbeteren.
 
-Together, Docs Audit and the Linter are a powerful system for reviewing, scoring, and improving your documentation. The Linter ensures individual pages meet your standards, while Docs Audit provides the big-picture analysis you need to deliver a consistent, high-quality experience across your entire developer hub.
+Samen vormen Docs Audit en de Linter een krachtig systeem voor het beoordelen, scoren en verbeteren van je documentatie. De Linter zorgt ervoor dat individuele pagina's aan je standaarden voldoen, terwijl Docs Audit de grootschalige analyse biedt die je nodig hebt om een consistente, hoogwaardige ervaring te leveren in je gehele ontwikkelaarshub.
 
 <br />
 
-## FAQ
+## Veelgestelde vragen
 
-<Accordion title="Do I get Docs Audit with my Enterprise plan?" icon="fa-credit-card">
-  Yes, it‘s included in the Enterprise plan! [Reach out](https://readme.com/enterprise) to learn more!
+<Accordion title="Krijg ik Docs Audit bij mijn Enterprise-abonnement?" icon="fa-credit-card">
+  Ja, het is inbegrepen in het Enterprise-abonnement! [Neem contact op](https://readme.com/enterprise) voor meer informatie!
 </Accordion>
