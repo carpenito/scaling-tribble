@@ -1,37 +1,37 @@
 ---
-title: Keyboard Shortcuts
+title: Raccourcis clavier
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-You can use keyboard shortcuts in both the **Admin Dashboard** and **Edit Mode** to quickly move between panels and editors in your ReadMe project.
+Vous pouvez utiliser des raccourcis clavier dans le **Tableau de bord Admin** et le **Mode Édition** pour naviguer rapidement entre les panneaux et les éditeurs de votre projet ReadMe.
 
-## Dashboard Shortcuts
+## Raccourcis du tableau de bord
 
-Use these shortcuts in the **Admin Dashboard** to open common panels and switch between modes:
+Utilisez ces raccourcis dans le **Tableau de bord Admin** pour ouvrir les panneaux courants et basculer entre les modes :
 
-| Shortcut | Action                                                                                     |
-| :------- | :----------------------------------------------------------------------------------------- |
-| Ctrl+1   | Switch to <i aria-label="View Mode" class="fa-solid fa-eye" /> View Mode                   |
-| Ctrl+2   | Switch to <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Edit Mode                  |
-| Ctrl+3   | Open <i aria-label="My Developers" class="fa-solid fa-users" /> My Developers              |
-| Ctrl+,   | Open <i aria-label="Settings" class="fa-solid fa-cog" /> Settings panel                    |
-| Ctrl+i   | Open <i aria-label="AI" class="fa-solid fa-sparkles" /> AI panel                           |
-| Ctrl+b   | Open <i aria-label="Versions" class="fa-solid fa-code-branch" /> Versions & Branches panel |
+| Raccourci | Action                                                                                     |
+| :-------- | :----------------------------------------------------------------------------------------- |
+| Ctrl+1    | Passer en <i aria-label="View Mode" class="fa-solid fa-eye" /> Mode Vue                    |
+| Ctrl+2    | Passer en <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Mode Édition               |
+| Ctrl+3    | Ouvrir <i aria-label="My Developers" class="fa-solid fa-users" /> Mes Développeurs         |
+| Ctrl+,    | Ouvrir le panneau <i aria-label="Settings" class="fa-solid fa-cog" /> Paramètres          |
+| Ctrl+i    | Ouvrir le panneau <i aria-label="AI" class="fa-solid fa-sparkles" /> IA                  |
+| Ctrl+b    | Ouvrir le panneau <i aria-label="Versions" class="fa-solid fa-code-branch" /> Versions & Branches |
 
-## Edit Mode Shortcuts
+## Raccourcis du mode Édition
 
-From the top navigation, you can access <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Edit Mode and use these shortcuts to jump directly to specific sections to edit:
+Depuis la navigation supérieure, vous pouvez accéder au <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Mode Édition et utiliser ces raccourcis pour accéder directement à des sections spécifiques à modifier :
 
-| Shortcut | Action                         |
-| :------- | :----------------------------- |
-| Alt+1    | Go to the Guides editor        |
-| Alt+2    | Go to the Recipes editor       |
-| Alt+3    | Go to the API Reference editor |
-| Alt+4    | Go to the Changelog editor     |
-| Alt+5    | Go to the Custom Pages editor  |
+| Raccourci | Action                                    |
+| :-------- | :---------------------------------------- |
+| Alt+1     | Aller à l'éditeur de Guides               |
+| Alt+2     | Aller à l'éditeur de Recettes             |
+| Alt+3     | Aller à l'éditeur de Référence API        |
+| Alt+4     | Aller à l'éditeur de Journal des modifications |
+| Alt+5     | Aller à l'éditeur de Pages personnalisées |
 
 <Callout icon="💡" theme="default">
-  Tip: Keyboard shortcuts may vary depending on your operating system. On macOS, use Command (⌘) instead of Ctrl for most shortcuts.
+  Astuce : Les raccourcis clavier peuvent varier selon votre système d'exploitation. Sur macOS, utilisez la touche Commande (⌘) à la place de Ctrl pour la plupart des raccourcis.
 </Callout>
