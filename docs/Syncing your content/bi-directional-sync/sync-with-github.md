@@ -1,50 +1,50 @@
 ---
-title: Sync with GitHub
+title: Synchroniseren met GitHub
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## How to Set Up Bi-Directional Sync with GitHub
+## Bi-directionele synchronisatie instellen met GitHub
 
-### Prerequisites
+### Vereisten
 
-* You will need a GitHub account.
-* When syncing to a repository in an organization, you will need permission to create an **empty repository**.
+* Je hebt een GitHub-account nodig.
+* Wanneer je synchroniseert met een repository in een organisatie, heb je toestemming nodig om een **lege repository** aan te maken.
 
-### Set Up
+### Instellen
 
-1. Navigate to **Settings** > **Git Connection** page.
-2. Select GitHub.
-3. If you haven’t already, create an empty repository in [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)—make sure to uncheck the option to create a README.
-4. **Sync** with your provider and authenticate. Grant access to the repository you’d like to sync with and confirm your repository on the next screen.
-
-***
-
-## Changing Repositories
-
-1. Within ReadMe, disconnect the project via the trash icon.
-2. Within GitHub, create your new repository (must be empty).
-3. Navigate to **Applications > Installed GitHub Apps**.
-4. Find **ReadMe Sync** and click **Configure**.
-5. Under _Repository access_, select the new repository you’d like to sync to.
-6. Return to ReadMe and connect to your new repository.
+1. Ga naar **Instellingen** > **Git-verbinding**.
+2. Selecteer GitHub.
+3. Als je dat nog niet hebt gedaan, maak dan een lege repository aan in [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)—zorg ervoor dat je de optie om een README aan te maken uitvinkt.
+4. **Synchroniseer** met je provider en verifieer jezelf. Verleen toegang tot de repository waarmee je wilt synchroniseren en bevestig je repository op het volgende scherm.
 
 ***
 
-## Editing Your Docs
+## Van repository wisselen
+
+1. Verbreek binnen ReadMe de verbinding met het project via het prullenbakpictogram.
+2. Maak binnen GitHub je nieuwe repository aan (moet leeg zijn).
+3. Ga naar **Applicaties > Geïnstalleerde GitHub Apps**.
+4. Zoek **ReadMe Sync** en klik op **Configureren**.
+5. Selecteer onder _Toegang tot repository_ de nieuwe repository waarmee je wilt synchroniseren.
+6. Ga terug naar ReadMe en maak verbinding met je nieuwe repository.
+
+***
+
+## Je documentatie bewerken
 
 **[Branches](https://docs.readme.com/main/docs/branches#/)**
 
-* The initial commit from ReadMe is to establish branch synchronization with GitHub
-* Branch names must exactly match the version names defined in ReadMe
-* Any mismatched version and names will exist in GitHub and will not sync with ReadMe.
+* De eerste commit vanuit ReadMe is bedoeld om branchsynchronisatie met GitHub tot stand te brengen
+* Branchnamen moeten exact overeenkomen met de versienamen die in ReadMe zijn gedefinieerd
+* Versies en namen die niet overeenkomen, bestaan wel in GitHub maar worden niet gesynchroniseerd met ReadMe.
 
 <HTMLBlock>{`
 <div class="migrating-column">
   <section>
     <header>
-      <i class="fa-duotone fa-solid fa-hexagon-exclamation"></i> Unsynced
+      <i class="fa-duotone fa-solid fa-hexagon-exclamation"></i> Niet gesynchroniseerd
     </header>
     <pre>ReadMe: v2.0_new-branch
 GitHub: v2-new-branch
@@ -52,7 +52,7 @@ GitHub: v2-new-branch
   </section>
   <section>
     <header>
-      <i class="fa-duotone fa-solid fa-circle-check"></i> Synced
+      <i class="fa-duotone fa-solid fa-circle-check"></i> Gesynchroniseerd
     </header>
     <pre>ReadMe: v2.0_new-branch
 GitHub: v2.0_new-branch
@@ -122,44 +122,44 @@ GitHub: v2.0_new-branch
 
 ### GitHub Enterprise Server
 
-If you’re using a self-hosted **[GitHub Enterprise Server (GHES)](https://docs.readme.com/ent/docs/connecting-github-enterprise-server)**, you can set up syncing from your Group dashboard under **Git Connection**. Syncing requires a new, empty repository, and each child project can only sync to one repository.
+Als je een zelfgehoste **[GitHub Enterprise Server (GHES)](https://docs.readme.com/ent/docs/connecting-github-enterprise-server)** gebruikt, kun je synchronisatie instellen vanuit je groepsdashboard onder **Git-verbinding**. Synchronisatie vereist een nieuwe, lege repository en elk onderliggend project kan slechts met één repository synchroniseren.
 
 <Image align="center" border={false} src="https://files.readme.io/bd2640dae70270e20b0a71ae98adf56bd4e3a59b275b1609e86bbc4fc8ad81cd-GHES.png" />
 
-If GHES isn’t available for your project, please contact your Customer Success Manager.
+Als GHES niet beschikbaar is voor jouw project, neem dan contact op met je Customer Success Manager.
 
-### GitHub Branch Protection
+### GitHub-branchbeveiliging
 
-If your GitHub repository uses branch protection rules, you’ll need to configure them to allow the ReadMe Sync app to push changes. Here's how to set it up based on your GitHub configuration:
+Als je GitHub-repository gebruikmaakt van branchbeveiligingsregels, moet je deze configureren zodat de ReadMe Sync-app wijzigingen kan pushen. Hier lees je hoe je dit instelt op basis van je GitHub-configuratie:
 
-#### For GitHub Rulesets (New Version)
+#### Voor GitHub Rulesets (nieuwe versie)
 
-1. Navigate to your repository’s branch protection settings.
-2. Under the _Bypass list_ section,**+ Add bypass**.
-3. Search for _ReadMe Sync_ (App • readmeio) and set the permission to **Always allow**.
+1. Ga naar de branchbeveiligingsinstellingen van je repository.
+2. Klik onder de sectie _Bypass-lijst_ op **+ Bypass toevoegen**.
+3. Zoek naar _ReadMe Sync_ (App • readmeio) en stel de toestemming in op **Altijd toestaan**.
 
 <Image align="center" alt="Adding ReadMe Sync to the GitHub Rulesets bypass list for direct push access." border={false} caption="Adding ReadMe Sync to the GitHub Rulesets bypass list for direct push access." src="https://files.readme.io/0e52415eb4dede062a4d9df4a2d3f06dda62500c26caae7f000e4ecd50f4521d-Screenshot_2024-11-22_at_11.12.14_AM.png" width="600px" />
 
-#### For Legacy Branch Protection
+#### Voor verouderde branchbeveiliging
 
-1. Go to your repository’s branch protection rules.
-2. Find the _Allow specified actors to bypass required pull requests_ section.
-3. Add _readme-sync_ (ReadMe Sync) to the allowed actors list.
+1. Ga naar de branchbeveiligingsregels van je repository.
+2. Zoek de sectie _Bepaalde actoren toestaan vereiste pull requests te omzeilen_.
+3. Voeg _readme-sync_ (ReadMe Sync) toe aan de lijst met toegestane actoren.
 
 <Image align="center" alt="Configuring ReadMe Sync in legacy branch protection settings to bypass pull request requirements." border={false} caption="Configuring ReadMe Sync in legacy branch protection settings to bypass pull request requirements." src="https://files.readme.io/8f3765d6ebbe96f5a93e4c6f915e52392ad6ba1512d0af4d4113ca8ff6ef8077-Screenshot_2024-11-22_at_11.12.07_AM.png" />
 
-This configuration ensures that changes made in ReadMe’s editor can be synchronized to protected branches in your GitHub repository.
+Deze configuratie zorgt ervoor dat wijzigingen die in de editor van ReadMe worden aangebracht, kunnen worden gesynchroniseerd naar beveiligde branches in je GitHub-repository.
 
 ***
 
 <br />
 
-## FAQ
+## Veelgestelde vragen
 
-<Accordion title="How does ReadMe integrate with GitHub and what permissions are required?" icon="fa-question-circle">
-  ReadMe uses a GitHub App with rep-level access: read-only for metadata(required) and read/write for syncing content. Webhooks handle syncs, change detection, and conflict resolution.
+<Accordion title="Hoe integreert ReadMe met GitHub en welke machtigingen zijn vereist?" icon="fa-question-circle">
+  ReadMe gebruikt een GitHub App met toegang op repositoryniveau: alleen-lezen voor metadata (vereist) en lezen/schrijven voor het synchroniseren van inhoud. Webhooks verwerken synchronisaties, wijzigingsdetectie en conflictoplossing.
 </Accordion>
 
 <Accordion title="Why don't my branches show on GitHub?" icon="fa-question-circle">
-  New branches you create after enabling bi-directional sync automatically creates a corresponding branch on Github, but existing branches will not create a corresponding branch on GitHub until you save a change (however small) to that branch on the ReadMe side.
+  Nieuwe branches die je aanmaakt nadat je bi-directionele synchronisatie hebt ingeschakeld, krijgen automatisch een overeenkomstige branch op GitHub. Bestaande branches krijgen echter pas een overeenkomstige branch op GitHub als je een wijziging (hoe klein ook) opslaat in die branch aan de ReadMe-kant.
 </Accordion>
