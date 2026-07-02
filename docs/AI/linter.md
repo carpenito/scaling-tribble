@@ -5,108 +5,108 @@ hidden: false
 metadata:
   robots: index
 ---
-The Linter automates content validation by checking documentation against your company’s style guide and established writing standards. It streamlines the manual review process writers typically perform with external tools.
+De Linter automatiseert inhoudsvalidatie door documentatie te controleren aan de hand van de stijlgids en schrijfstandaarden van uw bedrijf. Het stroomlijnt het handmatige beoordelingsproces dat schrijvers doorgaans uitvoeren met externe tools.
 
-You can configure custom rules to enforce code formatting, word choice, and adherence to internal style and best practices. Whether your documentation includes custom HTML or extensive code samples, the Linter ensures consistency across all your docs.
+U kunt aangepaste regels configureren om codeopmaak, woordkeuze en naleving van interne stijl en best practices af te dwingen. Of uw documentatie nu aangepaste HTML of uitgebreide codevoorbeelden bevat, de Linter zorgt voor consistentie in al uw docs.
 
 <PlanTable currentPlan="Startup" />
 
-## Configure
+## Configureren
 
-You can add prompts to the Linter that are categorized as style guide, errors, or warnings.
+U kunt prompts toevoegen aan de Linter die worden gecategoriseerd als stijlgids, fouten of waarschuwingen.
 
 <Image border={false} src="https://files.readme.io/6844539c6c370fbc5fe87fa2bab007e50aa4fb52673fa629d247d0836534c971-image.png" />
 
-**Style Guide**: Write about what makes for great docs and the Linter will score your content. Example:
+**Stijlgids**: Schrijf over wat geweldige docs maakt en de Linter beoordeelt uw inhoud. Voorbeeld:
 
-> Keep it short:
+> Houd het kort:
 >
-> Short text is always better. Short paragraphs are easier to read. Try to keep headings to one line. Two-line headings take up twice as much vertical space. Use short words in headings; if a customer uses larger fonts to improve accessibility, long words may break across lines.
+> Korte tekst is altijd beter. Korte alinea's zijn gemakkelijker te lezen. Probeer koppen tot één regel te beperken. Koppen van twee regels nemen twee keer zoveel verticale ruimte in. Gebruik korte woorden in koppen; als een gebruiker grotere lettertypen gebruikt voor toegankelijkheid, kunnen lange woorden over regels breken.
 
 <br />
 
-> Clarity:
+> Duidelijkheid:
 >
-> Clear and concise text for easy scanning and readability. Get to the point so users can easily find what they need. Don’t use excessive words.
+> Heldere en beknopte tekst voor eenvoudig scannen en leesbaarheid. Kom ter zake zodat gebruikers gemakkelijk kunnen vinden wat ze nodig hebben. Gebruik geen overbodige woorden.
 
 <br />
 
-> Natural and human tone:
+> Natuurlijke en menselijke toon:
 >
-> Use everyday words that’s easy to understand. Less format but more professional than everyday conversation. Occasionally use a fun tone for celebratory moments but never for informational text. Be warm and supportive to users reading the docs.
+> Gebruik alledaagse woorden die gemakkelijk te begrijpen zijn. Minder formeel maar professioneler dan alledaags gesprek. Gebruik af en toe een speelse toon voor feestelijke momenten, maar nooit voor informatieve tekst. Wees warm en ondersteunend voor gebruikers die de docs lezen.
 
 <br />
 
-**Errors**: Rules that can be checked objectively. Example:
+**Fouten**: Regels die objectief kunnen worden gecontroleerd. Voorbeeld:
 
-> Capitalize ReadMe properly:
+> Schrijf ReadMe correct met hoofdletters:
 >
-> Bad: Readme
+> Fout: Readme
 >
-> Good: ReadMe
+> Goed: ReadMe
 
 <br />
 
-> Wrap code elements in backticks (`):
+> Omsluit code-elementen met backticks (`):
 >
-> Bad: Run npm install –g my–package
+> Fout: Run npm install –g my–package
 >
-> Good: Run `npm install –g my–package`
+> Goed: Run `npm install –g my–package`
 
 <br />
 
-> Flag placeholder text like TODO, FIXME, or Lorem ipsum
+> Markeer tijdelijke aanduidingen zoals TODO, FIXME of Lorem ipsum
 >
-> Example: TODO: Add description and image to this feature
+> Voorbeeld: TODO: Voeg beschrijving en afbeelding toe aan deze functie
 
 <br />
 
-**Warnings**: To point out issues that may be subjective. Example:
+**Waarschuwingen**: Om problemen aan te wijzen die subjectief kunnen zijn. Voorbeeld:
 
-> Hedging Language:
+> Aarzelend taalgebruik:
 >
-> Avoid using uncertain or overly cautious language. It undermines confidence and make your instructions less direct. Opt for clear, confident language.
+> Vermijd onzeker of overdreven voorzichtig taalgebruik. Het ondermijnt het vertrouwen en maakt uw instructies minder direct. Kies voor helder, zelfverzekerd taalgebruik.
 >
-> Bad: You might want to consider installing the latest version.
+> Fout: U kunt overwegen de nieuwste versie te installeren.
 >
-> Good: You can install the latest version to access new features.
-
-<br />
-
-> Weak writing:
->
-> Avoid weak writing like ‘You can’ or ‘There is’. These phrases bury the action, make writing less direct, and often add unnecessary words. Strong docs are clear and action-oriented.
->
-> Bad: You can configure the API by editing the settings file.
->
-> Good: Configure the API by editing the settings file.
+> Goed: U kunt de nieuwste versie installeren om toegang te krijgen tot nieuwe functies.
 
 <br />
 
-> Active voice:
+> Zwak schrijven:
 >
-> Refrain from using passive voice. Active voice is clearer, shorter, and tells the reader exactly who is doing what.
+> Vermijd zwak schrijven zoals 'U kunt' of 'Er is'. Deze zinnen begraven de actie, maken schrijven minder direct en voegen vaak onnodige woorden toe. Sterke docs zijn helder en actiegericht.
 >
-> Bad: The token is generated when the user logs in.
+> Fout: U kunt de API configureren door het instellingenbestand te bewerken.
 >
-> Good: The system generates a token when the user logs in.
+> Goed: Configureer de API door het instellingenbestand te bewerken.
 
 <br />
 
-## Running the Linter
+> Actieve stem:
+>
+> Vermijd het gebruik van passieve stem. Actieve stem is duidelijker, korter en vertelt de lezer precies wie wat doet.
+>
+> Fout: Het token wordt gegenereerd wanneer de gebruiker inlogt.
+>
+> Goed: Het systeem genereert een token wanneer de gebruiker inlogt.
 
-Once configured, running the Linter checks your page against your prompts. Issues can be fixed automatically using the Agent.
+<br />
+
+## De Linter uitvoeren
+
+Eenmaal geconfigureerd, controleert het uitvoeren van de Linter uw pagina aan de hand van uw prompts. Problemen kunnen automatisch worden opgelost met behulp van de Agent.
 
 <Image align="center" border={false} width="350px" src="https://files.readme.io/02345a8505f8f89eaa3d97019252e3cfc3c9e16fdaed63ac7ed7b6df97b765f5-linter.png" />
 
 <br />
 
-## FAQ
+## Veelgestelde vragen
 
-<Accordion title="Where should I send feedback or questions?" icon="fa-messages-question">
-  Email feedback or questions to [beta@readme.io](mailto:beta@readme.io)
+<Accordion title="Waar kan ik feedback of vragen naartoe sturen?" icon="fa-messages-question">
+  Stuur feedback of vragen per e-mail naar [beta@readme.io](mailto:beta@readme.io)
 </Accordion>
 
-<Accordion title="What model does the Linter use?" icon="fa-wand-sparkles">
-  At the moment we use Gemini 2.5 Flash—though that may change as we adjust to balance quality and speed. In the future users will have the option to select models of their choice.
+<Accordion title="Welk model gebruikt de Linter?" icon="fa-wand-sparkles">
+  Op dit moment gebruiken we Gemini 2.5 Flash — hoewel dat kan veranderen naarmate we de balans tussen kwaliteit en snelheid aanpassen. In de toekomst kunnen gebruikers zelf modellen naar keuze selecteren.
 </Accordion>
