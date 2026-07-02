@@ -50,7 +50,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Add a new pet to the store",
+        "summary": "向商店添加新宠物",
         "description": "",
         "operationId": "addPet",
         "requestBody": {
