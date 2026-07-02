@@ -1,35 +1,35 @@
 ---
-title: Auto-Generate Your MCP Server
+title: Genereer automatisch uw MCP-server
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-With ReadMe, every project automatically includes a fully configured MCP server. Simply enable MCP to connect your API documentation to AI tools.
+Met ReadMe bevat elk project automatisch een volledig geconfigureerde MCP-server. Schakel MCP eenvoudig in om uw API-documentatie te verbinden met AI-tools.
 
-## How to Generate Your Own MCP Server
+## Hoe u uw eigen MCP-server genereert
 
-In Edit Mode, in the top right-hand corner, click **:sparkles:AI** to open up the side panel. Select **MCP** and toggle MCP Server to activate your MCP server. Your MCP URL will be: `https://your-project.readme.com/mcp`. You can share your MCP URL with your developers, and they can connect their AI assistants and tools directly to your API. Endpoints you don't want accessible in your MCP server can be disabled under Enabled MCP Routes.
+Klik in de bewerkingsmodus, in de rechterbovenhoek, op **:sparkles:AI** om het zijpaneel te openen. Selecteer **MCP** en zet de MCP-server aan om uw MCP-server te activeren. Uw MCP-URL wordt: `https://your-project.readme.com/mcp`. U kunt uw MCP-URL delen met uw ontwikkelaars, zodat zij hun AI-assistenten en tools rechtstreeks op uw API kunnen aansluiten. Endpoints die u niet toegankelijk wilt maken via uw MCP-server, kunnen worden uitgeschakeld onder Ingeschakelde MCP-routes.
 
-The AI should now have access to your ReadMe account data and documentation through the MCP server.
+De AI heeft nu toegang tot uw ReadMe-accountgegevens en documentatie via de MCP-server.
 
 <Image align="center" border={false} width="35% " src="https://files.readme.io/f4981199e6757d7c7a64ff259c4c592ab97b8b91f91255804a6a5a8d696fbd9b-mcp_advanced.png" />
 
-### Custom Tools
+### Aangepaste tools
 
 <br />
 
-## Testing Your MCP Setup
+## Uw MCP-configuratie testen
 
-Once configured, you can test your MCP server connection:
+Na de configuratie kunt u de verbinding met uw MCP-server testen:
 
-1. Open your AI editor (Cursor, VS Code, etc.)
-2. Start a new chat with the AI assistant
-3. Ask about your API & docs. Try these questions:
-   * "How do I [common use case]?"
-   * "Show me an example of [API functionality]"
-   * "Create a [integration type] using [your API]
+1. Open uw AI-editor (Cursor, VS Code, enz.)
+2. Start een nieuw gesprek met de AI-assistent
+3. Stel vragen over uw API en documentatie. Probeer deze vragen:
+   * "Hoe doe ik [veelvoorkomend gebruik]?"
+   * "Laat me een voorbeeld zien van [API-functionaliteit]"
+   * "Maak een [integratietype] met behulp van [uw API]"
 
-## How to Generate Access Instructions For Your Users
+## Hoe u toegangsinstructies genereert voor uw gebruikers
 
-Once you have activated your MCP server, can automatically generate access instructions for your end-users by clicking the "Generate MCP Template" button. This creates a new unpublished doc called "MCP" in your Guides showing how to connect to your MCP server in tools such as Cursor and Claude Desktop. You can find the doc at the bottom of your Guides or API Reference in a new category called "MCP SERVER."
+Zodra u uw MCP-server heeft geactiveerd, kunt u automatisch toegangsinstructies genereren voor uw eindgebruikers door op de knop "Generate MCP Template" te klikken. Dit maakt een nieuw niet-gepubliceerd document aan met de naam "MCP" in uw Handleidingen, waarin wordt uitgelegd hoe u verbinding maakt met uw MCP-server in tools zoals Cursor en Claude Desktop. U vindt het document onderaan uw Handleidingen of API-referentie in een nieuwe categorie genaamd "MCP SERVER".
