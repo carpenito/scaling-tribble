@@ -1,5 +1,5 @@
 ---
-title: Kirby Enhancement Feb 10th 2026
+title: Kirby Verbetering 10 februari 2026
 excerpt: WOW
 deprecated: false
 hidden: false
@@ -8,16 +8,16 @@ metadata:
   robots: index
 ---
 <Tabs>
-  <Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
+  <Tab title="Eerste Tab">
+    Welkom bij de inhoud die je alleen binnen de eerste Tab kunt zien.
   </Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
+  <Tab title="Tweede Tab">
+    Hier is inhoud die alleen binnen de tweede Tab staat.
   </Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
+  <Tab title="Derde Tab">
+    Hier is inhoud die alleen binnen de derde Tab staat.
   </Tab>
 </Tabs>
 
