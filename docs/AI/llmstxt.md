@@ -5,49 +5,49 @@ hidden: false
 metadata:
   robots: index
 ---
-## Overview
+## 概述
 
-With our new [LLMs.txt](https://llmstxt.org/) feature, you can teach AI models how to properly understand and represent your API documentation. This allows you to provide the context that AI assistants like ChatGPT or Claude need to accurately answer questions about your API without hallucinating (making things up). Setting it up takes literally seconds – just flip a toggle and we'll generate the configuration file automatically. Behind the scenes, we're creating metadata that helps AI systems understand your documentation's structure, terminology, and most up-to-date information. LLMs.txt is available on all plans.
+通过我们全新的 [LLMs.txt](https://llmstxt.org/) 功能，您可以教导 AI 模型如何正确理解和呈现您的 API 文档。这使您能够为 ChatGPT 或 Claude 等 AI 助手提供所需的上下文，从而准确回答有关您 API 的问题，而不会产生幻觉（即凭空捏造内容）。设置过程只需几秒钟——只需拨动一个开关，我们将自动生成配置文件。在后台，我们会创建元数据，帮助 AI 系统理解您文档的结构、术语以及最新信息。LLMs.txt 适用于所有套餐。
 
-The result? Developers get accurate answers about your API even when they're asking AI tools instead of reading your docs directly. It's documentation that works everywhere your developers do!
+结果如何？即使开发者选择使用 AI 工具而非直接阅读您的文档，他们也能获得关于您 API 的准确答案。这是一份能在开发者所在的任何地方都发挥作用的文档！
 
-## Benefits
+## 优势
 
-* **Accuracy**: Helps AI models represent your documentation correctly
-* **Consistency**: Ensures proper terminology and version information
-* **Relevance**: Guides AI models to the most up-to-date information
-* **Zero Maintenance**: Automatically generated based on your existing documentation
+* **准确性**：帮助 AI 模型正确呈现您的文档内容
+* **一致性**：确保使用正确的术语和版本信息
+* **相关性**：引导 AI 模型获取最新信息
+* **零维护**：根据您现有的文档自动生成
 
-## How It Works
+## 工作原理
 
-LLMs.txt works as a configuration file at the root of your documentation site that AI language models can access and interpret. This file functions as a technical guide that instructs AI systems on how to properly read and reference your content.
+LLMs.txt 作为一个配置文件存放在您文档站点的根目录，供 AI 语言模型访问和解析。该文件充当技术指南，指导 AI 系统如何正确读取和引用您的内容。
 
-When enabled, ReadMe automatically generates this configuration file based on your existing documentation structure. The file contains metadata about:
+启用后，ReadMe 会根据您现有的文档结构自动生成此配置文件。该文件包含以下元数据：
 
-* The organization of your documentation (guides, API reference, recipes, etc.)
-* Version information to ensure AI models reference the most current documentation
-* Important terminology specific to your API
-* Hierarchical structure of your content
+* 文档的组织结构（指南、API 参考、示例等）
+* 版本信息，确保 AI 模型引用最新文档
+* 您 API 特有的重要术语
+* 内容的层级结构
 
-AI models that support LLMs.txt will check for this file before generating responses about your API. When they find it, they'll use the instructions to provide more accurate information, reducing the chances of outdated references or incorrect terminology.
+支持 LLMs.txt 的 AI 模型在生成有关您 API 的回答之前，会先检查此文件。找到该文件后，它们将依据其中的指引提供更准确的信息，从而减少引用过时内容或使用错误术语的可能性。
 
-For example, if you've recently renamed endpoints or changed parameter requirements, LLMs.txt helps ensure AI assistants don't provide outdated information to developers using your API.
+例如，如果您最近重命名了端点或更改了参数要求，LLMs.txt 有助于确保 AI 助手不会向使用您 API 的开发者提供过时信息。
 
-## Getting Started
+## 快速开始
 
-Enable LLMs.txt in just a few clicks to help AI models accurately represent your API documentation.
+只需几次点击即可启用 LLMs.txt，帮助 AI 模型准确呈现您的 API 文档。
 
 #### ReadMe Refactored
 
-For projects using the ReadMe Refactored interface:
+适用于使用 ReadMe Refactored 界面的项目：
 
-1. Navigate to your project hub.
-2. Click the **AI Settings (✨ Sparkle Icon)** in the top right menu.
-3. Toggle **Enable LLMs.txt** to ON.
-4. Click **Save**.
+1. 进入您的项目中心。
+2. 点击右上角菜单中的 **AI 设置（✨ 星光图标）**。
+3. 将 **启用 LLMs.txt** 切换为开启状态。
+4. 点击 **保存**。
 
 #### ReadMe Legacy
 
-1. Go to **Configuration** > **AI Settings**.
-2. Toggle **Enable LLMs.txt** to ON.
-3. Click **Save**.
+1. 前往 **配置** > **AI 设置**。
+2. 将 **启用 LLMs.txt** 切换为开启状态。
+3. 点击 **保存**。
