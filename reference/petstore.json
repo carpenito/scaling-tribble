@@ -231,8 +231,8 @@
         "tags": [
           "pet"
         ],
-        "summary": "Find pet by ID",
-        "description": "Returns a single pet",
+        "summary": "Huisdier zoeken op ID",
+        "description": "Geeft een enkel huisdier terug",
         "operationId": "getPetById",
         "parameters": [
           {
