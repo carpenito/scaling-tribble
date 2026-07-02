@@ -1,6 +1,6 @@
 ---
-title: Updated user
-excerpt: This can only be done by the logged in user.
+title: 更新用户
+excerpt: 此操作只能由已登录的用户执行。
 api:
   file: petstore.json
   operationId: updateUser
