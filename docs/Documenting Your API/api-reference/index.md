@@ -1,74 +1,74 @@
 ---
-title: API Reference
+title: API-referentie
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# What Is an API Reference?
+# Wat Is een API-referentie?
 
-An API reference is the definitive technical guide to your API, documenting every endpoint, parameter, and response code in detail. It's your ultimate source of truth that developers turn to when they need to know exactly how to interact with your API.
+Een API-referentie is de definitieve technische gids voor uw API, waarin elk endpoint, elke parameter en elke responscode gedetailleerd wordt gedocumenteerd. Het is uw ultieme bron van waarheid waarnaar ontwikkelaars grijpen wanneer ze precies willen weten hoe ze met uw API moeten communiceren.
 
-In ReadMe, your API reference is an interactive experience where developers can explore your API, make test calls right from the documentation, and see real responses without writing a single line of code.
+In ReadMe is uw API-referentie een interactieve ervaring waarbij ontwikkelaars uw API kunnen verkennen, testoproepen rechtstreeks vanuit de documentatie kunnen uitvoeren en echte responses kunnen bekijken zonder ook maar één regel code te schrijven.
 
-## Why Your API Reference Matters
+## Waarom Uw API-referentie Belangrijk Is
 
-A well-crafted API reference can:
+Een goed opgestelde API-referentie kan:
 
-* **Reduce support tickets** by answering technical questions before they're asked
-* **Speed up developer onboarding** by providing clear, accurate implementation guidance
-* **Build developer trust** by showing that your API is thoughtfully designed and maintained
-* **Showcase your API's full capabilities** so developers discover features they might otherwise miss
+* **Supporttickets verminderen** door technische vragen te beantwoorden voordat ze worden gesteld
+* **Het onboarden van ontwikkelaars versnellen** door duidelijke en nauwkeurige implementatieguidance te bieden
+* **Vertrouwen bij ontwikkelaars opbouwen** door te laten zien dat uw API doordacht is ontworpen en onderhouden
+* **De volledige mogelijkheden van uw API tonen** zodat ontwikkelaars functies ontdekken die ze anders zouden missen
 
-## Getting Started with Your API Reference
+## Aan de Slag met Uw API-referentie
 
-ReadMe offers several ways to create and maintain your API reference, whether you're working with OpenAPI (formerly Swagger) specifications or prefer to build your reference manually.
+ReadMe biedt verschillende manieren om uw API-referentie te maken en te onderhouden, of u nu werkt met OpenAPI (voorheen Swagger)-specificaties of liever uw referentie handmatig opbouwt.
 
-### In This Section
+### In Dit Gedeelte
 
-You'll learn how to:
+U leert hoe u:
 
-* **Upload and manage OpenAPI specifications** through multiple methods
-* **Work with our API Designer** if you don't have an OpenAPI specification
-* **Customize your API reference** to match your brand and enhance usability
-* **Create interactive examples** that developers can try right in your docs
-* **Keep your reference in sync** with your actual API as it evolves
+* **OpenAPI-specificaties uploadt en beheert** via meerdere methoden
+* **Werkt met onze API Designer** als u geen OpenAPI-specificatie heeft
+* **Uw API-referentie aanpast** om aan te sluiten bij uw merk en de bruikbaarheid te verbeteren
+* **Interactieve voorbeelden maakt** die ontwikkelaars direct in uw documentatie kunnen uitproberen
+* **Uw referentie gesynchroniseerd houdt** met uw daadwerkelijke API naarmate deze evolueert
 
-## OpenAPI Upload and Management
+## OpenAPI Uploaden en Beheren
 
-ReadMe fully supports OpenAPI 3.0, OpenAPI 3.1, and Swagger 2.0 specifications. You can add your API spec to ReadMe in multiple ways:
+ReadMe ondersteunt volledig OpenAPI 3.0, OpenAPI 3.1 en Swagger 2.0-specificaties. U kunt uw API-specificatie op meerdere manieren aan ReadMe toevoegen:
 
-* **File upload**: Drag and drop your OpenAPI/Swagger JSON or YAML file
-* **URL import**: Point ReadMe to where your spec lives online
-* **GitHub integration**: Connect directly to your GitHub repository
-* **Command line (rdme)**: Use our CLI tool for automated workflows
-* **API Sync**: Keep your API reference automatically in sync with your codebase
+* **Bestand uploaden**: Sleep uw OpenAPI/Swagger JSON- of YAML-bestand naar de uploadzone
+* **URL importeren**: Verwijs ReadMe naar de locatie waar uw specificatie online staat
+* **GitHub-integratie**: Maak rechtstreeks verbinding met uw GitHub-repository
+* **Opdrachtregel (rdme)**: Gebruik onze CLI-tool voor geautomatiseerde workflows
+* **API Sync**: Houd uw API-referentie automatisch gesynchroniseerd met uw codebase
 
-Once uploaded, ReadMe transforms your spec into beautifully formatted, interactive documentation that developers will love.
+Na het uploaden transformeert ReadMe uw specificatie in prachtig opgemaakte, interactieve documentatie waar ontwikkelaars dol op zullen zijn.
 
 ## API Designer
 
-Don't have an OpenAPI specification? No problem! ReadMe's [API Designer](doc:building-apis-from-scratch-with-the-api-designer) lets you build your API reference from scratch with an intuitive interface. Document your endpoints, parameters, request bodies, and response objects without needing to write a single line of YAML or JSON.
+Heeft u geen OpenAPI-specificatie? Geen probleem! Met de [API Designer](doc:building-apis-from-scratch-with-the-api-designer) van ReadMe kunt u uw API-referentie vanaf nul opbouwen via een intuïtieve interface. Documenteer uw endpoints, parameters, request bodies en response-objecten zonder ook maar één regel YAML of JSON te hoeven schrijven.
 
-## Customizing Your API Reference
+## Uw API-referentie Aanpassen
 
-Make your API reference truly yours with customization options:
+Maak uw API-referentie echt van uzelf met aanpassingsopties:
 
-* Add authentication details and custom headers
-* Include code samples in multiple programming languages
-* Organize endpoints into logical groups
-* Add custom documentation and overviews to each group of endpoints
+* Voeg authenticatiegegevens en aangepaste headers toe
+* Voeg codevoorbeelden toe in meerdere programmeertalen
+* Organiseer endpoints in logische groepen
+* Voeg aangepaste documentatie en overzichten toe aan elke groep endpoints
 
-## GraphQL Support
+## GraphQL-ondersteuning
 
-Working with GraphQL? ReadMe offers limited but growing support for [GraphQL APIs](doc:graphql). You can document your schemas, queries, and mutations to help developers navigate your GraphQL API.
+Werkt u met GraphQL? ReadMe biedt beperkte maar groeiende ondersteuning voor [GraphQL API's](doc:graphql). U kunt uw schema's, queries en mutaties documenteren om ontwikkelaars te helpen navigeren in uw GraphQL API.
 
-## Best Practices for API References
+## Best Practices voor API-referenties
 
-To create an exceptional API reference:
+Om een uitzonderlijke API-referentie te maken:
 
-* **Be complete**: Document every endpoint, parameter, and response
-* **Include examples**: Show real request/response pairs for common use cases
-* **Explain errors**: Document all error codes and how to resolve them
-* **Keep it current**: Update documentation whenever your API changes
-* **Test it yourself**: Regularly use your own documentation to catch issues
+* **Wees volledig**: Documenteer elk endpoint, elke parameter en elke response
+* **Voeg voorbeelden toe**: Toon echte request/response-paren voor veelvoorkomende gebruiksscenario's
+* **Leg fouten uit**: Documenteer alle foutcodes en hoe u deze kunt oplossen
+* **Houd het actueel**: Werk de documentatie bij telkens wanneer uw API verandert
+* **Test het zelf**: Gebruik uw eigen documentatie regelmatig om problemen op te sporen
