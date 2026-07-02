@@ -1,5 +1,5 @@
 ---
-title: Logs user into the system
+title: 将用户登录到系统
 api:
   file: petstore.json
   operationId: loginUser
