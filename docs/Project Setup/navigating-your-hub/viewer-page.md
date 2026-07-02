@@ -1,14 +1,14 @@
 ---
-title: Group Viewer
+title: Groepsviewer
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-Sending a branch to a group viewer
+Een branch naar een groepsviewer sturen
 
-Enabled the Admin & Editor as approvals
+De Admin & Editor ingeschakeld als goedkeuringen
 
 <br />
 
