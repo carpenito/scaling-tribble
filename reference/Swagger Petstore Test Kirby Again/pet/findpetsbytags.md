@@ -1,8 +1,8 @@
 ---
-title: Finds Pets by tags
+title: Huisdieren zoeken op tags
 excerpt: >-
-  Muliple tags can be provided with comma separated strings. Use tag1, tag2,
-  tag3 for testing.
+  Meerdere tags kunnen worden opgegeven met kommagescheiden tekenreeksen.
+  Gebruik tag1, tag2, tag3 voor testen.
 api:
   file: petstore.json
   operationId: findPetsByTags
