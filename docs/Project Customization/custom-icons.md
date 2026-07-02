@@ -1,5 +1,5 @@
 ---
-title: Custom Icons
+title: 自定义图标
 deprecated: false
 hidden: false
 metadata:
@@ -7,7 +7,7 @@ metadata:
 ---
 ## Font Awesome
 
-ReadMe loads Font Awesome 6's [Regular](https://fontawesome.com/search?s=regular\&f=classic\&o=r) and [Duotone](https://fontawesome.com/search?s=solid\&f=duotone\&o=r) libraries, and you can use them in your docs!
+ReadMe 加载了 Font Awesome 6 的 [Regular](https://fontawesome.com/search?s=regular\&f=classic\&o=r) 和 [Duotone](https://fontawesome.com/search?s=solid\&f=duotone\&o=r) 图标库，您可以在文档中使用它们！
 
 <HTMLBlock>{`
 <div class="Flex">
@@ -39,9 +39,9 @@ ReadMe loads Font Awesome 6's [Regular](https://fontawesome.com/search?s=regular
 
 ***
 
-### Accessibility
+### 无障碍访问
 
-If an icon is used decoratively, you can mark an icon as hidden. For example, using it next to an appropriate text label:
+如果图标仅用于装饰目的，可以将其标记为隐藏。例如，将其与适当的文字标签一起使用时：
 
 ```html
 <button>
@@ -50,10 +50,10 @@ If an icon is used decoratively, you can mark an icon as hidden. For example, us
 </button>
 ```
 
-If your icon should be interpreted semantically, use the `aria-label` attribute:
+如果您的图标需要具有语义含义，请使用 `aria-label` 属性：
 
 ```html
 <i aria-label="Download to Floppy" class="fa-duotone fa-solid fa-computer-classic"></i>
 ```
 
-You can refer to Font Awesome's [docs on accessibility](https://docs.fontawesome.com/web/dig-deeper/accessibility) for more information.
+您可以参阅 Font Awesome 的[无障碍访问文档](https://docs.fontawesome.com/web/dig-deeper/accessibility)以获取更多信息。
