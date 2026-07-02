@@ -1,77 +1,77 @@
 ---
-title: Creating a Project
+title: 创建项目
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## Create Your Project 🎨
+## 创建您的项目 🎨
 
-First things first – let's give your API documentation a home:
+首先，让我们为您的 API 文档找一个家：
 
-1. Sign into your ReadMe account
-2. Click **Create New Project**.
-3. Give your project a name that resonates with your API.
-4. Upload your logo (we'll work our magic to match your brand colors!).
-5. Choose a subdomain that makes sense for your brand (e.g., yourcompany.readme.io).
+1. 登录您的 ReadMe 账户
+2. 点击**创建新项目**。
+3. 为您的项目起一个与 API 相符的名称。
+4. 上传您的 Logo（我们会自动匹配您的品牌颜色！）。
+5. 选择一个适合您品牌的子域名（例如：yourcompany.readme.io）。
 
 <Callout icon="☝️" theme="default">
-  Checkout our docs on [migrating from another platform to ReadMe](https://docs.readme.com/main/docs/migration-moving-your-docs-to-their-new-home).
+  查看我们关于[从其他平台迁移到 ReadMe](https://docs.readme.com/main/docs/migration-moving-your-docs-to-their-new-home) 的文档。
 </Callout>
 
-## Navigate Your Dashboard 🧭
+## 熟悉您的控制台 🧭
 
-Get comfortable with your command center:
+快速上手您的指挥中心：
 
-1. **Project Dashboard Overview**
-   * The dashboard is your mission control for all things documentation
-   * Access all your projects from this central hub
-   * View project metrics and recent activity at a glance
+1. **项目控制台概览**
+   * 控制台是您管理所有文档事务的核心中心
+   * 从这个中央枢纽访问您的所有项目
+   * 一目了然地查看项目指标和最近活动
 
-2. **Quick Navigation**
-   * Use the left sidebar to jump between key sections
-   * Access project settings, appearance options, and more
-   * Switch between edit and view modes with a single click
+2. **快速导航**
+   * 使用左侧边栏在各主要板块之间跳转
+   * 访问项目设置、外观选项等更多功能
+   * 单击即可在编辑模式和查看模式之间切换
 
-3. **Project Settings**
-   * Customize project details anytime from the settings menu
-   * Manage team access and permissions
-   * Configure integration options for your workflow
+3. **项目设置**
+   * 随时通过设置菜单自定义项目详情
+   * 管理团队访问权限和角色权限
+   * 为您的工作流程配置集成选项
 
-## Manage Your Profile 👤
+## 管理您的个人资料 👤
 
-Make ReadMe yours with a personalized profile:
+通过个性化资料让 ReadMe 更贴近您：
 
-1. **Setting Up Your Profile**
-   * Click your avatar in the top-right corner
-   * Update your display name and profile picture
-   * Add your role and contact information
+1. **设置您的个人资料**
+   * 点击右上角的头像
+   * 更新您的显示名称和头像图片
+   * 添加您的职位和联系信息
 
-2. **Account Preferences**
-   * Set your notification preferences
-   * Configure 2FA for enhanced security
-   * Manage your API keys for ReadMe access
+2. **账户偏好设置**
+   * 设置您的通知偏好
+   * 配置双重身份验证（2FA）以增强安全性
+   * 管理您用于访问 ReadMe 的 API 密钥
 
-3. **Team Collaboration**
-   * Invite team members to contribute
-   * Assign appropriate roles and permissions
-   * Create a collaborative documentation workflow
+3. **团队协作**
+   * 邀请团队成员参与贡献
+   * 分配适当的角色和权限
+   * 建立协作式文档工作流程
 
-## Search and Organize Your Projects 🔍
+## 搜索和整理您的项目 🔍
 
-Keeping everything at your fingertips:
+让一切触手可及：
 
-1. **Project Search**
-   * Use the search bar at the top of the dashboard
-   * Filter projects by name, status, or team
-   * Find exactly what you need, when you need it
+1. **项目搜索**
+   * 使用控制台顶部的搜索栏
+   * 按名称、状态或团队筛选项目
+   * 在需要时精准找到所需内容
 
-2. **Project Organization**
-   * Arrange projects by priority or category
-   * Use tags to group related projects
-   * Archive completed or inactive projects
+2. **项目整理**
+   * 按优先级或类别排列项目
+   * 使用标签将相关项目归组
+   * 归档已完成或不活跃的项目
 
-3. **Quick Project Switching**
-   * Toggle between projects from the dropdown menu
-   * See project status indicators at a glance
-   * Access recent projects faster with the history menu
+3. **快速切换项目**
+   * 通过下拉菜单在项目之间切换
+   * 一目了然地查看项目状态指示器
+   * 通过历史记录菜单更快速地访问最近的项目
