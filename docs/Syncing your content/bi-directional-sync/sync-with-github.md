@@ -1,50 +1,50 @@
 ---
-title: Sync with GitHub
+title: 与 GitHub 同步
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## How to Set Up Bi-Directional Sync with GitHub
+## 如何设置与 GitHub 的双向同步
 
-### Prerequisites
+### 前提条件
 
-* You will need a GitHub account.
-* When syncing to a repository in an organization, you will need permission to create an **empty repository**.
+* 您需要一个 GitHub 账户。
+* 在同步到组织内的仓库时，您需要有权限创建一个**空仓库**。
 
-### Set Up
+### 设置步骤
 
-1. Navigate to **Settings** > **Git Connection** page.
-2. Select GitHub.
-3. If you haven’t already, create an empty repository in [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)—make sure to uncheck the option to create a README.
-4. **Sync** with your provider and authenticate. Grant access to the repository you’d like to sync with and confirm your repository on the next screen.
-
-***
-
-## Changing Repositories
-
-1. Within ReadMe, disconnect the project via the trash icon.
-2. Within GitHub, create your new repository (must be empty).
-3. Navigate to **Applications > Installed GitHub Apps**.
-4. Find **ReadMe Sync** and click **Configure**.
-5. Under _Repository access_, select the new repository you’d like to sync to.
-6. Return to ReadMe and connect to your new repository.
+1. 导航至 **Settings** > **Git Connection** 页面。
+2. 选择 GitHub。
+3. 如果尚未创建，请在 [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) 中创建一个空仓库——请确保取消勾选创建 README 的选项。
+4. 与您的提供商进行 **Sync** 并完成身份验证。授予对您希望同步的仓库的访问权限，并在下一个页面确认您的仓库。
 
 ***
 
-## Editing Your Docs
+## 更换仓库
 
-**[Branches](https://docs.readme.com/main/docs/branches#/)**
+1. 在 ReadMe 中，通过垃圾桶图标断开项目连接。
+2. 在 GitHub 中，创建新仓库（必须为空仓库）。
+3. 导航至 **Applications > Installed GitHub Apps**。
+4. 找到 **ReadMe Sync** 并点击 **Configure**。
+5. 在 _Repository access_ 下，选择您希望同步到的新仓库。
+6. 返回 ReadMe 并连接到您的新仓库。
 
-* The initial commit from ReadMe is to establish branch synchronization with GitHub
-* Branch names must exactly match the version names defined in ReadMe
-* Any mismatched version and names will exist in GitHub and will not sync with ReadMe.
+***
+
+## 编辑您的文档
+
+**[分支](https://docs.readme.com/main/docs/branches#/)**
+
+* ReadMe 的初始提交是为了与 GitHub 建立分支同步
+* 分支名称必须与 ReadMe 中定义的版本名称完全匹配
+* 任何不匹配的版本和名称将存在于 GitHub 中，但不会与 ReadMe 同步。
 
 <HTMLBlock>{`
 <div class="migrating-column">
   <section>
     <header>
-      <i class="fa-duotone fa-solid fa-hexagon-exclamation"></i> Unsynced
+      <i class="fa-duotone fa-solid fa-hexagon-exclamation"></i> 未同步
     </header>
     <pre>ReadMe: v2.0_new-branch
 GitHub: v2-new-branch
@@ -52,7 +52,7 @@ GitHub: v2-new-branch
   </section>
   <section>
     <header>
-      <i class="fa-duotone fa-solid fa-circle-check"></i> Synced
+      <i class="fa-duotone fa-solid fa-circle-check"></i> 已同步
     </header>
     <pre>ReadMe: v2.0_new-branch
 GitHub: v2.0_new-branch
@@ -122,44 +122,44 @@ GitHub: v2.0_new-branch
 
 ### GitHub Enterprise Server
 
-If you’re using a self-hosted **[GitHub Enterprise Server (GHES)](https://docs.readme.com/ent/docs/connecting-github-enterprise-server)**, you can set up syncing from your Group dashboard under **Git Connection**. Syncing requires a new, empty repository, and each child project can only sync to one repository.
+如果您使用的是自托管的 **[GitHub Enterprise Server (GHES)](https://docs.readme.com/ent/docs/connecting-github-enterprise-server)**，您可以在群组仪表板的 **Git Connection** 下设置同步。同步需要一个全新的空仓库，且每个子项目只能同步到一个仓库。
 
 <Image align="center" border={false} src="https://files.readme.io/bd2640dae70270e20b0a71ae98adf56bd4e3a59b275b1609e86bbc4fc8ad81cd-GHES.png" />
 
-If GHES isn’t available for your project, please contact your Customer Success Manager.
+如果您的项目无法使用 GHES，请联系您的客户成功经理。
 
-### GitHub Branch Protection
+### GitHub 分支保护
 
-If your GitHub repository uses branch protection rules, you’ll need to configure them to allow the ReadMe Sync app to push changes. Here's how to set it up based on your GitHub configuration:
+如果您的 GitHub 仓库使用了分支保护规则，您需要对其进行配置，以允许 ReadMe Sync 应用推送更改。以下是根据您的 GitHub 配置进行设置的方法：
 
-#### For GitHub Rulesets (New Version)
+#### 适用于 GitHub Rulesets（新版本）
 
-1. Navigate to your repository’s branch protection settings.
-2. Under the _Bypass list_ section,**+ Add bypass**.
-3. Search for _ReadMe Sync_ (App • readmeio) and set the permission to **Always allow**.
+1. 导航至您仓库的分支保护设置。
+2. 在 _Bypass list_ 部分，点击 **+ Add bypass**。
+3. 搜索 _ReadMe Sync_（App • readmeio），并将权限设置为 **Always allow**。
 
 <Image align="center" alt="Adding ReadMe Sync to the GitHub Rulesets bypass list for direct push access." border={false} caption="Adding ReadMe Sync to the GitHub Rulesets bypass list for direct push access." src="https://files.readme.io/0e52415eb4dede062a4d9df4a2d3f06dda62500c26caae7f000e4ecd50f4521d-Screenshot_2024-11-22_at_11.12.14_AM.png" width="600px" />
 
-#### For Legacy Branch Protection
+#### 适用于旧版分支保护
 
-1. Go to your repository’s branch protection rules.
-2. Find the _Allow specified actors to bypass required pull requests_ section.
-3. Add _readme-sync_ (ReadMe Sync) to the allowed actors list.
+1. 前往您仓库的分支保护规则。
+2. 找到 _Allow specified actors to bypass required pull requests_ 部分。
+3. 将 _readme-sync_（ReadMe Sync）添加到允许的操作者列表中。
 
 <Image align="center" alt="Configuring ReadMe Sync in legacy branch protection settings to bypass pull request requirements." border={false} caption="Configuring ReadMe Sync in legacy branch protection settings to bypass pull request requirements." src="https://files.readme.io/8f3765d6ebbe96f5a93e4c6f915e52392ad6ba1512d0af4d4113ca8ff6ef8077-Screenshot_2024-11-22_at_11.12.07_AM.png" />
 
-This configuration ensures that changes made in ReadMe’s editor can be synchronized to protected branches in your GitHub repository.
+此配置可确保在 ReadMe 编辑器中所做的更改能够同步到您 GitHub 仓库中受保护的分支。
 
 ***
 
 <br />
 
-## FAQ
+## 常见问题
 
-<Accordion title="How does ReadMe integrate with GitHub and what permissions are required?" icon="fa-question-circle">
-  ReadMe uses a GitHub App with rep-level access: read-only for metadata(required) and read/write for syncing content. Webhooks handle syncs, change detection, and conflict resolution.
+<Accordion title="ReadMe 如何与 GitHub 集成，需要哪些权限？" icon="fa-question-circle">
+  ReadMe 使用具有仓库级别访问权限的 GitHub App：元数据为只读（必需），内容同步为读/写。Webhook 负责处理同步、变更检测和冲突解决。
 </Accordion>
 
 <Accordion title="Why don't my branches show on GitHub?" icon="fa-question-circle">
-  New branches you create after enabling bi-directional sync automatically creates a corresponding branch on Github, but existing branches will not create a corresponding branch on GitHub until you save a change (however small) to that branch on the ReadMe side.
+  启用双向同步后新创建的分支会自动在 GitHub 上创建对应的分支，但已有分支在 ReadMe 端保存任何更改（无论多小）之前，不会在 GitHub 上创建对应的分支。
 </Accordion>
