@@ -1,8 +1,8 @@
 ---
-title: Find purchase order by ID
+title: Trouver un bon de commande par ID
 excerpt: >-
-  For valid response try integer IDs with value >= 1 and <= 10. Other values
-  will generated exceptions
+  Pour une réponse valide, essayez des identifiants entiers avec une valeur >= 1
+  et <= 10. D'autres valeurs généreront des exceptions
 api:
   file: petstore.json
   operationId: getOrderById
