@@ -1,4 +1,4 @@
 ---
-title: user
+title: gebruiker
 hidden: false
 ---
