@@ -842,7 +842,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Copy of Add a new pet to the store",
+        "summary": "Kopie van Voeg een nieuw huisdier toe aan de winkel",
         "description": "",
         "operationId": "post_pet-1",
         "requestBody": {
