@@ -50,7 +50,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Add a new pet to the store",
+        "summary": "Ajouter un nouvel animal au magasin",
         "description": "",
         "operationId": "addPet",
         "requestBody": {
@@ -842,7 +842,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Copie de Ajouter un nouvel animal au magasin",
+        "summary": "Copy of Add a new pet to the store",
         "description": "",
         "operationId": "post_pet-1",
         "requestBody": {
