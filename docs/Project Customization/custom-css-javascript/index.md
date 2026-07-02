@@ -1,47 +1,47 @@
 ---
-title: Custom CSS & JavaScript
+title: Aangepaste CSS & JavaScript
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-In this section you can add CSS and Javascript to further customize the appearance of your docs site.
+In dit gedeelte kunt u CSS en Javascript toevoegen om het uiterlijk van uw documentatiesite verder aan te passen.
 
 <Image align="center" border={true} src="https://files.readme.io/ca07f17-CleanShot_2022-09-25_at_09.57.452x.png" className="border" />
 
 > 🚧 Selectors
 >
-> Use `.rm-` prefixed selectors. Hashed selectors change constantly and **should not** be relied on as selectors (ie. `Header-bottom2eLKOFXMEmh5`).
+> Gebruik `.rm-` vooraf bepaalde selectors. Gehashte selectors veranderen voortdurend en **mogen niet** worden gebruikt als selectors (bijv. `Header-bottom2eLKOFXMEmh5`).
 
-## Custom Stylesheet
+## Aangepast Stylesheet
 
 <Callout icon="📘" theme="info">
-  You should limit your changes to minor tweaks. Additionally, stylesheets aren't versioned; all versions use the same stylesheet.
+  Beperk uw wijzigingen tot kleine aanpassingen. Bovendien zijn stylesheets niet versiegebonden; alle versies gebruiken hetzelfde stylesheet.
 </Callout>
 
-## Custom Javascript
+## Aangepast Javascript
 
-Your Javascript will be included at the bottom of the page.
+Uw Javascript wordt onderaan de pagina opgenomen.
 
 <details>
-  <summary><b>Global Variables</b></summary>
+  <summary><b>Globale Variabelen</b></summary>
 
-  ReadMe exposes certain global variables to help you customize the user experience of your hub:
+  ReadMe stelt bepaalde globale variabelen beschikbaar om u te helpen de gebruikerservaring van uw hub aan te passen:
 
   * **`RM_ReferenceSidebarScrollTopOffset`**\
-    Pixel offset for the scroll-to-active-item sidebar logic in continuous <Glossary>Reference</Glossary> sections.
+    Pixeloffset voor de scroll-naar-actief-item zijbalklogica in doorlopende <Glossary>Referentie</Glossary> secties.
 </details>
 
-## Custom Include Tags
+## Aangepaste Include-tags
 
 **Header HTML**
 
-Any html here will be included in the head tag, which is good for things like meta tags and loading external CSS or JS.
+Elke html hier wordt opgenomen in de head-tag, wat handig is voor zaken zoals metatags en het laden van externe CSS of JS.
 
 **Footer HTML**  
 ​  
-This will go right before the `</body>` tag. Good for things like analytics and tracking.
+Dit wordt direct vóór de `</body>` tag geplaatst. Handig voor zaken zoals analyses en tracking.
 
-## Toggling Custom Javascript and CSS
+## Aangepast Javascript en CSS in- of uitschakelen
 
-Add the `?disableCustomCss=true&disableCustomJs=true` query params to the end of any URL.
+Voeg de `?disableCustomCss=true&disableCustomJs=true` queryparameters toe aan het einde van elke URL.
