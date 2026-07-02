@@ -1,60 +1,60 @@
 ---
-title: Links to Pages
+title: Liens vers les pages
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-## Internal Links
+## Liens internes
 
-To create a link between pages, start by typing `[` and a scrollable menu of available pages to link to will appear. As you continue typing more characters, relevant internal page link options will appear.
+Pour créer un lien entre des pages, commencez par taper `[` et un menu déroulant des pages disponibles à lier apparaîtra. Au fur et à mesure que vous continuez à saisir des caractères, des options de liens internes pertinentes s'afficheront.
 
 <Image align="center" border={true} src="https://files.readme.io/cff6bf4-link_to_pages.gif" className="border" />
 
-The resulting Markdown will look like this:
+Le Markdown résultant ressemblera à ceci :
 
 <Image align="center" border={true} src="https://files.readme.io/9b34336-CleanShot_2022-10-18_at_11.19.16.gif" className="border" />
 
-And end up looking like the link above to users!
+Et apparaîtra comme le lien ci-dessus pour les utilisateurs !
 
-> 📘 Internal links only work within one project.
+> 📘 Les liens internes ne fonctionnent qu'au sein d'un seul projet.
 >
-> If you link across multiple projects, you must use standard hyperlinks.
+> Si vous créez un lien entre plusieurs projets, vous devez utiliser des hyperliens standard.
 
- 
+ 
 
-## Anchor Links
+## Liens d'ancrage
 
-All section headers include an anchor link. The format is `#header-name`. So for example this [link](doc:linking-to-pages#anchor-links) will bring you back to this section:
+Tous les en-têtes de section incluent un lien d'ancrage. Le format est `#header-name`. Ainsi, par exemple, ce [lien](doc:linking-to-pages#anchor-links) vous ramènera à cette section :
 
 ```
 [link](doc:linking-to-pages#anchor-links)
 ```
 
- 
+ 
 
-## External Links
+## Liens externes
 
-### Inline Linking
+### Liens en ligne
 
-To link inline, type the text you want to link within brackets, `[x]`, followed directly by the link URL within parentheses, `(y)`.
+Pour créer un lien en ligne, saisissez le texte que vous souhaitez lier entre crochets, `[x]`, suivi directement de l'URL du lien entre parenthèses, `(y)`.
 
-Links look like this in the Markdown editor:
+Les liens ressemblent à ceci dans l'éditeur Markdown :
 
 ```
 [ReadMe](readme.com)
 ```
 
-And result in a link that looks like this: [ReadMe](https://readme.com/)
+Et donnent un lien qui ressemble à ceci : [ReadMe](https://readme.com/)
 
- 
+ 
 
-### Reference-Style Linking
+### Liens par référence
 
-Reference-style linking allows you to give a link a number or "name" and refer to it multiple times.
+Les liens par référence vous permettent d'attribuer un numéro ou un « nom » à un lien et d'y faire référence plusieurs fois.
 
-For example, if you type the below in your dash:
+Par exemple, si vous saisissez ce qui suit dans votre tableau de bord :
 
 ```
 When I first research something I look at [Wikipedia][1] then at [Google][2] then [Wookiepedia][3].
@@ -64,9 +64,9 @@ When I first research something I look at [Wikipedia][1] then at [Google][2] the
 [3]: https://starwars.fandom.com      "Wookiepedia"
 ```
 
-...the links will look like this in your Hub:
+...les liens ressembleront à ceci dans votre Hub :
 
-When I first research something I look at [Wikipedia][1] then at [Google][2] then [Wookiepedia][3].
+Lorsque je recherche quelque chose pour la première fois, je consulte [Wikipedia][1] puis [Google][2] puis [Wookiepedia][3].
 
 [1]: https://wikipedia.org "Wikipedia"
 
@@ -74,36 +74,36 @@ When I first research something I look at [Wikipedia][1] then at [Google][2] the
 
 [3]: https://starwars.fandom.com "Wookiepedia"
 
- 
+ 
 
-## Open Links in New Tab
+## Ouvrir les liens dans un nouvel onglet
 
-Markdown and [RDMD](https://docs.readme.com/rdmd/docs/) currently do not have a way to define the target for a link. Instead, standard HTML will need to be used to open links in a new tab.
+Markdown et [RDMD](https://docs.readme.com/rdmd/docs/) ne disposent actuellement d'aucun moyen de définir la cible d'un lien. Il faudra plutôt utiliser du HTML standard pour ouvrir des liens dans un nouvel onglet.
 
-The HTML syntax is `target="_blank"`, which is used like this within the `<a>` tag:
+La syntaxe HTML est `target="_blank"`, qui s'utilise comme suit dans la balise `<a>` :
 
 ```html
 <a href="https://readme.com/" target="_blank">ReadMe</a>
 ```
 
-This can be combined with our `doc:page` syntax to open [links to pages within the same project](doc:linking-to-pages#internal-links) like so:
+Cela peut être combiné avec notre syntaxe `doc:page` pour ouvrir des [liens vers des pages au sein du même projet](doc:linking-to-pages#internal-links) comme suit :
 
 ```html
 <a href="doc:intro-to-readme" target="_blank">Introduction</a>
 ```
 
- 
+ 
 
-## Validating Links
+## Validation des liens
 
-ReadMe supports several third-party tools to automatically find broken links in a documentation project, One service we suggest is the [W3C Validator](https://validator.w3.org/checklink). No login required. For the **URL** field, enter your doc's custom domain. Select **Hide redirects** and select **Check linked documents recursively**. Leave recursion depth blank.
+ReadMe prend en charge plusieurs outils tiers pour détecter automatiquement les liens brisés dans un projet de documentation. L'un des services que nous recommandons est le [Validateur W3C](https://validator.w3.org/checklink). Aucune connexion requise. Dans le champ **URL**, saisissez le domaine personnalisé de votre documentation. Sélectionnez **Masquer les redirections** et **Vérifier les documents liés de manière récursive**. Laissez la profondeur de récursion vide.
 
-The results will only show links that are broken, not on **which** pages those links occur, or how many times the broken links occur,
+Les résultats n'afficheront que les liens brisés, et non **sur quelles** pages ces liens apparaissent, ni combien de fois les liens brisés se produisent.
 
- 
+ 
 
-## What's Next
+## Étape suivante
 
-You can use the **What's Next** section at the bottom of the page to link to relevant pages within your project and/or relevant external links. You can also add a description to provide more context.
+Vous pouvez utiliser la section **Étape suivante** en bas de la page pour créer des liens vers des pages pertinentes au sein de votre projet et/ou des liens externes pertinents. Vous pouvez également ajouter une description pour fournir plus de contexte.
 
 <Image align="center" border={true} src="https://files.readme.io/1ae72b6-New_Whats_Next.gif" className="border" />
