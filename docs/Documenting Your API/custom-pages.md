@@ -1,5 +1,5 @@
 ---
-title: Custom Pages
+title: Aangepaste Pagina's
 deprecated: false
 hidden: false
 metadata:
@@ -8,40 +8,40 @@ metadata:
 <br />
 
 <Callout icon="👍" theme="okay">
-  View this article as [a Custom Page](https://docs.readme.com/page/custom-page)
+  Bekijk dit artikel als [een Aangepaste Pagina](https://docs.readme.com/page/custom-page)
 </Callout>
 
-Custom Pages are great when you want to retain the top navigation of your ReadMe project, but also want a custom look below the search bar.
+Aangepaste Pagina's zijn ideaal wanneer je de bovenste navigatie van je ReadMe-project wilt behouden, maar ook een aangepaste weergave onder de zoekbalk wilt.
 
-# What's different?
+# Wat is er anders?
 
-1. No left sidebar navigation
-2. No table of contents on the right, even when headers are used
-3. Different URL path (subfolder is /page instead of /docs)
-4. No Suggested Edits
-5. No page voting
-6. No "updated x days ago"
+1. Geen linker zijbalknavigatie
+2. Geen inhoudsopgave aan de rechterkant, ook niet wanneer koppen worden gebruikt
+3. Ander URL-pad (submap is /page in plaats van /docs)
+4. Geen Voorgestelde Bewerkingen
+5. Geen paginastemming
+6. Geen "x dagen geleden bijgewerkt"
 
 <Callout icon="🚧" theme="warn">
-  Custom Pages are not affected by versioning and are shared. If you delete a Custom Page it will be removed from everywhere.
+  Aangepaste Pagina's worden niet beïnvloed door versiebeheer en worden gedeeld. Als je een Aangepaste Pagina verwijdert, wordt deze overal verwijderd.
 </Callout>
 
-# What's the same?
+# Wat is hetzelfde?
 
-With a [dropdown subheader layout](/main/docs/subheader-layout), the Page Title appears in the breadcrumb navigation.
+Met een [dropdown-subkopindeling](/main/docs/subheader-layout) verschijnt de Paginatitel in de broodkruimelnavigatie.
 
 <Image align="center" border={true} width="smart" src="https://files.readme.io/14c46d5-Screen_Shot_2021-05-19_at_3.28.30_PM.png" className="border" />
 
-> 📘 Note
+> 📘 Opmerking
 >
-> The Custom Page Title occupies the space of a Section in the breadcrumb navigation but it does **not** create a permanent Section in the drop-down menu.
+> De Aangepaste Paginatitel neemt de ruimte in van een Sectie in de broodkruimelnavigatie, maar maakt **geen** permanente Sectie aan in het vervolgkeuzemenu.
 
-## Modes
+## Modi
 
-Custom Pages have two modes:
+Aangepaste Pagina's hebben twee modi:
 
-1. **Markdown:** The standard mode used in Documentation section
+1. **Markdown:** De standaardmodus die wordt gebruikt in de Documentatiesectie
 
 <Image border={true} src="https://files.readme.io/5300f08-CleanShot_2022-10-15_at_08.56.122x.png" className="border" />
 
-2. **HTML:** The code is [sanitized](https://en.wikipedia.org/wiki/HTML_sanitization). If you want to include CSS or JavaScript, do so in Appearance > Custom Javascript/Stylesheet.
+2. **HTML:** De code wordt [gesaneerd](https://en.wikipedia.org/wiki/HTML_sanitization). Als je CSS of JavaScript wilt opnemen, doe dit dan via Weergave > Aangepaste Javascript/Stylesheet.
