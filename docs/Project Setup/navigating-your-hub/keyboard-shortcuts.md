@@ -1,37 +1,37 @@
 ---
-title: Keyboard Shortcuts
+title: Toetsenbordsnelkoppelingen
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-You can use keyboard shortcuts in both the **Admin Dashboard** and **Edit Mode** to quickly move between panels and editors in your ReadMe project.
+Je kunt toetsenbordsnelkoppelingen gebruiken in zowel het **Admin Dashboard** als de **Bewerkmodus** om snel tussen panelen en editors in je ReadMe-project te navigeren.
 
-## Dashboard Shortcuts
+## Dashboard-snelkoppelingen
 
-Use these shortcuts in the **Admin Dashboard** to open common panels and switch between modes:
+Gebruik deze snelkoppelingen in het **Admin Dashboard** om veelgebruikte panelen te openen en tussen modi te wisselen:
 
-| Shortcut | Action                                                                                     |
+| Snelkoppeling | Actie                                                                                     |
 | :------- | :----------------------------------------------------------------------------------------- |
-| Ctrl+1   | Switch to <i aria-label="View Mode" class="fa-solid fa-eye" /> View Mode                   |
-| Ctrl+2   | Switch to <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Edit Mode                  |
-| Ctrl+3   | Open <i aria-label="My Developers" class="fa-solid fa-users" /> My Developers              |
-| Ctrl+,   | Open <i aria-label="Settings" class="fa-solid fa-cog" /> Settings panel                    |
-| Ctrl+i   | Open <i aria-label="AI" class="fa-solid fa-sparkles" /> AI panel                           |
-| Ctrl+b   | Open <i aria-label="Versions" class="fa-solid fa-code-branch" /> Versions & Branches panel |
+| Ctrl+1   | Schakel naar <i aria-label="View Mode" class="fa-solid fa-eye" /> Weergavemodus                   |
+| Ctrl+2   | Schakel naar <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Bewerkmodus                  |
+| Ctrl+3   | Open <i aria-label="My Developers" class="fa-solid fa-users" /> Mijn Ontwikkelaars              |
+| Ctrl+,   | Open <i aria-label="Settings" class="fa-solid fa-cog" /> Instellingenpaneel                    |
+| Ctrl+i   | Open <i aria-label="AI" class="fa-solid fa-sparkles" /> AI-paneel                           |
+| Ctrl+b   | Open <i aria-label="Versions" class="fa-solid fa-code-branch" /> Versies & Branches-paneel |
 
-## Edit Mode Shortcuts
+## Snelkoppelingen voor de bewerkmodus
 
-From the top navigation, you can access <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Edit Mode and use these shortcuts to jump directly to specific sections to edit:
+Vanuit de bovenste navigatie kun je <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Bewerkmodus openen en deze snelkoppelingen gebruiken om direct naar specifieke secties te gaan om te bewerken:
 
-| Shortcut | Action                         |
+| Snelkoppeling | Actie                         |
 | :------- | :----------------------------- |
-| Alt+1    | Go to the Guides editor        |
-| Alt+2    | Go to the Recipes editor       |
-| Alt+3    | Go to the API Reference editor |
-| Alt+4    | Go to the Changelog editor     |
-| Alt+5    | Go to the Custom Pages editor  |
+| Alt+1    | Ga naar de Handleidingen-editor        |
+| Alt+2    | Ga naar de Recepten-editor       |
+| Alt+3    | Ga naar de API-referentie-editor |
+| Alt+4    | Ga naar de Changelog-editor     |
+| Alt+5    | Ga naar de Aangepaste pagina's-editor  |
 
 <Callout icon="💡" theme="default">
-  Tip: Keyboard shortcuts may vary depending on your operating system. On macOS, use Command (⌘) instead of Ctrl for most shortcuts.
+  Tip: Toetsenbordsnelkoppelingen kunnen variëren afhankelijk van je besturingssysteem. Op macOS gebruik je Command (⌘) in plaats van Ctrl voor de meeste snelkoppelingen.
 </Callout>
