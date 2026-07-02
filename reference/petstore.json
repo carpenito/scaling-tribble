@@ -634,7 +634,7 @@
         "tags": [
           "user"
         ],
-        "summary": "Creates list of users with given input array",
+        "summary": "Crée une liste d'utilisateurs à partir du tableau d'entrée donné",
         "description": "",
         "operationId": "createUsersWithListInput",
         "requestBody": {
