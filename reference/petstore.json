@@ -171,8 +171,8 @@
         "tags": [
           "pet"
         ],
-        "summary": "Finds Pets by tags",
-        "description": "Muliple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.",
+        "summary": "Recherche d'animaux par tags",
+        "description": "Plusieurs tags peuvent être fournis sous forme de chaînes séparées par des virgules. Utilisez tag1, tag2, tag3 pour les tests.",
         "operationId": "findPetsByTags",
         "parameters": [
           {
