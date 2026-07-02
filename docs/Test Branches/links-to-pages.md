@@ -1,60 +1,60 @@
 ---
-title: Links to Pages
+title: Links naar Pagina's
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-## Internal Links
+## Interne Links
 
-To create a link between pages, start by typing `[` and a scrollable menu of available pages to link to will appear. As you continue typing more characters, relevant internal page link options will appear.
+Om een link tussen pagina's te maken, begin je met het typen van `[` en er verschijnt een scrollbaar menu met beschikbare pagina's om naar te linken. Naarmate je meer tekens typt, verschijnen er relevante opties voor interne paginalinks.
 
 <Image align="center" border={true} src="https://files.readme.io/cff6bf4-link_to_pages.gif" className="border" />
 
-The resulting Markdown will look like this:
+De resulterende Markdown ziet er als volgt uit:
 
 <Image align="center" border={true} src="https://files.readme.io/9b34336-CleanShot_2022-10-18_at_11.19.16.gif" className="border" />
 
-And end up looking like the link above to users!
+En ziet er voor gebruikers uit als de bovenstaande link!
 
-> 📘 Internal links only work within one project.
+> 📘 Interne links werken alleen binnen één project.
 >
-> If you link across multiple projects, you must use standard hyperlinks.
+> Als je links maakt tussen meerdere projecten, moet je standaard hyperlinks gebruiken.
 
- 
+ 
 
-## Anchor Links
+## Ankerlinks
 
-All section headers include an anchor link. The format is `#header-name`. So for example this [link](doc:linking-to-pages#anchor-links) will bring you back to this section:
+Alle sectiekoppen bevatten een ankerlink. Het formaat is `#header-name`. Zo zal bijvoorbeeld deze [link](doc:linking-to-pages#anchor-links) je terugbrengen naar deze sectie:
 
 ```
 [link](doc:linking-to-pages#anchor-links)
 ```
 
- 
+ 
 
-## External Links
+## Externe Links
 
-### Inline Linking
+### Inline Linken
 
-To link inline, type the text you want to link within brackets, `[x]`, followed directly by the link URL within parentheses, `(y)`.
+Om inline te linken, typ je de tekst die je wilt linken tussen haakjes, `[x]`, gevolgd direct door de link-URL tussen ronde haakjes, `(y)`.
 
-Links look like this in the Markdown editor:
+Links zien er als volgt uit in de Markdown-editor:
 
 ```
 [ReadMe](readme.com)
 ```
 
-And result in a link that looks like this: [ReadMe](https://readme.com/)
+En resulteren in een link die er zo uitziet: [ReadMe](https://readme.com/)
 
- 
+ 
 
-### Reference-Style Linking
+### Referentiestijl Linken
 
-Reference-style linking allows you to give a link a number or "name" and refer to it multiple times.
+Referentiestijl linken stelt je in staat om een link een nummer of "naam" te geven en er meerdere keren naar te verwijzen.
 
-For example, if you type the below in your dash:
+Als je bijvoorbeeld het onderstaande typt in je dashboard:
 
 ```
 When I first research something I look at [Wikipedia][1] then at [Google][2] then [Wookiepedia][3].
@@ -64,9 +64,9 @@ When I first research something I look at [Wikipedia][1] then at [Google][2] the
 [3]: https://starwars.fandom.com      "Wookiepedia"
 ```
 
-...the links will look like this in your Hub:
+...zien de links er als volgt uit in je Hub:
 
-When I first research something I look at [Wikipedia][1] then at [Google][2] then [Wookiepedia][3].
+Als ik iets voor het eerst onderzoek, kijk ik eerst op [Wikipedia][1], dan op [Google][2] en dan op [Wookiepedia][3].
 
 [1]: https://wikipedia.org "Wikipedia"
 
@@ -74,36 +74,36 @@ When I first research something I look at [Wikipedia][1] then at [Google][2] the
 
 [3]: https://starwars.fandom.com "Wookiepedia"
 
- 
+ 
 
-## Open Links in New Tab
+## Links Openen in een Nieuw Tabblad
 
-Markdown and [RDMD](https://docs.readme.com/rdmd/docs/) currently do not have a way to define the target for a link. Instead, standard HTML will need to be used to open links in a new tab.
+Markdown en [RDMD](https://docs.readme.com/rdmd/docs/) hebben momenteel geen manier om het doel van een link te definiëren. In plaats daarvan moet standaard HTML worden gebruikt om links in een nieuw tabblad te openen.
 
-The HTML syntax is `target="_blank"`, which is used like this within the `<a>` tag:
+De HTML-syntaxis is `target="_blank"`, die als volgt wordt gebruikt binnen de `<a>` tag:
 
 ```html
 <a href="https://readme.com/" target="_blank">ReadMe</a>
 ```
 
-This can be combined with our `doc:page` syntax to open [links to pages within the same project](doc:linking-to-pages#internal-links) like so:
+Dit kan worden gecombineerd met onze `doc:page` syntaxis om [links naar pagina's binnen hetzelfde project](doc:linking-to-pages#internal-links) als volgt te openen:
 
 ```html
 <a href="doc:intro-to-readme" target="_blank">Introduction</a>
 ```
 
- 
+ 
 
-## Validating Links
+## Links Valideren
 
-ReadMe supports several third-party tools to automatically find broken links in a documentation project, One service we suggest is the [W3C Validator](https://validator.w3.org/checklink). No login required. For the **URL** field, enter your doc's custom domain. Select **Hide redirects** and select **Check linked documents recursively**. Leave recursion depth blank.
+ReadMe ondersteunt verschillende tools van derden om automatisch verbroken links in een documentatieproject te vinden. Een dienst die wij aanraden is de [W3C Validator](https://validator.w3.org/checklink). Geen login vereist. Voer voor het veld **URL** het aangepaste domein van je documentatie in. Selecteer **Omleidingen verbergen** en selecteer **Gelinkte documenten recursief controleren**. Laat de recursidiepte leeg.
 
-The results will only show links that are broken, not on **which** pages those links occur, or how many times the broken links occur,
+De resultaten tonen alleen links die verbroken zijn, niet op **welke** pagina's die links voorkomen, of hoe vaak de verbroken links voorkomen.
 
- 
+ 
 
-## What's Next
+## Wat is het Volgende
 
-You can use the **What's Next** section at the bottom of the page to link to relevant pages within your project and/or relevant external links. You can also add a description to provide more context.
+Je kunt de sectie **Wat is het Volgende** onderaan de pagina gebruiken om te linken naar relevante pagina's binnen je project en/of relevante externe links. Je kunt ook een beschrijving toevoegen om meer context te bieden.
 
 <Image align="center" border={true} src="https://files.readme.io/1ae72b6-New_Whats_Next.gif" className="border" />
