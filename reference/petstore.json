@@ -473,7 +473,7 @@
         "tags": [
           "store"
         ],
-        "summary": "Place an order for a pet",
+        "summary": "Passer une commande pour un animal de compagnie",
         "description": "",
         "operationId": "placeOrder",
         "requestBody": {
