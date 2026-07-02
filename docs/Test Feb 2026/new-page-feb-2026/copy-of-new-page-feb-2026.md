@@ -1,17 +1,17 @@
 ---
-title: Copy of New Page Feb 2026
-excerpt: Description (Optional)
+title: Kopie van Nieuwe Pagina Feb 2026
+excerpt: Beschrijving (Optioneel)
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-Creating a new page
+Een nieuwe pagina aanmaken
 
-> Block quote
+> Blokcitaat
 >
-> how do I end the block quote?" 
+> hoe beëindig ik het blokcitaat?"
 
 <Image align="center" border={true} caption="cute" src="https://files.readme.io/60d3abfd54ed970594a171087b9854f9cfaa0f4cee3f4d6a7d0a7b37a091f5e9-Family_Pic.jpg" />
 
