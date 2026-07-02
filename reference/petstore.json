@@ -590,8 +590,8 @@
         "tags": [
           "user"
         ],
-        "summary": "Create user",
-        "description": "This can only be done by the logged in user.",
+        "summary": "Gebruiker aanmaken",
+        "description": "Dit kan alleen worden gedaan door de ingelogde gebruiker.",
         "operationId": "createUser",
         "requestBody": {
           "content": {
