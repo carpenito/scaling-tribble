@@ -1,14 +1,14 @@
 ---
-title: Group Viewer
+title: Visualiseur de groupe
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-Sending a branch to a group viewer
+Envoi d'une branche à un visualiseur de groupe
 
-Enabled the Admin & Editor as approvals
+Activation des rôles Admin & Éditeur en tant qu'approbateurs
 
 <br />
 
