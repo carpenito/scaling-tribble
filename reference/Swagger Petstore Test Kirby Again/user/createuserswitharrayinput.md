@@ -1,5 +1,5 @@
 ---
-title: Creates list of users with given input array
+title: 根据给定输入数组创建用户列表
 api:
   file: petstore.json
   operationId: createUsersWithArrayInput
