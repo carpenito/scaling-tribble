@@ -1,14 +1,14 @@
 ---
-title: Group Viewer
+title: 群组查看者
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-Sending a branch to a group viewer
+将分支发送给群组查看者
 
-Enabled the Admin & Editor as approvals
+已启用管理员和编辑者作为审批人
 
 <br />
 
