@@ -1,61 +1,61 @@
 ---
-title: Landing Page
+title: Landingspagina
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## 👋 Landing Page
+## 👋 Landingspagina
 
-A well-designed landing page is a good starting place to welcome users into your developer hub. This is the page we recommend you customize the most.
+Een goed ontworpen landingspagina is een goede startplek om gebruikers welkom te heten in je developer hub. Dit is de pagina die we aanraden het meest aan te passen.
 
-If you're only using the Guides (also known as Documentation) feature, you can just direct your users to that on the first page in your [site navigation](doc:site-navigation).
+Als je alleen de Guides-functie (ook wel Documentatie genoemd) gebruikt, kun je gebruikers op de eerste pagina van je [sitenavigatie](doc:site-navigation) direct daarheen verwijzen.
 
-## Building a Landing Page
+## Een landingspagina bouwen
 
-When you go to the **Landing Page** tab you can customize things such as the header and body content.
+Wanneer je naar het tabblad **Landingspagina** gaat, kun je zaken aanpassen zoals de header en de body-inhoud.
 
 <Image border={true} src="https://files.readme.io/9dfce6b-CleanShot_2022-09-24_at_08.48.532x.png" className="border" />
 
-> 📘 "First Page" Setting
+> 📘 Instelling "Eerste pagina"
 >
-> Make sure you have Landing Page set to first page under the **Site Navigation > Advanced Settings**. (see screenshot below)
+> Zorg ervoor dat de landingspagina is ingesteld als eerste pagina onder **Sitenavigatie > Geavanceerde instellingen**. (zie schermafbeelding hieronder)
 
 <Image border={true} src="https://files.readme.io/30eba67-CleanShot_2022-09-24_at_08.51.152x.png" className="border" />
 
 ## Header
 
-**Promo Title**  
-This will be the title text that goes into header.
+**Promotietitel**  
+Dit is de titeltekst die in de header wordt weergegeven.
 
-**Promo Text**  
-This will be the text that goes underneath the promo title, but it will still display in the header.
+**Promotietekst**  
+Dit is de tekst die onder de promotietitel wordt weergegeven, maar nog steeds in de header zichtbaar is.
 
-**Content**  
-Underneath the promo title and text, you will have the option of having Nothing, Buttons, Search Bar, or Custom HTML. Custom HTML will override your promo title/text, so keep that in mind when editing.
+**Inhoud**  
+Onder de promotietitel en -tekst heb je de mogelijkheid om Niets, Knoppen, een zoekbalk of Aangepaste HTML te tonen. Aangepaste HTML overschrijft je promotietitel/-tekst, houd daar rekening mee bij het bewerken.
 
 ## Body
 
-You have many templates for your body content and you can add more than one if you want to display multiple templates on your landing page.
+Je hebt veel sjablonen voor je body-inhoud en je kunt er meer dan één toevoegen als je meerdere sjablonen op je landingspagina wilt weergeven.
 
-**Important Links**  
-This will be the default if you do not select any of the options. It will display documentation, announcements, and the forums.
+**Belangrijke links**  
+Dit is de standaardoptie als je geen van de andere opties selecteert. Het toont documentatie, aankondigingen en de forums.
 
 <Callout icon="🚧" theme="warn">
-  If you have any of these three features disabled, you should not use a Landing Page as it will link your users to a 404 page.
+  Als een van deze drie functies is uitgeschakeld, gebruik dan geen landingspagina, omdat dit gebruikers naar een 404-pagina leidt.
 </Callout>
 
-**Documentation categories**  
-This simply lists all your categories with quick links to doc pages. You can also choose to display the reference section.
+**Documentatiecategorieën**  
+Dit toont eenvoudig al je categorieën met snelle links naar documentatiepagina's. Je kunt er ook voor kiezen de referentiesectie weer te geven.
 
-**Three columns of text, text, text + media**  
-These let you add the text yourself that you want displayed, and upload an image.
+**Drie kolommen met tekst, tekst, tekst + media**  
+Hiermee kun je zelf de tekst toevoegen die je wilt weergeven en een afbeelding uploaden.
 
-**Custom HTML**  
-If none of these suit your needs, you can always add custom HTML to get it exactly how you want it.
+**Aangepaste HTML**  
+Als geen van deze opties aan je behoeften voldoet, kun je altijd aangepaste HTML toevoegen om het precies zo te maken als je wilt.
 
-The Landing Page can be enabled or disabled in your Project Dashboard under **Appearance > Site Navigation** and you can toggle the Landing Page section to enable/disable it.
+De landingspagina kan worden in- of uitgeschakeld in je projectdashboard onder **Weergave > Sitenavigatie**, waar je de sectie Landingspagina kunt in- of uitschakelen.
 
-> ❗️ Disabling Landing Page
+> ❗️ Landingspagina uitschakelen
 >
-> The Landing Page is shared across all versions. If you disable the Landing Page it will be removed everywhere.
+> De landingspagina wordt gedeeld over alle versies. Als je de landingspagina uitschakelt, wordt deze overal verwijderd.
