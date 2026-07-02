@@ -1,5 +1,5 @@
 ---
-title: MCP FAQ
+title: FAQ MCP
 deprecated: false
 hidden: false
 metadata:
@@ -7,110 +7,110 @@ metadata:
 ---
 <br />
 
-This FAQ answers common questions about using [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) with ReadMe projects.
+Cette FAQ répond aux questions fréquentes sur l'utilisation du [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) avec les projets ReadMe.
 
-## General
+## Général
 
-### What is the Model Context Protocol (MCP)?
+### Qu'est-ce que le Model Context Protocol (MCP) ?
 
-Model Context Protocol (MCP) is a standard for how AI assistants interact with APIs. In ReadMe, MCP turns your API documentation and OpenAPI definition into a structured resource that AI tools can understand, search, and call programmatically.
+Le Model Context Protocol (MCP) est un standard définissant la façon dont les assistants IA interagissent avec les API. Dans ReadMe, MCP transforme votre documentation API et votre définition OpenAPI en une ressource structurée que les outils IA peuvent comprendre, rechercher et appeler de manière programmatique.
 
-### How does MCP work with my ReadMe project?
+### Comment MCP fonctionne-t-il avec mon projet ReadMe ?
 
-ReadMe creates a dedicated MCP server for your project. This server connects to your OpenAPI specification and your [Ask AI](/docs/ask-ai) functionality, so AI assistants can:
+ReadMe crée un serveur MCP dédié à votre projet. Ce serveur se connecte à votre spécification OpenAPI et à votre fonctionnalité [Ask AI](/docs/ask-ai), afin que les assistants IA puissent :
 
-* Read and understand your OpenAPI spec
-* Execute API calls
-* Search your docs
-* Pull in endpoint details, request bodies, response schemas, and example code snippets
+* Lire et comprendre votre spécification OpenAPI
+* Exécuter des appels API
+* Rechercher dans votre documentation
+* Récupérer les détails des endpoints, les corps de requête, les schémas de réponse et des exemples de code
 
-### What can AI assistants do through the MCP server?
+### Que peuvent faire les assistants IA via le serveur MCP ?
 
-Once connected to your MCP server, AI assistants can:
+Une fois connectés à votre serveur MCP, les assistants IA peuvent :
 
-* Browse and list available API endpoints
-* Inspect security schemes and authentication requirements
-* Fetch detailed endpoint documentation
-* Get structured request and response schemas
-* Generate example code snippets to call your API
-* Search your broader documentation for context and guides
+* Parcourir et lister les endpoints API disponibles
+* Inspecter les schémas de sécurité et les exigences d'authentification
+* Récupérer la documentation détaillée des endpoints
+* Obtenir des schémas de requête et de réponse structurés
+* Générer des exemples de code pour appeler votre API
+* Rechercher dans votre documentation générale des contextes et des guides
 
-## Enabling & Using MCP
+## Activation et utilisation de MCP
 
-### How do I enable my MCP server in ReadMe?
+### Comment activer mon serveur MCP dans ReadMe ?
 
-In Edit Mode, in the top right-hand corner, click **:sparkles:AI** to open the side panel. Select **MCP** and toggle **MCP Server** on to activate your MCP server. Once enabled, your MCP URL will be:
+En mode Édition, dans le coin supérieur droit, cliquez sur **:sparkles:AI** pour ouvrir le panneau latéral. Sélectionnez **MCP** et activez le bouton **Serveur MCP** pour démarrer votre serveur MCP. Une fois activé, votre URL MCP sera :
 
 `https://your-project.readme.com/mcp`
 
-You can share this URL with your developers so they can connect compatible AI tools (like Cursor) directly to your API and docs.
+Vous pouvez partager cette URL avec vos développeurs afin qu'ils puissent connecter des outils IA compatibles (comme Cursor) directement à votre API et à votre documentation.
 
-### How do I test that my MCP server is working?
+### Comment tester que mon serveur MCP fonctionne ?
 
-Once you’ve enabled MCP:
+Une fois MCP activé :
 
-1. Open your AI editor (Cursor, VS Code, etc.).
-2. Start a new chat with the AI assistant.
-3. Ask questions like:
-   * "How do I [common use case]?"
-   * "Show me an example of [API functionality]."
-   * "Create a [integration type] using [your API]."
+1. Ouvrez votre éditeur IA (Cursor, VS Code, etc.).
+2. Démarrez une nouvelle conversation avec l'assistant IA.
+3. Posez des questions telles que :
+   * « Comment faire [cas d'usage courant] ? »
+   * « Montre-moi un exemple de [fonctionnalité API]. »
+   * « Crée une [type d'intégration] en utilisant [votre API]. »
 
-If configured correctly, the assistant should be able to discover your endpoints, read your docs, and generate working examples.
+Si la configuration est correcte, l'assistant devrait être en mesure de découvrir vos endpoints, de lire votre documentation et de générer des exemples fonctionnels.
 
-### Can I control which endpoints are exposed via MCP?
+### Puis-je contrôler quels endpoints sont exposés via MCP ?
 
-Yes. You can disable endpoints you don’t want accessible from your MCP server under **Enabled MCP Routes**. Only enabled routes will be available to AI assistants through the MCP tools.
+Oui. Vous pouvez désactiver les endpoints que vous ne souhaitez pas rendre accessibles depuis votre serveur MCP sous **Routes MCP activées**. Seules les routes activées seront disponibles pour les assistants IA via les outils MCP.
 
-## Tools & Capabilities
+## Outils et capacités
 
-### What OpenAPI tools are available through MCP?
+### Quels outils OpenAPI sont disponibles via MCP ?
 
-The MCP server exposes several OpenAPI-focused tools, including:
+Le serveur MCP expose plusieurs outils axés sur OpenAPI, notamment :
 
-* `execute-request` – Make API calls directly from your specification.
-* `get-endpoint` – Retrieve detailed endpoint information.
-* `get-request-body` – Access structured request parameters.
-* `get-response-schema` – View what your API returns.
-* `list-endpoints` – Browse all available API endpoints.
-* `list-security-schemes` – Inspect authentication requirements.
-* `search-schema` – Search across your OpenAPI schema.
-* `get-code-snippet` – Generate example code in your preferred language.
+* `execute-request` – Effectuez des appels API directement depuis votre spécification.
+* `get-endpoint` – Récupérez des informations détaillées sur un endpoint.
+* `get-request-body` – Accédez aux paramètres de requête structurés.
+* `get-response-schema` – Consultez ce que retourne votre API.
+* `list-endpoints` – Parcourez tous les endpoints API disponibles.
+* `list-security-schemes` – Inspectez les exigences d'authentification.
+* `search-schema` – Effectuez des recherches dans votre schéma OpenAPI.
+* `get-code-snippet` – Générez des exemples de code dans le langage de votre choix.
 
-### What documentation tools are available?
+### Quels outils de documentation sont disponibles ?
 
-Documentation tools focus on your broader knowledge base:
+Les outils de documentation se concentrent sur votre base de connaissances générale :
 
-* `search` – Search your entire documentation set for relevant content.
-* `fetch` – Return a specific guides page.
+* `search` – Recherchez dans l'ensemble de votre documentation du contenu pertinent.
+* `fetch` – Retournez une page de guide spécifique.
 
 <Callout icon="📘" theme="info">
-  Documentation tools require upgrading your current plan with the <Anchor label="AI Booster Pack" target="_blank" href="https://readme.com/pricing">AI Booster Pack</Anchor>.
+  Les outils de documentation nécessitent la mise à niveau de votre plan actuel avec le <Anchor label="AI Booster Pack" target="_blank" href="https://readme.com/pricing">AI Booster Pack</Anchor>.
 
-  For Enterprise customers, please reach out to your CSM.
+  Pour les clients Enterprise, veuillez contacter votre CSM.
 
-  For Startup and Business customers, please upgrade your plan with the AI Booster Pack from your **Manage Plan** page under Settings.
+  Pour les clients Startup et Business, veuillez mettre à niveau votre plan avec l'AI Booster Pack depuis votre page **Gérer le plan** dans les Paramètres.
 </Callout>
 
-## Configuration & Access
+## Configuration et accès
 
-### How do branches work with MCP?
+### Comment les branches fonctionnent-elles avec MCP ?
 
-By default, the MCP server connects to the latest stable version of your project. To target a different branch, append `?branch=<name>` to the MCP URL. When using a branch-specific MCP server, the `search-documentation` functionality will not be available.
+Par défaut, le serveur MCP se connecte à la dernière version stable de votre projet. Pour cibler une branche différente, ajoutez `?branch=<name>` à l'URL MCP. Lors de l'utilisation d'un serveur MCP spécifique à une branche, la fonctionnalité `search-documentation` ne sera pas disponible.
 
-### How do I allow MCP to access private projects?
+### Comment autoriser MCP à accéder aux projets privés ?
 
-For private or protected projects, you’ll need to configure your MCP client to send an `x-readme-auth` header:
+Pour les projets privés ou protégés, vous devrez configurer votre client MCP pour envoyer un en-tête `x-readme-auth` :
 
-* **Password protected**: `x-readme-auth` should be the site password.
-* **Teammates only & Custom login**: `x-readme-auth` should be an API key in the form `bearer <api_key>`.
+* **Protégé par mot de passe** : `x-readme-auth` doit être le mot de passe du site.
+* **Coéquipiers uniquement & Connexion personnalisée** : `x-readme-auth` doit être une clé API de la forme `bearer <api_key>`.
 
-### How can I generate connection instructions for my users?
+### Comment générer des instructions de connexion pour mes utilisateurs ?
 
-After activating your MCP server, click **Generate MCP Template** in your project. This creates a new, unpublished **MCP** guide in your project’s Guides or API Reference, under a new category called **MCP SERVER**. The guide includes ready-made instructions for connecting to your MCP server from tools like Cursor and Claude Desktop.
+Après avoir activé votre serveur MCP, cliquez sur **Générer un modèle MCP** dans votre projet. Cela crée un nouveau guide **MCP** non publié dans les Guides ou la Référence API de votre projet, sous une nouvelle catégorie appelée **SERVEUR MCP**. Le guide inclut des instructions prêtes à l'emploi pour se connecter à votre serveur MCP depuis des outils comme Cursor et Claude Desktop.
 
-## Plans, Pricing & Requirements
+## Plans, tarification et prérequis
 
-### Do I need a specific plan or add-on to use MCP?
+### Ai-je besoin d'un plan spécifique ou d'un module complémentaire pour utiliser MCP ?
 
-All ReadMe projects can auto-generate an MCP server once MCP is enabled. However, some capabilities (like Documentation Tools) require the **AI Booster Pack** add-on. Enterprise customers should contact their CSM, and Startup/Business customers can upgrade from their **Manage Plan** page under Settings.
+Tous les projets ReadMe peuvent générer automatiquement un serveur MCP une fois MCP activé. Cependant, certaines fonctionnalités (comme les outils de documentation) nécessitent le module complémentaire **AI Booster Pack**. Les clients Enterprise doivent contacter leur CSM, et les clients Startup/Business peuvent effectuer la mise à niveau depuis leur page **Gérer le plan** dans les Paramètres.
