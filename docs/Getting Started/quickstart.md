@@ -1,77 +1,75 @@
 ---
-title: Quickstart
-excerpt: >-
-  Ready to create stellar, interactive API documentation? Get your developer hub
-  up and running in minutes!
+title: 快速入门
+excerpt: 准备好创建出色的、可交互的 API 文档了吗？只需几分钟，即可让您的开发者中心上线运行！
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## Step 1: Create Your Project 🎨
+## 第一步：创建您的项目 🎨
 
-First things first – give your API documentation a home:
+万事开头难——先为您的 API 文档找一个家：
 
-1. Sign into your ReadMe account
-2. Click "Create New Project"
-3. Give your project a name that resonates with your API
-4. Upload your logo (we work our magic to match your brand colors!)
+1. 登录您的 ReadMe 账户
+2. 点击「创建新项目」
+3. 为您的项目起一个与 API 相符的名称
+4. 上传您的 Logo（我们会自动匹配您的品牌色！）
 
-## Step 2: Add Your OpenAPI Specification 📚
+## 第二步：添加您的 OpenAPI 规范 📚
 
-Here's where the real magic happens! We transform your OpenAPI spec into engaging, interactive documentation. You have two great options:
+真正的魔法从这里开始！我们将您的 OpenAPI 规范转化为生动、可交互的文档。您有两种方式可以选择：
 
-1. **Upload Your File Directly**
-   * Hit that big blue "Upload OpenAPI file" button
-   * Select your OpenAPI/Swagger specification file
-   * Watch as we validate and process your spec
+1. **直接上传文件**
+   * 点击那个醒目的蓝色「上传 OpenAPI 文件」按钮
+   * 选择您的 OpenAPI/Swagger 规范文件
+   * 静待我们验证并处理您的规范
 
-2. **Import via URL**
-   * Pop your OpenAPI specification URL into the field
-   * Click **Import OpenAPI file**
-   * We fetch and validate your spec automatically
+2. **通过 URL 导入**
+   * 将您的 OpenAPI 规范 URL 粘贴到输入框中
+   * 点击 **导入 OpenAPI 文件**
+   * 我们将自动获取并验证您的规范
 
-Once your spec is uploaded, we give you a sneak peek of your new docs! You see:
+规范上传完成后，您将看到新文档的预览！您可以看到：
 
-* A preview of your API endpoints
-* Your documentation structure
-* A success message confirming everything looks great
-* The **Go to Docs** button that unveils your transformed API reference
+* API 端点预览
+* 文档结构
+* 确认一切正常的成功提示
+* **前往文档** 按钮，点击即可查看转化后的 API 参考文档
 
-Don't have an OpenAPI file handy? No worries! You can click **Skip to Docs** and explore more API documentation options in your project settings later.
+手边没有 OpenAPI 文件？没关系！您可以点击 **跳过至文档**，稍后在项目设置中探索更多 API 文档选项。
 
 <Callout icon="👀" theme="default">
-  ### Best Practice
+  ### 最佳实践
 
-  Keep an eye on that preview – it's your first look at how developers interact with your API docs! 🎯
+  留意那个预览——这是您第一次看到开发者与您的 API 文档交互的样子！ 🎯
 </Callout>
 
-## Step 3: Create Your First Guide 📝
+## 第三步：创建您的第一篇指南 📝
 
-Time to make your docs shine! You're greeted with a _Getting Started_ page in _View_ mode – transform it into something awesome:
+是时候让您的文档大放异彩了！您将看到一个处于 _查看_ 模式的 _入门_ 页面——将它变成令人惊艳的内容：
 
-1. Click the **Edit** button in the top navigation (look for that friendly pencil icon!)
-2. Click "+ NEW CATEGORY" to create a home for your getting started guides
-3. Name your category "Getting Started" – this is your developers' first stop
-4. See that "+" button next to your new Getting Started category? Click it to create your first guide page
-5. Time to write! Hit the '/' key while writing to summon our handy menu of content blocks and components:
-   * Craft your documentation with Markdown
-   * Drop in code blocks that developers can copy to try out
-   * Spice things up with custom components
+1. 点击顶部导航栏中的 **编辑** 按钮（找那个友好的铅笔图标！）
+2. 点击「+ 新建分类」，为您的入门指南创建一个归属
+3. 将分类命名为「入门指南」——这是开发者的第一站
+4. 看到新建的「入门指南」分类旁边的「+」按钮了吗？点击它来创建您的第一篇指南页面
+5. 开始写作吧！在写作时按下「/」键，即可唤出我们便捷的内容块和组件菜单：
+   * 使用 Markdown 撰写文档
+   * 插入开发者可以复制试用的代码块
+   * 用自定义组件让内容更丰富
 
-Remember: Great documentation tells a story. Start with the basics and guide your developers through their journey with your API. What do they need to know first? What quick wins can you help them achieve? 🎯
+请记住：优秀的文档讲述的是一个故事。从基础开始，引导开发者踏上使用您 API 的旅程。他们最需要先了解什么？您能帮助他们快速取得哪些成果？ 🎯
 
-## What's Next? 🎯
+## 下一步是什么？ 🎯
 
-You've got the foundations – now make your docs truly shine:
+您已经打好了基础——现在让您的文档真正出彩：
 
-* **Customize Your Hub**: Add your brand colors and custom domain
-* **Monitor API Usage**: Keep tabs on how developers use your API
-* **Build Your Community**: Enable discussions and suggested edits
-* **Stay Current**: Keep your changelog updated with the latest API changes
+* **自定义您的 Hub**：添加品牌色和自定义域名
+* **监控 API 使用情况**：随时掌握开发者如何使用您的 API
+* **建立您的社区**：开启讨论和建议编辑功能
+* **保持更新**：在更新日志中及时记录最新的 API 变更
 
-Need a hand? Our friendly support team is just a chat away – look for the owl in the corner! 🦉
+需要帮助？我们友好的支持团队随时待命——找找角落里的猫头鹰！ 🦉
 
-Remember, great documentation is a journey, not a destination. We're here to help you make yours exceptional!
+请记住，优秀的文档是一段旅程，而非终点。我们在这里帮助您打造卓越的文档！
 
 <br />
