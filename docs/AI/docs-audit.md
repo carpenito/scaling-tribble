@@ -5,32 +5,32 @@ hidden: false
 metadata:
   robots: index
 ---
-Docs Audit gives you a complete analysis of your documentation, scoring it against a customizable style guide. Style guides are a set of standards and rules for writing API documentation that ensures consistency and usability for developers.
+Docs Audit 为您提供完整的文档分析，根据可自定义的风格指南对文档进行评分。风格指南是一套用于编写 API 文档的标准和规则，旨在确保开发者使用时的一致性和易用性。
 
-## How the Linter Works
+## Linter 的工作原理
 
-**[ReadMe‘s Linter](/linter)** applies your custom style guide on the page level, using AI-powered prompts to raise issues while you write and edit content. You can configure these rules for the following categories:
+**[ReadMe 的 Linter](/linter)** 在页面级别应用您的自定义风格指南，利用 AI 驱动的提示在您编写和编辑内容时发现问题。您可以针对以下类别配置这些规则：
 
-* **Style Guide**: Ratings that measure how well content aligns with your company‘s definition of good documentation.
-* **Errors**: Objective, critical issues that must be fixed (e.g., spelling mistakes, incorrect grammar).
-* **Warnings**: Subjective issues that may require editorial judgment (e.g., contraction usage, vague language).
+* **风格指南**：衡量内容与贵公司优质文档定义契合程度的评分。
+* **错误**：必须修复的客观、关键性问题（例如拼写错误、语法不正确）。
+* **警告**：可能需要编辑判断的主观性问题（例如缩略语的使用、措辞模糊）。
 
-The Linter can be run before saving page content, allowing you to check your work before saving changes.
+Linter 可在保存页面内容之前运行，让您在保存更改前检查自己的工作。
 
-## How Docs Audit Works
+## Docs Audit 的工作原理
 
-While the Linter works at a page level, **Docs Audit** scales these checks across all of your documentation. By aggregating results and analyzing ever page, Docs Audit helps you:
+Linter 在页面级别发挥作用，而 **Docs Audit** 则将这些检查扩展到您的所有文档。通过汇总结果并分析每一个页面，Docs Audit 帮助您：
 
-* Identify gaps, inconsistencies, and patterns.
-* Find areas where content doesn‘t align with your style guide.
-* Improve documentation quality and consistency.
+* 识别差距、不一致之处和规律性问题。
+* 找出内容与风格指南不符的区域。
+* 提升文档质量和一致性。
 
-Together, Docs Audit and the Linter are a powerful system for reviewing, scoring, and improving your documentation. The Linter ensures individual pages meet your standards, while Docs Audit provides the big-picture analysis you need to deliver a consistent, high-quality experience across your entire developer hub.
+Docs Audit 与 Linter 共同构成了一套强大的文档审查、评分和改进系统。Linter 确保各个页面符合您的标准，而 Docs Audit 则提供您所需的全局分析，帮助您在整个开发者中心提供一致、高质量的体验。
 
 <br />
 
-## FAQ
+## 常见问题
 
-<Accordion title="Do I get Docs Audit with my Enterprise plan?" icon="fa-credit-card">
-  Yes, it‘s included in the Enterprise plan! [Reach out](https://readme.com/enterprise) to learn more!
+<Accordion title="Enterprise 计划是否包含 Docs Audit？" icon="fa-credit-card">
+  是的，Enterprise 计划中已包含此功能！[联系我们](https://readme.com/enterprise)了解更多信息！
 </Accordion>
