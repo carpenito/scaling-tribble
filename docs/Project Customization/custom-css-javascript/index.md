@@ -1,47 +1,47 @@
 ---
-title: Custom CSS & JavaScript
+title: 自定义 CSS 和 JavaScript
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-In this section you can add CSS and Javascript to further customize the appearance of your docs site.
+在本节中，您可以添加 CSS 和 Javascript 来进一步自定义文档站点的外观。
 
 <Image align="center" border={true} src="https://files.readme.io/ca07f17-CleanShot_2022-09-25_at_09.57.452x.png" className="border" />
 
-> 🚧 Selectors
+> 🚧 选择器
 >
-> Use `.rm-` prefixed selectors. Hashed selectors change constantly and **should not** be relied on as selectors (ie. `Header-bottom2eLKOFXMEmh5`).
+> 请使用 `.rm-` 前缀的选择器。哈希选择器会不断变化，**不应**将其作为选择器使用（例如 `Header-bottom2eLKOFXMEmh5`）。
 
-## Custom Stylesheet
+## 自定义样式表
 
 <Callout icon="📘" theme="info">
-  You should limit your changes to minor tweaks. Additionally, stylesheets aren't versioned; all versions use the same stylesheet.
+  您应将更改限制在细微调整范围内。此外，样式表不受版本控制；所有版本使用同一个样式表。
 </Callout>
 
-## Custom Javascript
+## 自定义 Javascript
 
-Your Javascript will be included at the bottom of the page.
+您的 Javascript 将被包含在页面底部。
 
 <details>
-  <summary><b>Global Variables</b></summary>
+  <summary><b>全局变量</b></summary>
 
-  ReadMe exposes certain global variables to help you customize the user experience of your hub:
+  ReadMe 提供了某些全局变量，以帮助您自定义 hub 的用户体验：
 
   * **`RM_ReferenceSidebarScrollTopOffset`**\
-    Pixel offset for the scroll-to-active-item sidebar logic in continuous <Glossary>Reference</Glossary> sections.
+    在连续 <Glossary>参考</Glossary> 章节中，滚动到活动项目侧边栏逻辑的像素偏移量。
 </details>
 
-## Custom Include Tags
+## 自定义包含标签
 
 **Header HTML**
 
-Any html here will be included in the head tag, which is good for things like meta tags and loading external CSS or JS.
+此处的任何 HTML 都将包含在 head 标签中，适用于 meta 标签以及加载外部 CSS 或 JS 等场景。
 
 **Footer HTML**  
 ​  
-This will go right before the `</body>` tag. Good for things like analytics and tracking.
+这将放置在 `</body>` 标签之前。适用于分析和跟踪等场景。
 
-## Toggling Custom Javascript and CSS
+## 切换自定义 Javascript 和 CSS
 
-Add the `?disableCustomCss=true&disableCustomJs=true` query params to the end of any URL.
+在任意 URL 末尾添加 `?disableCustomCss=true&disableCustomJs=true` 查询参数。
