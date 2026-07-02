@@ -1,34 +1,34 @@
 ---
-title: Custom Components
+title: Aangepaste Componenten
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Create and manage custom MDX components from the **Custom Components** page in **Settings**. As you build, you’ll write JSX code and see a live preview of your component in real time. Once saved, you can access your components from the `<` menu and reuse them throughout your documentation.
+Maak en beheer aangepaste MDX-componenten via de pagina **Aangepaste Componenten** in **Instellingen**. Terwijl je bouwt, schrijf je JSX-code en zie je een live voorbeeld van je component in realtime. Eenmaal opgeslagen, kun je je componenten openen via het `<`-menu en ze hergebruiken in je documentatie.
 
-### Key Benefits
+### Belangrijkste voordelen
 
-* Turn common patterns into reusable components to ensure consistency, simplify maintenance, and create a unified UI across your docs.
-* Personalize content based on audience, use case, or access level _without_ duplicating pages.
-* Tailor components to fit your product and make your documentation stand out.
-* Add interactivity to your docs with components that do more than just display content.
+* Zet veelvoorkomende patronen om in herbruikbare componenten voor consistentie, eenvoudiger onderhoud en een uniforme UI in je documentatie.
+* Personaliseer inhoud op basis van doelgroep, gebruiksscenario of toegangsniveau _zonder_ pagina's te dupliceren.
+* Pas componenten aan zodat ze bij je product passen en je documentatie opvalt.
+* Voeg interactiviteit toe aan je documentatie met componenten die meer doen dan alleen inhoud weergeven.
 
 ## Marketplace
 
-Browse the Marketplace to explore open-source components developed by the community. Each component is reviewed by ReadMe for quality and compliance. Simply select a component, make any necessary modifications, or use it as-is—then save it to begin integrating it into your documentation.
+Blader door de Marketplace om open-source componenten te verkennen die door de community zijn ontwikkeld. Elke component wordt door ReadMe beoordeeld op kwaliteit en naleving. Selecteer eenvoudig een component, breng eventuele aanpassingen aan of gebruik hem zoals hij is — sla hem vervolgens op om hem in je documentatie te integreren.
 
 <Image align="center" border={false} src="https://files.readme.io/4878ee5ee5a98ad931898ff6a4638d3f79ea3f57c90296bcc65b0623d58c5219-Screenshot_2025-09-04_at_4.29.16_PM.png" />
 
 <Callout icon="💡" theme="default">
-  **Feeling creative?** Contribute your own! Open a pull request in the [GitHub repo](https://github.com/readmeio/marketplace). Once merged, see your component live in the Marketplace and help grow the library for everyone.
+  **Creatief ingesteld?** Draag je eigen component bij! Open een pull request in de [GitHub-repo](https://github.com/readmeio/marketplace). Zodra het is samengevoegd, zie je je component live in de Marketplace en help je de bibliotheek voor iedereen te laten groeien.
 </Callout>
 
 ***
 
-## Create Your First Component
+## Maak je eerste component
 
-Let's break down how to create a simple but useful custom component. We'll build a "Note" component that makes important information stand out in your docs.
+Laten we stap voor stap bekijken hoe je een eenvoudige maar nuttige aangepaste component maakt. We bouwen een "Note"-component die belangrijke informatie laat opvallen in je documentatie.
 
 ```jsx
 export const ExampleComponent = props => {
@@ -46,41 +46,41 @@ export const ExampleComponent = props => {
 </ExampleComponent>
 ```
 
-### Understanding the Code
+### De code begrijpen
 
 <Image align="center" border={false} src="https://files.readme.io/e6e6aa810d1cd0f55f001261284d475c244902bd3bd14b46e98a6b15ac2680e4-CleanShot_2025-02-24_at_12.57.54.gif" />
 
-**Line 1:** `export const ExampleComponent = props => {`
+**Regel 1:** `export const ExampleComponent = props => {`
 
-* Here we're defining a new component called `ExampleComponent`
-* The `export` keyword is required to define any variable or component in MDX
-* We can access the React `props` to render any attributes or content added to the component tag
+* Hier definiëren we een nieuwe component genaamd `ExampleComponent`
+* Het sleutelwoord `export` is vereist om een variabele of component in MDX te definiëren
+* We kunnen de React `props` gebruiken om attributen of inhoud die aan de componenttag zijn toegevoegd te renderen
 
-**Lines 2-8:** The component's structure
+**Regels 2-8:** De structuur van de component
 
-* `return (...)` defines what the component will render when used
-* The outer `<div>` uses [Tailwind classes](https://tailwindcss.com/docs/styling-with-utility-classes) to center its content (`flex items-center`) and take up full width and height (`h-full w-full`)
-* The inner `<div>` creates a dark gray box (`bg-gray-800`) with rounded corners (`rounded-md`) and spacing (`p-6 m-4`)
-* `{props.children}` is the magic ingredient — it renders whatever content you place between your component tags
+* `return (...)` definieert wat de component rendert wanneer hij wordt gebruikt
+* De buitenste `<div>` gebruikt [Tailwind-klassen](https://tailwindcss.com/docs/styling-with-utility-classes) om de inhoud te centreren (`flex items-center`) en de volledige breedte en hoogte in te nemen (`h-full w-full`)
+* De binnenste `<div>` maakt een donkergrijze box (`bg-gray-800`) met afgeronde hoeken (`rounded-md`) en opvulling (`p-6 m-4`)
+* `{props.children}` is het geheime ingrediënt — het rendert alle inhoud die je tussen je componenttags plaatst
 
 <Callout icon="💁" theme="default">
-  ### A Quick Note on Tailwind CSS
+  ### Een korte opmerking over Tailwind CSS
 
-  Don't worry if these classes look unfamiliar! You can reference the official [Tailwind CSS docs](https://tailwindcss.com/docs/styling-with-utility-classes) for a comprehensive guide on styling with utility clas
+  Maak je geen zorgen als deze klassen onbekend lijken! Je kunt de officiële [Tailwind CSS-documentatie](https://tailwindcss.com/docs/styling-with-utility-classes) raadplegen voor een uitgebreide handleiding over stijlen met utility-klassen
 </Callout>
 
-**Lines 10-14:** To render default component in preview and in your docs
+**Regels 10-14:** Om de standaardcomponent in de preview en in je documentatie te renderen
 
-* We require components to be added AFTER all exports to render the component in preview and use in the editor
-* MDX syntax requires creating a newline before the preview component or an error will occur
-* `<ExampleComponent>` opens the component
-* The text between the tags becomes the `children` prop
-* `</ExampleComponent>` closes the component
+* Componenten moeten NA alle exports worden toegevoegd om de component in de preview te renderen en in de editor te gebruiken
+* MDX-syntaxis vereist het aanmaken van een nieuwe regel vóór de previewcomponent, anders treedt er een fout op
+* `<ExampleComponent>` opent de component
+* De tekst tussen de tags wordt de `children`-prop
+* `</ExampleComponent>` sluit de component
 
-This simple example creates a reusable styled container that you can use throughout your documentation. Just wrap any content with `<ExampleComponent>` tags, and it will appear in a nice dark gray box with proper spacing and rounded corners!
+Dit eenvoudige voorbeeld maakt een herbruikbare gestijlde container die je overal in je documentatie kunt gebruiken. Wikkel gewoon inhoud in `<ExampleComponent>`-tags en het verschijnt in een mooie donkergrijze box met de juiste opvulling en afgeronde hoeken!
 
-### See the recipe below to walk through the code!
+### Bekijk het recept hieronder om de code stap voor stap te doorlopen!
 
-<Recipe slug="create-a-custom-component" title="Create a Custom Component" />
+<Recipe slug="create-a-custom-component" title="Een aangepaste component maken" />
 
-What makes this powerful? You can now use this component anywhere in your documentation where you need to highlight content in a consistent way. Need to change how highlighted content looks across your entire documentation? Just update the component once, and the changes apply everywhere you've used it!
+Wat maakt dit zo krachtig? Je kunt deze component nu overal in je documentatie gebruiken waar je inhoud op een consistente manier wilt benadrukken. Wil je de weergave van gemarkeerde inhoud in je volledige documentatie aanpassen? Werk de component eenmalig bij en de wijzigingen worden overal toegepast waar je hem hebt gebruikt!
