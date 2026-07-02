@@ -775,8 +775,8 @@
         "tags": [
           "user"
         ],
-        "summary": "Updated user",
-        "description": "This can only be done by the logged in user.",
+        "summary": "Gebruiker bijgewerkt",
+        "description": "Dit kan alleen worden gedaan door de ingelogde gebruiker.",
         "operationId": "updateUser",
         "parameters": [
           {
