@@ -1,5 +1,5 @@
 ---
-title: Site Footer
+title: 网站页脚
 deprecated: false
 hidden: false
 metadata:
@@ -7,18 +7,18 @@ metadata:
 ---
 <br />
 
-> 📘 Available on Business and Enterprise Plans!
+> 📘 适用于商业版和企业版计划！
 >
-> The option to white label your site, including removing the ReadMe logo and/or adding a custom footer, is only available on ReadMe's Business or Enterprise plans. To learn more about ReadMe's plans, pricing, and feature breakdowns, visit our [pricing page.](https://readme.com/pricing)
+> 白标您的网站（包括移除 ReadMe 徽标和/或添加自定义页脚）的选项仅适用于 ReadMe 的商业版或企业版计划。如需了解更多关于 ReadMe 计划、定价及功能详情，请访问我们的[定价页面。](https://readme.com/pricing)
 
 <p class="blank-line" />
 
-## Removing the ReadMe Logo
+## 移除 ReadMe 徽标
 
-This is where you can remove the ReadMe Logo
+您可以在此处移除 ReadMe 徽标
 
 <Image border={true} src="https://files.readme.io/29f9b21-CleanShot_2022-09-25_at_10.03.152x.png" className="border" />
 
-## Custom Footer HTML
+## 自定义页脚 HTML
 
-You can add custom html for your footer here, then format it to your desire in [Adding Custom JavaScript/CSS](doc:custom-css-and-javascript) section.
+您可以在此处为页脚添加自定义 HTML，然后在[添加自定义 JavaScript/CSS](doc:custom-css-and-javascript) 部分中按需进行格式设置。
