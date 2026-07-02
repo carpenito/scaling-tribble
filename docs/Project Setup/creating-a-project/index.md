@@ -1,77 +1,77 @@
 ---
-title: Creating a Project
+title: Een Project Aanmaken
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## Create Your Project 🎨
+## Maak Je Project Aan 🎨
 
-First things first – let's give your API documentation a home:
+Eerst even dit – laten we je API-documentatie een thuis geven:
 
-1. Sign into your ReadMe account
-2. Click **Create New Project**.
-3. Give your project a name that resonates with your API.
-4. Upload your logo (we'll work our magic to match your brand colors!).
-5. Choose a subdomain that makes sense for your brand (e.g., yourcompany.readme.io).
+1. Log in op je ReadMe-account
+2. Klik op **Nieuw Project Aanmaken**.
+3. Geef je project een naam die past bij je API.
+4. Upload je logo (wij zorgen ervoor dat het aansluit bij je merkkleuren!).
+5. Kies een subdomein dat past bij je merk (bijv. jouwbedrijf.readme.io).
 
 <Callout icon="☝️" theme="default">
-  Checkout our docs on [migrating from another platform to ReadMe](https://docs.readme.com/main/docs/migration-moving-your-docs-to-their-new-home).
+  Bekijk onze documentatie over [migreren van een ander platform naar ReadMe](https://docs.readme.com/main/docs/migration-moving-your-docs-to-their-new-home).
 </Callout>
 
-## Navigate Your Dashboard 🧭
+## Navigeer Je Dashboard 🧭
 
-Get comfortable with your command center:
+Raak vertrouwd met je commandocentrum:
 
-1. **Project Dashboard Overview**
-   * The dashboard is your mission control for all things documentation
-   * Access all your projects from this central hub
-   * View project metrics and recent activity at a glance
+1. **Overzicht van het Projectdashboard**
+   * Het dashboard is je centrale plek voor alles rondom documentatie
+   * Toegang tot al je projecten vanuit deze centrale hub
+   * Bekijk projectstatistieken en recente activiteit in één oogopslag
 
-2. **Quick Navigation**
-   * Use the left sidebar to jump between key sections
-   * Access project settings, appearance options, and more
-   * Switch between edit and view modes with a single click
+2. **Snelle Navigatie**
+   * Gebruik de linker zijbalk om tussen de belangrijkste secties te springen
+   * Toegang tot projectinstellingen, weergaveopties en meer
+   * Schakel met één klik tussen bewerkings- en weergavemodus
 
-3. **Project Settings**
-   * Customize project details anytime from the settings menu
-   * Manage team access and permissions
-   * Configure integration options for your workflow
+3. **Projectinstellingen**
+   * Pas projectdetails op elk moment aan via het instellingenmenu
+   * Beheer teamtoegang en rechten
+   * Configureer integratieopties voor je workflow
 
-## Manage Your Profile 👤
+## Beheer Je Profiel 👤
 
-Make ReadMe yours with a personalized profile:
+Maak ReadMe van jou met een gepersonaliseerd profiel:
 
-1. **Setting Up Your Profile**
-   * Click your avatar in the top-right corner
-   * Update your display name and profile picture
-   * Add your role and contact information
+1. **Je Profiel Instellen**
+   * Klik op je avatar in de rechterbovenhoek
+   * Werk je weergavenaam en profielfoto bij
+   * Voeg je functie en contactgegevens toe
 
-2. **Account Preferences**
-   * Set your notification preferences
-   * Configure 2FA for enhanced security
-   * Manage your API keys for ReadMe access
+2. **Accountvoorkeuren**
+   * Stel je meldingsvoorkeuren in
+   * Configureer 2FA voor extra beveiliging
+   * Beheer je API-sleutels voor toegang tot ReadMe
 
-3. **Team Collaboration**
-   * Invite team members to contribute
-   * Assign appropriate roles and permissions
-   * Create a collaborative documentation workflow
+3. **Teamsamenwerking**
+   * Nodig teamleden uit om bij te dragen
+   * Wijs passende rollen en rechten toe
+   * Creëer een collaboratieve documentatieworkflow
 
-## Search and Organize Your Projects 🔍
+## Zoek en Organiseer Je Projecten 🔍
 
-Keeping everything at your fingertips:
+Alles altijd binnen handbereik:
 
-1. **Project Search**
-   * Use the search bar at the top of the dashboard
-   * Filter projects by name, status, or team
-   * Find exactly what you need, when you need it
+1. **Projecten Zoeken**
+   * Gebruik de zoekbalk bovenaan het dashboard
+   * Filter projecten op naam, status of team
+   * Vind precies wat je nodig hebt, wanneer je het nodig hebt
 
-2. **Project Organization**
-   * Arrange projects by priority or category
-   * Use tags to group related projects
-   * Archive completed or inactive projects
+2. **Projectorganisatie**
+   * Rangschik projecten op prioriteit of categorie
+   * Gebruik tags om gerelateerde projecten te groeperen
+   * Archiveer voltooide of inactieve projecten
 
-3. **Quick Project Switching**
-   * Toggle between projects from the dropdown menu
-   * See project status indicators at a glance
-   * Access recent projects faster with the history menu
+3. **Snel Wisselen van Project**
+   * Schakel tussen projecten via het dropdownmenu
+   * Bekijk projectstatusindicatoren in één oogopslag
+   * Toegang tot recente projecten sneller via het geschiedenismenu
