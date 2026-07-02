@@ -1,5 +1,5 @@
 ---
-title: Logs out current logged in user session
+title: Déconnecte la session de l'utilisateur actuellement connecté
 api:
   file: petstore.json
   operationId: logoutUser
