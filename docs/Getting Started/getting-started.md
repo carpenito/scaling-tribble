@@ -1,102 +1,102 @@
 ---
-title: Getting Started with TranslationsQA_Nov2025
+title: Aan de slag met TranslationsQA_Nov2025
 excerpt: >-
-  Quick start guide to get you up and running with your developer hub - write
-  docs, add AI features, and sync with Git.
+  Snelstartgids om u op weg te helpen met uw ontwikkelaarshub - schrijf
+  documentatie, voeg AI-functies toe en synchroniseer met Git.
 hidden: false
 icon: fad fa-rocket-launch
 link:
   new_tab: false
 ---
-# Welcome to ReadMe - Welcome to JFrog
+# Welkom bij ReadMe - Welkom bij JFrog
 
-Welcome to your AI-powered, Git-backed developer hub. This starter page will help you get up and running quickly.
+Welkom bij uw AI-gestuurde, Git-gebaseerde ontwikkelaarshub. Deze startpagina helpt u snel op weg.
 
 ***
 
-## ✍️ Write Docs with Components
+## ✍️ Schrijf documentatie met componenten
 
-Create <Anchor label="**Guides**" target="_blank" href="https://docs.readme.com/main/docs/creating-and-managing-guides">**Guides**</Anchor> to walk users through key concepts and tutorials. Use ReadMe's MDX editor to combine Markdown with custom components like `<Card>`, `<Tab>`, and `<Accordion>`.
+Maak <Anchor label="**Guides**" target="_blank" href="https://docs.readme.com/main/docs/creating-and-managing-guides">**Handleidingen**</Anchor> om gebruikers door belangrijke concepten en tutorials te leiden. Gebruik ReadMe's MDX-editor om Markdown te combineren met aangepaste componenten zoals `<Card>`, `<Tab>` en `<Accordion>`.
 
 <Cards columns={3}>
   <Card title="Component Marketplace" href="https://github.com/readmeio/marketplace/tree/main/components" icon="fa-store" target="_blank">
-    Drop in and customize components.
+    Voeg componenten in en pas ze aan.
   </Card>
 
   <Card title="MDX (Markdown + JSX)" href="https://docs.readme.com/main/docs/mdx" icon="fa-code">
-    Build interactive components.
+    Bouw interactieve componenten.
   </Card>
 
-  <Card title="Custom Components" href="https://docs.readme.com/main/docs/building-custom-mdx-components" icon="fa-wrench">
-    Create reusable components.
+  <Card title="Aangepaste componenten" href="https://docs.readme.com/main/docs/building-custom-mdx-components" icon="fa-wrench">
+    Maak herbruikbare componenten.
   </Card>
 </Cards>
 
 ***
 
-## 🤖 Add AI Features
+## 🤖 Voeg AI-functies toe
 
-Access AI tools by clicking **:sparkles:AI** in your top navigation:
+Toegang tot AI-tools door op **:sparkles:AI** in uw bovenste navigatie te klikken:
 
-* **AI Agent** - Draft documentation, translate pages, apply style guides
-* **MCP Server** - Convert API docs into AI-readable resources
-* **AI Search** - Help developers get instant answers
-* **Open in AI Services** - Let users access docs in ChatGPT, Claude, etc.
-
-***
-
-## 🌿 Work with Branches
-
-<Anchor label="Branches" target="_blank" href="https://docs.readme.com/main/docs/branches">Branches</Anchor> bring Git-style workflows to documentation:
-
-* Draft changes without publishing immediately
-* Review and preview updates before going live
-* Share edits with teammates for feedback
-* Safely iterate without disrupting production docs
+* **AI Agent** - Documentatie opstellen, pagina's vertalen, stijlgidsen toepassen
+* **MCP Server** - API-documentatie omzetten naar AI-leesbare bronnen
+* **AI Search** - Ontwikkelaars helpen direct antwoorden te vinden
+* **Openen in AI Services** - Gebruikers toegang geven tot documenten in ChatGPT, Claude, enz.
 
 ***
 
-## 🔁 Sync with Git
+## 🌿 Werken met branches
 
-* **[Bi-Directional GitHub Sync](https://docs.readme.com/main/docs/bi-directional-sync)** - Connect your GitHub repo for seamless collaboration
-* **OpenAPI Sync** - Use [`rdme`](https://docs.readme.com/docs/rdme#upload) or the API to keep your API Reference updated
+<Anchor label="Branches" target="_blank" href="https://docs.readme.com/main/docs/branches">Branches</Anchor> brengen Git-stijl workflows naar documentatie:
 
-***
-
-## 👀 Monitor Usage
-
-Track how developers use your API and docs with <Anchor label="My Developers" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">My Developers</Anchor>. Set up the <Anchor label="webhook" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">webhook</Anchor> and integrate the [Metrics SDK](https://docs.readme.com/main/docs/sending-api-logs).
+* Wijzigingen opstellen zonder direct te publiceren
+* Updates bekijken en voorvertonen voordat ze live gaan
+* Bewerkingen delen met teamleden voor feedback
+* Veilig itereren zonder de productiedocumentatie te verstoren
 
 ***
 
-## 🚀 Next Steps
+## 🔁 Synchroniseren met Git
 
-1. Create your first Guide or sync your OpenAPI file
-2. [Connect GitHub for bi-directional sync](/docs/getting-started#/settings/git-connection/github)
-3. Set up your <Anchor label="MCP server" target="_blank" href="https://docs.readme.com/main/docs/mcp-servers">MCP server</Anchor>
-4. Check **My Developers** to understand your audience
+* **[Bi-directionele GitHub Sync](https://docs.readme.com/main/docs/bi-directional-sync)** - Verbind uw GitHub-repository voor naadloze samenwerking
+* **OpenAPI Sync** - Gebruik [`rdme`](https://docs.readme.com/docs/rdme#upload) of de API om uw API-referentie up-to-date te houden
+
+***
+
+## 👀 Gebruik monitoren
+
+Volg hoe ontwikkelaars uw API en documentatie gebruiken met <Anchor label="My Developers" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">Mijn Ontwikkelaars</Anchor>. Stel de <Anchor label="webhook" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">webhook</Anchor> in en integreer de [Metrics SDK](https://docs.readme.com/main/docs/sending-api-logs).
+
+***
+
+## 🚀 Volgende stappen
+
+1. Maak uw eerste handleiding of synchroniseer uw OpenAPI-bestand
+2. [Verbind GitHub voor bi-directionele synchronisatie](/docs/getting-started#/settings/git-connection/github)
+3. Stel uw <Anchor label="MCP server" target="_blank" href="https://docs.readme.com/main/docs/mcp-servers">MCP-server</Anchor> in
+4. Bekijk **Mijn Ontwikkelaars** om uw doelgroep te begrijpen
 
 ***
 
 <Callout icon="💼" theme="default">
-  Need enterprise features for multiple products or advanced permissions? [Let's talk.](mailto:growth@readme.io)
+  Heeft u enterprise-functies nodig voor meerdere producten of geavanceerde rechten? [Laten we praten.](mailto:growth@readme.io)
 </Callout>
 
-## 💬 Need Help?
+## 💬 Hulp nodig?
 
-Our team is here to support you. If you get stuck, [email us](mailto:support@readme.io) or open the Intercom widget on any page to chat with someone from our team. We've also got a <Anchor label="Slack community" target="_blank" href="https://readme.com/slack">Slack community</Anchor> if you want to say hi to the team and connect with other ReadMe users!
-
-<br />
-
-[comment]: <> "This is a comment, it will not be included"
-
-[comment]: <> "in  the output file unless you use it in"
-
-[comment]: <> "a reference style link."
+Ons team staat voor u klaar. Als u vastloopt, [stuur ons een e-mail](mailto:support@readme.io) of open de Intercom-widget op een willekeurige pagina om met iemand van ons team te chatten. We hebben ook een <Anchor label="Slack community" target="_blank" href="https://readme.com/slack">Slack-community</Anchor> als u het team wilt begroeten en contact wilt maken met andere ReadMe-gebruikers!
 
 <br />
 
-[//]: # "This may be the most platform independent comment"
+[comment]: <> "Dit is een opmerking, deze wordt niet opgenomen"
+
+[comment]: <> "in het uitvoerbestand tenzij u het gebruikt in"
+
+[comment]: <> "een referentiestijl link."
+
+<br />
+
+[//]: # "Dit is mogelijk de meest platformonafhankelijke opmerking"
 
 <br />
 
