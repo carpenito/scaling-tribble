@@ -1,4 +1,4 @@
 ---
-title: pet
+title: animal de compagnie
 hidden: false
 ---
