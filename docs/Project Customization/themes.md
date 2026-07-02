@@ -1,55 +1,55 @@
 ---
-title: Themes
+title: 主题
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-All plans have access to customize their in the **Theme** settings. Open **Settings** in the top-left of the admin UI, then select **Theme** in the sidebar.
+所有方案均可在 **主题** 设置中进行自定义。在管理界面左上角打开 **设置**，然后在侧边栏中选择 **主题**。
 
-* Layout
-* Branding (Logo, Favicon, and Colors)
-* Header style
+* 布局
+* 品牌形象（Logo、网站图标和颜色）
+* 页眉样式
 
 <PlanTable currentPlan="Free" />
 
 <Callout icon="💁‍♂️" theme="default">
-  **Note:** Additional customization options and services are available on Business and Enterprise plans.
+  **注意：** 商业版和企业版方案提供更多自定义选项和服务。
 </Callout>
 
 ***
 
-## Layout
+## 布局
 
 <Image align="center" border={false} width="400px" src="https://files.readme.io/3d30b1d7f55cd7e37def92bb05c5c4799bc0e1294169209626ff9a24181733cc-Launch_Week-20250628-1026262x.webp" />
 
-You can choose between 3 layout options: Classic, Compact, and Modern. And there’s also an option to stretch the layout for larger screens. You’ll be able to preview the layout before saving.
+您可以从 3 种布局选项中进行选择：经典、紧凑和现代。此外，还有一个选项可以为较大屏幕拉伸布局。保存前您可以预览布局效果。
 
 <Callout icon="🚧" theme="warn">
-  A sidebar only option is coming soon!
+  仅侧边栏选项即将推出！
 </Callout>
 
 ***
 
-## Branding
+## 品牌形象
 
 ### Logo
 
-An option to upload a white logo is available when an alternative is needed for certain themes and header color settings.
+当某些主题和页眉颜色设置需要替代方案时，可选择上传白色 Logo。
 
-**Format**
+**格式**
 
-* SVG is preferred for the best quality.
-* If your logo is too complex for an SVG, WEBP is a good alternative—use 2x of your desired logo size for clarity in high-resolution displays.
-* GIFs are not supported.
+* 建议使用 SVG 以获得最佳质量。
+* 如果您的 Logo 过于复杂而无法使用 SVG，WEBP 是一个不错的替代方案——使用所需 Logo 尺寸的 2 倍，以在高分辨率显示器上保持清晰度。
+* 不支持 GIF 格式。
 
-**Dimensions**
+**尺寸**
 
-* 24px height by default. In the Classic and Modern themes you can select a larger 40px height logo.
+* 默认高度为 24px。在经典和现代主题中，您可以选择更大的 40px 高度 Logo。
 
-**Further Customization**
+**进一步自定义**
 
-* Customers with access to Custom CSS can use our global classes and css variables to tweak their logo display further:
+* 拥有自定义 CSS 访问权限的客户可以使用我们的全局类和 CSS 变量进一步调整其 Logo 显示效果：
 
 ```css
 .rm-Logo-img {
@@ -59,19 +59,19 @@ An option to upload a white logo is available when an alternative is needed for 
 
 ***
 
-## Header
+## 页眉
 
 <Image align="center" border={false} width="400px" src="https://files.readme.io/9c14d52d69809626037d9cb483cd2fb0619734f6ccc3c3428fd6380936a44b43-Launch_Week-20250628-1043112x.webp" />
 
-You can choose between 4 layout options: Line, Solid Color, Gradient, and Overlay.
+您可以从 4 种布局选项中进行选择：线条、纯色、渐变和叠加。
 
 <Callout icon="💁‍♂️" theme="default">
-  The Line header option now defaults to a tab display for links. Users with the older button display can switch. Once you switch, you will not be able to switch back.
+  线条页眉选项现在默认以标签页形式显示链接。使用旧版按钮显示的用户可以进行切换。一旦切换，将无法恢复。
 </Callout>
 
-**Further Customization**
+**进一步自定义**
 
-* Customers with access to Custom CSS can use our global classes and css variables to tweak their header further:
+* 拥有自定义 CSS 访问权限的客户可以使用我们的全局类和 CSS 变量进一步调整其页眉：
 
 ```css
 .rm-Header {
