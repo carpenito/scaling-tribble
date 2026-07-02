@@ -1,5 +1,5 @@
 ---
-title: Uploads an image
+title: Télécharge une image
 api:
   file: petstore.json
   operationId: uploadFile
