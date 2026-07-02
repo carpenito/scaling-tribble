@@ -2,24 +2,24 @@
 title: MCP
 hidden: false
 ---
-The Kirb_TranslationsQA_Nov2025 Model Context Protocol (MCP) server enables AI-powered code editors like Cursor and Windsurf, plus general-purpose tools like Claude Desktop, to interact directly with your Kirb_TranslationsQA_Nov2025 API and documentation.
+De Kirb_TranslationsQA_Nov2025 Model Context Protocol (MCP) server stelt AI-gestuurde code-editors zoals Cursor en Windsurf, en algemene tools zoals Claude Desktop, in staat om rechtstreeks te communiceren met je Kirb_TranslationsQA_Nov2025 API en documentatie.
 
-## What is MCP?
+## Wat is MCP?
 
-Model Context Protocol (MCP) is an open standard that allows AI applications to securely access external data sources and tools. The Kirb_TranslationsQA_Nov2025 MCP server provides AI agents with:
+Model Context Protocol (MCP) is een open standaard waarmee AI-applicaties veilig toegang kunnen krijgen tot externe gegevensbronnen en tools. De Kirb_TranslationsQA_Nov2025 MCP server biedt AI-agents:
 
-* **Direct API access** to Kirb_TranslationsQA_Nov2025 functionality
-* **Documentation search** capabilities
-* **Real-time data** from your Kirb_TranslationsQA_Nov2025 account
-* **Code generation** assistance for Kirb_TranslationsQA_Nov2025 integrations
+* **Directe API-toegang** tot Kirb_TranslationsQA_Nov2025-functionaliteit
+* **Documentatiezoek**mogelijkheden
+* **Realtime gegevens** uit je Kirb_TranslationsQA_Nov2025-account
+* **Codegeneratie**-ondersteuning voor Kirb_TranslationsQA_Nov2025-integraties
 
-## Kirb_TranslationsQA_Nov2025 MCP Server Setup
+## Kirb_TranslationsQA_Nov2025 MCP Server Instellen
 
-Kirb_TranslationsQA_Nov2025 hosts a remote MCP server at `https://kirbtranslationsqanov2025.readme.io/mcp`. Configure your AI development tools to connect to this server. If your APIs require authentication, you can pass in headers via query parameters or however headers are configured in your MCP client.
+Kirb_TranslationsQA_Nov2025 host een externe MCP server op `https://kirbtranslationsqanov2025.readme.io/mcp`. Configureer je AI-ontwikkeltools om verbinding te maken met deze server. Als je API's authenticatie vereisen, kun je headers meegeven via queryparameters of op de manier waarop headers worden geconfigureerd in je MCP-client.
 
 <Tabs>
   <Tab title="Cursor">
-    **Add to `~/.cursor/mcp.json`:**
+    **Voeg toe aan `~/.cursor/mcp.json`:**
 
     ```json
     {
@@ -33,7 +33,7 @@ Kirb_TranslationsQA_Nov2025 hosts a remote MCP server at `https://kirbtranslatio
 
     </Tab>
   <Tab title="Windsurf">
-    **Add to `~/.codeium/windsurf/mcp_config.json`:**
+    **Voeg toe aan `~/.codeium/windsurf/mcp_config.json`:**
 
     ```json
     {
@@ -47,7 +47,7 @@ Kirb_TranslationsQA_Nov2025 hosts a remote MCP server at `https://kirbtranslatio
 
   </Tab>
   <Tab title="Claude Desktop">
-    **Add to `claude_desktop_config.json`:**
+    **Voeg toe aan `claude_desktop_config.json`:**
 
     ```json
     {
@@ -62,15 +62,15 @@ Kirb_TranslationsQA_Nov2025 hosts a remote MCP server at `https://kirbtranslatio
   </Tab>
 </Tabs>
 
-## Testing Your MCP Setup
+## Je MCP-instelling Testen
 
-Once configured, you can test your MCP server connection:
+Na de configuratie kun je de verbinding met je MCP server testen:
 
-1. **Open your AI editor** (Cursor, Windsurf, etc.)
-2. **Start a new chat** with the AI assistant
-3. **Ask about Kirb_TranslationsQA_Nov2025** - try questions like:
-   * "How do I [common use case]?"
-   * "Show me an example of [API functionality]"
-   * "Create a [integration type] using Kirb_TranslationsQA_Nov2025"
+1. **Open je AI-editor** (Cursor, Windsurf, enz.)
+2. **Start een nieuw gesprek** met de AI-assistent
+3. **Stel een vraag over Kirb_TranslationsQA_Nov2025** - probeer vragen zoals:
+   * "Hoe doe ik [veelvoorkomend gebruik]?"
+   * "Laat me een voorbeeld zien van [API-functionaliteit]"
+   * "Maak een [integratietype] met Kirb_TranslationsQA_Nov2025"
 
-The AI should now have access to your Kirb_TranslationsQA_Nov2025 account data and documentation through the MCP server.
+De AI heeft nu toegang tot de gegevens van je Kirb_TranslationsQA_Nov2025-account en de documentatie via de MCP server.
