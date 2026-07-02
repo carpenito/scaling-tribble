@@ -1,6 +1,6 @@
 ---
-title: Kirby Enhancement Feb 10th 2026
-excerpt: WOW
+title: Kirby 增强功能 2026年2月10日
+excerpt: 哇
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
@@ -8,16 +8,16 @@ metadata:
   robots: index
 ---
 <Tabs>
-  <Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
+  <Tab title="第一个标签页">
+    欢迎查看仅在第一个标签页内可见的内容。
   </Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
+  <Tab title="第二个标签页">
+    这是仅在第二个标签页内的内容。
   </Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
+  <Tab title="第三个标签页">
+    这是仅在第三个标签页内的内容。
   </Tab>
 </Tabs>
 
