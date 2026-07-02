@@ -380,7 +380,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Uploads an image",
+        "summary": "Uploadt een afbeelding",
         "description": "",
         "operationId": "uploadFile",
         "parameters": [
