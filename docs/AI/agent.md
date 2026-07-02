@@ -5,40 +5,40 @@ hidden: false
 metadata:
   robots: index
 ---
-The Agent is a powerful documentation assistant that helps you create, edit, and enhance content across Guides, API References, and Custom Pages with advanced research and analysis capabilities.
+L'Agent est un puissant assistant de documentation qui vous aide à créer, modifier et enrichir du contenu dans les Guides, les Références API et les Pages personnalisées, grâce à des capacités avancées de recherche et d'analyse.
 
-## What It Can Do
+## Ce qu'il peut faire
 
-The Agent provides comprehensive documentation assistance:
+L'Agent offre une assistance complète pour la documentation :
 
-* **Content Creation & Editing**: Write, rewrite, translate, and fix grammar with proper markdown formatting
-* **Research & Analysis**: Search the web, analyze URLs, and retrieve information from your documentation
-* **Smart Components**: Suggest and implement ReadMe’s built-in MDX components
-* **Multi-step Workflows**: Combine research, analysis, and content creation in a single request
-* **Fix Linter Errors**: Resolve syntax errors and warnings according to your configured style guide
+* **Création et modification de contenu** : Rédiger, réécrire, traduire et corriger la grammaire avec une mise en forme markdown appropriée
+* **Recherche et analyse** : Effectuer des recherches sur le web, analyser des URL et récupérer des informations depuis votre documentation
+* **Composants intelligents** : Suggérer et implémenter les composants MDX intégrés de ReadMe
+* **Flux de travail en plusieurs étapes** : Combiner recherche, analyse et création de contenu en une seule requête
+* **Correction des erreurs de linter** : Résoudre les erreurs de syntaxe et les avertissements conformément à votre guide de style configuré
 
-## Usage
+## Utilisation
 
-The Agent excels at complex, multi-step documentation tasks. You can make requests like:
+L'Agent excelle dans les tâches de documentation complexes et en plusieurs étapes. Vous pouvez formuler des requêtes telles que :
 
-* “Research the latest API design trends and create a guide”
-* “Analyze this URL and add key points to our documentation”
-* “Find authentication info from our docs and expand this section”
+* « Rechercher les dernières tendances en matière de conception d'API et créer un guide »
+* « Analyser cette URL et ajouter les points clés à notre documentation »
+* « Trouver les informations d'authentification dans nos docs et développer cette section »
 
-Each chat session maintains full context of your current page and OpenAPI specification files. All conversations are private to your account. Use our auto-selected model or select your own model from the pre-configured list.
+Chaque session de chat conserve le contexte complet de votre page actuelle et des fichiers de spécification OpenAPI. Toutes les conversations sont privées et liées à votre compte. Utilisez le modèle sélectionné automatiquement ou choisissez votre propre modèle dans la liste préconfigurée.
 
 <Image align="center" border={false} src="https://files.readme.io/f678000604c17fb27accb05314a554ec94cf776d81f91701f4ed479db7e6b551-agent_mini.png" />
 
-### Ask About ReadMe
+### Poser des questions sur ReadMe
 
-Ask the Agent ReadMe-related questions to quickly navigate our platform as you work on your documentation. It draws from our knowledge base to answer your questions and guide you through features, tools, and best practices.
+Posez à l'Agent des questions relatives à ReadMe pour naviguer rapidement sur notre plateforme pendant que vous travaillez sur votre documentation. Il s'appuie sur notre base de connaissances pour répondre à vos questions et vous guider à travers les fonctionnalités, les outils et les bonnes pratiques.
 
-## Configure
+## Configurer
 
-Help the Agent work better for you:
+Aidez l'Agent à mieux travailler pour vous :
 
-* If certain models aren’t compatible with your documentation, disable them in AI Chat settings (<i class="fa-regular fa-solid fa-gear" color="var(--gray80" />).
-* To improve Agent responses, index your codebase to provide additional context or add custom content.
+* Si certains modèles ne sont pas compatibles avec votre documentation, désactivez-les dans les paramètres du Chat IA (<i class="fa-regular fa-solid fa-gear" color="var(--gray80" />).
+* Pour améliorer les réponses de l'Agent, indexez votre base de code pour fournir un contexte supplémentaire ou ajoutez du contenu personnalisé.
 
 <Image align="center" border={false} width="350px" src="https://files.readme.io/5525b67a2ebb59fdfefbdc82f8c8b88f86f6cf3ba9b03c6c5b927d5acb8a499d-agent_settings_2.png" />
 
@@ -46,18 +46,18 @@ Help the Agent work better for you:
 
 ## FAQ
 
-<Accordion title="What LLM powers the agent?" icon="fa-robot">
-  The Agent is powered by advanced language models including Google Gemini Pro 2.5, Claude, and OpenAI models, providing advanced reasoning and research capabilities.
+<Accordion title="Quel LLM alimente l'agent ?" icon="fa-robot">
+  L'Agent est alimenté par des modèles de langage avancés, notamment Google Gemini Pro 2.5, Claude et les modèles OpenAI, offrant des capacités avancées de raisonnement et de recherche.
 </Accordion>
 
-<Accordion title="Is my data shared with the LLM?" icon="fa-shield-alt">
-  Only when you use the Agent feature. If you don’t use it, no data is shared. When activated, the current page you’re viewing and relevant documentation are included in the prompt sent to the language model to generate a response.
+<Accordion title="Mes données sont-elles partagées avec le LLM ?" icon="fa-shield-alt">
+  Uniquement lorsque vous utilisez la fonctionnalité Agent. Si vous ne l'utilisez pas, aucune donnée n'est partagée. Lorsqu'elle est activée, la page que vous consultez actuellement et la documentation pertinente sont incluses dans le prompt envoyé au modèle de langage pour générer une réponse.
 </Accordion>
 
-<Accordion title="Can it access external websites?" icon="fa-globe">
-  Yes! The Agent can search the web and analyze URLs to enhance your documentation.
+<Accordion title="Peut-il accéder à des sites web externes ?" icon="fa-globe">
+  Oui ! L'Agent peut effectuer des recherches sur le web et analyser des URL pour enrichir votre documentation.
 </Accordion>
 
-<Accordion title="How does it access my existing docs?" icon="fa-search">
-  It can search through your project documentation and knowledge sources to find and incorporate relevant information.
+<Accordion title="Comment accède-t-il à mes docs existants ?" icon="fa-search">
+  Il peut effectuer des recherches dans la documentation de votre projet et dans vos sources de connaissances pour trouver et intégrer les informations pertinentes.
 </Accordion>
