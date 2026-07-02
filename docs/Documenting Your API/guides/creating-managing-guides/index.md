@@ -1,50 +1,50 @@
 ---
-title: Creating & Managing Guides
+title: Handleidingen aanmaken en beheren
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# Overview
+# Overzicht
 
-Let's dive into the nuts and bolts of organizing your documentation in ReadMe. From creating new guides to managing content over time, this guide will show you how to build and maintain a well-structured knowledge base that helps developers find exactly what they need, when they need it.
+Laten we ingaan op de details van het organiseren van je documentatie in ReadMe. Van het aanmaken van nieuwe handleidingen tot het beheren van content in de loop van de tijd: deze gids laat je zien hoe je een goed gestructureerde kennisbank opbouwt en onderhoudt die ontwikkelaars helpt precies te vinden wat ze nodig hebben, wanneer ze het nodig hebben.
 
-### Why Guides Matter
+### Waarom handleidingen belangrijk zijn
 
-Guides are the backbone of your developer documentation. While your API reference tells developers what's possible, guides show them how to be successful. Great guides:
+Handleidingen vormen de ruggengraat van je ontwikkelaarsdocumentatie. Terwijl je API-referentie ontwikkelaars vertelt wat er mogelijk is, laten handleidingen zien hoe ze succesvol kunnen zijn. Goede handleidingen:
 
-* Guide developers from novice to expert
-* Provide context that API references can't capture
-* Answer the "why" alongside the "how"
-* Solve real-world problems developers encounter
+* Begeleiden ontwikkelaars van beginner tot expert
+* Bieden context die API-referenties niet kunnen vastleggen
+* Beantwoorden het "waarom" naast het "hoe"
+* Lossen echte problemen op waar ontwikkelaars tegenaan lopen
 
-## Creating Your First Guide
+## Je eerste handleiding aanmaken
 
-### Creating Categories 📂
+### Categorieën aanmaken 📂
 
-Categories help you organize your documentation into logical sections, working like chapters in your API's story. Each category creates a natural break in your documentation's narrative, making it easier for developers to follow along.
+Categorieën helpen je documentatie te organiseren in logische secties, vergelijkbaar met hoofdstukken in het verhaal van je API. Elke categorie zorgt voor een natuurlijke overgang in de verhaallijn van je documentatie, waardoor het voor ontwikkelaars gemakkelijker wordt om de draad te volgen.
 
-1. Navigate to your documentation hub and toggle into **Edit Mode**.
-2. Click the **+ NEW CATEGORY** button in the sidebar navigation.
-3. Enter a name for your category (e.g., "Getting Started" or "Advanced Topics")
-4. Click **Enter** to save.
+1. Navigeer naar je documentatiehub en schakel over naar de **Bewerkmodus**.
+2. Klik op de knop **+ NIEUWE CATEGORIE** in de zijbalknavigatie.
+3. Voer een naam in voor je categorie (bijv. "Aan de slag" of "Geavanceerde onderwerpen")
+4. Klik op **Enter** om op te slaan.
 
-> 📘 User Experience
+> 📘 Gebruikerservaring
 >
-> Think about your developer's journey when naming categories. What would make the most sense to someone exploring your API for the first time? Consider organizing categories by skill level (beginner to advanced) or by use case.
+> Denk aan de reis van je ontwikkelaar bij het benoemen van categorieën. Wat zou het meest logisch zijn voor iemand die je API voor het eerst verkent? Overweeg categorieën te organiseren op vaardigheidsniveau (beginner tot gevorderd) of op gebruiksscenario.
 
-### Creating a Guide Page 📝
+### Een handleidingpagina aanmaken 📝
 
-Now that you've got your categories set up, let's add some pages:
+Nu je categorieën zijn ingesteld, gaan we pagina's toevoegen:
 
-1. In **Edit** mode, hover over a category and click the **+** button
-2. Fill in the essential details:
-   * **Title**: Make it clear and descriptive
-   * **Slug**: This will be the URL path (automatically generated, but you can customize it)
-   * **Hidden**: Toggle this on if you want to work on the guide before making it public
-3. Click **Save** to create your new guide
+1. Beweeg in de **Bewerk**modus over een categorie en klik op de **+** knop
+2. Vul de essentiële details in:
+   * **Titel**: Maak deze duidelijk en beschrijvend
+   * **Slug**: Dit wordt het URL-pad (automatisch gegenereerd, maar je kunt het aanpassen)
+   * **Verborgen**: Zet dit aan als je aan de handleiding wilt werken voordat je deze openbaar maakt
+3. Klik op **Opslaan** om je nieuwe handleiding aan te maken
 
-### Using the Editor UI ✏️
+### De editor-UI gebruiken ✏️
 
 <Image align="left" border={false} width="50% " src="https://files.readme.io/53c229bb50f36b2a6398894e5de72e9909397911c2deba6c77e629733e714a99-Editing_UI_-_view_to_edit_toggle.gif" />
 
@@ -60,49 +60,49 @@ Now that you've got your categories set up, let's add some pages:
 
 <br />
 
-With ReadMe's editing UI, you'll create and edit content directly on your hub. This means what you see is exactly what your developers will see.
+Met de bewerkings-UI van ReadMe maak en bewerk je content rechtstreeks op je hub. Dit betekent dat wat je ziet precies is wat je ontwikkelaars zullen zien.
 
-1. After creating your page, you'll be in the editor automatically
-2. Use the formatting toolbar for basic text styling
-3. Type `/` to access the command menu for inserting:
-   * Code blocks
+1. Na het aanmaken van je pagina ben je automatisch in de editor
+2. Gebruik de opmaakwerkbalk voor eenvoudige tekstopmaak
+3. Typ `/` om het opdrachtmenu te openen voor het invoegen van:
+   * Codeblokken
    * Callouts
-   * Images
-   * And more!
-4. Toggle between **Edit** and **View** modes to see exactly how your content will appear to developers
+   * Afbeeldingen
+   * En meer!
+4. Schakel tussen de modi **Bewerken** en **Bekijken** om precies te zien hoe je content er voor ontwikkelaars uitziet
 
 <Image align="center" border={false} src="https://files.readme.io/a106664539184b9eebb366fd2c51ed5ba10ca5c1224c0ce52a209dd8c08ac143-CleanShot_2024-11-08_at_20.24.59.gif" />
 
-> 📘 Complete control of your Markdown
+> 📘 Volledige controle over je Markdown
 >
-> ReadMe's Raw Mode lets you add new content and edit existing content directly in Markdown. Just open the three-dot menu next to the visibility settings and choose **Raw Mode**.
+> Met de Raw-modus van ReadMe kun je nieuwe content toevoegen en bestaande content rechtstreeks in Markdown bewerken. Open gewoon het menu met drie puntjes naast de zichtbaarheidsinstellingen en kies **Raw-modus**.
 
-## Structuring Effective Guides
+## Effectieve handleidingen structureren
 
-### The Anatomy of a Great Guide
+### De anatomie van een goede handleiding
 
-Successful guides follow a consistent structure that helps developers quickly understand and apply information:
+Succesvolle handleidingen volgen een consistente structuur die ontwikkelaars helpt informatie snel te begrijpen en toe te passen:
 
-1. **Clear Introduction**: What problem does this guide solve?
-2. **Prerequisites**: What should developers know or have before starting?
-3. **Step-by-Step Instructions**: Break down complex processes into manageable steps
-4. **Code Examples**: Show, don't just tell
-5. **Troubleshooting**: Address common issues and their solutions
-6. **Next Steps**: Where should developers go after completing this guide?
+1. **Duidelijke inleiding**: Welk probleem lost deze handleiding op?
+2. **Vereisten**: Wat moeten ontwikkelaars weten of hebben voordat ze beginnen?
+3. **Stapsgewijze instructies**: Verdeel complexe processen in beheersbare stappen
+4. **Codevoorbeelden**: Laat zien, vertel niet alleen
+5. **Probleemoplossing**: Behandel veelvoorkomende problemen en hun oplossingen
+6. **Volgende stappen**: Waar moeten ontwikkelaars naartoe na het voltooien van deze handleiding?
 
-### Writing for Developers
+### Schrijven voor ontwikkelaars
 
-When writing guides, remember that developers want to solve problems quickly:
+Onthoud bij het schrijven van handleidingen dat ontwikkelaars problemen snel willen oplossen:
 
-* **Be concise**: Get to the point and avoid unnecessary explanations
-* **Use code examples liberally**: Developers often understand code faster than prose
-* **Highlight important information**: Use callouts for warnings, tips, and important notes
-* **Break up text**: Use headings, lists, and short paragraphs to improve readability
-* **Use real-world examples**: Show code that solves actual problems
+* **Wees beknopt**: Kom ter zake en vermijd onnodige uitleg
+* **Gebruik ruimschoots codevoorbeelden**: Ontwikkelaars begrijpen code vaak sneller dan tekst
+* **Markeer belangrijke informatie**: Gebruik callouts voor waarschuwingen, tips en belangrijke opmerkingen
+* **Breek tekst op**: Gebruik koppen, lijsten en korte alinea's om de leesbaarheid te verbeteren
+* **Gebruik praktijkvoorbeelden**: Toon code die echte problemen oplost
 
-> 📘 Keep it Real
+> 📘 Blijf realistisch
 >
-> Use authentic code examples that demonstrate realistic implementations. If you're showing authentication, use a complete example with error handling. If you're demonstrating data retrieval, show how to process and use that data in a practical way. Real-world examples help developers bridge the gap between documentation and implementation.
+> Gebruik authentieke codevoorbeelden die realistische implementaties demonstreren. Als je authenticatie laat zien, gebruik dan een volledig voorbeeld met foutafhandeling. Als je gegevensophaling demonstreert, laat dan zien hoe je die gegevens op een praktische manier verwerkt en gebruikt. Praktijkvoorbeelden helpen ontwikkelaars de kloof tussen documentatie en implementatie te overbruggen.
 
 ```javascript
 // Good example - with meaningful comments and clear variable names
@@ -120,13 +120,13 @@ try {
 }
 ```
 
-## Enhancing Guides with MDX
+## Handleidingen verbeteren met MDX
 
-ReadMe now supports MDX (Markdown + JSX), giving you the power to create interactive documentation with reusable components.
+ReadMe ondersteunt nu MDX (Markdown + JSX), waarmee je interactieve documentatie kunt maken met herbruikbare componenten.
 
-### Basic MDX Components
+### Basis MDX-componenten
 
-Here's an example of our built-in MDX tab components you can use to enhance your guides:
+Hier is een voorbeeld van onze ingebouwde MDX-tabcomponenten die je kunt gebruiken om je handleidingen te verbeteren:
 
 <Tabs>
   <Tab title="Node.js">
@@ -148,94 +148,94 @@ Here's an example of our built-in MDX tab components you can use to enhance your
   </Tab>
 </Tabs>
 
-### Creating Reusable Content
+### Herbruikbare content aanmaken
 
-For content you'll use across multiple guides, [create reusable content blocks](doc:reusable-content)
+Voor content die je in meerdere handleidingen gebruikt, [maak herbruikbare contentblokken aan](doc:reusable-content)
 
-1. Navigate to **Content Settings** in the editing UI
-2. Select **Reusable Content**
-3. Create blocks for common elements like:
-   * API authentication steps
-   * Environment setup instructions
-   * Standard code patterns
-4. Insert them into any guide with the `/` command
+1. Navigeer naar **Contentinstellingen** in de bewerkings-UI
+2. Selecteer **Herbruikbare content**
+3. Maak blokken aan voor veelgebruikte elementen zoals:
+   * API-authenticatiestappen
+   * Instructies voor het instellen van de omgeving
+   * Standaard codepatronen
+4. Voeg ze in elke handleiding in met de opdracht `/`
 
-## Organizing Your Documentation
+## Je documentatie organiseren
 
-### Creating a Documentation Strategy
+### Een documentatiestrategie opstellen
 
-Before diving into individual guides, consider your overall documentation structure:
+Overweeg voordat je aan individuele handleidingen begint je algehele documentatiestructuur:
 
-1. **Map the developer journey**: What path do developers take from first sign-up to advanced usage?
-2. **Identify knowledge gaps**: Where do developers typically get stuck?
-3. **Create progressive learning paths**: How can each guide build on previous knowledge?
+1. **Breng de ontwikkelaarsreis in kaart**: Welk pad volgen ontwikkelaars van eerste aanmelding tot geavanceerd gebruik?
+2. **Identificeer kennishiaten**: Waar lopen ontwikkelaars typisch vast?
+3. **Maak progressieve leerpaden**: Hoe kan elke handleiding voortbouwen op eerder opgedane kennis?
 
-### Guide Types to Consider
+### Te overwegen handleidingtypen
 
-Different guides serve different purposes:
+Verschillende handleidingen dienen verschillende doelen:
 
-* **Getting Started**: Onboarding new developers
-* **Tutorials**: Step-by-step instructions for specific tasks
-* **Conceptual Guides**: Explaining complex ideas or architecture
-* **How-To Guides**: Focused instructions for specific features
-* **Troubleshooting**: Solutions to common problems
+* **Aan de slag**: Nieuwe ontwikkelaars inwerken
+* **Tutorials**: Stapsgewijze instructies voor specifieke taken
+* **Conceptuele handleidingen**: Complexe ideeën of architectuur uitleggen
+* **Instructiehandleidingen**: Gerichte instructies voor specifieke functies
+* **Probleemoplossing**: Oplossingen voor veelvoorkomende problemen
 
-## Maintaining Guides Over Time
+## Handleidingen in de loop van de tijd onderhouden
 
-### Keeping Content Fresh
+### Content actueel houden
 
-Documentation requires regular maintenance:
+Documentatie vereist regelmatig onderhoud:
 
-1. Schedule regular review cycles (quarterly works well)
-2. Update guides, and your changelog, when features change
-3. Watch for user feedback that indicates confusion
-4. Monitor analytics to see which guides need improvement
+1. Plan regelmatige reviewcycli (per kwartaal werkt goed)
+2. Werk handleidingen en je changelog bij wanneer functies veranderen
+3. Let op gebruikersfeedback die op verwarring wijst
+4. Monitor analyses om te zien welke handleidingen verbetering nodig hebben
 
-### Versioning Considerations
+### Overwegingen bij versiebeheer
 
-If your API has multiple versions:
+Als je API meerdere versies heeft:
 
-1. Use ReadMe's versioning feature to maintain separate documentation sets
-2. Clearly mark version-specific information
-3. Consider using callouts to highlight differences between versions
+1. Gebruik de versiefunctie van ReadMe om afzonderlijke documentatiesets bij te houden
+2. Markeer versiespecifieke informatie duidelijk
+3. Overweeg callouts te gebruiken om verschillen tussen versies te benadrukken
 
-## Collaborating with Git Integration
+## Samenwerken met Git-integratie
 
-With ReadMe's [bi-directional Git sync](doc:bi-directional-sync), you can now collaborate on documentation using familiar Git workflows:
+Met de [bidirectionele Git-synchronisatie](doc:bi-directional-sync) van ReadMe kun je nu samenwerken aan documentatie met vertrouwde Git-workflows:
 
-1. Connect your ReadMe project to GitHub/GitLab
-2. Edit documentation files directly in your repository
-3. Changes sync automatically to your ReadMe project
-4. Use pull requests and reviews for documentation changes
+1. Verbind je ReadMe-project met GitHub/GitLab
+2. Bewerk documentatiebestanden rechtstreeks in je repository
+3. Wijzigingen worden automatisch gesynchroniseerd met je ReadMe-project
+4. Gebruik pull requests en reviews voor documentatiewijzigingen
 
-## Measuring Success
+## Succes meten
 
-### Using Analytics
+### Analyses gebruiken
 
-ReadMe provides insights into how developers use your documentation:
+ReadMe biedt inzicht in hoe ontwikkelaars je documentatie gebruiken:
 
-1. Monitor page views to identify popular guides
-2. Track search queries to find missing information
-3. Use this data to prioritize documentation improvements
+1. Monitor paginaweergaven om populaire handleidingen te identificeren
+2. Volg zoekopdrachten om ontbrekende informatie te vinden
+3. Gebruik deze gegevens om verbeteringen aan de documentatie te prioriteren
 
-### Gathering Feedback
+### Feedback verzamelen
 
-Create feedback loops to continuously improve:
+Maak feedbacklussen om continu te verbeteren:
 
-1. Enable discussions on guides
-2. Regularly review questions and comments
-3. Update guides based on common questions
+1. Schakel discussies in handleidingen in
+2. Bekijk regelmatig vragen en opmerkingen
+3. Werk handleidingen bij op basis van veelgestelde vragen
 
-## Next Steps
+## Volgende stappen
 
-Now that you know how to create and manage guides in ReadMe, try:
+Nu je weet hoe je handleidingen in ReadMe aanmaakt en beheert, probeer dan:
 
-* Creating your first category and guide
-* Experimenting with MDX components
-* Setting up a documentation review process
-* Connecting your documentation to GitHub for collaborative editing
+* Je eerste categorie en handleiding aanmaken
+* Experimenteren met MDX-componenten
+* Een reviewproces voor documentatie opzetten
+* Je documentatie verbinden met GitHub voor gezamenlijk bewerken
 
-Need more help? Check out our other resources:
+Meer hulp nodig? Bekijk onze andere bronnen:
 
-* [MDX Documentation](doc:mdx)
-* [Bi-Directional Sync Setup](doc:bi-directional-sync)
+* [MDX-documentatie](doc:mdx)
+* [Bidirectionele synchronisatie instellen](doc:bi-directional-sync)
