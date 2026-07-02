@@ -282,7 +282,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Updates a pet in the store with form data",
+        "summary": "使用表单数据更新商店中的宠物",
         "description": "",
         "operationId": "updatePetWithForm",
         "parameters": [
