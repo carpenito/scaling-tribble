@@ -1,66 +1,66 @@
 ---
-title: Site Navigation
+title: Sitenavigatie
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-### URL Structure
+### URL-structuur
 
-The URL structure of your site will be subdomain/docs/page-slug. Only the subdomain and the page-slug can be changed. The docs and reference paths cannot be changed.
-
-<p class="blank-line" />
-
-### Top Navigation
-
-#### Left and Right Side Navigation
-
-In this section you can add links to different parts of your documentation as well as external links.
-
-#### Logo Link
-
-The default link for the logo will be your landing page, but you can also set it to your homepage URL from your [project settings](doc:project-settings).
-
-By default, all enabled sections of the documentation appear as links across the navigation. This can be customized to collapse all sections as a dropdown instead.
+De URL-structuur van uw site is subdomein/docs/pagina-slug. Alleen het subdomein en de pagina-slug kunnen worden gewijzigd. De docs- en referentiepaden kunnen niet worden gewijzigd.
 
 <p class="blank-line" />
 
-### Advanced
+### Bovenste navigatie
 
-#### First Page
+#### Linker- en rechternavigatie
 
-In this drop-down menu, you can select the first page that is shown when your users visit the site.
+In dit gedeelte kunt u links toevoegen naar verschillende onderdelen van uw documentatie, evenals externe links.
+
+#### Logolink
+
+De standaardlink voor het logo is uw landingspagina, maar u kunt deze ook instellen op de URL van uw startpagina via uw [projectinstellingen](doc:project-settings).
+
+Standaard verschijnen alle ingeschakelde secties van de documentatie als links in de navigatie. Dit kan worden aangepast zodat alle secties worden samengevouwen als een dropdown.
+
+<p class="blank-line" />
+
+### Geavanceerd
+
+#### Eerste pagina
+
+In dit vervolgkeuzemenu kunt u de eerste pagina selecteren die wordt weergegeven wanneer uw gebruikers de site bezoeken.
 
 <Image align="center" border={true} src="https://files.readme.io/aef201d-Screen_Shot_2020-10-20_at_4.37.37_PM.png" className="border" />
 
-#### Section Names
+#### Sectienamen
 
-The section names such Documentation can be changed here and it will propagate throughout your entire instance.
+De sectienamen, zoals Documentatie, kunnen hier worden gewijzigd en dit wordt doorgevoerd in uw gehele instantie.
 
 <Image border={false} src="https://files.readme.io/c697a7b-Screen_Shot_2023-04-20_at_12.35.19_PM.png" />
 
-#### Show Version
+#### Versie weergeven
 
-Checking this will have the version number included in your breadcrumb links. Turn this off if you would like to hide the version number.
+Als u dit aanvinkt, wordt het versienummer opgenomen in uw breadcrumb-links. Schakel dit uit als u het versienummer wilt verbergen.
 
 <Image align="center" border={true} src="https://files.readme.io/f002331-Screen_Shot_2020-10-20_at_4.38.12_PM.png" className="border" />
 
-#### Hide Table of Contents
+#### Inhoudsopgave verbergen
 
-Checking this will hide the automatically-generated table of contents.
+Als u dit aanvinkt, wordt de automatisch gegenereerde inhoudsopgave verborgen.
 
 <Image align="center" border={true} src="https://files.readme.io/1f3d249-Screen_Shot_2020-10-20_at_4.38.25_PM.png" className="border" />
 
 <p class="blank-line" />
 
-### Enable/Disable Sections
+### Secties in-/uitschakelen
 
-ReadMe has a lot of functionality, but not all of it applies to every company. If you want to disable a section (or re-enable once you are ready to use it), it's super easy to do so! Enable/disable sections under **Appearance > Site Navigation**.
+ReadMe heeft veel functionaliteit, maar niet alles is van toepassing op elk bedrijf. Als u een sectie wilt uitschakelen (of opnieuw wilt inschakelen wanneer u er klaar voor bent), is dat heel eenvoudig! Schakel secties in of uit via **Weergave > Sitenavigatie**.
 
 <Image align="center" alt="Disabling a section will remove it from the navigation bar and hide all its content from public view" border={true} caption="Disabling a section will remove it from the navigation bar and hide all its content from public view" src="https://files.readme.io/97cf63a-CleanShot_2022-10-15_at_09.14.142x.png" />
 
 <p class="blank-line" />
 
-> 📘 Note
+> 📘 Opmerking
 >
-> Custom Pages cannot be disabled. As long as you don't have any Custom Pages, they will not appear anywhere, so there is nothing to disable!
+> Aangepaste pagina's kunnen niet worden uitgeschakeld. Zolang u geen aangepaste pagina's heeft, verschijnen ze nergens, dus er valt niets uit te schakelen!
