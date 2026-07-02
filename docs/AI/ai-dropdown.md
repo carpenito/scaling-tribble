@@ -1,56 +1,56 @@
 ---
-title: AI Dropdown
+title: AI-dropdown
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# Overview
+# Overzicht
 
-The Ask AI Dropdown empowers your users with intelligent assistance directly within your documentation hub. This feature provides a suite of AI-powered tools and assistants that help users quickly find answers, understand complex concepts, generate code examples, and interact with your documentation in more meaningful ways - all without leaving your docs site.
+De AI-dropdown geeft uw gebruikers intelligente ondersteuning rechtstreeks binnen uw documentatiehub. Deze functie biedt een reeks AI-gestuurde tools en assistenten die gebruikers helpen snel antwoorden te vinden, complexe concepten te begrijpen, codevoorbeelden te genereren en op een betekenisvollere manier met uw documentatie te werken — allemaal zonder uw docs-site te verlaten.
 
-By integrating AI capabilities into your documentation, you can:
+Door AI-mogelijkheden in uw documentatie te integreren, kunt u:
 
-* Reduce support burden by enabling users to get immediate answers to their questions
-* Help developers understand complex API concepts through natural language explanations
-* Provide a more interactive and personalized documentation experience
+* De ondersteuningslast verminderen door gebruikers direct antwoord te geven op hun vragen
+* Ontwikkelaars helpen complexe API-concepten te begrijpen via uitleg in natuurlijke taal
+* Een interactievere en meer gepersonaliseerde documentatie-ervaring bieden
 
-The Ask AI Dropdown appears as an intuitive menu icon within your guides pages, creating a seamless extension of your documentation that enhances user comprehension and satisfaction.
+De AI-dropdown verschijnt als een intuïtief menupictogram op uw gidspagina's en vormt een naadloze uitbreiding van uw documentatie die het begrip en de tevredenheid van gebruikers vergroot.
 
 <Image align="right" border={false} src="https://files.readme.io/a27d31a3bc10a8a3878ebf69b0fcf613574b0a47e26bcf3306d01e33847be33e-Screenshot_2025-08-19_at_9.57.12_AM.png" />
 
-## How It Works
+## Hoe het werkt
 
-The Ask AI Dropdown is displayed as a menu icon in your guides pages. When clicked, it reveals a menu of AI tools and assistants that users can leverage to enhance their documentation experience.
+De AI-dropdown wordt weergegeven als een menupictogram op uw gidspagina's. Wanneer erop geklikt wordt, verschijnt er een menu met AI-tools en assistenten die gebruikers kunnen inzetten om hun documentatie-ervaring te verbeteren.
 
-The dropdown includes connections to sophisticated AI assistants that analyze and understand your documentation content, as well as utility tools that help users work with AI-generated content in their workflow.
+De dropdown bevat verbindingen met geavanceerde AI-assistenten die uw documentatie-inhoud analyseren en begrijpen, evenals hulptools die gebruikers helpen met AI-gegenereerde inhoud in hun workflow.
 
-## Getting Started
+## Aan de slag
 
 #### ReadMe Refactored
 
-1. Click the AI Settings (Sparkle Icon) in the top right.
-2. Toggle **Enable AI Dropdown** to **ON**.
-3. Select which AI tools to include.
-4. Click **Save**.
+1. Klik op AI-instellingen (Sparkle-pictogram) rechtsboven.
+2. Zet **AI-dropdown inschakelen** op **AAN**.
+3. Selecteer welke AI-tools u wilt opnemen.
+4. Klik op **Opslaan**.
 
 #### ReadMe Legacy
 
-1. Go to **Configuration** > **AI Features**.
-2. Toggle **Enable AI Dropdown** to **ON**
-3. Select which AI tools to include.
-4. Click **Save**.
+1. Ga naar **Configuratie** > **AI-functies**.
+2. Zet **AI-dropdown inschakelen** op **AAN**.
+3. Selecteer welke AI-tools u wilt opnemen.
+4. Klik op **Opslaan**.
 
-## Available Tools
+## Beschikbare tools
 
-* **ChatGPT Integration**: Leverage OpenAI's powerful language model, trained on your documentation content, to answer user questions, explain concepts, and generate code examples specific to your API. This tool excels at providing detailed explanations and step-by-step guidance based on your documentation.
+* **ChatGPT-integratie**: Maak gebruik van het krachtige taalmodel van OpenAI, getraind op uw documentatie-inhoud, om gebruikersvragen te beantwoorden, concepten uit te leggen en codevoorbeelden te genereren die specifiek zijn voor uw API. Deze tool blinkt uit in het geven van gedetailleerde uitleg en stapsgewijze begeleiding op basis van uw documentatie.
 
-* **Claude Integration**: Offer users access to Anthropic's conversational AI assistant that provides nuanced, helpful responses to questions about your documentation. Claude is particularly skilled at understanding context and providing thoughtful explanations of complex technical concepts.
+* **Claude-integratie**: Bied gebruikers toegang tot de conversationele AI-assistent van Anthropic, die genuanceerde en behulpzame antwoorden geeft op vragen over uw documentatie. Claude is bijzonder goed in het begrijpen van context en het geven van doordachte uitleg bij complexe technische concepten.
 
-* **Microsoft Copilot**: Enable your users to leverage Microsoft's AI assistant to generate code samples and implementation suggestions based on your documentation. This tool combines the power of GPT-4 with Microsoft's extensive development knowledge to help developers quickly implement your API in their projects with syntactically correct, best-practice code.
+* **Microsoft Copilot**: Stel uw gebruikers in staat om de AI-assistent van Microsoft te gebruiken voor het genereren van codevoorbeelden en implementatiesuggesties op basis van uw documentatie. Deze tool combineert de kracht van GPT-4 met de uitgebreide ontwikkelkennis van Microsoft om ontwikkelaars te helpen uw API snel te implementeren in hun projecten met syntactisch correcte code volgens best practices.
 
-* **Copy Markdown**: Allow users to easily copy content from your documentation in markdown format, making it simple to paste into other AI tools, IDEs, or documents while preserving formatting.
+* **Markdown kopiëren**: Laat gebruikers eenvoudig inhoud uit uw documentatie kopiëren in markdown-formaat, zodat ze dit gemakkelijk kunnen plakken in andere AI-tools, IDE's of documenten met behoud van de opmaak.
 
-* **View as Markdown**: Enable users to see the underlying markdown structure of your documentation pages, which is particularly helpful for developers who want to understand how to structure similar content or reference your documentation style.
+* **Bekijken als Markdown**: Stel gebruikers in staat de onderliggende markdown-structuur van uw documentatiepagina's te bekijken. Dit is met name handig voor ontwikkelaars die willen begrijpen hoe ze vergelijkbare inhoud kunnen structureren of uw documentatiestijl als referentie willen gebruiken.
 
-By providing these AI tools directly within your documentation, you create a more interactive, self-service experience that helps users get the most out of your API with minimal friction.
+Door deze AI-tools rechtstreeks in uw documentatie aan te bieden, creëert u een interactievere, zelfbedieningservaring die gebruikers helpt het maximale uit uw API te halen met minimale wrijving.
