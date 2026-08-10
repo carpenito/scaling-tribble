@@ -1,5 +1,5 @@
 ---
-title: Rechercher des animaux par statut
+title: Trouver des animaux par statut
 excerpt: >-
   Plusieurs valeurs de statut peuvent être fournies sous forme de chaînes
   séparées par des virgules
