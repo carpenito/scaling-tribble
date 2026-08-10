@@ -718,7 +718,7 @@
         "tags": [
           "user"
         ],
-        "summary": "退出当前已登录的用户会话",
+        "summary": "退出当前已登录的用户会",
         "description": "",
         "operationId": "logoutUser",
         "responses": {
