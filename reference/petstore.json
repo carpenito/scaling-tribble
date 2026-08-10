@@ -634,7 +634,7 @@
         "tags": [
           "user"
         ],
-        "summary": "Maakt een lijst van gebruikers met de opgegeven invoerarray",
+        "summary": "Maakt een lijst van gebruikers met de opgegeven invoer",
         "description": "",
         "operationId": "createUsersWithListInput",
         "requestBody": {
