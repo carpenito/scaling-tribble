@@ -50,7 +50,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Ajouter un nouvel animal au magasin",
+        "summary": "Ajouter un nouvel animal au de compagnie au",
         "description": "",
         "operationId": "addPet",
         "requestBody": {
