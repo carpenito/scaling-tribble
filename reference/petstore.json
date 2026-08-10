@@ -282,7 +282,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Updates a pet in the store with form data",
+        "summary": "Met à jour un animal dans le magasin avec des données de données de formulaire",
         "description": "",
         "operationId": "updatePetWithForm",
         "parameters": [
