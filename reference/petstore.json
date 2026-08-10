@@ -652,7 +652,7 @@
         "tags": [
           "user"
         ],
-        "summary": "Logs user into the system",
+        "summary": "Connecte l'utilisateur au",
         "description": "",
         "operationId": "loginUser",
         "parameters": [
