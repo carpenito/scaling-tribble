@@ -473,7 +473,7 @@
         "tags": [
           "store"
         ],
-        "summary": "Place an order for a pet",
+        "summary": "Plaats een bestelling voor een huisdier",
         "description": "",
         "operationId": "placeOrder",
         "requestBody": {
