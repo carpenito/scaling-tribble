@@ -652,7 +652,7 @@
         "tags": [
           "user"
         ],
-        "summary": "Logs user into the system",
+        "summary": "Logt gebruiker in op het in",
         "description": "",
         "operationId": "loginUser",
         "parameters": [
