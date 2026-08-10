@@ -733,7 +733,7 @@
         "tags": [
           "user"
         ],
-        "summary": "Get user by user name",
+        "summary": "通过用户名获取用户",
         "description": "",
         "operationId": "getUserByName",
         "parameters": [
