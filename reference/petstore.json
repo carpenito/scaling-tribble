@@ -334,7 +334,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Deletes a pet",
+        "summary": "Verwijdert een huisdier",
         "description": "",
         "operationId": "deletePet",
         "parameters": [
