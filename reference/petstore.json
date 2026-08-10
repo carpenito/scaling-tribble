@@ -442,8 +442,8 @@
         "tags": [
           "store"
         ],
-        "summary": "Returns pet inventories by status",
-        "description": "Returns a map of status codes to quantities",
+        "summary": "Retourne les inventaires d'animaux de compagnie par statut",
+        "description": "Retourne une carte des codes de statut avec leurs quantités",
         "operationId": "getInventory",
         "responses": {
           "200": {
