@@ -282,7 +282,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Updates a pet in the store with form data",
+        "summary": "Werkt een huisdier in de winkel bij met formulier",
         "description": "",
         "operationId": "updatePetWithForm",
         "parameters": [
