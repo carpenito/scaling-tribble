@@ -442,7 +442,7 @@
         "tags": [
           "store"
         ],
-        "summary": "Geeft huisdiervoorraden terug per status",
+        "summary": "Geeft huisdiervoorraden terug status",
         "description": "Geeft een overzicht van statuscodes met bijbehorende aantallen",
         "operationId": "getInventory",
         "responses": {
