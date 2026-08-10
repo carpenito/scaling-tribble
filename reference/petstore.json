@@ -775,8 +775,8 @@
         "tags": [
           "user"
         ],
-        "summary": "Updated user",
-        "description": "This can only be done by the logged in user.",
+        "summary": "更新用户",
+        "description": "此操作只能由已登录的用户执行。",
         "operationId": "updateUser",
         "parameters": [
           {
