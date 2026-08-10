@@ -514,8 +514,8 @@
         "tags": [
           "store"
         ],
-        "summary": "Find purchase order by ID",
-        "description": "For valid response try integer IDs with value >= 1 and <= 10. Other values will generated exceptions",
+        "summary": "Zoek aankooporder op",
+        "description": "Voor een geldig antwoord kunt u gehele getallen als ID gebruiken met een waarde >= 1 en <= 10. Andere waarden zullen uitzonderingen genereren",
         "operationId": "getOrderById",
         "parameters": [
           {
