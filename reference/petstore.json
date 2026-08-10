@@ -616,7 +616,7 @@
         "tags": [
           "user"
         ],
-        "summary": "Creates list of users with given input array",
+        "summary": "根据给定输入数组创建用户",
         "description": "",
         "operationId": "createUsersWithArrayInput",
         "requestBody": {
