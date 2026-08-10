@@ -74,7 +74,7 @@
         "tags": [
           "pet"
         ],
-        "summary": "Update an existing Rigatoni",
+        "summary": "更新现有的 Rigatoni",
         "description": "",
         "operationId": "updatePet",
         "requestBody": {
