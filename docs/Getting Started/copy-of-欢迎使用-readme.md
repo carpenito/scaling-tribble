@@ -1,15 +1,17 @@
 ---
-title: Copy of 欢迎使用 ReadMe
+title: Copy of 欢迎使用 ReadMe v1.0
 excerpt: 帮助您创建让 API 易于使用和维护的文档。
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   title: 欢迎，Stella
   robots: index
 ---
 STELLA ROSE ROSE ROSE
 
-<Cards columns={3}>
+<Cards columns="3">
   <Card title="快速入门" href="https://docs.readme.com/main/docs/quickstart" icon="fa-rocket-launch">
     了解如何编写和发布文档
   </Card>
@@ -25,11 +27,11 @@ STELLA ROSE ROSE ROSE
 
 <br />
 
-<Anchor label="administration" target="_blank" href="/administration/docs/myjfrog-for-self-hosted">administration</Anchor>
+<Anchor target="_blank" href="/administration/docs/myjfrog-for-self-hosted">administration</Anchor>
 
 ## 最新发布
 
-<Cards columns={3}>
+<Cards columns="3">
   <Card title="AI 分支审查" href="https://docs.readme.com/main/docs/branches" icon="fa-magnifying-glass">
     在合并前使用 AI Linter 审查分支
   </Card>
@@ -73,7 +75,7 @@ STELLA ROSE ROSE ROSE
 
 ## ReadMe 基础
 
-<Cards columns={3}>
+<Cards columns="3">
   <Card title="重构" href="https://docs.readme.com/main/docs/migration-moving-your-docs-to-their-new-home" icon="fa-box-open">
     将您的文档升级到新版 ReadMe
   </Card>
@@ -125,7 +127,7 @@ STELLA ROSE ROSE ROSE
 
 ## 企业版
 
-<Cards columns={3}>
+<Cards columns="3">
   <Card title="群组概览" href="https://docs.readme.com/ent/docs/enterprise-group-overview" icon="fa-layer-group">
     管理您的项目和全局设置
   </Card>
@@ -141,7 +143,7 @@ STELLA ROSE ROSE ROSE
 
 ## 获取支持并保持更新
 
-<Cards columns={2}>
+<Cards columns="2">
   <Card title="ReadMe 社区" href="https://readme.com/slack" icon="fa-comments">
     获取发布文档的帮助，并与 ReadMe 用户交流。
   </Card>
@@ -151,15 +153,15 @@ STELLA ROSE ROSE ROSE
   </Card>
 </Cards>
 
-<Cards columns={2}>
+<Cards columns="2">
   <Card title="支持" href="https://docs.readme.com/main/docs/need-more-support">
-    <img src="https://files.readme.io/70d42a5e2dd38b4384f1ba5fcb81572d534e492a70421d6d8013f7b6b0aecbc7-support_1.webp" alt="" />
+      <img src="https://files.readme.io/70d42a5e2dd38b4384f1ba5fcb81572d534e492a70421d6d8013f7b6b0aecbc7-support_1.webp" alt="" />
 
     联系我们的支持团队或提交新功能请求。
   </Card>
 
   <Card title="更新日志" href="https://docs.readme.com/main/changelog">
-    <img src="https://files.readme.io/2e19c90682aa5e4c722ea2b122c90b9612abf4a489d2d2028da25a18b70bc13c-Changelog_7.webp" alt="" />
+      <img src="https://files.readme.io/2e19c90682aa5e4c722ea2b122c90b9612abf4a489d2d2028da25a18b70bc13c-Changelog_7.webp" alt="" />
 
     阅读有关新功能、改进和错误修复的内容。
   </Card>
