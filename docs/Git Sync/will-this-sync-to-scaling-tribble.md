@@ -6,3 +6,6 @@ icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
+<Callout icon="📘" theme="info">
+  hello
+</Callout>
