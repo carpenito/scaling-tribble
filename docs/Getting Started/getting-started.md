@@ -16,9 +16,11 @@ Welcome to your AI-powered, Git-backed developer hub. This starter page will hel
 
 ## ✍️ Write Docs with Components
 
-Create <Anchor label="**Guides**" target="_blank" href="https://docs.readme.com/main/docs/creating-and-managing-guides">**Guides**</Anchor> to walk users through key concepts and tutorials. Use ReadMe's MDX editor to combine Markdown with custom components like `<Card>`, `<Tab>`, and `<Accordion>`.
+Create <Anchor target="_blank" href="https://docs.readme.com/main/docs/creating-and-managing-guides">**Guides**</Anchor> to walk users through key concepts and tutorials. Use ReadMe's MDX editor to combine Markdown with custom components like `<Card>`, `<Tab>`, and `<Accordion>`.
 
-<Cards columns={3}>
+<Glossary>parliament</Glossary>
+
+<Cards columns="3">
   <Card title="Component Marketplace" href="https://github.com/readmeio/marketplace/tree/main/components" icon="fa-store" target="_blank">
     Drop in and customize components.
   </Card>
@@ -36,7 +38,7 @@ Create <Anchor label="**Guides**" target="_blank" href="https://docs.readme.com/
 
 ## 🤖 Add AI Features
 
-Access AI tools by clicking **:sparkles:AI** in your top navigation:
+Access AI tools by clicking :sparkles:**AI** in your top navigation:
 
 * **AI Agent** - Draft documentation, translate pages, apply style guides
 * **MCP Server** - Convert API docs into AI-readable resources
@@ -47,7 +49,7 @@ Access AI tools by clicking **:sparkles:AI** in your top navigation:
 
 ## 🌿 Work with Branches
 
-<Anchor label="Branches" target="_blank" href="https://docs.readme.com/main/docs/branches">Branches</Anchor> bring Git-style workflows to documentation:
+<Anchor target="_blank" href="https://docs.readme.com/main/docs/branches">Branches</Anchor> bring Git-style workflows to documentation:
 
 * Draft changes without publishing immediately
 * Review and preview updates before going live
@@ -58,14 +60,14 @@ Access AI tools by clicking **:sparkles:AI** in your top navigation:
 
 ## 🔁 Sync with Git
 
-* **[Bi-Directional GitHub Sync](https://docs.readme.com/main/docs/bi-directional-sync)** - Connect your GitHub repo for seamless collaboration
+* [Bi-Directional GitHub Sync](https://docs.readme.com/main/docs/bi-directional-sync) - Connect your GitHub repo for seamless collaboration
 * **OpenAPI Sync** - Use [`rdme`](https://docs.readme.com/docs/rdme#upload) or the API to keep your API Reference updated
 
 ***
 
 ## 👀 Monitor Usage
 
-Track how developers use your API and docs with <Anchor label="My Developers" target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">My Developers</Anchor>. Set up the <Anchor label="webhook" target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">webhook</Anchor> and integrate the [Metrics SDK](https://docs.readme.com/main/docs/sending-api-logs).
+Track how developers use your API and docs with <Anchor target="_blank" href="https://docs.readme.com/main/docs/developer-dashboard">My Developers</Anchor>. Set up the <Anchor target="_blank" href="https://docs.readme.com/main/docs/personalized-docs-webhook">webhook</Anchor> and integrate the [Metrics SDK](https://docs.readme.com/main/docs/sending-api-logs).
 
 ***
 
@@ -73,7 +75,7 @@ Track how developers use your API and docs with <Anchor label="My Developers" ta
 
 1. Create your first Guide or sync your OpenAPI file
 2. [Connect GitHub for bi-directional sync](/docs/getting-started#/settings/git-connection/github)
-3. Set up your <Anchor label="MCP server" target="_blank" href="https://docs.readme.com/main/docs/mcp-servers">MCP server</Anchor>
+3. Set up your <Anchor target="_blank" href="https://docs.readme.com/main/docs/mcp-servers">MCP server</Anchor>
 4. Check **My Developers** to understand your audience
 
 ***
@@ -84,22 +86,12 @@ Track how developers use your API and docs with <Anchor label="My Developers" ta
 
 ## 💬 Need Help?
 
-Our team is here to support you. If you get stuck, [email us](mailto:support@readme.io) or open the Intercom widget on any page to chat with someone from our team. We've also got a <Anchor label="Slack community" target="_blank" href="https://readme.com/slack">Slack community</Anchor> if you want to say hi to the team and connect with other ReadMe users!
+Our team is here to support you. If you get stuck, [email us](mailto:support@readme.io) or open the Intercom widget on any page to chat with someone from our team. We've also got a <Anchor target="_blank" href="https://readme.com/slack">Slack community</Anchor> if you want to say hi to the team and connect with other ReadMe users!
 
 <br />
 
-[comment]: <> "This is a comment, it will not be included"
-
-[comment]: <> "in  the output file unless you use it in"
-
-[comment]: <> "a reference style link."
-
 <br />
-
-[//]: # "This may be the most platform independent comment"
 
 <br />
 
 <ChangelogWidget feedUrl="https://sales-translations.readme.io/demo/changelog.rss" position="bottom-right" maxItems={20} badgeMode="unread" excerptMaxChars={160} newIsYoungerThanDays={30} useProxy={true} adminOnly={false} />
-
-<br />
