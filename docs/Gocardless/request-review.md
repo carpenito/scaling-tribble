@@ -1,8 +1,10 @@
 ---
 title: Request Review
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-rocket-launch
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
