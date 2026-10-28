@@ -1,15 +1,15 @@
 ---
-title: New Page
+title: Nueva página
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-This is a new page
+Esta es una nueva página
 
 <br />
 
-Happy Holidays! 
+¡Felices fiestas!
 
 [Stella Rose](doc:stella-rose)
