@@ -3,7 +3,7 @@ name: FusionChartInstallation
 ---
 <Tabs>
   <Tab title="NPM">
-    **To install the`fusioncharts` package via npm run the command below:**
+    **Para instalar el paquete `fusioncharts` mediante npm, ejecuta el siguiente comando:**
 
     ```powershell
     npm install fusioncharts
@@ -11,14 +11,14 @@ name: FusionChartInstallation
   </Tab>
 
   <Tab title="CDN">
-    **To install the FusionCharts Suite follow the steps below:**
+    **Para instalar FusionCharts Suite, sigue los pasos a continuación:**
 
-    1. Include the **FusionCharts** JavaScript files from CDN.
-    2. Include the FusionCharts map renderer.
-    3. Include the map definition file.
-    4. Include the FusionCharts theme file to apply style to the charts.
+    1. Incluye los archivos JavaScript de **FusionCharts** desde la CDN.
+    2. Incluye el renderizador de mapas de FusionCharts.
+    3. Incluye el archivo de definición del mapa.
+    4. Incluye el archivo de temas de FusionCharts para aplicar estilo a los gráficos.
 
-    The code is shown below:
+    El código se muestra a continuación:
 
     ```html
     <head>
@@ -34,15 +34,15 @@ name: FusionChartInstallation
     ```
   </Tab>
 
-  <Tab title="Local Files">
-    **To install the FusionCharts Suite follow the steps below:**
+  <Tab title="Archivos locales">
+    **Para instalar FusionCharts Suite, sigue los pasos a continuación:**
 
-    1. Include the **FusionCharts** JavaScript files, which can be downloaded from [here](https://www.fusioncharts.com/download/fusioncharts-suite-xt).
-    2. Include the FusionCharts map renderer.
-    3. Include the map definition file.
-    4. Include the FusionCharts theme file to apply style to the charts.
+    1. Incluye los archivos JavaScript de **FusionCharts**, que se pueden descargar desde [aquí](https://www.fusioncharts.com/download/fusioncharts-suite-xt).
+    2. Incluye el renderizador de mapas de FusionCharts.
+    3. Incluye el archivo de definición del mapa.
+    4. Incluye el archivo de temas de FusionCharts para aplicar estilo a los gráficos.
 
-    The code is shown below:
+    El código se muestra a continuación:
 
     ```html
     <head>
