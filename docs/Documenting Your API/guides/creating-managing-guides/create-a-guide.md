@@ -1,6 +1,6 @@
 ---
-title: Create a Guide
-excerpt: 'How to create your first guide! '
+title: Crear una guía
+excerpt: '¡Cómo crear tu primera guía! '
 deprecated: false
 hidden: false
 metadata:
