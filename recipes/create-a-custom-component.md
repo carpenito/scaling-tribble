@@ -1,12 +1,12 @@
 ---
-title: Create a Custom Component
+title: Crear un componente personalizado
 description: >-
-  Recipe DescriptioThis recipe walks through creating a simple reusable styled
-  container that you can use throughout your documentation.
+  Descripción de la receta: esta receta explica cómo crear un contenedor con
+  estilos, simple y reutilizable, que puedes usar en toda tu documentación.
 
 
-  Just wrap any content with ExampleComponent tags, and it will appear in a nice
-  dark gray box!n
+  ¡Simplemente envuelve cualquier contenido con etiquetas ExampleComponent y
+  aparecerá en una atractiva caja gris oscura!
 hidden: false
 recipe:
   color: '#018FF4'
@@ -32,32 +32,32 @@ export const ExampleComponent = ({ children }) => {
 {"success":true}
 ```
 
-# Create an ExampleComponent
+# Crear un ExampleComponent
 
 <!-- java@1 -->
 
-We're creating a React component called ExampleComponent.
+Estamos creando un componente de React llamado ExampleComponent.
 
-The export keyword makes this component available for import elsewhere
+La palabra clave export hace que este componente esté disponible para su importación en otros lugares
 
-({ children }) uses destructuring to access any content placed between the component's opening and closing tags.
+({ children }) utiliza la desestructuración para acceder a cualquier contenido ubicado entre las etiquetas de apertura y cierre del componente.
 
-# Structuring the Component
+# Estructurar el componente
 
 <!-- java@2-8 -->
 
-return (...) defines what the component will render, while the outer <div> uses Tailwind CSS classes to center its content and take up full width and height.
+return (...) define lo que renderizará el componente, mientras que el <div> exterior utiliza clases de Tailwind CSS para centrar su contenido y ocupar todo el ancho y alto.
 
-The inner <div> creates a dark gray box with rounded corners and padding
+El <div> interior crea una caja gris oscura con esquinas redondeadas y espaciado interno
 
-{children} is where the magic happens—this will render whatever content you place between your component tags.
+{children} es donde ocurre la magia: esto renderizará cualquier contenido que coloques entre las etiquetas de tu componente.
 
-# Using the Component
+# Usar el componente
 
 <!-- java@11-13 -->
 
-The <ExampleComponent> opens the component.
+El <ExampleComponent> abre el componente.
 
-The text between the tags becomes the children prop
+El texto entre las etiquetas se convierte en la prop children
 
-Lastly, the </ExampleComponent> closes the component.
+Por último, el </ExampleComponent> cierra el componente.
