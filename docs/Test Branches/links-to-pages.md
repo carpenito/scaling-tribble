@@ -1,32 +1,34 @@
 ---
-title: Links to Pages
+title: Enlaces a páginas
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-## Internal Links
+## Enlaces internos {#internal-links}
 
-To create a link between pages, start by typing `[` and a scrollable menu of available pages to link to will appear. As you continue typing more characters, relevant internal page link options will appear.
+Para crear un enlace entre páginas, empieza escribiendo `[` y aparecerá un menú desplazable con las páginas disponibles a las que puedes enlazar. A medida que continúes escribiendo más caracteres, aparecerán opciones relevantes de enlaces a páginas internas.
 
 <Image align="center" border={true} src="https://files.readme.io/cff6bf4-link_to_pages.gif" className="border" />
 
-The resulting Markdown will look like this:
+El Markdown resultante se verá así:
 
 <Image align="center" border={true} src="https://files.readme.io/9b34336-CleanShot_2022-10-18_at_11.19.16.gif" className="border" />
 
-And end up looking like the link above to users!
+¡Y para los usuarios terminará viéndose como el enlace de arriba!
 
-> 📘 Internal links only work within one project.
->
-> If you link across multiple projects, you must use standard hyperlinks.
+<Callout icon="📘" theme="info">
+  ### Los enlaces internos solo funcionan dentro de un solo proyecto. {#internal-links-only-work-within-one-project}
+
+  Si enlazas entre varios proyectos, debes usar hipervínculos estándar.
+</Callout>
 
  
 
-## Anchor Links
+## Enlaces de anclaje {#anchor-links}
 
-All section headers include an anchor link. The format is `#header-name`. So for example this [link](doc:linking-to-pages#anchor-links) will bring you back to this section:
+Todos los encabezados de sección incluyen un enlace de anclaje. El formato es `#header-name`. Por ejemplo, este [enlace](doc:linking-to-pages#anchor-links) te llevará de vuelta a esta sección:
 
 ```
 [link](doc:linking-to-pages#anchor-links)
@@ -34,27 +36,27 @@ All section headers include an anchor link. The format is `#header-name`. So for
 
  
 
-## External Links
+## Enlaces externos {#external-links}
 
-### Inline Linking
+### Enlaces en línea {#inline-linking}
 
-To link inline, type the text you want to link within brackets, `[x]`, followed directly by the link URL within parentheses, `(y)`.
+Para enlazar en línea, escribe el texto que deseas enlazar entre corchetes, `[x]`, seguido directamente de la URL del enlace entre paréntesis, `(y)`.
 
-Links look like this in the Markdown editor:
+Los enlaces se ven así en el editor de Markdown:
 
 ```
 [ReadMe](readme.com)
 ```
 
-And result in a link that looks like this: [ReadMe](https://readme.com/)
+Y dan como resultado un enlace que se ve así: [ReadMe](https://readme.com/)
 
  
 
-### Reference-Style Linking
+### Enlaces de estilo referencia {#reference-style-linking}
 
-Reference-style linking allows you to give a link a number or "name" and refer to it multiple times.
+Los enlaces de estilo referencia te permiten asignarle a un enlace un número o "nombre" y hacer referencia a él varias veces.
 
-For example, if you type the below in your dash:
+Por ejemplo, si escribes lo siguiente en tu panel:
 
 ```
 When I first research something I look at [Wikipedia][1] then at [Google][2] then [Wookiepedia][3].
@@ -64,9 +66,9 @@ When I first research something I look at [Wikipedia][1] then at [Google][2] the
 [3]: https://starwars.fandom.com      "Wookiepedia"
 ```
 
-...the links will look like this in your Hub:
+...los enlaces se verán así en tu Hub:
 
-When I first research something I look at [Wikipedia][1] then at [Google][2] then [Wookiepedia][3].
+Cuando investigo algo por primera vez, consulto \[Wikipedia]\[1], luego \[Google]\[2] y después \[Wookiepedia]\[3].
 
 [1]: https://wikipedia.org "Wikipedia"
 
@@ -76,17 +78,17 @@ When I first research something I look at [Wikipedia][1] then at [Google][2] the
 
  
 
-## Open Links in New Tab
+## Abrir enlaces en una nueva pestaña {#open-links-in-new-tab}
 
-Markdown and [RDMD](https://docs.readme.com/rdmd/docs/) currently do not have a way to define the target for a link. Instead, standard HTML will need to be used to open links in a new tab.
+Actualmente, Markdown y [RDMD](https://docs.readme.com/rdmd/docs/) no tienen una forma de definir el destino de un enlace. En su lugar, se deberá usar HTML estándar para abrir enlaces en una nueva pestaña.
 
-The HTML syntax is `target="_blank"`, which is used like this within the `<a>` tag:
+La sintaxis HTML es `target="_blank"`, que se utiliza de esta manera dentro de la etiqueta `<a>`:
 
 ```html
 <a href="https://readme.com/" target="_blank">ReadMe</a>
 ```
 
-This can be combined with our `doc:page` syntax to open [links to pages within the same project](doc:linking-to-pages#internal-links) like so:
+Esto se puede combinar con nuestra sintaxis `doc:page` para abrir [enlaces a páginas dentro del mismo proyecto](doc:linking-to-pages#internal-links) de esta manera:
 
 ```html
 <a href="doc:intro-to-readme" target="_blank">Introduction</a>
@@ -94,16 +96,16 @@ This can be combined with our `doc:page` syntax to open [links to pages within t
 
  
 
-## Validating Links
+## Validación de enlaces {#validating-links}
 
-ReadMe supports several third-party tools to automatically find broken links in a documentation project, One service we suggest is the [W3C Validator](https://validator.w3.org/checklink). No login required. For the **URL** field, enter your doc's custom domain. Select **Hide redirects** and select **Check linked documents recursively**. Leave recursion depth blank.
+ReadMe admite varias herramientas de terceros para encontrar automáticamente enlaces rotos en un proyecto de documentación. Un servicio que sugerimos es el [W3C Validator](https://validator.w3.org/checklink). No se requiere iniciar sesión. Para el campo **URL**, introduce el dominio personalizado de tu documentación. Selecciona **Ocultar redirecciones** y selecciona **Comprobar documentos enlazados de forma recursiva**. Deja en blanco la profundidad de recursión.
 
-The results will only show links that are broken, not on **which** pages those links occur, or how many times the broken links occur,
+Los resultados solo mostrarán los enlaces que estén rotos, no en **qué** páginas aparecen esos enlaces ni cuántas veces aparecen los enlaces rotos,
 
  
 
-## What's Next
+## Próximos pasos {#whats-next}
 
-You can use the **What's Next** section at the bottom of the page to link to relevant pages within your project and/or relevant external links. You can also add a description to provide more context.
+Puedes usar la sección **Próximos pasos** en la parte inferior de la página para enlazar a páginas relevantes dentro de tu proyecto y/o a enlaces externos relevantes. También puedes añadir una descripción para proporcionar más contexto.
 
 <Image align="center" border={true} src="https://files.readme.io/1ae72b6-New_Whats_Next.gif" className="border" />
