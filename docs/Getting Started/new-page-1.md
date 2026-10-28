@@ -1,5 +1,5 @@
 ---
-title: New Page
+title: Nueva página
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
