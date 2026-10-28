@@ -1,5 +1,5 @@
 ---
-title: this is crazy
+title: esto es una locura
 deprecated: false
 hidden: true
 link:
