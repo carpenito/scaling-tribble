@@ -1,6 +1,6 @@
 ---
-title: Kirby Enhancement Feb 10th 2026
-excerpt: WOW
+title: Mejora de Kirby del 10 de febrero de 2026
+excerpt: ¡GUAU!
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
@@ -8,16 +8,16 @@ metadata:
   robots: index
 ---
 <Tabs>
-  <Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
+  <Tab title="Primera pestaña">
+    Te damos la bienvenida al contenido que solo puedes ver dentro de la primera pestaña.
   </Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
+  <Tab title="Segunda pestaña">
+    Aquí tienes contenido que solo está dentro de la segunda pestaña.
   </Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
+  <Tab title="Tercera pestaña">
+    Aquí tienes contenido que solo está dentro de la tercera pestaña.
   </Tab>
 </Tabs>
 
@@ -55,7 +55,7 @@ fun main() {
   </Column>
 
   <Column>
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+    _Lorem ipsum dolor sit amet, consectetur adipiscing elit_
   </Column>
 
   <Column>
