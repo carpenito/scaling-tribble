@@ -5,49 +5,49 @@ hidden: false
 metadata:
   robots: index
 ---
-## Overview
+## Descripción general {#overview}
 
-With our new [LLMs.txt](https://llmstxt.org/) feature, you can teach AI models how to properly understand and represent your API documentation. This allows you to provide the context that AI assistants like ChatGPT or Claude need to accurately answer questions about your API without hallucinating (making things up). Setting it up takes literally seconds – just flip a toggle and we'll generate the configuration file automatically. Behind the scenes, we're creating metadata that helps AI systems understand your documentation's structure, terminology, and most up-to-date information. LLMs.txt is available on all plans.
+Con nuestra nueva función [LLMs.txt](https://llmstxt.org/), puedes enseñar a los modelos de IA a entender y representar adecuadamente la documentación de tu API. Esto te permite proporcionar el contexto que los asistentes de IA como ChatGPT o Claude necesitan para responder con precisión preguntas sobre tu API sin alucinar (inventar información). Configurarlo lleva literalmente unos segundos: solo tienes que activar un interruptor y generaremos el archivo de configuración automáticamente. En segundo plano, creamos metadatos que ayudan a los sistemas de IA a comprender la estructura de tu documentación, la terminología y la información más actualizada. LLMs.txt está disponible en todos los planes.
 
-The result? Developers get accurate answers about your API even when they're asking AI tools instead of reading your docs directly. It's documentation that works everywhere your developers do!
+¿El resultado? Los desarrolladores obtienen respuestas precisas sobre tu API incluso cuando consultan herramientas de IA en lugar de leer tu documentación directamente. ¡Es documentación que funciona dondequiera que trabajen tus desarrolladores!
 
-## Benefits
+## Beneficios {#benefits}
 
-* **Accuracy**: Helps AI models represent your documentation correctly
-* **Consistency**: Ensures proper terminology and version information
-* **Relevance**: Guides AI models to the most up-to-date information
-* **Zero Maintenance**: Automatically generated based on your existing documentation
+- **Precisión**: ayuda a que los modelos de IA representen tu documentación correctamente
+- **Consistencia**: garantiza la terminología y la información de versión adecuadas
+- **Relevancia**: guía a los modelos de IA hacia la información más actualizada
+- **Cero mantenimiento**: se genera automáticamente a partir de tu documentación existente
 
-## How It Works
+## Cómo funciona {#how-it-works}
 
-LLMs.txt works as a configuration file at the root of your documentation site that AI language models can access and interpret. This file functions as a technical guide that instructs AI systems on how to properly read and reference your content.
+LLMs.txt funciona como un archivo de configuración en la raíz de tu sitio de documentación al que los modelos de lenguaje de IA pueden acceder e interpretar. Este archivo funciona como una guía técnica que indica a los sistemas de IA cómo leer y hacer referencia adecuadamente a tu contenido.
 
-When enabled, ReadMe automatically generates this configuration file based on your existing documentation structure. The file contains metadata about:
+Cuando está habilitado, ReadMe genera automáticamente este archivo de configuración a partir de la estructura de tu documentación existente. El archivo contiene metadatos sobre:
 
-* The organization of your documentation (guides, API reference, recipes, etc.)
-* Version information to ensure AI models reference the most current documentation
-* Important terminology specific to your API
-* Hierarchical structure of your content
+- La organización de tu documentación (guías, referencia de la API, recetas, etc.)
+- Información de versión para garantizar que los modelos de IA consulten la documentación más actualizada
+- Terminología importante específica de tu API
+- Estructura jerárquica de tu contenido
 
-AI models that support LLMs.txt will check for this file before generating responses about your API. When they find it, they'll use the instructions to provide more accurate information, reducing the chances of outdated references or incorrect terminology.
+Los modelos de IA compatibles con LLMs.txt buscarán este archivo antes de generar respuestas sobre tu API. Cuando lo encuentren, utilizarán las instrucciones para ofrecer información más precisa, lo que reduce las probabilidades de referencias desactualizadas o terminología incorrecta.
 
-For example, if you've recently renamed endpoints or changed parameter requirements, LLMs.txt helps ensure AI assistants don't provide outdated information to developers using your API.
+Por ejemplo, si recientemente has cambiado el nombre de algún endpoint o has modificado los requisitos de los parámetros, LLMs.txt ayuda a garantizar que los asistentes de IA no faciliten información desactualizada a los desarrolladores que utilizan tu API.
 
-## Getting Started
+## Primeros pasos {#getting-started}
 
-Enable LLMs.txt in just a few clicks to help AI models accurately represent your API documentation.
+Habilita LLMs.txt en solo unos clics para ayudar a que los modelos de IA representen con precisión la documentación de tu API.
 
-#### ReadMe Refactored
+#### ReadMe Refactored {#readme-refactored}
 
-For projects using the ReadMe Refactored interface:
+Para proyectos que utilizan la interfaz de ReadMe Refactored:
 
-1. Navigate to your project hub.
-2. Click the **AI Settings (✨ Sparkle Icon)** in the top right menu.
-3. Toggle **Enable LLMs.txt** to ON.
-4. Click **Save**.
+1. Ve al hub de tu proyecto.
+2. Haz clic en **Ajustes de IA (✨ icono de destellos)** en el menú superior derecho.
+3. Cambia **Habilitar LLMs.txt** a ACTIVADO.
+4. Haz clic en **Guardar**.
 
-#### ReadMe Legacy
+#### ReadMe Legacy {#readme-legacy}
 
-1. Go to **Configuration** > **AI Settings**.
-2. Toggle **Enable LLMs.txt** to ON.
-3. Click **Save**.
+1. Ve a **Configuración** > **Ajustes de IA**.
+2. Cambia **Habilitar LLMs.txt** a ACTIVADO.
+3. Haz clic en **Guardar**.
