@@ -3,7 +3,7 @@ title: Stella Rose
 deprecated: false
 hidden: false
 metadata:
-  title: wowzer
+  title: Guau
   robots: index
 ---
-will be 2 in February!
+¡cumplirá 2 en febrero!
