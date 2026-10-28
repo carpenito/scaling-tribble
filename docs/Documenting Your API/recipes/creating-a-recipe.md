@@ -1,13 +1,13 @@
 ---
-title: Creating a Recipe
+title: Creación de una receta
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# Overview
+# Descripción general {#overview}
 
-Ready to transform your code samples into developer-friendly learning experiences? This guide walks you through building your first Recipe from start to finish. You'll learn how to break down complex code into digestible steps, add helpful annotations, and customize the visual experience to match your brand.
+¿Listo para transformar tus ejemplos de código en experiencias de aprendizaje intuitivas para los desarrolladores? Esta guía te muestra cómo crear tu primera Recipe de principio a fin. Aprenderás a desglosar código complejo en pasos fáciles de asimilar, añadir anotaciones útiles y personalizar la experiencia visual para que coincida con tu marca.
 
 <br />
 
@@ -15,80 +15,82 @@ Ready to transform your code samples into developer-friendly learning experience
 
 <br />
 
-## Before You Start
+## Antes de comenzar {#before-you-start}
 
-* Have your code sample ready (or know which API endpoint you want to use as a starting point)
-* Ensure the Recipes section is accessible in your ReadMe project
-* Consider what programming languages your developers use most
-* Think about the key learning objectives for this particular code walkthrough
+- Ten a mano tu ejemplo de código (o ten claro qué endpoint de API deseas utilizar como punto de partida)
+- Asegúrate de que la sección Recipes esté accesible en tu proyecto de ReadMe
+- Considera qué lenguajes de programación utilizan más tus desarrolladores
+- Piensa en los objetivos de aprendizaje clave para este tutorial paso a paso del código
 
-## Creating a Recipe
+## Crear una Recipe {#creating-a-recipe}
 
 <Image border={false} src="https://files.readme.io/4482047-Screen_Shot_2020-12-01_at_3.42.35_PM.png" />
 
-### 1. Access the Recipe Editor
+### 1. Accede al editor de Recipes {#1-access-the-recipe-editor}
 
-Navigate to your ReadMe project and click **Edit** to enter the editing UI. From the main navigation, select **Recipes** to access the Recipe management area. Click the **Create New Recipe** button to launch the Recipe builder.
+Ve a tu proyecto de ReadMe y haz clic en **Edit** para entrar en la interfaz de edición. En el menú de navegación principal, selecciona **Recipes** para acceder al área de gestión de Recipes. Haz clic en el botón **Create New Recipe** para abrir el creador de Recipes.
 
 <Image align="center" border={false} src="https://files.readme.io/139f1a2224d1add344a0071284be7614929b7cac5be5babf7cb0860b16b9f81e-Screenshot_2025-05-22_at_12.47.08_PM.png" />
 
-### 2. Configure Your Code Sample
+### 2. Configura tu ejemplo de código {#2-configure-your-code-sample}
 
-1. In the upper right panel, select your programming language from the dropdown menu.
-2. Add your code sample and make sure it's properly formatted with syntax highlighting. This will be the foundation that your step-by-step annotations will reference.
+1. En el panel superior derecho, selecciona tu lenguaje de programación en el menú desplegable.
+2. Añade tu ejemplo de código y asegúrate de que tenga el formato adecuado con resaltado de sintaxis. Esta será la base a la que harán referencia tus anotaciones paso a paso.
 
 <Image align="center" border={false} src="https://files.readme.io/91f78f372bffaf5521f48ba6972275b5d3fa1b74cf4b4f917a5d7284a6d51c11-Screenshot_2025-05-22_at_2.09.51_PM.png" />
 
-**Note:** Each Recipe can support multiple programming languages, so you can add additional language versions after setting up your first one.
+**Nota:** Cada Recipe puede admitir varios lenguajes de programación, por lo que puedes añadir versiones en otros lenguajes después de configurar la primera.
 
-### 3. Build Your Step-by-Step Annotations
+### 3. Crea tus anotaciones paso a paso {#3-build-your-step-by-step-annotations}
 
-In the left sidebar, create your highlighted steps that will guide developers through your code. For each step:
+En la barra lateral izquierda, crea los pasos resaltados que guiarán a los desarrolladores a través de tu código. Para cada paso:
 
-* Write a clear, descriptive title that explains what this part of the code accomplishes
-* Add detailed explanations that help developers understand the "why" behind each section
-* Specify the line numbers that should be highlighted for this step
-* Use conversational language that makes complex concepts approachable
+- Escribe un título claro y descriptivo que explique qué logra esta parte del código
+- Añade explicaciones detalladas que ayuden a los desarrolladores a entender el "porqué" detrás de cada sección
+- Especifica los números de línea que deben resaltarse en este paso
+- Utiliza un lenguaje conversacional que haga accesibles los conceptos complejos
 
-Each step should focus on a specific concept or action within your code sample, building understanding progressively.
+Cada paso debe centrarse en un concepto o una acción específicos dentro de tu ejemplo de código, desarrollando la comprensión de forma progresiva.
 
 <Image border={false} src="https://files.readme.io/cece453-Screen_Shot_2020-12-01_at_3.49.54_PM.png" />
 
-### **4. Add Response Examples**
+### **4. Añade ejemplos de respuesta** {#4-add-response-examples}
 
-In the lower right panel, include the expected API response when your code runs successfully. This shows developers exactly what success looks like and helps them verify their implementation.
+En el panel inferior derecho, incluye la respuesta esperada de la API cuando tu código se ejecute con éxito. Esto muestra a los desarrolladores exactamente cómo es una respuesta correcta y les ayuda a verificar su implementación.
 
-If your code doesn't generate a response (or if showing one isn't relevant), you can leave this section empty—it will automatically hide from the final Recipe.
+Si tu código no genera una respuesta (o si mostrarla no es relevante), puedes dejar esta sección vacía; se ocultará automáticamente en la Recipe final.
 
-**Note:** User data variables work in Recipes too! If you have personalized docs set up, you can include dynamic content in your responses.
+**Nota:** ¡Las variables de datos de usuario también funcionan en las Recipes! Si tienes configurada la documentación personalizada, puedes incluir contenido dinámico en tus respuestas.
 
-> 👍 User data variables work in Recipes!
->
-> If you have [variables](doc:personalized-docs) in your documentation, for example passed in via the Personalized Docs Webhook, they'll work in Recipes too!
+<Callout icon="👍" theme="okay">
+  ### ¡Las variables de datos de usuario funcionan en las Recipes! {#user-data-variables-work-in-recipes}
 
-### 5. Customize Visual Appearance
+  Si tienes [variables](doc:personalized-docs) en tu documentación, por ejemplo pasadas a través del webhook de Personalized Docs, ¡también funcionarán en las Recipes!
+</Callout>
 
-Switch to the **Appearance** tab to make your Recipe uniquely yours:
+### 5. Personaliza la apariencia visual {#5-customize-visual-appearance}
 
-* **Select an emoji**: Click the emoji icon to choose from the dropdown menu
-* **Set background color**: Use the color picker to select a background that matches your brand (supports RGB, HSL, or HEX values)
-* **Write a description**: Add a detailed description that will appear on the larger Recipe card in your Recipes section
+Cambia a la pestaña **Appearance** para hacer que tu Recipe sea única:
 
-The _Open Recipe_ button color automatically inherits from your project's link color settings.
+- **Selecciona un emoji**: haz clic en el icono de emoji para elegir uno en el menú desplegable
+- **Establece el color de fondo**: usa el selector de color para elegir un fondo que coincida con tu marca (admite valores RGB, HSL o HEX)
+- **Escribe una descripción**: añade una descripción detallada que aparecerá en la tarjeta de Recipe más grande en tu sección de Recipes
+
+El color del botón _Open Recipe_ se hereda automáticamente de la configuración del color de los enlaces de tu proyecto.
 
 <Image border={false} src="https://files.readme.io/ea6500f-Screen_Shot_2020-10-19_at_12.41.19_PM.png" />
 
-### **6. Choose Embedding Locations**
+### **6. Elige las ubicaciones de inserción** {#6-choose-embedding-locations}
 
-Decide where your Recipe should appear throughout your documentation:
+Decide dónde debe aparecer tu Recipe en toda tu documentación:
 
-* **API Reference embedding**: Select specific endpoints where this Recipe provides relevant context
-* **Recipes section**: Your Recipe will automatically appear in the main Recipes area once published
-* **Guide embedding**: You can manually embed the Recipe into guide pages later using the Recipe widget
+- **Inserción en API Reference**: selecciona endpoints específicos donde esta Recipe proporcione un contexto relevante
+- **Sección Recipes**: tu Recipe aparecerá automáticamente en el área principal de Recipes una vez publicada
+- **Inserción en guías**: puedes insertar manualmente la Recipe en las páginas de guías más adelante utilizando el widget de Recipe
 
-Select the checkboxes next to relevant endpoints to make your Recipe accessible exactly where developers need it most.
+Marca las casillas junto a los endpoints pertinentes para que tu Recipe esté accesible exactamente donde los desarrolladores más la necesitan.
 
-The Recipe will appear as a clickable card as shown in the preview area of the Appearance step.
+La Recipe aparecerá como una tarjeta interactiva, tal como se muestra en el área de vista previa del paso de apariencia.
 
 <Image border={false} src="https://files.readme.io/20cf1e2-Screen_Shot_2020-12-03_at_5.14.16_PM.png" />
 
@@ -99,51 +101,51 @@ The Recipe will appear as a clickable card as shown in the preview area of the A
 <br />
 
 <Callout icon="🚧" theme="warn">
-  Embeds will not appear in the Reference section [until the Recipes section is enabled](#enable-recipes-section).
+  Los elementos insertados no aparecerán en la sección Reference [hasta que se habilite la sección Recipes](#enable-recipes-section).
 </Callout>
 
 <br />
 
-### 7. Set Publication Status
+### 7. Establece el estado de publicación {#7-set-publication-status}
 
-Choose your Recipe's visibility level:
+Elige el nivel de visibilidad de tu Recipe:
 
-* **Unpublished**: Only visible to project administrators (default for new Recipes)
-* **Published**: Visible to all users in your Recipe collection
-* **Featured**: Showcased prominently at the top of your Recipes section (only one Recipe can be featured at a time)
+- **Unpublished**: solo visible para los administradores del proyecto (predeterminado para las Recipes nuevas)
+- **Published**: visible para todos los usuarios en tu colección de Recipes
+- **Featured**: destacada de forma prominente en la parte superior de tu sección Recipes (solo se puede destacar una Recipe a la vez)
 
-Start with "Published" to make your Recipe available to developers, or keep it "Unpublished" while you're still refining the content.
+Comienza con "Published" para poner tu Recipe a disposición de los desarrolladores, o mantenla en "Unpublished" mientras sigues perfeccionando el contenido.
 
-|                 |                                                                                                                                                                 |
-| :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Featured**    | This is the showcased Recipe at the top of the Recipe section. One Recipe must be featured if your Recipes page is public, and it must be in a published state. |
-| **Published**   | Visible to users in the card grid below the featured Recipe                                                                                                     |
-| **Unpublished** | Cannot be seen by customers. New Recipes are unpublished by default.                                                                                            |
+|                 |                                                                                                                                                                                  |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Featured**    | Esta es la Recipe destacada en la parte superior de la sección de Recipes. Debe haber una Recipe destacada si tu página de Recipes es pública, y debe estar en estado publicado. |
+| **Published**   | Visible para los usuarios en la cuadrícula de tarjetas debajo de la Recipe destacada                                                                                             |
+| **Unpublished** | Los clientes no pueden verla. Las Recipes nuevas están en estado "unpublished" por defecto.                                                                                      |
 
 <Image border={false} src="https://files.readme.io/445d0c8-Screen_Shot_2020-12-16_at_3.54.22_PM.png" />
 
 <br />
 
-## FAQ & Troubleshooting
+## Preguntas frecuentes y resolución de problemas {#faq--troubleshooting}
 
-**Can I remove the Recipe icon in the nav bar?**
+**¿Puedo eliminar el icono de Recipe de la barra de navegación?**
 
-This section is only visible to project admins. Your customers will not see this section unless you [enable it](#enabling-your-recipes-page) to make it visible to them.
+Esta sección solo es visible para los administradores del proyecto. Tus clientes no verán esta sección a menos que la [habilites](#enabling-your-recipes-page) para que sea visible para ellos.
 
-As we transition more editing capabilities to the frontend of your docs hub, we'll continue to make it clearer what project admins see versus what your customers see.
+A medida que traslademos más funciones de edición al frontend de tu centro de documentación, continuaremos haciendo más evidente lo que ven los administradores del proyecto en comparación con lo que ven tus clientes.
 
-**How do I change the color of the blue "Open Recipe" button?**
+**¿Cómo cambio el color del botón azul "Open Recipe"?**
 
-This button color is inherited from the Link Color you've set in the [Theme Editor](/main/docs/design-themes) in your project settings. To change it, you will need to change the Link Color for your entire ReadMe hub.
+El color de este botón se hereda del Link Color que hayas configurado en el [Theme Editor](/main/docs/design-themes) en la configuración de tu proyecto. Para cambiarlo, tendrás que modificar el Link Color para todo tu hub de ReadMe.
 
-**Can I rename the Recipe section like the other sections?**
+**¿Puedo cambiar el nombre de la sección Recipe al igual que con las otras secciones?**
 
-Not yet, but we're working on it!
+¡Aún no, pero estamos trabajando en ello!
 
-**My code highlighting isn't working correctly?** Double-check that your line numbers are accurate and that you've selected the correct programming language. Remember that line numbers start from 1, not 0.
+**¿El resaltado de mi código no funciona correctamente?** Comprueba que los números de línea sean precisos y que hayas seleccionado el lenguaje de programación correcto. Recuerda que los números de línea comienzan en 1, no en 0.
 
-**The Recipe widget doesn't appear in my guides?** Make sure the Recipes section is enabled in your site navigation settings. The widget won't be available until Recipes are activated for your project.
+**¿El widget de Recipe no aparece en mis guías?** Asegúrate de que la sección Recipes esté habilitada en la configuración de navegación de tu sitio. El widget no estará disponible hasta que Recipes esté activado en tu proyecto.
 
-**My embedded Recipe isn't showing up in API Reference pages?** Embedded Recipes only appear once the Recipes section is publicly enabled. Check your site navigation settings and ensure at least one Recipe is published.
+**¿Mi Recipe insertada no aparece en las páginas de API Reference?** Las Recipes insertadas solo aparecen una vez que la sección Recipes esté habilitada públicamente. Comprueba la configuración de navegación de tu sitio y asegúrate de que al menos una Recipe esté publicada.
 
-**The response section disappeared?** If you clear the default response content completely, the response panel will automatically hide. Add content back to make it visible again.
+**¿La sección de respuesta ha desaparecido?** Si borras por completo el contenido de respuesta predeterminado, el panel de respuesta se ocultará automáticamente. Vuelve a añadir contenido para que sea visible de nuevo.
