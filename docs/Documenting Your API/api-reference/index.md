@@ -1,74 +1,74 @@
 ---
-title: API Reference
+title: Referencia de la API
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# What Is an API Reference?
+# ¿Qué es una referencia de API? {#what-is-an-api-reference}
 
-An API reference is the definitive technical guide to your API, documenting every endpoint, parameter, and response code in detail. It's your ultimate source of truth that developers turn to when they need to know exactly how to interact with your API.
+Una referencia de API es la guía técnica definitiva sobre tu API, que documenta en detalle cada endpoint, parámetro y código de respuesta. Es tu fuente de verdad definitiva a la que los desarrolladores recurren cuando necesitan saber exactamente cómo interactuar con tu API.
 
-In ReadMe, your API reference is an interactive experience where developers can explore your API, make test calls right from the documentation, and see real responses without writing a single line of code.
+En ReadMe, la referencia de tu API es una experiencia interactiva donde los desarrolladores pueden explorar tu API, realizar llamadas de prueba directamente desde la documentación y ver respuestas reales sin escribir una sola línea de código.
 
-## Why Your API Reference Matters
+## Por qué es importante la referencia de tu API {#why-your-api-reference-matters}
 
-A well-crafted API reference can:
+Una referencia de API bien elaborada puede:
 
-* **Reduce support tickets** by answering technical questions before they're asked
-* **Speed up developer onboarding** by providing clear, accurate implementation guidance
-* **Build developer trust** by showing that your API is thoughtfully designed and maintained
-* **Showcase your API's full capabilities** so developers discover features they might otherwise miss
+- **Reducir los tickets de soporte** al responder preguntas técnicas antes de que se planteen
+- **Acelerar la incorporación de desarrolladores** al ofrecer pautas de implementación claras y precisas
+- **Generar confianza en los desarrolladores** al demostrar que tu API está diseñada y mantenida minuciosamente
+- **Mostrar todo el potencial de tu API** para que los desarrolladores descubran funcionalidades que de otro modo podrían pasar por alto
 
-## Getting Started with Your API Reference
+## Primeros pasos con la referencia de tu API {#getting-started-with-your-api-reference}
 
-ReadMe offers several ways to create and maintain your API reference, whether you're working with OpenAPI (formerly Swagger) specifications or prefer to build your reference manually.
+ReadMe ofrece varias formas de crear y mantener la referencia de tu API, ya sea que trabajes con especificaciones OpenAPI (anteriormente Swagger) o prefieras crear tu referencia manualmente.
 
-### In This Section
+### En esta sección {#in-this-section}
 
-You'll learn how to:
+Aprenderás a:
 
-* **Upload and manage OpenAPI specifications** through multiple methods
-* **Work with our API Designer** if you don't have an OpenAPI specification
-* **Customize your API reference** to match your brand and enhance usability
-* **Create interactive examples** that developers can try right in your docs
-* **Keep your reference in sync** with your actual API as it evolves
+- **Subir y administrar especificaciones OpenAPI** mediante diversos métodos
+- **Trabajar con nuestro API Designer** si no tienes una especificación OpenAPI
+- **Personalizar la referencia de tu API** para adaptarla a tu marca y mejorar la usabilidad
+- **Crear ejemplos interactivos** que los desarrolladores puedan probar directamente en tu documentación
+- **Mantener tu referencia sincronizada** con tu API real a medida que evoluciona
 
-## OpenAPI Upload and Management
+## Subida y administración de OpenAPI {#openapi-upload-and-management}
 
-ReadMe fully supports OpenAPI 3.0, OpenAPI 3.1, and Swagger 2.0 specifications. You can add your API spec to ReadMe in multiple ways:
+ReadMe es totalmente compatible con las especificaciones OpenAPI 3.0, OpenAPI 3.1 y Swagger 2.0. Puedes agregar la especificación de tu API a ReadMe de varias formas:
 
-* **File upload**: Drag and drop your OpenAPI/Swagger JSON or YAML file
-* **URL import**: Point ReadMe to where your spec lives online
-* **GitHub integration**: Connect directly to your GitHub repository
-* **Command line (rdme)**: Use our CLI tool for automated workflows
-* **API Sync**: Keep your API reference automatically in sync with your codebase
+- **Subida de archivos**: arrastra y suelta tu archivo JSON o YAML de OpenAPI/Swagger
+- **Importación mediante URL**: indica a ReadMe dónde se encuentra tu especificación en línea
+- **Integración con GitHub**: conéctate directamente a tu repositorio de GitHub
+- **Línea de comandos (rdme)**: usa nuestra herramienta de CLI para flujos de trabajo automatizados
+- **API Sync**: mantén la referencia de tu API sincronizada automáticamente con tu código base
 
-Once uploaded, ReadMe transforms your spec into beautifully formatted, interactive documentation that developers will love.
+Una vez subida, ReadMe transforma tu especificación en documentación interactiva y con un formato impecable que encantará a los desarrolladores.
 
-## API Designer
+## API Designer {#api-designer}
 
-Don't have an OpenAPI specification? No problem! ReadMe's [API Designer](doc:building-apis-from-scratch-with-the-api-designer) lets you build your API reference from scratch with an intuitive interface. Document your endpoints, parameters, request bodies, and response objects without needing to write a single line of YAML or JSON.
+¿No tienes una especificación OpenAPI? ¡No hay problema! El [API Designer](doc:building-apis-from-scratch-with-the-api-designer) de ReadMe te permite crear la referencia de tu API desde cero con una interfaz intuitiva. Documenta tus endpoints, parámetros, cuerpos de solicitud y objetos de respuesta sin necesidad de escribir una sola línea de YAML o JSON.
 
-## Customizing Your API Reference
+## Personalización de la referencia de tu API {#customizing-your-api-reference}
 
-Make your API reference truly yours with customization options:
+Haz que la referencia de tu API sea verdaderamente tuya con opciones de personalización:
 
-* Add authentication details and custom headers
-* Include code samples in multiple programming languages
-* Organize endpoints into logical groups
-* Add custom documentation and overviews to each group of endpoints
+- Agrega detalles de autenticación y encabezados personalizados
+- Incluye ejemplos de código en múltiples lenguajes de programación
+- Organiza los endpoints en grupos lógicos
+- Agrega documentación personalizada e información general a cada grupo de endpoints
 
-## GraphQL Support
+## Compatibilidad con GraphQL {#graphql-support}
 
-Working with GraphQL? ReadMe offers limited but growing support for [GraphQL APIs](doc:graphql). You can document your schemas, queries, and mutations to help developers navigate your GraphQL API.
+¿Trabajas con GraphQL? ReadMe ofrece una compatibilidad limitada pero creciente con las [APIs de GraphQL](doc:graphql). Puedes documentar tus esquemas, consultas y mutaciones para ayudar a los desarrolladores a explorar tu API de GraphQL.
 
-## Best Practices for API References
+## Prácticas recomendadas para las referencias de API {#best-practices-for-api-references}
 
-To create an exceptional API reference:
+Para crear una referencia de API excepcional:
 
-* **Be complete**: Document every endpoint, parameter, and response
-* **Include examples**: Show real request/response pairs for common use cases
-* **Explain errors**: Document all error codes and how to resolve them
-* **Keep it current**: Update documentation whenever your API changes
-* **Test it yourself**: Regularly use your own documentation to catch issues
+- **Sé exhaustivo**: documenta cada endpoint, parámetro y respuesta
+- **Incluye ejemplos**: muestra pares reales de solicitud/respuesta para casos de uso comunes
+- **Explica los errores**: documenta todos los códigos de error y cómo resolverlos
+- **Mantenla actualizada**: actualiza la documentación siempre que tu API cambie
+- **Pruébala tú mismo**: utiliza periódicamente tu propia documentación para detectar problemas
