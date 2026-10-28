@@ -1,5 +1,5 @@
 ---
-title: Copy of Request Review
+title: Copia de solicitud de revisión
 deprecated: false
 hidden: true
 icon: fad fa-rocket-launch
@@ -12,7 +12,7 @@ metadata:
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ReadMe Platform — Criteria Breakdown</title>
+<title>Plataforma ReadMe — Desglose de criterios</title>
 <style>
   :root {
     --bg: #f9f8f6;
@@ -115,170 +115,170 @@ metadata:
 <body>
 
 <header>
-  <h1>ReadMe — Platform Criteria Breakdown</h1>
-  <p class="subtitle">Assessment of ReadMe against documentation platform requirements</p>
+  <h1>ReadMe — Desglose de criterios de la plataforma</h1>
+  <p class="subtitle">Evaluación de ReadMe frente a los requisitos de la plataforma de documentación</p>
 </header>
 
 <div class="legend">
-  <span><span class="legend-dot" style="background:#3b6d11"></span>Native / strong fit</span>
-  <span><span class="legend-dot" style="background:#854f0b"></span>Partial / with config</span>
-  <span><span class="legend-dot" style="background:#a32d2d"></span>Gap / needs workaround</span>
+  <span><span class="legend-dot" style="background:#3b6d11"></span>Nativo / encaje óptimo</span>
+  <span><span class="legend-dot" style="background:#854f0b"></span>Parcial / con configuración</span>
+  <span><span class="legend-dot" style="background:#a32d2d"></span>Carencia / requiere solución alternativa</span>
 </div>
 
 <!-- Core platform -->
-<div class="section-label">Core documentation platform</div>
+<div class="section-label">Plataforma de documentación principal</div>
 <div class="grid">
   <div class="card">
     <div class="card-header">
-      <span class="card-title">API reference as code</span>
-      <span class="badge badge-yes">Native</span>
+      <span class="card-title">Referencia de API como código</span>
+      <span class="badge badge-yes">Nativo</span>
     </div>
-    <div class="card-body">OpenAPI spec as single source of truth — ReadMe renders API reference directly from your spec, auto-updating on schema change. Upload manually, via API, or CI/CD pipeline.</div>
-    <div class="card-detail">Supports OAS 3.x. Use the rdme CLI for spec sync in GitHub Actions.</div>
+    <div class="card-body">Especificación OpenAPI como única fuente de verdad: ReadMe genera la referencia de la API directamente a partir de su especificación y se actualiza automáticamente ante cambios en el esquema. Se puede subir manualmente, mediante API o a través de una canalización de CI/CD.</div>
+    <div class="card-detail">Compatible con OAS 3.x. Utilice la CLI rdme para la sincronización de especificaciones en GitHub Actions.</div>
   </div>
   <div class="card">
     <div class="card-header">
-      <span class="card-title">Multi-language code samples</span>
-      <span class="badge badge-yes">Native</span>
+      <span class="card-title">Muestras de código en varios lenguajes</span>
+      <span class="badge badge-yes">Nativo</span>
     </div>
-    <div class="card-body">Auto-generated code samples from OpenAPI spec in 10+ languages. Custom samples can be added per-endpoint. Language switcher built into the reference UI.</div>
-    <div class="card-detail">No hand-maintenance needed if sourced from spec extensions (x-readme).</div>
+    <div class="card-body">Muestras de código generadas automáticamente a partir de la especificación OpenAPI en más de 10 lenguajes. Se pueden agregar muestras personalizadas por endpoint. Selector de lenguaje integrado en la interfaz de usuario de referencia.</div>
+    <div class="card-detail">No requiere mantenimiento manual si proviene de extensiones de especificación (x-readme).</div>
   </div>
   <div class="card">
     <div class="card-header">
-      <span class="card-title">Try-it / live sandbox</span>
-      <span class="badge badge-yes">Native</span>
+      <span class="card-title">Try-it / sandbox interactivo</span>
+      <span class="badge badge-yes">Nativo</span>
     </div>
-    <div class="card-body">Built-in "Try It!" API explorer on every endpoint. Supports pre-authentication with user-specific API keys for integrators via the ReadMe JWT/OAuth integration.</div>
-    <div class="card-detail">Enterprise: personalised variables populated from user login context.</div>
+    <div class="card-body">Explorador de API "Try It!" integrado en cada endpoint. Admite autenticación previa con claves de API específicas de cada usuario para integradores mediante la integración JWT/OAuth de ReadMe.</div>
+    <div class="card-detail">Enterprise: variables personalizadas que se completan a partir del contexto de inicio de sesión del usuario.</div>
   </div>
   <div class="card">
     <div class="card-header">
-      <span class="card-title">Changelog as content</span>
-      <span class="badge badge-yes">Native</span>
+      <span class="card-title">Registro de cambios como contenido</span>
+      <span class="badge badge-yes">Nativo</span>
     </div>
-    <div class="card-body">First-class Changelog section with versioning and RSS subscription. Can link changelog entries from API reference pages. Write in markdown or via API.</div>
-    <div class="card-detail">Auto-linking from reference requires manual cross-linking — not fully automatic.</div>
+    <div class="card-body">Sección de registro de cambios de primer nivel con control de versiones y suscripción RSS. Permite vincular entradas del registro de cambios desde las páginas de referencia de la API. Se puede redactar en Markdown o mediante la API.</div>
+    <div class="card-detail">La vinculación automática desde la referencia requiere enlaces cruzados manuales; no es totalmente automática.</div>
   </div>
 </div>
 
 <!-- Search -->
-<div class="section-label">Search &amp; discoverability</div>
+<div class="section-label">Búsqueda &amp; detectabilidad</div>
 <div class="grid">
   <div class="card">
     <div class="card-header">
-      <span class="card-title">Enhanced search</span>
-      <span class="badge badge-partial">Partial</span>
+      <span class="card-title">Búsqueda mejorada</span>
+      <span class="badge badge-partial">Parcial</span>
     </div>
-    <div class="card-body">ReadMe has built-in full-text search. Semantic search and zero-result gap tracking are not native — gap tracking is available via the Search Queries analytics report, but not auto-flagged.</div>
-    <div class="card-detail">Search analytics show what people searched for with no results. Semantic ranking is not currently configurable.</div>
+    <div class="card-body">ReadMe cuenta con búsqueda de texto completo integrada. La búsqueda semántica y el seguimiento de vacíos sin resultados no son nativos; el seguimiento de vacíos está disponible mediante el informe de análisis Search Queries, pero no se marca automáticamente.</div>
+    <div class="card-detail">Las analíticas de búsqueda muestran lo que los usuarios buscaron sin obtener resultados. La clasificación semántica no es configurable actualmente.</div>
   </div>
   <div class="card">
     <div class="card-header">
-      <span class="card-title">Discoverable IA</span>
-      <span class="badge badge-yes">Native</span>
+      <span class="card-title">Arquitectura de información detectable</span>
+      <span class="badge badge-yes">Nativo</span>
     </div>
-    <div class="card-body">Hierarchical navigation with categories, subcategories, and custom ordering. Supports multiple doc versions and audience-based navigation. IA is managed in the dashboard or via the Guides API.</div>
-    <div class="card-detail">Personalised nav by integration type requires custom JS or dynamic content blocks.</div>
+    <div class="card-body">Navegación jerárquica con categorías, subcategorías y orden personalizado. Admite múltiples versiones de documentación y navegación según la audiencia. La arquitectura de información se gestiona en el panel de control o mediante la API de Guides.</div>
+    <div class="card-detail">La navegación personalizada por tipo de integración requiere JS personalizado o bloques de contenido dinámico.</div>
   </div>
 </div>
 
 <!-- AI -->
-<div class="section-label">AI &amp; modern tooling</div>
+<div class="section-label">IA &amp; herramientas modernas</div>
 <div class="grid">
   <div class="card">
     <div class="card-header">
-      <span class="card-title">AI-native / LLM-readable</span>
-      <span class="badge badge-yes">Native</span>
+      <span class="card-title">Nativo para IA / legible por LLM</span>
+      <span class="badge badge-yes">Nativo</span>
     </div>
-    <div class="card-body">Full AI-native stack: LLMs.txt auto-generated with a single toggle (all plans, zero maintenance). Two native MCP servers — one for doc authors to manage docs via AI, one for API users to give their AI tools live access to your spec and docs. ReadMe pages render clean HTML and expose a public sitemap — crawlable by LLMs. Native llms.txt is supported and automatically generates a configuration file at the root of your documentation site based on your existing documentation structure.</div>
-    <div class="card-detail">LLMs.txt available on all plans. MCP servers are a built-in, not a custom integration.</div>
+    <div class="card-body">Pila completa nativa para IA: LLMs.txt generado automáticamente con un solo interruptor (todos los planes, sin mantenimiento). Dos servidores MCP nativos: uno para que los autores de la documentación la gestionen mediante IA y otro para que los usuarios de la API brinden a sus herramientas de IA acceso en vivo a su especificación y documentos. Las páginas de ReadMe generan HTML limpio y exponen un sitemap público rastreable por LLM. llms.txt nativo es compatible y genera automáticamente un archivo de configuración en la raíz de su sitio de documentación según la estructura existente de sus documentos.</div>
+    <div class="card-detail">LLMs.txt está disponible en todos los planes. Los servidores MCP están integrados de forma nativa, no como una integración personalizada.</div>
   </div>
   <div class="card">
     <div class="card-header">
-      <span class="card-title">Personalisation</span>
-      <span class="badge badge-partial">Partial</span>
+      <span class="card-title">Personalización</span>
+      <span class="badge badge-partial">Parcial</span>
     </div>
-    <div class="card-body">ReadMe supports user variables (e.g. pre-filled API keys, company name) via JWT SSO. Scheme/country/integration-method-based content branching is not native — requires custom logic or separate doc versions.</div>
-    <div class="card-detail">Enterprise variable injection is strong for auth context; conditional content blocks are limited.</div>
+    <div class="card-body">ReadMe admite variables de usuario (p. ej., claves de API precompletadas, nombre de la empresa) mediante JWT SSO. La ramificación de contenido según esquema, país o método de integración no es nativa; requiere lógica personalizada o versiones independientes de la documentación.</div>
+    <div class="card-detail">La inyección de variables en el plan Enterprise es potente para el contexto de autenticación; los bloques de contenido condicional son limitados.</div>
   </div>
 </div>
 
 <!-- Performance -->
-<div class="section-label">Performance &amp; governance</div>
+<div class="section-label">Rendimiento &amp; gobernanza</div>
 <div class="grid">
   <div class="card">
     <div class="card-header">
-      <span class="card-title">SSR / fast page load</span>
-      <span class="badge badge-partial">Partial</span>
+      <span class="card-title">SSR / carga rápida de página</span>
+      <span class="badge badge-partial">Parcial</span>
     </div>
-    <div class="card-body">ReadMe's hosted platform uses SSR. TTFB and Core Web Vitals are generally good on the default theme, but you don't control the infra directly — sub-100ms TTFB SLAs are not guaranteed or contractually available.</div>
-    <div class="card-detail">Custom domain + CDN is supported. Performance tuning is limited vs self-hosted.</div>
+    <div class="card-body">La plataforma alojada de ReadMe utiliza SSR. El TTFB y las Core Web Vitals son generalmente buenos en el tema predeterminado, pero usted no controla la infraestructura directamente; los SLA de TTFB inferiores a 100 ms no están garantizados ni disponibles por contrato.</div>
+    <div class="card-detail">Se admiten dominios personalizados y CDN. La optimización del rendimiento es limitada en comparación con las soluciones autohospedadas.</div>
   </div>
   <div class="card">
     <div class="card-header">
-      <span class="card-title">Content governance</span>
-      <span class="badge badge-partial">Partial</span>
+      <span class="card-title">Gobernanza del contenido</span>
+      <span class="badge badge-partial">Parcial</span>
     </div>
-    <div class="card-body">Bi-directional GitHub Sync lets teams use PRs for doc reviews. Broken link checking and linting are not native — you'd need a CI step against the live site or exported content.</div>
-    <div class="card-detail">GitHub Sync is available on Business/Enterprise plans. Quality gate tooling is a gap.</div>
+    <div class="card-body">La sincronización bidireccional con GitHub permite a los equipos usar PR para revisiones de documentación. La comprobación de enlaces rotos y el linting no son nativos; necesitaría un paso de CI en el sitio en vivo o sobre el contenido exportado.</div>
+    <div class="card-detail">GitHub Sync está disponible en los planes Business y Enterprise. Las herramientas de control de calidad (quality gates) son una carencia.</div>
   </div>
 </div>
 
 <!-- Analytics -->
-<div class="section-label">Analytics &amp; feedback</div>
+<div class="section-label">Analítica &amp; feedback</div>
 <div class="grid">
   <div class="card">
     <div class="card-header">
-      <span class="card-title">Developer feedback loops</span>
-      <span class="badge badge-yes">Native</span>
+      <span class="card-title">Ciclos de retroalimentación de desarrolladores</span>
+      <span class="badge badge-yes">Nativo</span>
     </div>
-    <div class="card-body">Per-page ratings (thumbs up/down) are built in. Developer CSAT is surfaced in the Metrics dashboard. Comments can be enabled per page for direct feedback.</div>
-    <div class="card-detail">Ratings roll up in the analytics dashboard — filterable by page, version, and time range.</div>
+    <div class="card-body">Las valoraciones por página (pulgar arriba/abajo) están integradas. El CSAT de desarrolladores se muestra en el panel de Metrics. Se pueden habilitar comentarios por página para recibir retroalimentación directa.</div>
+    <div class="card-detail">Las valoraciones se consolidan en el panel de analíticas, con filtros por página, versión y rango de tiempo.</div>
   </div>
   <div class="card">
     <div class="card-header">
-      <span class="card-title">Content analytics</span>
-      <span class="badge badge-yes">Native</span>
+      <span class="card-title">Analítica de contenido</span>
+      <span class="badge badge-yes">Nativo</span>
     </div>
-    <div class="card-body">ReadMe Metrics tracks page views, time on page, search queries, and exit rates. API call analytics are also available when using ReadMe's API logging.</div>
-    <div class="card-detail">Full search gap analysis is available. Feeding to external tools requires the Metrics API or webhook.</div>
+    <div class="card-body">ReadMe Metrics realiza un seguimiento de las visitas a páginas, el tiempo en página, las consultas de búsqueda y las tasas de salida. Las analíticas de llamadas a la API también están disponibles al utilizar el registro de API de ReadMe.</div>
+    <div class="card-detail">Dispone de un análisis completo de vacíos de búsqueda. El envío de datos a herramientas externas requiere la API de Metrics o un webhook.</div>
   </div>
 </div>
 
 <!-- Workflow -->
-<div class="section-label">Workflow &amp; editing</div>
+<div class="section-label">Flujo de trabajo &amp; edición</div>
 <div class="grid">
   <div class="card">
     <div class="card-header">
-      <span class="card-title">Easy to update</span>
-      <span class="badge badge-yes">Native</span>
+      <span class="card-title">Fácil de actualizar</span>
+      <span class="badge badge-yes">Nativo</span>
     </div>
-    <div class="card-body">WYSIWYG editor for non-engineers, markdown/MDX for engineers, plus GitHub Sync for code-first teams. Low barrier for both audiences — no build step required for content-only edits.</div>
-    <div class="card-detail">Engineers can also use the Guides API or CLI for bulk updates and automation.</div>
+    <div class="card-body">Editor WYSIWYG para perfiles no técnicos, Markdown/MDX para ingenieros, además de GitHub Sync para equipos orientados al código. Barrera de entrada baja para ambos públicos: no se requiere ningún paso de compilación para ediciones exclusivas de contenido.</div>
+    <div class="card-detail">Los ingenieros también pueden utilizar la API de Guides o la CLI para actualizaciones masivas y automatización.</div>
   </div>
 </div>
 
-<footer>Generated from ReadMe platform evaluation · readme_criteria_breakdown</footer>
+<footer>Generado a partir de la evaluación de la plataforma ReadMe · readme_criteria_breakdown</footer>
 
 </body>
 </html>
 `}</HTMLBlock>
 
-Here's how to think through the full picture:
+Así es como se puede analizar el panorama completo:
 
-Where ReadMe is a strong fit:
+Aspectos en los que ReadMe encaja a la perfección:
 
-* the core of what you're asking for is exactly what ReadMe was built to do. OpenAPI-synced reference, multi-language code samples, Try It sandbox, changelog, page ratings, and content analytics are all first-class features. The WYSIWYG + GitHub Sync combination directly addresses the "easy to update for engineers and non-engineers" requirement.
-* AI-native / MCP indexing — ReadMe ships both sides of the MCP story:
-  The author-facing MCP server lets your team query, read, and update documentation through AI tools — useful for content workflows, bulk edits, and AI-assisted writing directly against your live docs.
-  The user-facing MCP server is the more strategically significant one for this evaluation — it gives your API users' AI tools (Cursor, Claude, Windsurf, etc.) live access to your spec and docs as context while they're coding. That's exactly what the "MCP-indexed" criterion in the original requirements was asking for.
-  That actually makes ReadMe's AI-native story stronger than I initially assessed — and stronger than what many competitors offer. The only remaining nuance on that card would be whether llms.txt is generated natively, but the MCP piece is clearly covered. Worth updating the artifact if you're sharing it.
+- El núcleo de lo que busca es exactamente para lo que se diseñó ReadMe. La referencia sincronizada con OpenAPI, los ejemplos de código en múltiples lenguajes, el sandbox Try It, el registro de cambios, las valoraciones de páginas y la analítica de contenido son funciones de primer nivel. La combinación de WYSIWYG + GitHub Sync responde directamente al requisito de "fácil de actualizar para ingenieros y perfiles no técnicos".
+- Indexación nativa para IA / MCP: ReadMe cubre ambas facetas del ecosistema MCP:
+  El servidor MCP para autores permite a su equipo consultar, leer y actualizar la documentación a través de herramientas de IA, lo que resulta útil para los flujos de trabajo de contenido, las ediciones masivas y la redacción asistida por IA directamente sobre sus documentos publicados.
+  El servidor MCP orientado al usuario es el más relevante estratégicamente para esta evaluación: proporciona a las herramientas de IA de los usuarios de su API (Cursor, Claude, Windsurf, etc.) acceso en vivo a su especificación y documentación como contexto mientras programan. Eso es exactamente lo que exigía el criterio "indexado por MCP" en los requisitos originales.
+  De hecho, esto hace que la propuesta nativa para IA de ReadMe sea más sólida de lo que evalué inicialmente, y más fuerte que la ofrecida por muchos competidores. El único matiz restante en esa ficha sería si llms.txt se genera de forma nativa, pero la parte de MCP está claramente cubierta. Vale la pena actualizar el artefacto si lo va a compartir.
 
-Where it's partial, and what to do about it:
+Aspectos en los que es parcial y qué hacer al respecto:
 
-* Semantic search — current search is keyword-based. Zero-result tracking is available in analytics (you can see what returned no results) but isn't auto-surfaced as a queue for content work. If semantic search is hard criteria, this is the biggest gap vs alternatives like Mintlify or a custom Algolia integration.
-* Sub-100ms TTFB guarantee — ReadMe's SSR performance is generally solid, but you're on their infrastructure and can't contractually enforce a TTFB SLA. If that's a hard requirement, self-hosted solutions (Mintlify, Docusaurus + Vercel) give you more control.
-* Content governance / quality gates — GitHub Sync handles the PR review part well, but broken link checking and linting need to be bolted on in CI (e.g. broken-link-checker against your staging URL on every PR). ReadMe doesn't enforce this natively.
-* Personalisation by scheme/country/integration method — user variable injection (API keys, company name) is excellent. True conditional content branching by integration type isn't native and would require either separate versioned doc trees or custom JS blocks.
-* On the build vs buy vs open source question — ReadMe sits squarely in the "buy" column with a strong managed-platform story. If strict performance SLAs, deep MCP/AI-native features, or aggressive content conditionals are hard requirements, it's worth putting Mintlify side-by-side (stronger AI-native story, more config flexibility) and Docusaurus + Vercel (full control, more engineering lift). Happy to do a direct comparison against either if useful.
+- Búsqueda semántica: la búsqueda actual se basa en palabras clave. El seguimiento de consultas sin resultados está disponible en las analíticas (puede ver qué búsquedas no arrojaron resultados), pero no se presenta automáticamente como una lista de tareas pendientes para la creación de contenido. Si la búsqueda semántica es un criterio imprescindible, esta es la mayor carencia frente a alternativas como Mintlify o una integración personalizada con Algolia.
+- Garantía de TTFB inferior a 100 ms: el rendimiento de SSR en ReadMe suele ser sólido, pero depende de su infraestructura y no es posible exigir un SLA de TTFB por contrato. Si este es un requisito estricto, las soluciones autohospedadas (Mintlify, Docusaurus + Vercel) ofrecen un mayor control.
+- Gobernanza del contenido / controles de calidad (quality gates): GitHub Sync gestiona adecuadamente la parte de revisión mediante PR, pero la verificación de enlaces rotos y el linting deben añadirse en CI (p. ej., broken-link-checker contra la URL de staging en cada PR). ReadMe no aplica esto de forma nativa.
+- Personalización por esquema/país/método de integración: la inyección de variables de usuario (claves de API, nombre de la empresa) es excelente. La ramificación condicional real del contenido según el tipo de integración no es nativa y requeriría árboles de documentación versionados independientes o bloques de JS personalizados.
+- En cuanto al dilema de desarrollar vs. comprar vs. código abierto: ReadMe se sitúa de lleno en la columna de "comprar", con una sólida propuesta de plataforma gestionada. Si los SLA estrictos de rendimiento, las capacidades nativas avanzadas de IA/MCP o el contenido condicional complejo son requisitos imprescindibles, vale la pena comparar directamente con Mintlify (propuesta nativa de IA más sólida, mayor flexibilidad de configuración) y Docusaurus + Vercel (control total, mayor esfuerzo de ingeniería). Con gusto realizaré una comparación directa con cualquiera de ellos si resulta de utilidad.
