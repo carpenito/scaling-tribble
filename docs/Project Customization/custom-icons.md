@@ -1,13 +1,13 @@
 ---
-title: Custom Icons
+title: Iconos personalizados
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## Font Awesome
+## Font Awesome {#font-awesome}
 
-ReadMe loads Font Awesome 6's [Regular](https://fontawesome.com/search?s=regular\&f=classic\&o=r) and [Duotone](https://fontawesome.com/search?s=solid\&f=duotone\&o=r) libraries, and you can use them in your docs!
+ReadMe carga las bibliotecas [Regular](https://fontawesome.com/search?s=regular\&f=classic\&o=r) y [Duotone](https://fontawesome.com/search?s=solid\&f=duotone\&o=r) de Font Awesome 6, ¡y puedes usarlas en tu documentación!
 
 <HTMLBlock>{`
 <div class="Flex">
@@ -39,9 +39,9 @@ ReadMe loads Font Awesome 6's [Regular](https://fontawesome.com/search?s=regular
 
 ***
 
-### Accessibility
+### Accesibilidad {#accessibility}
 
-If an icon is used decoratively, you can mark an icon as hidden. For example, using it next to an appropriate text label:
+Si un icono se utiliza de forma decorativa, puedes marcarlo como oculto. Por ejemplo, al usarlo junto a una etiqueta de texto adecuada:
 
 ```html
 <button>
@@ -50,10 +50,10 @@ If an icon is used decoratively, you can mark an icon as hidden. For example, us
 </button>
 ```
 
-If your icon should be interpreted semantically, use the `aria-label` attribute:
+Si tu icono debe interpretarse semánticamente, utiliza el atributo `aria-label`:
 
 ```html
 <i aria-label="Download to Floppy" class="fa-duotone fa-solid fa-computer-classic"></i>
 ```
 
-You can refer to Font Awesome's [docs on accessibility](https://docs.fontawesome.com/web/dig-deeper/accessibility) for more information.
+Puedes consultar la [documentación sobre accesibilidad](https://docs.fontawesome.com/web/dig-deeper/accessibility) de Font Awesome para obtener más información.
