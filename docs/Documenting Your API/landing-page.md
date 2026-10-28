@@ -1,61 +1,58 @@
 ---
-title: Landing Page
+title: Página de destino
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## 👋 Landing Page
+## 👋 Página de aterrizaje {#-landing-page}
 
-A well-designed landing page is a good starting place to welcome users into your developer hub. This is the page we recommend you customize the most.
+Una página de aterrizaje bien diseñada es un buen punto de partida para dar la bienvenida a los usuarios a tu portal de desarrolladores. Esta es la página que más te recomendamos personalizar.
 
-If you're only using the Guides (also known as Documentation) feature, you can just direct your users to that on the first page in your [site navigation](doc:site-navigation).
+Si solo utilizas la función Guías (también conocida como Documentación), puedes simplemente dirigir a tus usuarios a ella en la primera página de la [navegación de tu sitio](doc:site-navigation).
 
-## Building a Landing Page
+## Crear una página de aterrizaje {#building-a-landing-page}
 
-When you go to the **Landing Page** tab you can customize things such as the header and body content.
+Al ir a la pestaña **Página de aterrizaje**, puedes personalizar aspectos como el encabezado y el contenido del cuerpo.
 
 <Image border={true} src="https://files.readme.io/9dfce6b-CleanShot_2022-09-24_at_08.48.532x.png" className="border" />
 
-> 📘 "First Page" Setting
->
-> Make sure you have Landing Page set to first page under the **Site Navigation > Advanced Settings**. (see screenshot below)
+<Callout icon="📘" theme="info">
+  ### Configuración de "Primera página" {#first-page-setting}
+
+  Asegúrate de tener la Página de aterrizaje configurada como primera página en **Navegación del sitio > Configuración avanzada**. (consulta la captura de pantalla a continuación)
+</Callout>
 
 <Image border={true} src="https://files.readme.io/30eba67-CleanShot_2022-09-24_at_08.51.152x.png" className="border" />
 
-## Header
+## Encabezado {#header}
 
-**Promo Title**  
-This will be the title text that goes into header.
+**Título promocional**<br />Este será el texto del título que irá en el encabezado.
 
-**Promo Text**  
-This will be the text that goes underneath the promo title, but it will still display in the header.
+**Texto promocional**<br />Este será el texto que irá debajo del título promocional, pero aún así se mostrará en el encabezado.
 
-**Content**  
-Underneath the promo title and text, you will have the option of having Nothing, Buttons, Search Bar, or Custom HTML. Custom HTML will override your promo title/text, so keep that in mind when editing.
+**Contenido**<br />Debajo del título y texto promocionales, tendrás la opción de elegir Nada, Botones, Barra de búsqueda o HTML personalizado. El HTML personalizado sobrescribirá tu título/texto promocional, así que tenlo en cuenta al editar.
 
-## Body
+## Cuerpo {#body}
 
-You have many templates for your body content and you can add more than one if you want to display multiple templates on your landing page.
+Dispones de muchas plantillas para el contenido del cuerpo y puedes añadir más de una si deseas mostrar varias plantillas en tu página de aterrizaje.
 
-**Important Links**  
-This will be the default if you do not select any of the options. It will display documentation, announcements, and the forums.
+**Enlaces importantes**<br />Esta será la opción predeterminada si no seleccionas ninguna de las opciones. Mostrará la documentación, los anuncios y los foros.
 
 <Callout icon="🚧" theme="warn">
-  If you have any of these three features disabled, you should not use a Landing Page as it will link your users to a 404 page.
+  Si tienes deshabilitada alguna de estas tres funciones, no deberías usar una página de aterrizaje, ya que dirigirá a tus usuarios a una página 404.
 </Callout>
 
-**Documentation categories**  
-This simply lists all your categories with quick links to doc pages. You can also choose to display the reference section.
+**Categorías de documentación**<br />Esto simplemente muestra todas tus categorías con enlaces rápidos a las páginas de documentación. También puedes optar por mostrar la sección de referencia.
 
-**Three columns of text, text, text + media**  
-These let you add the text yourself that you want displayed, and upload an image.
+**Tres columnas de texto, texto, texto + multimedia**<br />Estas te permiten añadir tú mismo el texto que deseas mostrar y subir una imagen.
 
-**Custom HTML**  
-If none of these suit your needs, you can always add custom HTML to get it exactly how you want it.
+**HTML personalizado**<br />Si ninguna de estas opciones se adapta a tus necesidades, siempre puedes añadir HTML personalizado para dejarlo exactamente como deseas.
 
-The Landing Page can be enabled or disabled in your Project Dashboard under **Appearance > Site Navigation** and you can toggle the Landing Page section to enable/disable it.
+La página de aterrizaje se puede habilitar o deshabilitar en el panel de control de tu proyecto en **Apariencia > Navegación del sitio**, y puedes alternar la sección Página de aterrizaje para habilitarla/deshabilitarla.
 
-> ❗️ Disabling Landing Page
->
-> The Landing Page is shared across all versions. If you disable the Landing Page it will be removed everywhere.
+<Callout icon="❗️" theme="error">
+  ### Deshabilitar la página de aterrizaje {#disabling-landing-page}
+
+  La página de aterrizaje se comparte entre todas las versiones. Si deshabilitas la página de aterrizaje, se eliminará en todas partes.
+</Callout>
