@@ -1,25 +1,25 @@
 ---
-title: Create a Map Using FusionCharts | FusionCharts
+title: Crear un mapa usando FusionCharts | FusionCharts
 excerpt: >-
-  This article outlines the steps to be executed for creating your first map
-  using the plain javascript. heading: Create a Map Using FusionCharts
+  Este artículo describe los pasos a seguir para crear su primer mapa utilizando
+  JavaScript puro. encabezado: Crear un mapa usando FusionCharts
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-**FusionCharts Suite XT** — the industry's most comprehensive JavaScript charting solution — is all about easing the whole process of data visualization through charts.
+**FusionCharts Suite XT** —la solución de gráficos JavaScript más completa de la industria— tiene como objetivo facilitar todo el proceso de visualización de datos mediante gráficos.
 
-In this page, we'll see how to install **FusionCharts** library and all the other dependencies on your system and render a map using Plain JavaScript.
+En esta página, veremos cómo instalar la biblioteca **FusionCharts** y todas las demás dependencias en su sistema y renderizar un mapa utilizando JavaScript puro.
 
-## Installation
+## Instalación {#installation}
 
-Install **FusionCharts** using any of the following steps:
+Instale **FusionCharts** siguiendo cualquiera de los siguientes pasos:
 
 <Tabs>
   <Tab title="NPM">
-    **To install the`fusioncharts` package via npm run the command below:**
+    **Para instalar el paquete `fusioncharts` a través de npm, ejecute el siguiente comando:**
 
     ```powershell
     npm install fusioncharts
@@ -27,14 +27,14 @@ Install **FusionCharts** using any of the following steps:
   </Tab>
 
   <Tab title="CDN">
-    **To install the FusionCharts Suite follow the steps below:**
+    **Para instalar FusionCharts Suite, siga los pasos a continuación:**
 
-    1. Include the **FusionCharts** JavaScript files from CDN.
-    2. Include the FusionCharts map renderer.
-    3. Include the map definition file.
-    4. Include the FusionCharts theme file to apply style to the charts.
+    1. Incluya los archivos JavaScript de **FusionCharts** desde la CDN.
+    2. Incluya el renderizador de mapas de FusionCharts.
+    3. Incluya el archivo de definición del mapa.
+    4. Incluya el archivo de tema de FusionCharts para aplicar estilo a los gráficos.
 
-    The code is shown below:
+    El código se muestra a continuación:
 
     ```html
     <head>
@@ -50,15 +50,15 @@ Install **FusionCharts** using any of the following steps:
     ```
   </Tab>
 
-  <Tab title="Local Files">
-    **To install the FusionCharts Suite follow the steps below:**
+  <Tab title="Archivos locales">
+    **Para instalar FusionCharts Suite, siga los pasos a continuación:**
 
-    1. Include the **FusionCharts** JavaScript files, which can be downloaded from [here](https://www.fusioncharts.com/download/fusioncharts-suite-xt).
-    2. Include the FusionCharts map renderer.
-    3. Include the map definition file.
-    4. Include the FusionCharts theme file to apply style to the charts.
+    1. Incluya los archivos JavaScript de **FusionCharts**, que se pueden descargar desde [aquí](https://www.fusioncharts.com/download/fusioncharts-suite-xt).
+    2. Incluya el renderizador de mapas de FusionCharts.
+    3. Incluya el archivo de definición del mapa.
+    4. Incluya el archivo de tema de FusionCharts para aplicar estilo a los gráficos.
 
-    The code is shown below:
+    El código se muestra a continuación:
 
     ```html
     <head>
@@ -75,38 +75,38 @@ Install **FusionCharts** using any of the following steps:
   </Tab>
 </Tabs>
 
-That completes the installation of **FusionCharts** Suite.
+Esto completa la instalación de **FusionCharts** Suite.
 
-## Create Your First Map
+## Cree su primer mapa {#create-your-first-map}
 
-In this section, we will create a visualization using the **World Map** showing the average annual population growth.
+En esta sección, crearemos una visualización utilizando el **mapa mundial** que muestra el crecimiento promedio anual de la población.
 
-The chart data uses geographical entity IDs (e.g., `NA` for North America, `AF` for Africa) and a color gradient to represent growth ranges.
+Los datos del gráfico utilizan identificadores de entidades geográficas (por ejemplo, `NA` para América del Norte, `AF` para África) y un degradado de color para representar rangos de crecimiento.
 
 <RemoteFusionChartsMap configUrl="https://raw.githubusercontent.com/aerdman1/aerdman1.github.io/refs/heads/main/fusioncharts-map-world.json" height={550} />
 
-## Map Data
+## Datos del mapa {#map-data}
 
-The data for the above map is represented in the table below:
+Los datos para el mapa anterior se representan en la siguiente tabla:
 
-| State         | Entity Name | Value |
-| ------------- | ----------- | ----- |
-| North America | NA          | 82    |
-| South America | SA          | 2.04  |
-| Asia          | AS          | 1.78  |
-| Europe        | EU          | 40    |
-| Africa        | AF          | 2.58  |
-| Australia     | AU          | 1.30  |
+| Estado            | Nombre de la entidad | Valor |
+| ----------------- | -------------------- | ----- |
+| América del Norte | NA                   | 82    |
+| América del Sur   | SA                   | 2.04  |
+| Asia              | AS                   | 1.78  |
+| Europa            | EU                   | 40    |
+| África            | AF                   | 2.58  |
+| Australia         | AU                   | 1.30  |
 
-In the above table, the column **Entity Name** represents the geographical entities represented in the map, whose full names are given in the **State** column.
+En la tabla anterior, la columna **Nombre de la entidad** representa las entidades geográficas representadas en el mapa, cuyos nombres completos se indican en la columna **Estado**.
 
-FusionCharts accepts data in **JSON** format in which the above entities are denoted by the `id` key in the `data` object.
+FusionCharts acepta datos en formato **JSON** en el que las entidades anteriores se indican mediante la clave `id` en el objeto `data`.
 
-For any map visualization, it is important to provide the correct value for the `id` keys. For example, if you want to denote Africa, the value for the corresponding `id` must be `AF` and not `AFR`.
+Para cualquier visualización de mapas, es importante proporcionar el valor correcto para las claves `id`. Por ejemplo, si desea indicar África, el valor del `id` correspondiente debe ser `AF` y no `AFR`.
 
-We have a detailed [Map Specification Sheets](https://www.fusioncharts.com/dev/maps/spec-sheets/world) for all the maps that can be rendered using FusionCharts, where you can find the correct `id` of the maps you want to create.
+Disponemos de [hojas de especificaciones de mapas](https://www.fusioncharts.com/dev/maps/spec-sheets/world) detalladas para todos los mapas que se pueden renderizar con FusionCharts, donde puede encontrar el `id` correcto de los mapas que desea crear.
 
-Following code is the JSON representation of the above table with the required attributes to render the above map.
+El siguiente código es la representación JSON de la tabla anterior con los atributos requeridos para renderizar el mapa anterior.
 
 ```json
 {
@@ -168,60 +168,60 @@ Following code is the JSON representation of the above table with the required a
 }
 ```
 
-In the above JSON data:
+En los datos JSON anteriores:
 
-* Create the `chart` object to define the elements of the map.
+- Cree el objeto `chart` para definir los elementos del mapa.
 
-* Create the `colorRange` array to set the color associated with the specific range of values.
+- Cree el array `colorRange` para definir el color asociado al rango específico de valores.
 
-* Specify `minValue` and `maxValue` within the `color` array under the `colorRange` array.
+- Especifique `minValue` y `maxValue` dentro del array `color` bajo el array `colorRange`.
 
-* Create the `data` array to define the id of the continents and their corresponding values along with configurations. For example, the first object under `data` array contains the `id` and `value` of **North America** as **NA** and **.82** respectively.
+- Cree el array `data` para definir el id de los continentes y sus valores correspondientes junto con las configuraciones. Por ejemplo, el primer objeto dentro del array `data` contiene el `id` y el `value` de **América del Norte** como **NA** y **.82**, respectivamente.
 
-The chart object and the respective arrays contain a set of key-value pairs known as **attributes**. These attributes are used to set the functional and cosmetic properties of the map.
+El objeto chart y los respectivos arrays contienen un conjunto de pares clave-valor conocidos como **atributos**. Estos atributos se utilizan para definir las propiedades funcionales y estéticas del mapa.
 
-Now that you have the data in JSON format, let's render the map.
+Ahora que tiene los datos en formato JSON, vamos a renderizar el mapa.
 
-## Render the Map
+## Renderizar el mapa {#render-the-map}
 
-To render the map follow the steps below:
+Para renderizar el mapa, siga los pasos a continuación:
 
-1. Include the `fusioncharts` library.
+1. Incluya la biblioteca `fusioncharts`.
 
-2. Include the FusionMaps renderer.
+2. Incluya el renderizador de FusionMaps.
 
-3. Include the map definition file.
+3. Incluya el archivo de definición del mapa.
 
-4. Include the FusionCharts theme file to apply style to the charts.
+4. Incluya el archivo de tema de FusionCharts para aplicar estilo a los gráficos.
 
-5. Add the map renderer and map definition as a dependency to the core.
+5. Añada el renderizador del mapa y la definición del mapa como una dependencia al núcleo.
 
-6. Add the theme as a dependency to the core.
+6. Añada el tema como una dependencia al núcleo.
 
-7. Store the chart configurations as a JSON object. In this JSON object:
+7. Almacene las configuraciones del gráfico como un objeto JSON. En este objeto JSON:
 
-   * Set the map type as `world`. Each map is represented with a unique map alias. For World map, the alias is `world`. Find the complete list of map types with their respective alias [here](https://www.fusioncharts.com/dev/map-guide/list-of-maps).
+   - Establezca el tipo de mapa como `world`. Cada mapa se representa con un alias de mapa único. Para el mapa del mundo, el alias es `world`. Encuentre la lista completa de tipos de mapas con sus respectivos alias [aquí](https://www.fusioncharts.com/dev/map-guide/list-of-maps).
 
-   * Set the width and height (in pixels).
+   - Establezca el ancho y el alto (en píxeles).
 
-   * Set the `dataFormat` as **json**.
+   - Establezca `dataFormat` como **json**.
 
-   * Embed the json data as the value of the `dataSource`.
+   - Incruste los datos json como el valor de `dataSource`.
 
-8. Add a container (instance) for the chart.
+8. Añada un contenedor (instancia) para el gráfico.
 
-The consolidated code is shown below:
+El código consolidado se muestra a continuación:
 
 <Tabs>
   <Tab title="NPM">
-    **The`fusioncharts` package for `npm` can be used in two different ways:**
+    **El paquete `fusioncharts` para `npm` se puede utilizar de dos formas diferentes:**
 
-    * FusionCharts ES module
-    * FusionCharts CJS module
+    - Módulo ES de FusionCharts
+    - Módulo CJS de FusionCharts
 
-    **The steps to render a map for both modules are shown below:**
+    **Los pasos para renderizar un mapa para ambos módulos se muestran a continuación:**
 
-    #### ES6
+    #### ES6 {#es6}
 
     ```javascript
     // Include the core fusioncharts file from core
@@ -305,7 +305,7 @@ The consolidated code is shown below:
     annualPopulation.render();
     ```
 
-    #### CJS
+    #### CJS {#cjs}
 
     ```javascript
     var FusionCharts = require('fusioncharts');
@@ -476,7 +476,7 @@ The consolidated code is shown below:
     ```
   </Tab>
 
-  <Tab title="Local Files">
+  <Tab title="Archivos locales">
     ```html
     <html>
     <head>
@@ -564,19 +564,19 @@ The consolidated code is shown below:
   </Tab>
 </Tabs>
 
-That's it! Your first map using Plain JavaScript is ready.
+¡Eso es todo! Su primer mapa con JavaScript puro está listo.
 
-## Render other maps
+## Renderizar otros mapas {#render-other-maps}
 
-To reduce the size of the package FusionCharts comes with only two maps, i.e., the **World** map and the **USA** map. However, FusionCharts provide 1600+ maps for you to explore. [Download](https://www.fusioncharts.com/download/map-definition-files) the map files separately if you want to save them locally.
+Para reducir el tamaño del paquete, FusionCharts incluye solo dos mapas, es decir, el mapa del **Mundo** y el mapa de **EE. UU.** Sin embargo, FusionCharts ofrece más de 1600 mapas para que los explore. [Descargue](https://www.fusioncharts.com/download/map-definition-files) los archivos de mapas por separado si desea guardarlos localmente.
 
-Let's create a map of California to show the "Web visits for a particular month" as shown below:
+Vamos a crear un mapa de California para mostrar las "Visitas web de un mes determinado", como se muestra a continuación:
 
 <Tabs>
-  <Tab title="CHART">
+  <Tab title="GRÁFICO">
     <FusionCaliMap configUrl="https://raw.githubusercontent.com/carpenito/kirb-translationsQA2025/refs/heads/v1.0/fusioncharts.california.js" height={550} fcVersion="4.2.1" />
 
-    To render the above map, first install fusionmaps package which contains all the map definition files as shown below:
+    Para renderizar el mapa anterior, primero instale el paquete fusionmaps, que contiene todos los archivos de definición de mapas, como se muestra a continuación:
 
     ```
     $ npm install fusionmaps
@@ -855,7 +855,7 @@ Let's create a map of California to show the "Web visits for a particular month"
     }
     ```
 
-    To render the above map, first install fusionmaps package which contains all the map definition files as shown below:
+    Para renderizar el mapa anterior, primero instale el paquete fusionmaps, que contiene todos los archivos de definición de mapas, como se muestra a continuación:
 
     ```
         $ npm install fusionmaps
@@ -863,16 +863,16 @@ Let's create a map of California to show the "Web visits for a particular month"
   </Tab>
 </Tabs>
 
-After installing fusionmaps package, the code to render the map of California is:
+Después de instalar el paquete fusionmaps, el código para renderizar el mapa de California es:
 
 <Tabs>
   <Tab title="NPM">
-    The fusioncharts package for npm can now be used in two different ways:
+    El paquete fusioncharts para npm ahora se puede utilizar de dos formas diferentes:
 
-    * FusionCharts ES module
-    * FusionCharts CJS module
+    - Módulo ES de FusionCharts
+    - Módulo CJS de FusionCharts
 
-    **The steps to render a map for both the modules are shown below:**
+    **Los pasos para renderizar un mapa para ambos módulos se muestran a continuación:**
 
     ES6
 
@@ -984,9 +984,9 @@ After installing fusionmaps package, the code to render the map of California is
   </Tab>
 
   <Tab title="CDN">
-    To use any other map (except World and USA) from the 1600+ maps, download the map definition files, then copy those map files to your current maps folder.
+    Para utilizar cualquier otro mapa (excepto el del Mundo y el de EE. UU.) de los más de 1600 mapas, descargue los archivos de definición de mapas y luego copie esos archivos de mapas en su carpeta de mapas actual.
 
-    The map definition files are named in the fusioncharts.\[MAP\_ALIAS].js format, where MAP\_ALIAS represents the country, state or region name.
+    Los archivos de definición de mapas se nombran con el formato fusioncharts.\[MAP_ALIAS].js, donde MAP_ALIAS representa el nombre del país, estado o región.
 
     ```
     <html>
@@ -1042,10 +1042,10 @@ After installing fusionmaps package, the code to render the map of California is
     ```
   </Tab>
 
-  <Tab title="Local Files">
-    To use any other map (except World and USA) from the 1600+ maps, download the map definition files, then copy those map files to your current maps folder.
+  <Tab title="Archivos locales">
+    Para utilizar cualquier otro mapa (excepto el del Mundo y el de EE. UU.) de los más de 1600 mapas, descargue los archivos de definición de mapas y luego copie esos archivos de mapas en su carpeta de mapas actual.
 
-    The map definition files are named in the fusioncharts.\[MAP\_ALIAS].js format, where MAP\_ALIAS represents the country, state or region name.
+    Los archivos de definición de mapas se nombran con el formato fusioncharts.\[MAP_ALIAS].js, donde MAP_ALIAS representa el nombre del país, estado o región.
 
     ```
     <html>
@@ -1102,14 +1102,14 @@ After installing fusionmaps package, the code to render the map of California is
   </Tab>
 </Tabs>
 
-That's it! The **California** map is ready.
+¡Eso es todo! El mapa de **California** está listo.
 
-## Problem rendering the chart?
+## ¿Problemas para renderizar el gráfico? {#problem-rendering-the-chart}
 
-In case there is an error, and you are unable to see the chart, check for the following:
+En caso de que ocurra un error y no pueda ver el gráfico, verifique lo siguiente:
 
-* If you are getting a JavaScript error on your page, check your browser console for the exact error and fix accordingly. If you're unable to solve it, click [here](https://www.fusioncharts.com/contact-support) to get in touch with our support team.
+- Si recibe un error de JavaScript en su página, revise la consola de su navegador para ver el error exacto y corríjalo en consecuencia. Si no puede resolverlo, haga clic [aquí](https://www.fusioncharts.com/contact-support) para ponerse en contacto con nuestro equipo de soporte.
 
-* If the chart does not show up at all, but there are no JavaScript errors, check if the FusionCharts Suite XT JavaScript library has loaded correctly. You can use developer tools within your browser to see if `fusioncharts.js` was loaded.
+- Si el gráfico no se muestra en absoluto, pero no hay errores de JavaScript, verifique si la biblioteca JavaScript de FusionCharts Suite XT se ha cargado correctamente. Puede utilizar las herramientas de desarrollo de su navegador para comprobar si se cargó `fusioncharts.js`.
 
-* If you get a **Loading Data** or **Error in loading data** message, check whether your JSON data structure is correct, or there are conflicts related to quotation marks in your code.
+- Si recibe un mensaje de **Cargando datos** o **Error al cargar datos**, verifique si la estructura de sus datos JSON es correcta o si existen conflictos relacionados con las comillas en su código.
