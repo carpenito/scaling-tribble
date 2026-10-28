@@ -1,5 +1,5 @@
 ---
-title: user
-excerpt: Operations about user
+title: usuario
+excerpt: Operaciones sobre el usuario
 hidden: false
 ---
