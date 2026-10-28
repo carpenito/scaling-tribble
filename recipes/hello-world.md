@@ -1,6 +1,6 @@
 ---
-title: Hello World
-description: Recipe Description
+title: Hola Mundo
+description: Descripción de la receta
 hidden: true
 recipe:
   color: '#018FF4'
@@ -14,7 +14,7 @@ recipe:
 {"success":true}
 ```
 
-# Hello World
+# Hola Mundo
 
 <!-- shell@ -->
 
