@@ -1,19 +1,19 @@
 ---
-title: New Page Feb 2026
-excerpt: Description (Optional)
+title: Nueva página feb. 2026
+excerpt: Descripción (opcional)
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
 metadata:
   robots: index
 ---
-Creating a new page
+Crear una nueva página
 
-> Block quote
+> Cita en bloque
 >
-> how do I end the block quote?" 
+> ¿cómo termino la cita en bloque?"
 
-<Image align="center" border={true} caption="cute" src="https://files.readme.io/60d3abfd54ed970594a171087b9854f9cfaa0f4cee3f4d6a7d0a7b37a091f5e9-Family_Pic.jpg" />
+<Image align="center" border={true} caption="lindo" src="https://files.readme.io/60d3abfd54ed970594a171087b9854f9cfaa0f4cee3f4d6a7d0a7b37a091f5e9-Family_Pic.jpg" />
 
 ```cplusplus
 #include <iostream>
