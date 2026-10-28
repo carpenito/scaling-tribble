@@ -2,24 +2,24 @@
 title: MCP
 hidden: false
 ---
-The Kirb_TranslationsQA_Nov2025 Model Context Protocol (MCP) server enables AI-powered code editors like Cursor and Windsurf, plus general-purpose tools like Claude Desktop, to interact directly with your Kirb_TranslationsQA_Nov2025 API and documentation.
+El servidor de Model Context Protocol (MCP) de Kirb_TranslationsQA_Nov2025 permite a los editores de código con tecnología de IA como Cursor y Windsurf, además de herramientas de uso general como Claude Desktop, interactuar directamente con tu API y documentación de Kirb_TranslationsQA_Nov2025.
 
-## What is MCP?
+## ¿Qué es MCP? {#what-is-mcp}
 
-Model Context Protocol (MCP) is an open standard that allows AI applications to securely access external data sources and tools. The Kirb_TranslationsQA_Nov2025 MCP server provides AI agents with:
+Model Context Protocol (MCP) es un estándar abierto que permite a las aplicaciones de IA acceder de forma segura a fuentes de datos y herramientas externas. El servidor MCP de Kirb_TranslationsQA_Nov2025 proporciona a los agentes de IA:
 
-* **Direct API access** to Kirb_TranslationsQA_Nov2025 functionality
-* **Documentation search** capabilities
-* **Real-time data** from your Kirb_TranslationsQA_Nov2025 account
-* **Code generation** assistance for Kirb_TranslationsQA_Nov2025 integrations
+- **Acceso directo a la API** a las funciones de Kirb_TranslationsQA_Nov2025
+- Capacidades de **búsqueda en la documentación**
+- **Datos en tiempo real** de tu cuenta de Kirb_TranslationsQA_Nov2025
+- Asistencia de **generación de código** para integraciones de Kirb_TranslationsQA_Nov2025
 
-## Kirb_TranslationsQA_Nov2025 MCP Server Setup
+## Configuración del servidor MCP de Kirb_TranslationsQA_Nov2025 {#kirb_translationsqa_nov2025-mcp-server-setup}
 
-Kirb_TranslationsQA_Nov2025 hosts a remote MCP server at `https://kirbtranslationsqanov2025.readme.io/mcp`. Configure your AI development tools to connect to this server. If your APIs require authentication, you can pass in headers via query parameters or however headers are configured in your MCP client.
+Kirb_TranslationsQA_Nov2025 aloja un servidor MCP remoto en `https://kirbtranslationsqanov2025.readme.io/mcp`. Configura tus herramientas de desarrollo de IA para conectarte a este servidor. Si tus API requieren autenticación, puedes pasar encabezados a través de parámetros de consulta o de la forma en que estén configurados los encabezados en tu cliente MCP.
 
 <Tabs>
   <Tab title="Cursor">
-    **Add to `~/.cursor/mcp.json`:**
+    **Añade a `~/.cursor/mcp.json`:**
 
     ```json
     {
@@ -30,24 +30,10 @@ Kirb_TranslationsQA_Nov2025 hosts a remote MCP server at `https://kirbtranslatio
       }
     }
     ```
-
-    </Tab>
-  <Tab title="Windsurf">
-    **Add to `~/.codeium/windsurf/mcp_config.json`:**
-
-    ```json
-    {
-      "mcpServers": {
-        "kirbtranslationsqanov2025": {
-          "url": "https://kirbtranslationsqanov2025.readme.io/mcp"
-        }
-      }
-    }
-    ```
-
   </Tab>
-  <Tab title="Claude Desktop">
-    **Add to `claude_desktop_config.json`:**
+
+  <Tab title="Windsurf">
+    **Añade a `~/.codeium/windsurf/mcp_config.json`:**
 
     ```json
     {
@@ -58,19 +44,32 @@ Kirb_TranslationsQA_Nov2025 hosts a remote MCP server at `https://kirbtranslatio
       }
     }
     ```
+  </Tab>
 
+  <Tab title="Claude Desktop">
+    **Añade a `claude_desktop_config.json`:**
+
+    ```json
+    {
+      "mcpServers": {
+        "kirbtranslationsqanov2025": {
+          "url": "https://kirbtranslationsqanov2025.readme.io/mcp"
+        }
+      }
+    }
+    ```
   </Tab>
 </Tabs>
 
-## Testing Your MCP Setup
+## Prueba de tu configuración de MCP {#testing-your-mcp-setup}
 
-Once configured, you can test your MCP server connection:
+Una vez configurado, puedes probar la conexión de tu servidor MCP:
 
-1. **Open your AI editor** (Cursor, Windsurf, etc.)
-2. **Start a new chat** with the AI assistant
-3. **Ask about Kirb_TranslationsQA_Nov2025** - try questions like:
-   * "How do I [common use case]?"
-   * "Show me an example of [API functionality]"
-   * "Create a [integration type] using Kirb_TranslationsQA_Nov2025"
+1. **Abre tu editor de IA** (Cursor, Windsurf, etc.)
+2. **Inicia un nuevo chat** con el asistente de IA
+3. **Pregunta sobre Kirb_TranslationsQA_Nov2025** - prueba preguntas como:
+   - "¿Cómo \[caso de uso común]?"
+   - "Muéstrame un ejemplo de \[funcionalidad de la API]"
+   - "Crea un \[tipo de integración] usando Kirb_TranslationsQA_Nov2025"
 
-The AI should now have access to your Kirb_TranslationsQA_Nov2025 account data and documentation through the MCP server.
+La IA ahora debería tener acceso a los datos de tu cuenta y a la documentación de Kirb_TranslationsQA_Nov2025 a través del servidor MCP.
