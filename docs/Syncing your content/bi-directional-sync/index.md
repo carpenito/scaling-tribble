@@ -1,69 +1,69 @@
 ---
-title: Bi-Directional Sync
+title: Sincronización bidireccional
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Bi-directional sync creates a two-way connection between your ReadMe project and a GitHub or GitLab repository. This optional workflow keeps content consistent across both platforms:
+La sincronización bidireccional crea una conexión bidireccional entre tu proyecto de ReadMe y un repositorio de GitHub o GitLab. Este flujo de trabajo opcional mantiene el contenido uniforme en ambas plataformas:
 
-* Write in your preferred environment whether that’s ReadMe or your local development setup.
-* Developers, engineers, and technical writers can collaborate using tools they prefer.
-* Changes sync automatically between ReadMe and Git creating a single source of truth.
+- Escribe en tu entorno preferido, ya sea ReadMe o tu configuración de desarrollo local.
+- Los desarrolladores, ingenieros y redactores técnicos pueden colaborar utilizando las herramientas que prefieran.
+- Los cambios se sincronizan automáticamente entre ReadMe y Git, creando una única fuente de verdad.
 
 <PlanTable currentPlan="Startup" />
 
 ***
 
-## Setting Up Bi-Directional Sync
+## Configurar la sincronización bidireccional {#setting-up-bi-directional-sync}
 
-ReadMe supports bi-directional sync with both <Anchor label="GitHub" target="_blank" href="https://docs.readme.com/main/docs/sync-with-github">GitHub</Anchor> and <Anchor label="GitLab" target="_blank" href="https://docs.readme.com/main/docs/sync-with-gitlab">GitLab</Anchor>.
+ReadMe admite la sincronización bidireccional tanto con <Anchor label="GitHub" target="_blank" href="https://docs.readme.com/main/docs/sync-with-github">GitHub</Anchor> como con <Anchor label="GitLab" target="_blank" href="https://docs.readme.com/main/docs/sync-with-gitlab">GitLab</Anchor>.
 
-For syncing with GitHub, you can connect to GitHub Cloud. If you are on the Enterprise plan, ReadMe supports bi-directional sync to <Anchor label="GitHub Enterprise Server" target="_blank" href="https://docs.readme.com/ent/docs/connecting-github-enterprise-server">GitHub Enterprise Server</Anchor>.
+Para sincronizar con GitHub, puedes conectarte a GitHub Cloud. Si estás en el plan Enterprise, ReadMe admite la sincronización bidireccional con <Anchor label="GitHub Enterprise Server" target="_blank" href="https://docs.readme.com/ent/docs/connecting-github-enterprise-server">GitHub Enterprise Server</Anchor>.
 
 <Image align="center" border={true} src="https://files.readme.io/6335bcb6aa344d9d1f23d11b3cf420cbe94493872630760fb04d2cce9df10189-Screenshot_2025-10-27_at_12.29.28_PM.png" className="border" />
 
 <Callout icon="❗️" theme="error">
-  The repository you’re syncing to must be empty—no commits or files (e.g., README.md)—before connecting to ReadMe. You can add or remove files after setup.
+  El repositorio con el que te sincronices debe estar vacío (sin confirmaciones ni archivos, por ejemplo, README.md) antes de conectarlo a ReadMe. Puedes agregar o eliminar archivos después de la configuración.
 </Callout>
 
 ***
 
-## Documentation Versioning
+## Control de versiones de la documentación {#documentation-versioning}
 
-If your ReadMe project uses multiple [Versions](doc:versions), only the Main Version is initially synced when you first enable Bi-Directional Sync. After successfully enabling Bi-Directional Sync, any changes to the other versions will sync to your Git repository.
+Si tu proyecto de ReadMe utiliza varias [Versiones](doc:versions), solo la versión principal se sincroniza inicialmente cuando activas la sincronización bidireccional por primera vez. Después de activar con éxito la sincronización bidireccional, cualquier cambio en las demás versiones se sincronizará con tu repositorio de Git.
 
 ***
 
-## Editing Your Docs
+## Editar tu documentación {#editing-your-docs}
 
-Once your Git Connection is set up, all changes made in the ReadMe editor will automatically sync to your Git repository, and vice versa. When editing documentation in Git, you can use your preferred code editor or Git tools
+Una vez configurada tu conexión de Git, todos los cambios realizados en el editor de ReadMe se sincronizarán automáticamente con tu repositorio de Git, y viceversa. Al editar la documentación en Git, puedes usar tu editor de código o herramientas de Git preferidos
 
-To ensure successful syncing from _Git to ReadMe_, follow these structure guidelines:
+Para garantizar una sincronización correcta de _Git a ReadMe_, sigue estas pautas de estructura:
 
-**Markdown Files:**
+**Archivos Markdown:**
 
-* Files must include required frontmatter: `title` and `summary`
-* Content should be written in standard Markdown format
-* File names must match the intended URL slug for proper routing
+- Los archivos deben incluir el frontmatter obligatorio: `title` y `summary`
+- El contenido debe estar escrito en formato Markdown estándar
+- Los nombres de los archivos deben coincidir con el slug de URL previsto para un enrutamiento adecuado
 
-**Navigation:**
+**Navegación:**
 
-* Page order is defined using `_order.yaml` files
-* Each category folder can have its’ own `order.yaml`
-* [Navigation structure](https://docs.readme.com/main/docs/documentation-structure#/) in Git, mirrors your ReadMe project hierarchy
+- El orden de las páginas se define mediante archivos `_order.yaml`
+- Cada carpeta de categoría puede tener su propio `order.yaml`
+- La [estructura de navegación](https://docs.readme.com/main/docs/documentation-structure#/) en Git refleja la jerarquía de tu proyecto de ReadMe
 
-**[Branches](https://docs.readme.com/main/docs/branches#/)**
+**[Ramas](https://docs.readme.com/main/docs/branches#/)**
 
-* The initial commit from ReadMe is to establish branch synchronization with GitHub
-* Branch names must exactly match the version names defined in ReadMe
-* Any mismatched version and names will exist in GitHub and will not sync with ReadMe.
+- El commit inicial desde ReadMe sirve para establecer la sincronización de ramas con GitHub
+- Los nombres de las ramas deben coincidir exactamente con los nombres de las versiones definidos en ReadMe
+- Cualquier versión y nombre que no coincida existirá en GitHub y no se sincronizará con ReadMe.
 
 <HTMLBlock>{`
 <div class="migrating-column">
   <section>
     <header>
-      <i class="fa-duotone fa-solid fa-hexagon-exclamation"></i> Unsynced
+      <i class="fa-duotone fa-solid fa-hexagon-exclamation"></i> No sincronizado
     </header>
     <pre>ReadMe: v2.0_new-branch
 GitHub: v2-new-branch
@@ -71,7 +71,7 @@ GitHub: v2-new-branch
   </section>
   <section>
     <header>
-      <i class="fa-duotone fa-solid fa-circle-check"></i> Synced
+      <i class="fa-duotone fa-solid fa-circle-check"></i> Sincronizado
     </header>
     <pre>ReadMe: v2.0_new-branch
 GitHub: v2.0_new-branch
@@ -137,29 +137,29 @@ GitHub: v2.0_new-branch
 </style>
 `}</HTMLBlock>
 
-### Handling Conflicts
+### Gestión de conflictos {#handling-conflicts}
 
-When a conflict is detected while saving in ReadMe, the system will immediately prompt you to Overwrite Git changes or Cancel the save and continue editing. Changes saved in ReadMe, will always match what goes live.
+Cuando se detecte un conflicto al guardar en ReadMe, el sistema te preguntará inmediatamente si deseas sobrescribir los cambios de Git o cancelar el guardado y continuar editando. Los cambios guardados en ReadMe siempre coincidirán con lo que se publique.
 
-When merging from GitHub, the user can resolve conflicts via the GitHub editor or the merge tool of their choice locally before pushing.
+Al fusionar desde GitHub, el usuario puede resolver los conflictos a través del editor de GitHub o con la herramienta de fusión de su elección localmente antes de hacer push.
 
 ***
 
-## FAQ
+## Preguntas frecuentes {#faq}
 
-<Accordion title="How does ReadMe integrate with GitHub and what permissions are required?" icon="fa-question-circle">
-  ReadMe uses a GitHub App with rep-level access: read-only for metadata(required) and read/write for syncing content. Webhooks handle syncs, change detection, and conflict resolution.
+<Accordion title="¿Cómo se integra ReadMe con GitHub y qué permisos se requieren?" icon="fa-question-circle">
+  ReadMe utiliza una GitHub App con acceso a nivel de repositorio: solo lectura para metadatos (obligatorio) y lectura/escritura para sincronizar contenido. Los webhooks gestionan las sincronizaciones, la detección de cambios y la resolución de conflictos.
 </Accordion>
 
-<Accordion title="Why aren't my branches showing up in GitHub or GitLab?" icon="fa-question-circle">
-  New branches you create after enabling bi-directional sync automatically creates a corresponding branch on Git tools, but existing branches will not create a corresponding branch on Git tools until you save a change to that branch in ReadMe.
+<Accordion title="¿Por qué no aparecen mis ramas en GitHub o GitLab?" icon="fa-question-circle">
+  Las ramas nuevas que crees después de activar la sincronización bidireccional crearán automáticamente una rama correspondiente en las herramientas de Git, pero las ramas existentes no crearán una rama correspondiente en las herramientas de Git hasta que guardes un cambio en esa rama en ReadMe.
 </Accordion>
 
-<Accordion title="What permissions are required when syncing with GitLab?" icon="fa-question-circle">
-  ReadMe requests access to:
+<Accordion title="¿Qué permisos se requieren para sincronizar con GitLab?" icon="fa-question-circle">
+  ReadMe solicita acceso a:
 
-  * `read_api` for listing projects
-  * `read_user` and `read_profile` to display user information
-  * `read_repository` to sync content in GitLab to ReadMe
-  * `write_repository` to sync contnotion ent in ReadMe to GitLab
+  - `read_api` para listar proyectos
+  - `read_user` y `read_profile` para mostrar la información del usuario
+  - `read_repository` para sincronizar el contenido de GitLab con ReadMe
+  - `write_repository` para sincronizar el contenido de ReadMe con GitLab
 </Accordion>
