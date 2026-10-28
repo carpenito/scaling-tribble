@@ -215,7 +215,8 @@ export const FusionCaliMap = props => {
   if (loading) {
     return (
       <div style={{ padding: 12, fontFamily: 'system-ui, sans-serif', fontSize: 13, color: '#64748b' }}>
-        Loading map...
+
+        Cargando mapa...
       </div>
     );
   }
@@ -223,7 +224,7 @@ export const FusionCaliMap = props => {
   if (error) {
     return (
       <div style={{ borderRadius: 10, border: '1px solid #fecaca', background: '#fff5f5', padding: '10px 14px', fontFamily: 'system-ui, sans-serif' }}>
-        <div style={{ fontSize: 13, fontWeight: 600, color: '#b91c1c' }}>Map failed</div>
+        <div style={{ fontSize: 13, fontWeight: 600, color: '#b91c1c' }}>Falló el mapa</div>
         <div style={{ fontSize: 13, color: '#dc2626', marginTop: 4 }}>{error}</div>
       </div>
     );
@@ -231,17 +232,11 @@ export const FusionCaliMap = props => {
 
   return (
     <div style={{ border: '1px solid rgba(0,0,0,0.12)', borderRadius: 12, overflow: 'hidden' }}>
-      <div
-        id={containerId}
+      <div id={containerId}
         ref={containerRef}
-        style={{ width: '100%', height: Number(height) || 550, background: '#fff' }}
-      />
+        style={{ width: '100%', height: Number(height) || 550, background: '#fff' }}></div>
     </div>
   );
 };
 
-<FusionCaliMap
-  configUrl="https://raw.githubusercontent.com/carpenito/kirb-translationsQA2025/refs/heads/v1.0/fusioncharts.california.js"
-  height={550}
-  fcVersion="4.2.1"
-  />
+<FusionCaliMap configUrl="https://raw.githubusercontent.com/carpenito/kirb-translationsQA2025/refs/heads/v1.0/fusioncharts.california.js" height={550} fcVersion="4.2.1" />
