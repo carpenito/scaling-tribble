@@ -1,66 +1,68 @@
 ---
-title: Site Navigation
+title: Navegación del sitio
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-### URL Structure
+### Estructura de la URL {#url-structure}
 
-The URL structure of your site will be subdomain/docs/page-slug. Only the subdomain and the page-slug can be changed. The docs and reference paths cannot be changed.
+La estructura de la URL de tu sitio será subdomain/docs/page-slug. Solo se pueden cambiar el subdominio y el slug de la página. Las rutas docs y reference no se pueden cambiar.
 
-<p class="blank-line" />
+<p class="blank-line"></p>
 
-### Top Navigation
+### Navegación superior {#top-navigation}
 
-#### Left and Right Side Navigation
+#### Navegación lateral izquierda y derecha {#left-and-right-side-navigation}
 
-In this section you can add links to different parts of your documentation as well as external links.
+En esta sección puedes añadir enlaces a diferentes partes de tu documentación, así como enlaces externos.
 
-#### Logo Link
+#### Enlace del logotipo {#logo-link}
 
-The default link for the logo will be your landing page, but you can also set it to your homepage URL from your [project settings](doc:project-settings).
+El enlace predeterminado para el logotipo será tu página de destino, pero también puedes configurarlo con la URL de tu página de inicio desde la [configuración del proyecto](doc:project-settings).
 
-By default, all enabled sections of the documentation appear as links across the navigation. This can be customized to collapse all sections as a dropdown instead.
+De forma predeterminada, todas las secciones habilitadas de la documentación aparecen como enlaces en la navegación. Esto se puede personalizar para contraer todas las secciones en un menú desplegable en su lugar.
 
-<p class="blank-line" />
+<p class="blank-line"></p>
 
-### Advanced
+### Avanzado {#advanced}
 
-#### First Page
+#### Primera página {#first-page}
 
-In this drop-down menu, you can select the first page that is shown when your users visit the site.
+En este menú desplegable, puedes seleccionar la primera página que se muestra cuando los usuarios visitan el sitio.
 
 <Image align="center" border={true} src="https://files.readme.io/aef201d-Screen_Shot_2020-10-20_at_4.37.37_PM.png" className="border" />
 
-#### Section Names
+#### Nombres de las secciones {#section-names}
 
-The section names such Documentation can be changed here and it will propagate throughout your entire instance.
+Los nombres de las secciones como Documentación se pueden cambiar aquí y se propagarán por toda tu instancia.
 
 <Image border={false} src="https://files.readme.io/c697a7b-Screen_Shot_2023-04-20_at_12.35.19_PM.png" />
 
-#### Show Version
+#### Mostrar versión {#show-version}
 
-Checking this will have the version number included in your breadcrumb links. Turn this off if you would like to hide the version number.
+Al marcar esta opción, se incluirá el número de versión en los enlaces de las rutas de navegación. Desactívala si deseas ocultar el número de versión.
 
 <Image align="center" border={true} src="https://files.readme.io/f002331-Screen_Shot_2020-10-20_at_4.38.12_PM.png" className="border" />
 
-#### Hide Table of Contents
+#### Ocultar tabla de contenido {#hide-table-of-contents}
 
-Checking this will hide the automatically-generated table of contents.
+Al marcar esta opción, se ocultará la tabla de contenido generada automáticamente.
 
 <Image align="center" border={true} src="https://files.readme.io/1f3d249-Screen_Shot_2020-10-20_at_4.38.25_PM.png" className="border" />
 
-<p class="blank-line" />
+<p class="blank-line"></p>
 
-### Enable/Disable Sections
+### Habilitar/deshabilitar secciones {#enabledisable-sections}
 
-ReadMe has a lot of functionality, but not all of it applies to every company. If you want to disable a section (or re-enable once you are ready to use it), it's super easy to do so! Enable/disable sections under **Appearance > Site Navigation**.
+ReadMe tiene muchas funcionalidades, pero no todas se aplican a todas las empresas. Si quieres deshabilitar una sección (o volver a habilitarla una vez que estés listo para usarla), ¡es facilísimo hacerlo! Habilita/deshabilita secciones en **Apariencia > Navegación del sitio**.
 
-<Image align="center" alt="Disabling a section will remove it from the navigation bar and hide all its content from public view" border={true} caption="Disabling a section will remove it from the navigation bar and hide all its content from public view" src="https://files.readme.io/97cf63a-CleanShot_2022-10-15_at_09.14.142x.png" />
+<Image align="center" alt="Deshabilitar una sección la eliminará de la barra de navegación y ocultará todo su contenido de la vista pública" border={true} caption="Deshabilitar una sección la eliminará de la barra de navegación y ocultará todo su contenido de la vista pública" src="https://files.readme.io/97cf63a-CleanShot_2022-10-15_at_09.14.142x.png" />
 
-<p class="blank-line" />
+<p class="blank-line"></p>
 
-> 📘 Note
->
-> Custom Pages cannot be disabled. As long as you don't have any Custom Pages, they will not appear anywhere, so there is nothing to disable!
+<Callout icon="📘" theme="info">
+  ### Nota {#note}
+
+  Las páginas personalizadas no se pueden deshabilitar. Mientras no tengas páginas personalizadas, no aparecerán en ningún lugar, ¡así que no hay nada que deshabilitar!
+</Callout>
