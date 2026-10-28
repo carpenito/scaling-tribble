@@ -1,5 +1,5 @@
 ---
-title: Custom Pages
+title: Páginas personalizadas
 deprecated: false
 hidden: false
 metadata:
@@ -8,40 +8,42 @@ metadata:
 <br />
 
 <Callout icon="👍" theme="okay">
-  View this article as [a Custom Page](https://docs.readme.com/page/custom-page)
+  Ver este artículo como [una página personalizada](https://docs.readme.com/page/custom-page)
 </Callout>
 
-Custom Pages are great when you want to retain the top navigation of your ReadMe project, but also want a custom look below the search bar.
+Las páginas personalizadas son ideales cuando deseas mantener la navegación superior de tu proyecto de ReadMe, pero también buscas un aspecto personalizado debajo de la barra de búsqueda.
 
-# What's different?
+# ¿Qué es diferente? {#whats-different}
 
-1. No left sidebar navigation
-2. No table of contents on the right, even when headers are used
-3. Different URL path (subfolder is /page instead of /docs)
-4. No Suggested Edits
-5. No page voting
-6. No "updated x days ago"
+1. Sin navegación en la barra lateral izquierda
+2. Sin tabla de contenido a la derecha, incluso cuando se usan encabezados
+3. Ruta de URL diferente (la subcarpeta es /page en lugar de /docs)
+4. Sin ediciones sugeridas
+5. Sin votación de páginas
+6. Sin "actualizado hace x días"
 
 <Callout icon="🚧" theme="warn">
-  Custom Pages are not affected by versioning and are shared. If you delete a Custom Page it will be removed from everywhere.
+  Las páginas personalizadas no se ven afectadas por el versionado y son compartidas. Si eliminas una página personalizada, se eliminará de todas partes.
 </Callout>
 
-# What's the same?
+# ¿Qué sigue igual? {#whats-the-same}
 
-With a [dropdown subheader layout](/main/docs/subheader-layout), the Page Title appears in the breadcrumb navigation.
+Con un [diseño de subencabezado desplegable](/main/docs/subheader-layout), el título de la página aparece en la navegación de migas de pan.
 
 <Image align="center" border={true} width="smart" src="https://files.readme.io/14c46d5-Screen_Shot_2021-05-19_at_3.28.30_PM.png" className="border" />
 
-> 📘 Note
->
-> The Custom Page Title occupies the space of a Section in the breadcrumb navigation but it does **not** create a permanent Section in the drop-down menu.
+<Callout icon="📘" theme="info">
+  ### Nota {#note}
 
-## Modes
+  El título de la página personalizada ocupa el espacio de una sección en la navegación de migas de pan, pero **no** crea una sección permanente en el menú desplegable.
+</Callout>
 
-Custom Pages have two modes:
+## Modos {#modes}
 
-1. **Markdown:** The standard mode used in Documentation section
+Las páginas personalizadas tienen dos modos:
+
+1. **Markdown:** el modo estándar utilizado en la sección de documentación
 
 <Image border={true} src="https://files.readme.io/5300f08-CleanShot_2022-10-15_at_08.56.122x.png" className="border" />
 
-2. **HTML:** The code is [sanitized](https://en.wikipedia.org/wiki/HTML_sanitization). If you want to include CSS or JavaScript, do so in Appearance > Custom Javascript/Stylesheet.
+2. **HTML:** el código se [sanitiza](https://en.wikipedia.org/wiki/HTML_sanitization). Si quieres incluir CSS o JavaScript, hazlo en Apariencia > Javascript/hoja de estilo personalizada.
