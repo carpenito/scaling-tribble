@@ -1,37 +1,37 @@
 ---
-title: Keyboard Shortcuts
+title: Atajos de teclado
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-You can use keyboard shortcuts in both the **Admin Dashboard** and **Edit Mode** to quickly move between panels and editors in your ReadMe project.
+Puedes usar atajos de teclado tanto en el **Panel de administración** como en el **Modo de edición** para desplazarte rápidamente entre paneles y editores en tu proyecto de ReadMe.
 
-## Dashboard Shortcuts
+## Atajos del panel de administración {#dashboard-shortcuts}
 
-Use these shortcuts in the **Admin Dashboard** to open common panels and switch between modes:
+Usa estos atajos en el **Panel de administración** para abrir paneles comunes y cambiar entre modos:
 
-| Shortcut | Action                                                                                     |
-| :------- | :----------------------------------------------------------------------------------------- |
-| Ctrl+1   | Switch to <i aria-label="View Mode" class="fa-solid fa-eye" /> View Mode                   |
-| Ctrl+2   | Switch to <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Edit Mode                  |
-| Ctrl+3   | Open <i aria-label="My Developers" class="fa-solid fa-users" /> My Developers              |
-| Ctrl+,   | Open <i aria-label="Settings" class="fa-solid fa-cog" /> Settings panel                    |
-| Ctrl+i   | Open <i aria-label="AI" class="fa-solid fa-sparkles" /> AI panel                           |
-| Ctrl+b   | Open <i aria-label="Versions" class="fa-solid fa-code-branch" /> Versions & Branches panel |
+| Atajo  | Acción                                                                                              |
+| :----- | :-------------------------------------------------------------------------------------------------- |
+| Ctrl+1 | Cambiar al <i aria-label="Modo de visualización" class="fa-solid fa-eye"></i> Modo de visualización |
+| Ctrl+2 | Cambiar al <i aria-label="Modo de edición" class="fa-solid fa-edit"></i> Modo de edición            |
+| Ctrl+3 | Abrir <i aria-label="Mis desarrolladores" class="fa-solid fa-users"></i> Mis desarrolladores        |
+| Ctrl+, | Abrir <i aria-label="Configuración" class="fa-solid fa-cog"></i> el panel de Configuración          |
+| Ctrl+i | Abrir <i aria-label="IA" class="fa-solid fa-sparkles"></i> el panel de IA                           |
+| Ctrl+b | Abrir <i aria-label="Versiones" class="fa-solid fa-code-branch"></i> el panel de Versiones y ramas  |
 
-## Edit Mode Shortcuts
+## Atajos del modo de edición {#edit-mode-shortcuts}
 
-From the top navigation, you can access <i aria-label="Edit Mode" class="fa-solid fa-edit" /> Edit Mode and use these shortcuts to jump directly to specific sections to edit:
+Desde la navegación superior, puedes acceder al <i aria-label="Modo de edición" class="fa-solid fa-edit"></i> Modo de edición y usar estos atajos para ir directamente a secciones específicas para editarlas:
 
-| Shortcut | Action                         |
-| :------- | :----------------------------- |
-| Alt+1    | Go to the Guides editor        |
-| Alt+2    | Go to the Recipes editor       |
-| Alt+3    | Go to the API Reference editor |
-| Alt+4    | Go to the Changelog editor     |
-| Alt+5    | Go to the Custom Pages editor  |
+| Atajo | Acción                                  |
+| :---- | :-------------------------------------- |
+| Alt+1 | Ir al editor de Guías                   |
+| Alt+2 | Ir al editor de Recetas                 |
+| Alt+3 | Ir al editor de la Referencia de la API |
+| Alt+4 | Ir al editor del Registro de cambios    |
+| Alt+5 | Ir al editor de Páginas personalizadas  |
 
 <Callout icon="💡" theme="default">
-  Tip: Keyboard shortcuts may vary depending on your operating system. On macOS, use Command (⌘) instead of Ctrl for most shortcuts.
+  Consejo: Los atajos de teclado pueden variar según tu sistema operativo. En macOS, usa Command (⌘) en lugar de Ctrl para la mayoría de los atajos.
 </Callout>
