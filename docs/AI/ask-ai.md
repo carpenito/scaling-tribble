@@ -1,62 +1,62 @@
 ---
-title: Ask AI
+title: Preguntar a la IA
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Your users can get instant answers about your product with Ask AI. The assistant uses your selected model, trained on your documentation, to deliver accurate, context-aware responses. It includes direct links to your docs, allowing users to explore topics in more detail.
+Tus usuarios pueden obtener respuestas instantáneas sobre tu producto con Ask AI. El asistente utiliza el modelo seleccionado, entrenado con tu documentación, para ofrecer respuestas precisas y adaptadas al contexto. Incluye enlaces directos a tu documentación, lo que permite a los usuarios explorar los temas con más detalle.
 
 ***
 
-## End-User Preview
+## Vista previa del usuario final {#end-user-preview}
 
-When your users interact with Ask AI, it’ll open the Assistant with your custom example questions and receive responses based on your configurations from the Admin panel. Responses will only reference any public pages. For Enterprise groups with public and private projects, Ask AI will provide info based on the users’ permission to view a project.
+Cuando tus usuarios interactúan con Ask AI, se abrirá el Asistente con tus preguntas de ejemplo personalizadas y recibirán respuestas basadas en tus configuraciones del panel de administración. Las respuestas solo harán referencia a páginas públicas. Para los grupos Enterprise con proyectos públicos y privados, Ask AI proporcionará información según los permisos de los usuarios para ver un proyecto.
 
 <Image align="center" border={false} width="750px" src="https://files.readme.io/93bba5b92a2c954d7aa1b5847d3648837ac31668b9861e35479e7a906596b3ab-user_gif.gif" />
 
-## Configure
+## Configurar {#configure}
 
-Customize the AI assistant’s tone, answer length, and forbidden to fit your branding. Set example questions for your end-users to see and select an available model that fits your needs.
+Personaliza el tono del asistente de IA, la longitud de las respuestas y los temas prohibidos para que se adapten a tu marca. Define preguntas de ejemplo para que las vean tus usuarios finales y selecciona un modelo disponible que se ajuste a tus necesidades.
 
 <Image align="center" border={false} src="https://files.readme.io/afc7f66444d7c8186118082c46a34ed5a8af5bbdfdb65cc9af97f8fba3969724-Ask_AI.png" />
 
-### Enterprise Groups
+### Grupos Enterprise {#enterprise-groups}
 
-All configurations mentioned above are available for Enterprise projects in your Group Dashboard. Customizations at the group level will apply across all corresponding child projects.
+Todas las configuraciones mencionadas anteriormente están disponibles para los proyectos Enterprise en tu Panel de grupo. Las personalizaciones a nivel de grupo se aplicarán en todos los proyectos secundarios correspondientes.
 
-## Analytics
+## Analítica {#analytics}
 
-Dig into user questions, responses, and feedback to understand what your users are looking for—and how effectively the assistant is performing. You can view all analytics in the **Ask AI dashboard** under **Settings**. To share insights with your team, export the data as a CSV with custom date ranges. The export process may take some time depending on the data volume, but when ready, the download will immediately begin in your browser.
+Profundiza en las preguntas, respuestas y comentarios de los usuarios para comprender qué buscan—y con qué eficacia funciona el asistente. Puedes ver todas las analíticas en el **panel de Ask AI** dentro de **Configuración**. Para compartir información con tu equipo, exporta los datos como CSV con rangos de fechas personalizados. El proceso de exportación puede tardar algún tiempo según el volumen de datos, pero cuando esté listo, la descarga comenzará inmediatamente en tu navegador.
 
 <Image align="center" border={false} width="650px" src="https://files.readme.io/27af66805d9c4eb18c468750023284c9682c2734dd2422bb650d7408b98a4787-analytics.png" />
 
 <br />
 
-## FAQ
+## Preguntas frecuentes {#faq}
 
-<Accordion title="What happens to my data?" icon="fa-chart-simple">
-  Ask AI is powered by OpenAI’s APIs and the Markdown content along with API definitions are sent to them to generate answers to user questions.
-  While OpenAI retains logs of these API requests for 30 days, no data is used to train their AI models.
+<Accordion title="¿Qué ocurre con mis datos?" icon="fa-chart-simple">
+  Ask AI funciona con las API de OpenAI, y el contenido en Markdown junto con las definiciones de la API se les envían para generar respuestas a las preguntas de los usuarios.
+  Aunque OpenAI conserva los registros de estas solicitudes de API durante 30 días, no se utiliza ningún dato para entrenar sus modelos de IA.
 </Accordion>
 
-<Accordion title="Does Ask AI reference hidden pages?" icon="fa-user-ninja">
-  No, hidden pages are never indexed by Ask AI.
-  For Enterprise groups, only project content the user has access to is used to answer questions.
+<Accordion title="¿Ask AI hace referencia a páginas ocultas?" icon="fa-user-ninja">
+  No, Ask AI nunca indexa las páginas ocultas.
+  Para los grupos Enterprise, solo se utiliza el contenido del proyecto al que el usuario tiene acceso para responder preguntas.
 </Accordion>
 
-<Accordion title="How quickly are changes added to Ask AI’s models?" icon="fa-swap">
-  Currently, new content is updated every 2 hours though this may change as we continue to develop Ask AI.
+<Accordion title="¿Con qué rapidez se incorporan los cambios a los modelos de Ask AI?" icon="fa-swap">
+  Actualmente, el contenido nuevo se actualiza cada 2 horas, aunque esto podría cambiar a medida que continuamos desarrollando Ask AI.
 </Accordion>
 
-<Accordion title="What tools are offered to monitor responses?" icon="fa-monitor-waveform">
-  Logs for every question and answer are available in the admin dashboard. See [Analytics](https://docs.readme.com/maindocs/ask-ai#analytics) above.
+<Accordion title="¿Qué herramientas se ofrecen para supervisar las respuestas?" icon="fa-monitor-waveform">
+  Los registros de cada pregunta y respuesta están disponibles en el panel de administración. Consulta [Analítica](https://docs.readme.com/maindocs/ask-ai#analytics) más arriba.
 </Accordion>
 
-<Accordion title="How can I try Ask AI?" icon="fa-sparkles">
-  You can test Ask AI on ReadMe’s docs or on your own docs as a trial.
+<Accordion title="¿Cómo puedo probar Ask AI?" icon="fa-sparkles">
+  Puedes probar Ask AI en la documentación de ReadMe o en tu propia documentación como prueba.
 </Accordion>
 
-<Accordion title="I’m using the previous Ask AI experience. Where can I find these settings?" icon="fa-robot">
-  You can upgrade to the new experience from the configuration panel in the Ask AI panel. Upgrading is permanent and cannot be done.
+<Accordion title="Estoy usando la experiencia anterior de Ask AI. ¿Dónde puedo encontrar estos ajustes?" icon="fa-robot">
+  Puedes actualizar a la nueva experiencia desde el panel de configuración en el panel de Ask AI. La actualización es permanente y no se puede deshacer.
 </Accordion>
