@@ -1,81 +1,81 @@
 ---
-title: Navigating Your Hub
+title: Navegar por tu Hub
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Let's explore the key areas of your developer hub and discover how each one helps you create an exceptional documentation experience.
+Exploremos las áreas clave de tu hub para desarrolladores y descubramos cómo cada una te ayuda a crear una experiencia de documentación excepcional.
 
-## Core Navigation Areas
+## Áreas principales de navegación {#core-navigation-areas}
 
-### 👀 View Mode
+### 👀 Modo de visualización {#-view-mode}
 
-Experience your docs exactly as your developers do. Perfect for:
+Experimenta tu documentación exactamente como lo hacen tus desarrolladores. Perfecto para:
 
-* Reading through content in its published form
-* Getting a clear picture of your documentation structure
-* Understanding the developer journey
-* Identifying areas for improvement
+- Leer el contenido en su formato publicado
+- Obtener una visión clara de la estructura de tu documentación
+- Comprender el recorrido del desarrollador
+- Identificar áreas de mejora
 
-### ✏️ Edit Mode
+### ✏️ Modo de edición {#️-edit-mode}
 
 <Image align="center" border={false} src="https://files.readme.io/17b07f56b7af997a97df4a615eb89c4cd4066cbd5881402fc992a9e85a32a349-Edit_Directly_in_Docs.gif" />
 
-Click **Edit** to transform any page into your workspace:
+Haz clic en **Editar** para transformar cualquier página en tu espacio de trabajo:
 
-* Make changes right where you see them
-* Access the full editor toolkit
-* Organize your content structure
-* See updates in real-time
+- Hacer cambios directamente donde los ves
+- Acceder al conjunto completo de herramientas del editor
+- Organizar la estructura de tu contenido
+- Ver las actualizaciones en tiempo real
 
-### 👥 My Developers
+### 👥 Mis desarrolladores {#-my-developers}
 
-Gain insights into API usage and performance:
+Obtén información sobre el uso y rendimiento de la API:
 
-* Track real-time API interactions
-* Identify and resolve issues quickly
-* Monitor response times
-* Understand usage patterns
+- Rastrear interacciones de la API en tiempo real
+- Identificar y resolver problemas rápidamente
+- Supervisar los tiempos de respuesta
+- Comprender los patrones de uso
 
-## Settings & Customization
+## Configuración y personalización {#settings--customization}
 
-### ⚙️ Project Settings
+### ⚙️ Configuración del proyecto {#️-project-settings}
 
 <Image align="center" border={false} src="https://files.readme.io/4b2bd94863cd043a93871a73de327b661c8dae2ed81fe91bcaf0f87161b45030-CleanShot_2024-11-08_at_20.13.41.gif" />
 
-Your hub's command center puts essential controls at your fingertips:
+El centro de control de tu hub pone los controles esenciales al alcance de tu mano:
 
-* Configure API authentication
-* Set up custom domains
-* Manage team access
-* Adjust project-wide preferences
+- Configurar la autenticación de la API
+- Configurar dominios personalizados
+- Gestionar el acceso del equipo
+- Ajustar las preferencias de todo el proyecto
 
-### 🔄 Version Control
+### 🔄 Control de versiones {#-version-control}
 
-Keep documentation organized across API versions:
+Mantén la documentación organizada en las diferentes versiones de la API:
 
-* Toggle between different versions
-* Control version visibility
-* Maintain version-specific content
-* Manage deprecation notices
+- Cambiar entre diferentes versiones
+- Controlar la visibilidad de las versiones
+- Mantener contenido específico de cada versión
+- Gestionar avisos de obsolescencia
 
-### ♻️ Content Settings
+### ♻️ Configuración de contenido {#️-content-settings}
 
-Streamline content management with reusable elements:
+Optimiza la gestión de contenido con elementos reutilizables:
 
-* Create and edit glossary terms
-* Manage reusable content blocks
-* Configure global variables
-* Structure documentation categories
+- Crear y editar términos del glosario
+- Gestionar bloques de contenido reutilizables
+- Configurar variables globales
+- Estructurar las categorías de la documentación
 
-### 🎨 Appearance Settings
+### 🎨 Configuración de apariencia {#-appearance-settings}
 
 <Image align="center" border={false} src="https://files.readme.io/30873289762d450fc8ca2f838398b3cc1fc884b73127232c7b2c3ce14b6e6c47-CleanShot_2024-11-08_at_20.17.28.gif" />
 
-Shape your hub's visual identity:
+Define la identidad visual de tu hub:
 
-* Apply your brand colors
-* Customize navigation layout
-* Update logos and icons
-* Fine-tune theme elements
+- Aplicar los colores de tu marca
+- Personalizar el diseño de la navegación
+- Actualizar logotipos e iconos
+- Ajustar con precisión los elementos del tema
