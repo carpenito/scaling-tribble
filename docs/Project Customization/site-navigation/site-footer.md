@@ -1,5 +1,5 @@
 ---
-title: Site Footer
+title: Pie de página del sitio
 deprecated: false
 hidden: false
 metadata:
@@ -7,18 +7,20 @@ metadata:
 ---
 <br />
 
-> 📘 Available on Business and Enterprise Plans!
->
-> The option to white label your site, including removing the ReadMe logo and/or adding a custom footer, is only available on ReadMe's Business or Enterprise plans. To learn more about ReadMe's plans, pricing, and feature breakdowns, visit our [pricing page.](https://readme.com/pricing)
+<Callout icon="📘" theme="info">
+  ### ¡Disponible en los planes Business y Enterprise! {#available-on-business-and-enterprise-plans}
 
-<p class="blank-line" />
+  La opción de personalizar tu sitio con marca blanca, lo que incluye eliminar el logotipo de ReadMe y/o añadir un pie de página personalizado, solo está disponible en los planes Business o Enterprise de ReadMe. Para obtener más información sobre los planes, precios y el desglose de funciones de ReadMe, visita nuestra [página de precios.](https://readme.com/pricing)
+</Callout>
 
-## Removing the ReadMe Logo
+<p class="blank-line"></p>
 
-This is where you can remove the ReadMe Logo
+## Eliminar el logotipo de ReadMe {#removing-the-readme-logo}
+
+Aquí es donde puedes eliminar el logotipo de ReadMe
 
 <Image border={true} src="https://files.readme.io/29f9b21-CleanShot_2022-09-25_at_10.03.152x.png" className="border" />
 
-## Custom Footer HTML
+## HTML de pie de página personalizado {#custom-footer-html}
 
-You can add custom html for your footer here, then format it to your desire in [Adding Custom JavaScript/CSS](doc:custom-css-and-javascript) section.
+Puedes añadir HTML personalizado para tu pie de página aquí y luego darle el formato que desees en la sección [Añadir JavaScript/CSS personalizado](doc:custom-css-and-javascript).
