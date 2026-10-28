@@ -1,59 +1,59 @@
 ---
-title: Sync with GitLab
+title: Sincronizar con GitLab
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## How to Set Up Bi-Directional Sync with GitLab
+## Cómo configurar la sincronización bidireccional con GitLab {#how-to-set-up-bi-directional-sync-with-gitlab}
 
-### Prerequisites
+### Requisitos previos {#prerequisites}
 
-* You will need a GitLab account.
-* When syncing to a repository in an organization, you will need permission to create an **empty repository**.
+- Necesitarás una cuenta de GitLab.
+- Al sincronizar con un repositorio de una organización, necesitarás permisos para crear un **repositorio vacío**.
 
 <Image align="center" border={false} src="https://files.readme.io/d2a12db436be321b972fd817432f3754a13d61c0ecb915202862e58fb2252cc1-Screenshot_2025-10-31_at_1.43.41_PM.png" />
 
-### Set Up
+### Configuración {#set-up}
 
-1. Navigate to **Settings** > **Git Connection** page.
-2. Select GitLab.
-3. If you haven’t already, create an empty repository in [GitLab](https://docs.gitlab.com/user/project/)—make sure to uncheck the option to create a README.
-4. **Sync** with your provider and authenticate.
-5. Create a personal access token with the `api` scope. You can delete this token after completing setup. ReadMe uses this token once during setup to create the webhook on your repository and it is not stored.
-   1. For project access tokens, you will need the Maintainer role. However, this is not recommended as there’s a cap on the number of project access tokens created, depending on GitLab pricing.
+1. Navega a la página **Settings** > **Git Connection**.
+2. Selecciona GitLab.
+3. Si aún no lo has hecho, crea un repositorio vacío en [GitLab](https://docs.gitlab.com/user/project/)—asegúrate de desmarcar la opción para crear un README.
+4. **Sincroniza** con tu proveedor y autentícate.
+5. Crea un token de acceso personal con el ámbito `api`. Puedes eliminar este token después de completar la configuración. ReadMe utiliza este token una sola vez durante la configuración para crear el webhook en tu repositorio y no se almacena.
+   1. Para los tokens de acceso de proyectos, necesitarás el rol Maintainer. Sin embargo, no se recomienda, ya que existe un límite en la cantidad de tokens de acceso de proyectos que se pueden crear, dependiendo de los precios de GitLab.
 
 <Image border={false} src="https://files.readme.io/b350ddb7403c7d0ffbaa7d4f8e4c5fc6ca0d92308c4c81bde90b2c2b146a1ed3-image.png" />
 
-6. Add the access token to ReadMe and click on the webhook icon to create the webhooks we need to keep your content in sync with GitLab.
+6. Añade el token de acceso a ReadMe y haz clic en el icono de webhook para crear los webhooks necesarios para mantener tu contenido sincronizado con GitLab.
 
 ***
 
-## Changing Repositories
+## Cambiar de repositorio {#changing-repositories}
 
-If you need to connect your ReadMe project to a different repository, you must disconnect the original repository using the trash icon.
+Si necesitas conectar tu proyecto de ReadMe a un repositorio diferente, debes desconectar el repositorio original usando el icono de la papelera.
 
-1. Within ReadMe, disconnect the project via the trash icon.
-2. Within GitLab, create a new empty project.
-3. Return to ReadMe and select the project you'd like to sync to.
+1. Dentro de ReadMe, desconecta el proyecto mediante el icono de la papelera.
+2. Dentro de GitLab, crea un nuevo proyecto vacío.
+3. Vuelve a ReadMe y selecciona el proyecto con el que te gustaría sincronizar.
 
 ***
 
-## Protected Branches
+## Ramas protegidas {#protected-branches}
 
-All branch rules should allow the user (who is syncing to GitLab from ReadMe) to push.
+Todas las reglas de ramas deben permitir hacer push al usuario (que está sincronizando con GitLab desde ReadMe).
 
 <Image border={false} src="https://files.readme.io/5ab0dbdd08ca7f9fc31d8a6895ebb9a970819ea4f2c352c92307ab5886b14541-image.png" />
 
-## FAQ
+## Preguntas frecuentes {#faq}
 
-<Accordion title="What permissions are required when syncing with GitLab?" icon="fa-question-circle">
-  ReadMe requests access to:
+<Accordion title="¿Qué permisos se requieren al sincronizar con GitLab?" icon="fa-question-circle">
+  ReadMe solicita acceso a:
 
-  * `read_api` for listing projects
-  * `read_user` and `read_profile` to display user information
-  * `read_repository` to sync content in GitLab to ReadMe
-  * `write_repository` to sync content in ReadMe to GitLab
+  - `read_api` para listar proyectos
+  - `read_user` y `read_profile` para mostrar información del usuario
+  - `read_repository` para sincronizar el contenido de GitLab con ReadMe
+  - `write_repository` para sincronizar el contenido de ReadMe con GitLab
 </Accordion>
 
 <br />
