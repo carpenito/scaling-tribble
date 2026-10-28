@@ -1,5 +1,5 @@
 ---
-title: Will this sync to Scaling-Tribble?
+title: ¿Se sincronizará esto con Scaling-Tribble?
 deprecated: false
 hidden: false
 icon: fad fa-rocket-launch
@@ -7,14 +7,14 @@ metadata:
   robots: index
 ---
 <Callout icon="📘" theme="info">
-  hello
+  hola
 </Callout>
 
 <HTMLBlock>{`
 ...
 `}</HTMLBlock>
 
-<Recipe slug="hello-world" title="Hello World" />
+<Recipe slug="hello-world" title="Hola mundo" />
 
 ```mermaid
 flowchart LR 
