@@ -1,5 +1,5 @@
 ---
-title: pet
-excerpt: Everything about your Pets
+title: mascota
+excerpt: Todo sobre tus mascotas
 hidden: false
 ---
