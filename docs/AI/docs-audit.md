@@ -1,36 +1,36 @@
 ---
-title: Docs Audit
+title: Auditoría de documentación
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Docs Audit gives you a complete analysis of your documentation, scoring it against a customizable style guide. Style guides are a set of standards and rules for writing API documentation that ensures consistency and usability for developers.
+Docs Audit te ofrece un análisis completo de tu documentación, evaluándola respecto a una guía de estilo personalizable. Las guías de estilo son un conjunto de estándares y reglas para redactar documentación de API que garantizan la coherencia y la usabilidad para los desarrolladores.
 
-## How the Linter Works
+## Cómo funciona el Linter {#how-the-linter-works}
 
-**[ReadMe‘s Linter](/linter)** applies your custom style guide on the page level, using AI-powered prompts to raise issues while you write and edit content. You can configure these rules for the following categories:
+**[El Linter de ReadMe](/linter)** aplica tu guía de estilo personalizada a nivel de página, utilizando prompts impulsados por IA para señalar problemas mientras escribes y editas contenido. Puedes configurar estas reglas para las siguientes categorías:
 
-* **Style Guide**: Ratings that measure how well content aligns with your company‘s definition of good documentation.
-* **Errors**: Objective, critical issues that must be fixed (e.g., spelling mistakes, incorrect grammar).
-* **Warnings**: Subjective issues that may require editorial judgment (e.g., contraction usage, vague language).
+- **Guía de estilo**: valoraciones que miden hasta qué punto el contenido se ajusta a la definición de buena documentación de tu empresa.
+- **Errores**: problemas objetivos y críticos que deben solucionarse (p. ej., faltas de ortografía, gramática incorrecta).
+- **Advertencias**: problemas subjetivos que pueden requerir criterio editorial (p. ej., uso de contracciones, lenguaje impreciso).
 
-The Linter can be run before saving page content, allowing you to check your work before saving changes.
+El Linter se puede ejecutar antes de guardar el contenido de la página, lo que te permite revisar tu trabajo antes de guardar los cambios.
 
-## How Docs Audit Works
+## Cómo funciona Docs Audit {#how-docs-audit-works}
 
-While the Linter works at a page level, **Docs Audit** scales these checks across all of your documentation. By aggregating results and analyzing ever page, Docs Audit helps you:
+Mientras que el Linter funciona a nivel de página, **Docs Audit** escala estas comprobaciones a toda tu documentación. Al recopilar los resultados y analizar cada página, Docs Audit te ayuda a:
 
-* Identify gaps, inconsistencies, and patterns.
-* Find areas where content doesn‘t align with your style guide.
-* Improve documentation quality and consistency.
+- Identificar lagunas, inconsistencias y patrones.
+- Detectar áreas donde el contenido no se ajusta a tu guía de estilo.
+- Mejorar la calidad y la coherencia de la documentación.
 
-Together, Docs Audit and the Linter are a powerful system for reviewing, scoring, and improving your documentation. The Linter ensures individual pages meet your standards, while Docs Audit provides the big-picture analysis you need to deliver a consistent, high-quality experience across your entire developer hub.
+Juntos, Docs Audit y el Linter forman un potente sistema para revisar, calificar y mejorar tu documentación. El Linter garantiza que las páginas individuales cumplan con tus estándares, mientras que Docs Audit proporciona el análisis global que necesitas para ofrecer una experiencia coherente y de alta calidad en todo tu centro de desarrolladores.
 
 <br />
 
-## FAQ
+## Preguntas frecuentes {#faq}
 
-<Accordion title="Do I get Docs Audit with my Enterprise plan?" icon="fa-credit-card">
-  Yes, it‘s included in the Enterprise plan! [Reach out](https://readme.com/enterprise) to learn more!
+<Accordion title="¿Está incluido Docs Audit en mi plan Enterprise?" icon="fa-credit-card">
+  ¡Sí, está incluido en el plan Enterprise! ¡[Ponte en contacto](https://readme.com/enterprise) para obtener más información!
 </Accordion>
