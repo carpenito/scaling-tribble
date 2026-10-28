@@ -1,77 +1,77 @@
 ---
-title: Creating a Project
+title: Creación de un proyecto
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-## Create Your Project 🎨
+## Crea tu proyecto 🎨 {#create-your-project-}
 
-First things first – let's give your API documentation a home:
+Lo primero es lo primero: demos un hogar a la documentación de tu API:
 
-1. Sign into your ReadMe account
-2. Click **Create New Project**.
-3. Give your project a name that resonates with your API.
-4. Upload your logo (we'll work our magic to match your brand colors!).
-5. Choose a subdomain that makes sense for your brand (e.g., yourcompany.readme.io).
+1. Inicia sesión en tu cuenta de ReadMe
+2. Haz clic en **Crear nuevo proyecto**.
+3. Asigna a tu proyecto un nombre acorde con tu API.
+4. Sube tu logotipo (¡haremos nuestra magia para que coincida con los colores de tu marca!).
+5. Elige un subdominio que tenga sentido para tu marca (p. ej., yourcompany.readme.io).
 
 <Callout icon="☝️" theme="default">
-  Checkout our docs on [migrating from another platform to ReadMe](https://docs.readme.com/main/docs/migration-moving-your-docs-to-their-new-home).
+  Consulta nuestra documentación sobre [migrar desde otra plataforma a ReadMe](https://docs.readme.com/main/docs/migration-moving-your-docs-to-their-new-home).
 </Callout>
 
-## Navigate Your Dashboard 🧭
+## Navega por tu panel de control 🧭 {#navigate-your-dashboard-}
 
-Get comfortable with your command center:
+Familiarízate con tu centro de control:
 
-1. **Project Dashboard Overview**
-   * The dashboard is your mission control for all things documentation
-   * Access all your projects from this central hub
-   * View project metrics and recent activity at a glance
+1. **Resumen del panel del proyecto**
+   - El panel de control es tu centro de operaciones para todo lo relacionado con la documentación
+   - Accede a todos tus proyectos desde este centro principal
+   - Consulta las métricas del proyecto y la actividad reciente de un vistazo
 
-2. **Quick Navigation**
-   * Use the left sidebar to jump between key sections
-   * Access project settings, appearance options, and more
-   * Switch between edit and view modes with a single click
+2. **Navegación rápida**
+   - Usa la barra lateral izquierda para desplazarte entre las secciones clave
+   - Accede a la configuración del proyecto, opciones de apariencia y más
+   - Cambia entre los modos de edición y visualización con un solo clic
 
-3. **Project Settings**
-   * Customize project details anytime from the settings menu
-   * Manage team access and permissions
-   * Configure integration options for your workflow
+3. **Configuración del proyecto**
+   - Personaliza los detalles del proyecto en cualquier momento desde el menú de configuración
+   - Gestiona el acceso del equipo y los permisos
+   - Configura opciones de integración para tu flujo de trabajo
 
-## Manage Your Profile 👤
+## Gestiona tu perfil 👤 {#manage-your-profile-}
 
-Make ReadMe yours with a personalized profile:
+Haz tuyo ReadMe con un perfil personalizado:
 
-1. **Setting Up Your Profile**
-   * Click your avatar in the top-right corner
-   * Update your display name and profile picture
-   * Add your role and contact information
+1. **Configuración de tu perfil**
+   - Haz clic en tu avatar en la esquina superior derecha
+   - Actualiza tu nombre visible y tu foto de perfil
+   - Añade tu rol e información de contacto
 
-2. **Account Preferences**
-   * Set your notification preferences
-   * Configure 2FA for enhanced security
-   * Manage your API keys for ReadMe access
+2. **Preferencias de la cuenta**
+   - Establece tus preferencias de notificaciones
+   - Configura 2FA para mayor seguridad
+   - Gestiona tus claves de API para el acceso a ReadMe
 
-3. **Team Collaboration**
-   * Invite team members to contribute
-   * Assign appropriate roles and permissions
-   * Create a collaborative documentation workflow
+3. **Colaboración en equipo**
+   - Invita a miembros del equipo a colaborar
+   - Asigna los roles y permisos adecuados
+   - Crea un flujo de trabajo colaborativo para la documentación
 
-## Search and Organize Your Projects 🔍
+## Busca y organiza tus proyectos 🔍 {#search-and-organize-your-projects-}
 
-Keeping everything at your fingertips:
+Mantén todo al alcance de tu mano:
 
-1. **Project Search**
-   * Use the search bar at the top of the dashboard
-   * Filter projects by name, status, or team
-   * Find exactly what you need, when you need it
+1. **Búsqueda de proyectos**
+   - Usa la barra de búsqueda en la parte superior del panel
+   - Filtra proyectos por nombre, estado o equipo
+   - Encuentra exactamente lo que necesitas, cuando lo necesitas
 
-2. **Project Organization**
-   * Arrange projects by priority or category
-   * Use tags to group related projects
-   * Archive completed or inactive projects
+2. **Organización de proyectos**
+   - Organiza los proyectos por prioridad o categoría
+   - Usa etiquetas para agrupar proyectos relacionados
+   - Archiva proyectos completados o inactivos
 
-3. **Quick Project Switching**
-   * Toggle between projects from the dropdown menu
-   * See project status indicators at a glance
-   * Access recent projects faster with the history menu
+3. **Cambio rápido de proyecto**
+   - Alterna entre proyectos desde el menú desplegable
+   - Consulta los indicadores de estado del proyecto de un vistazo
+   - Accede a los proyectos recientes más rápido con el menú de historial
